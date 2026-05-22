@@ -146,9 +146,20 @@ def format_message(item):
 def main():
     token = os.environ.get("TELEGRAM_BOT_TOKEN")
     chat_id = os.environ.get("TELEGRAM_CHAT_ID")
+    print(
+        f"AUTH: token_set={bool(token)} token_len={len(token) if token else 0} "
+        f"chat_id_set={bool(chat_id)} chat_id_repr={repr(chat_id[:4] + '…' if chat_id else None)}"
+    )
     if not token or not chat_id:
         print("TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID not set", file=sys.stderr)
         sys.exit(1)
+
+    # Sanity-check Telegram credentials before doing real work.
+    try:
+        r = requests.get(f"https://api.telegram.org/bot{token}/getMe", timeout=15)
+        print(f"getMe: status={r.status_code} body={r.text[:200]}")
+    except Exception as e:
+        print(f"getMe failed: {e}", file=sys.stderr)
 
     try:
         seen = load_seen()
