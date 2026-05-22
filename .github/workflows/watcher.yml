@@ -2,7 +2,7 @@ name: Annual Report Watcher
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '17 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -92,15 +92,22 @@ jobs:
               print("issue create failed:", e)
           PY
 
-      - name: Commit seen.json
+      - name: Record run heartbeat
+        if: always()
+        run: |
+          mkdir -p .heartbeat
+          date -u +"%Y-%m-%dT%H:%M:%SZ run=${{ github.run_id }}" > .heartbeat/last_run.txt
+
+      - name: Commit seen.json and heartbeat
         if: always()
         continue-on-error: true
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [ -f seen.json ] && [ -n "$(git status --porcelain seen.json)" ]; then
-            git add seen.json
-            git commit -m "Update seen announcements [skip ci]"
+          git add -A seen.json .heartbeat/last_run.txt 2>/dev/null || true
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Heartbeat + seen.json update [skip ci]"
+            git pull --rebase origin main
             git push
           fi
 
