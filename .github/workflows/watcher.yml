@@ -96,7 +96,7 @@ jobs:
         if: always()
         run: |
           mkdir -p .heartbeat
-          date -u +"%Y-%m-%dT%H:%M:%SZ run=${{ github.run_id }}" > .heartbeat/last_run.txt
+          TZ=Asia/Kolkata date +"%Y-%m-%d %H:%M:%S IST run=${{ github.run_id }}" > .heartbeat/last_run.txt
 
       - name: Commit seen.json and heartbeat
         if: always()

@@ -127,17 +127,28 @@ def send_telegram(token, chat_id, text):
         raise RuntimeError(f"Telegram {r.status_code}: {r.text[:500]}")
 
 
+def _format_ist(dt_str: str) -> str:
+    """BSE returns IST timestamps like '2026-05-22T11:06:06.753'. Render as HH:MM IST, DD Mon."""
+    if not dt_str:
+        return ""
+    try:
+        dt = datetime.fromisoformat(dt_str)
+        return dt.strftime("%H:%M IST, %d %b %Y")
+    except ValueError:
+        return dt_str
+
+
 def format_message(item):
     company = item.get("SLONGNAME") or item.get("COMPANYNAME") or ""
     scrip = item.get("SCRIP_CD") or ""
     headline = item.get("HEADLINE") or item.get("NEWSSUB") or item.get("NEWS_SUBJECT") or ""
     category = item.get("CATEGORYNAME") or ""
-    news_dt = item.get("NEWS_DT") or ""
+    news_dt = _format_ist(item.get("NEWS_DT") or "")
     attachment = item.get("ATTACHMENTNAME") or ""
     pdf = f"{BSE_PDF_BASE}{attachment}" if attachment else BSE_ANN_PAGE
     return (
         f"<b>{html.escape(str(company))}</b> ({html.escape(str(scrip))})\n"
-        f"{html.escape(str(category))} • {html.escape(str(news_dt))}\n\n"
+        f"{html.escape(str(category))} • {html.escape(news_dt)}\n\n"
         f"{html.escape(str(headline))[:1500]}\n\n"
         f"<a href=\"{html.escape(pdf, quote=True)}\">PDF</a>"
     )
@@ -182,8 +193,9 @@ def main():
         save_seen(seen)
         print(f"Sent {new_alerts} new alerts ({send_errors} send errors)")
 
+        ts_ist = datetime.now(IST).strftime("%H:%M IST, %d %b %Y")
         summary = (
-            f"<b>Watcher run</b>\n"
+            f"<b>Watcher run</b> • {ts_ist}\n"
             f"Fetched: {len(items)}\n"
             f"New alerts: {new_alerts}\n"
             f"Send errors: {send_errors}"
