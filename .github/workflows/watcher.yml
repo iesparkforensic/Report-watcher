@@ -16,9 +16,9 @@ jobs:
   watch:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
 
@@ -33,20 +33,30 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           python annual_report_watcher.py 2>&1 | tee last_run.log
-          echo "exit_code=${PIPESTATUS[0]}" | tee -a last_run.log
+          ec=${PIPESTATUS[0]}
+          echo "exit_code=$ec" | tee -a last_run.log
 
-      - name: Commit run artifacts
+      - name: Upload run log
         if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: watcher-log
+          path: last_run.log
+          if-no-files-found: warn
+
+      - name: Commit seen.json
+        if: always()
+        continue-on-error: true
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A seen.json last_run.log 2>/dev/null || true
-          if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "Update run artifacts [skip ci]"
+          if [ -f seen.json ] && [ -n "$(git status --porcelain seen.json)" ]; then
+            git add seen.json
+            git commit -m "Update seen announcements [skip ci]"
             git push
           fi
 
-      - name: Surface watcher exit code
+      - name: Fail job if watcher errored
         if: always()
         run: |
           ec=$(grep -oE 'exit_code=[0-9]+' last_run.log | tail -1 | cut -d= -f2)

@@ -150,38 +150,61 @@ def main():
         print("TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID not set", file=sys.stderr)
         sys.exit(1)
 
-    seen = load_seen()
-    seen_set = set(map(str, seen))
-
     try:
+        seen = load_seen()
+        seen_set = set(map(str, seen))
+
         items = fetch_bse_announcements()
-    except Exception as e:
-        print(f"BSE fetch failed: {e}", file=sys.stderr)
-        sys.exit(2)
-    print(f"Fetched {len(items)} BSE announcements")
+        print(f"Fetched {len(items)} BSE announcements")
 
-    new_alerts = 0
-    for item in items:
-        news_id = str(item.get("NEWSID") or "")
-        if not news_id or news_id in seen_set:
-            continue
-        blob = " ".join(
-            str(item.get(k) or "")
-            for k in ("HEADLINE", "NEWSSUB", "NEWS_SUBJECT", "MORE", "CATEGORYNAME")
+        new_alerts = 0
+        send_errors = 0
+        for item in items:
+            news_id = str(item.get("NEWSID") or "")
+            if not news_id or news_id in seen_set:
+                continue
+            blob = " ".join(
+                str(item.get(k) or "")
+                for k in ("HEADLINE", "NEWSSUB", "NEWS_SUBJECT", "MORE", "CATEGORYNAME")
+            )
+            if not matches_keyword(blob):
+                continue
+            try:
+                send_telegram(token, chat_id, format_message(item))
+            except Exception as e:
+                print(f"Telegram send failed for {news_id}: {e}", file=sys.stderr)
+                send_errors += 1
+                continue
+            seen.append(news_id)
+            seen_set.add(news_id)
+            new_alerts += 1
+
+        save_seen(seen)
+        print(f"Sent {new_alerts} new alerts ({send_errors} send errors)")
+
+        summary = (
+            f"<b>Watcher run</b>\n"
+            f"Fetched: {len(items)}\n"
+            f"New alerts: {new_alerts}\n"
+            f"Send errors: {send_errors}"
         )
-        if not matches_keyword(blob):
-            continue
         try:
-            send_telegram(token, chat_id, format_message(item))
+            send_telegram(token, chat_id, summary)
         except Exception as e:
-            print(f"Telegram send failed for {news_id}: {e}", file=sys.stderr)
-            continue
-        seen.append(news_id)
-        seen_set.add(news_id)
-        new_alerts += 1
-
-    save_seen(seen)
-    print(f"Sent {new_alerts} new alerts")
+            print(f"Heartbeat failed: {e}", file=sys.stderr)
+    except Exception as e:
+        import traceback
+        tb = traceback.format_exc()
+        print(tb, file=sys.stderr)
+        try:
+            send_telegram(
+                token,
+                chat_id,
+                f"<b>Watcher ERROR</b>\n<pre>{html.escape(tb)[:3500]}</pre>",
+            )
+        except Exception as send_err:
+            print(f"Error heartbeat failed: {send_err}", file=sys.stderr)
+        sys.exit(3)
 
 
 if __name__ == "__main__":
