@@ -46,7 +46,7 @@ def matches_keyword(text: str) -> bool:
     return any(k in t for k in KEYWORDS)
 
 
-BSE_API = "https://api.bseindia.com/BseIndiaAPI/api/AnnSubCategoryGetData/w"
+BSE_API = "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w"
 BSE_PDF_BASE = "https://www.bseindia.com/xml-data/corpfiling/AttachLive/"
 BSE_ANN_PAGE = "https://www.bseindia.com/corporates/ann.html"
 IST = timezone(timedelta(hours=5, minutes=30))
@@ -67,23 +67,34 @@ BSE_HEADERS = {
 
 def fetch_bse_announcements():
     now_ist = datetime.now(IST)
-    # Look back two days to cover hourly runs that overlap midnight IST.
     prev = (now_ist - timedelta(days=1)).strftime("%Y%m%d")
     today = now_ist.strftime("%Y%m%d")
-    params = {
-        "pageno": 1,
-        "strCat": "-1",
-        "strPrevDate": prev,
-        "strScrip": "",
-        "strSearch": "P",
-        "strToDate": today,
-        "strType": "C",
-        "subcategory": "-1",
-    }
-    r = requests.get(BSE_API, params=params, headers=BSE_HEADERS, timeout=30)
-    r.raise_for_status()
-    data = r.json()
-    return data.get("Table") or []
+    session = requests.Session()
+    session.headers.update(BSE_HEADERS)
+
+    items = []
+    pageno = 1
+    while True:
+        params = {
+            "pageno": pageno,
+            "strCat": "-1",
+            "strPrevDate": prev,
+            "strScrip": "",
+            "strSearch": "P",
+            "strToDate": today,
+            "strType": "C",
+        }
+        r = session.get(BSE_API, params=params, timeout=30)
+        r.raise_for_status()
+        page = (r.json() or {}).get("Table") or []
+        if not page:
+            break
+        items.extend(page)
+        total_pages = page[0].get("TotalPageCnt") or 1
+        if pageno >= total_pages or pageno >= 200:
+            break
+        pageno += 1
+    return items
 
 
 def load_seen():
