@@ -123,7 +123,8 @@ def send_telegram(token, chat_id, text):
         },
         timeout=30,
     )
-    r.raise_for_status()
+    if not r.ok:
+        raise RuntimeError(f"Telegram {r.status_code}: {r.text[:500]}")
 
 
 def format_message(item):
@@ -152,7 +153,11 @@ def main():
     seen = load_seen()
     seen_set = set(map(str, seen))
 
-    items = fetch_bse_announcements()
+    try:
+        items = fetch_bse_announcements()
+    except Exception as e:
+        print(f"BSE fetch failed: {e}", file=sys.stderr)
+        sys.exit(2)
     print(f"Fetched {len(items)} BSE announcements")
 
     new_alerts = 0
