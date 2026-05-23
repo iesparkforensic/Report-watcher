@@ -1,6 +1,8 @@
 name: Annual Report Watcher
 
 on:
+  schedule:
+    - cron: '17 * * * *'
   workflow_dispatch:
   push:
     branches: [main]
@@ -9,7 +11,6 @@ on:
 permissions:
   contents: write
   issues: write
-  actions: write
 
 concurrency:
   group: annual-report-watcher
@@ -18,7 +19,7 @@ concurrency:
 jobs:
   watch:
     runs-on: ubuntu-latest
-    timeout-minutes: 70
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v5
 
@@ -120,19 +121,3 @@ jobs:
           ec=$(grep -oE 'exit_code=[0-9]+' last_run.log | tail -1 | cut -d= -f2)
           echo "Watcher exit code: $ec"
           [ "$ec" = "0" ] || exit 1
-
-      - name: Sleep then dispatch next run (self-pinging chain)
-        if: always()
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REPO: ${{ github.repository }}
-        run: |
-          echo "Sleeping 55 minutes before dispatching next run..."
-          sleep 3300
-          echo "Dispatching next run via workflow_dispatch..."
-          curl -sS -X POST \
-            -H "Accept: application/vnd.github+json" \
-            -H "Authorization: Bearer $GH_TOKEN" \
-            -H "X-GitHub-Api-Version: 2022-11-28" \
-            "https://api.github.com/repos/$REPO/actions/workflows/watcher.yml/dispatches" \
-            -d '{"ref":"main"}'
