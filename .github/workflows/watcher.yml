@@ -2,11 +2,15 @@ name: Annual Report Watcher
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '17 * * * *'
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/watcher.yml']
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: annual-report-watcher
@@ -16,9 +20,9 @@ jobs:
   watch:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
 
@@ -26,17 +30,93 @@ jobs:
         run: pip install requests
 
       - name: Run watcher
+        id: run
+        continue-on-error: true
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python annual_report_watcher.py
-
-      - name: Commit updated seen.json
         run: |
-          if [ -n "$(git status --porcelain seen.json)" ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add seen.json
-            git commit -m "Update seen announcements [skip ci]"
+          python annual_report_watcher.py 2>&1 | tee last_run.log
+          ec=${PIPESTATUS[0]}
+          echo "exit_code=$ec" | tee -a last_run.log
+
+      - name: Dump log to step summary
+        if: always()
+        run: |
+          {
+            echo "## Watcher run log"
+            echo
+            echo '```'
+            cat last_run.log 2>/dev/null || echo "(no log file produced)"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload run log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: watcher-log
+          path: last_run.log
+          if-no-files-found: warn
+
+      - name: Create debug issue with log
+        if: steps.run.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          python - <<'PY'
+          import json, os, urllib.request
+          try:
+              log = open("last_run.log").read()
+          except FileNotFoundError:
+              log = "(no log file produced)"
+          body = (
+              f"Run: {os.environ['RUN_URL']}\n\n"
+              "```\n" + log[-6000:] + "\n```\n"
+          )
+          payload = json.dumps({"title": "Watcher run log", "body": body}).encode()
+          req = urllib.request.Request(
+              f"https://api.github.com/repos/{os.environ['REPO']}/issues",
+              data=payload,
+              headers={
+                  "Authorization": f"Bearer {os.environ['GH_TOKEN']}",
+                  "Accept": "application/vnd.github+json",
+                  "X-GitHub-Api-Version": "2022-11-28",
+                  "Content-Type": "application/json",
+              },
+              method="POST",
+          )
+          try:
+              with urllib.request.urlopen(req, timeout=15) as resp:
+                  print("issue created:", resp.status)
+          except Exception as e:
+              print("issue create failed:", e)
+          PY
+
+      - name: Record run heartbeat
+        if: always()
+        run: |
+          mkdir -p .heartbeat
+          TZ=Asia/Kolkata date +"%Y-%m-%d %H:%M:%S IST run=${{ github.run_id }}" > .heartbeat/last_run.txt
+
+      - name: Commit seen.json and heartbeat
+        if: always()
+        continue-on-error: true
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A seen.json .heartbeat/last_run.txt 2>/dev/null || true
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Heartbeat + seen.json update [skip ci]"
+            git pull --rebase origin main
             git push
           fi
+
+      - name: Fail job if watcher errored
+        if: always()
+        run: |
+          ec=$(grep -oE 'exit_code=[0-9]+' last_run.log | tail -1 | cut -d= -f2)
+          echo "Watcher exit code: $ec"
+          [ "$ec" = "0" ] || exit 1
