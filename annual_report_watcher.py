@@ -2,6 +2,7 @@ import html
 import json
 import os
 import sys
+import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -65,6 +66,20 @@ BSE_HEADERS = {
 }
 
 
+def _get_with_retry(session, url, params, attempts=4, base_delay=3):
+    last_exc = None
+    for i in range(attempts):
+        try:
+            r = session.get(url, params=params, timeout=30)
+            r.raise_for_status()
+            return r
+        except requests.exceptions.RequestException as e:
+            last_exc = e
+            if i < attempts - 1:
+                time.sleep(base_delay * (2 ** i))
+    raise last_exc
+
+
 def fetch_bse_announcements():
     now_ist = datetime.now(IST)
     prev = (now_ist - timedelta(days=1)).strftime("%Y%m%d")
@@ -84,8 +99,7 @@ def fetch_bse_announcements():
             "strToDate": today,
             "strType": "C",
         }
-        r = session.get(BSE_API, params=params, timeout=30)
-        r.raise_for_status()
+        r = _get_with_retry(session, BSE_API, params)
         page = (r.json() or {}).get("Table") or []
         if not page:
             break
@@ -165,8 +179,25 @@ def main():
         seen = load_seen()
         seen_set = set(map(str, seen))
 
-        items = fetch_bse_announcements()
-        print(f"Fetched {len(items)} BSE announcements")
+        try:
+            items = fetch_bse_announcements()
+            print(f"Fetched {len(items)} BSE announcements")
+        except requests.exceptions.RequestException as e:
+            # Transient BSE/network failure after retries. Don't alarm with a
+            # traceback — the next run self-heals and seen.json means no report
+            # is ever missed once BSE recovers.
+            print(f"BSE fetch failed after retries: {e}", file=sys.stderr)
+            ts_ist = datetime.now(IST).strftime("%H:%M IST, %d %b %Y")
+            try:
+                send_telegram(
+                    token,
+                    chat_id,
+                    f"<b>Watcher run</b> • {ts_ist}\n"
+                    f"⚠️ BSE temporarily unreachable; will retry next run.",
+                )
+            except Exception as send_err:
+                print(f"Heartbeat failed: {send_err}", file=sys.stderr)
+            return
 
         new_alerts = 0
         send_errors = 0
