@@ -72,8 +72,13 @@ def _get_with_retry(session, url, params, attempts=4, base_delay=3):
         try:
             r = session.get(url, params=params, timeout=30)
             r.raise_for_status()
-            return r
-        except requests.exceptions.RequestException as e:
+            data = r.json()
+            if not isinstance(data, dict):
+                raise ValueError(
+                    f"BSE returned non-dict JSON: {type(data).__name__}: {str(data)[:200]}"
+                )
+            return data
+        except (requests.exceptions.RequestException, ValueError) as e:
             last_exc = e
             if i < attempts - 1:
                 time.sleep(base_delay * (2 ** i))
@@ -100,7 +105,7 @@ def fetch_bse_announcements():
             "strType": "C",
         }
         r = _get_with_retry(session, BSE_API, params)
-        page = (r.json() or {}).get("Table") or []
+        page = (r or {}).get("Table") or []
         if not page:
             break
         items.extend(page)
@@ -182,10 +187,10 @@ def main():
         try:
             items = fetch_bse_announcements()
             print(f"Fetched {len(items)} BSE announcements")
-        except requests.exceptions.RequestException as e:
-            # Transient BSE/network failure after retries. Don't alarm with a
-            # traceback — the next run self-heals and seen.json means no report
-            # is ever missed once BSE recovers.
+        except (requests.exceptions.RequestException, ValueError) as e:
+            # Transient BSE issue after retries (network timeout, bad JSON,
+            # unexpected response shape). Don't alarm with a traceback — the
+            # next run self-heals and seen.json means no report is ever missed.
             print(f"BSE fetch failed after retries: {e}", file=sys.stderr)
             ts_ist = datetime.now(IST).strftime("%H:%M IST, %d %b %Y")
             try:
