@@ -73,6 +73,8 @@ def _get_with_retry(session, url, params, attempts=4, base_delay=3):
             r = session.get(url, params=params, timeout=30)
             r.raise_for_status()
             data = r.json()
+            if isinstance(data, str) and "no record" in data.lower():
+                return {"Table": []}
             if not isinstance(data, dict):
                 raise ValueError(
                     f"BSE returned non-dict JSON: {type(data).__name__}: {str(data)[:200]}"
@@ -87,7 +89,7 @@ def _get_with_retry(session, url, params, attempts=4, base_delay=3):
 
 def fetch_bse_announcements():
     now_ist = datetime.now(IST)
-    prev = (now_ist - timedelta(days=1)).strftime("%Y%m%d")
+    prev = (now_ist - timedelta(days=3)).strftime("%Y%m%d")
     today = now_ist.strftime("%Y%m%d")
     session = requests.Session()
     session.headers.update(BSE_HEADERS)
