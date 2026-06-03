@@ -47,9 +47,22 @@ def matches_keyword(text: str) -> bool:
     return any(k in t for k in KEYWORDS)
 
 
-BSE_API = "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w"
+BSE_API = "https://api.bseindia.com/BseIndiaAPI/api/AnnSubCategoryGetData/w"
 BSE_PDF_BASE = "https://www.bseindia.com/xml-data/corpfiling/AttachLive/"
 BSE_ANN_PAGE = "https://www.bseindia.com/corporates/ann.html"
+BSE_CATEGORIES = [
+    "AGM/EGM",
+    "Board Meeting",
+    "Company Update",
+    "Corp. Action",
+    "Insider Trading / SAST",
+    "New Listing",
+    "Result",
+    "Integrated Filing",
+    "Others",
+]
+BSE_PAGE_SIZE = 50
+BSE_MAX_PAGES_PER_CATEGORY = 50
 IST = timezone(timedelta(hours=5, minutes=30))
 SEEN_PATH = Path(__file__).parent / "seen.json"
 SEEN_LIMIT = 5000
@@ -95,26 +108,38 @@ def fetch_bse_announcements():
     session.headers.update(BSE_HEADERS)
 
     items = []
-    pageno = 1
-    while True:
-        params = {
-            "pageno": pageno,
-            "strCat": "-1",
-            "strPrevDate": prev,
-            "strScrip": "",
-            "strSearch": "P",
-            "strToDate": today,
-            "strType": "C",
-        }
-        r = _get_with_retry(session, BSE_API, params)
-        page = (r or {}).get("Table") or []
-        if not page:
-            break
-        items.extend(page)
-        total_pages = page[0].get("TotalPageCnt") or 1
-        if pageno >= total_pages or pageno >= 200:
-            break
-        pageno += 1
+    seen_ids = set()
+    for category in BSE_CATEGORIES:
+        pageno = 1
+        while True:
+            params = {
+                "pageno": pageno,
+                "strCat": category,
+                "strPrevDate": prev,
+                "strScrip": "",
+                "strSearch": "P",
+                "strToDate": today,
+                "strType": "C",
+                "subcategory": "-1",
+            }
+            data = _get_with_retry(session, BSE_API, params)
+            page = (data or {}).get("Table") or []
+            if not page:
+                break
+            for it in page:
+                nid = str(it.get("NEWSID") or "")
+                if nid and nid in seen_ids:
+                    continue
+                if nid:
+                    seen_ids.add(nid)
+                items.append(it)
+            table1 = (data or {}).get("Table1") or []
+            row_count = (table1[0].get("ROWCNT") if table1 else 0) or 0
+            if pageno * BSE_PAGE_SIZE >= row_count:
+                break
+            if pageno >= BSE_MAX_PAGES_PER_CATEGORY:
+                break
+            pageno += 1
     return items
 
 
