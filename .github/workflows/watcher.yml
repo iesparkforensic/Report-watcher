@@ -1,5 +1,10 @@
 name: Annual Report Watcher
 
+# Triggers:
+#   - hourly cron at minute :17 UTC (= :47 IST) — primary scheduler (lossy on GitHub free tier)
+#   - manual via the Actions tab (workflow_dispatch) — for ad-hoc / catch-up runs
+#   - push to this file — auto-bootstraps a run when the workflow itself changes
+
 on:
   schedule:
     - cron: '17 * * * *'
