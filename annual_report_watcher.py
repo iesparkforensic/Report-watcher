@@ -66,6 +66,8 @@ BSE_MAX_PAGES_PER_CATEGORY = 50
 IST = timezone(timedelta(hours=5, minutes=30))
 SEEN_PATH = Path(__file__).parent / "seen.json"
 SEEN_LIMIT = 5000
+SKIPPED_PATH = Path(__file__).parent / ".heartbeat" / "skipped_runs.json"
+SKIPPED_LIMIT = 200
 
 BSE_HEADERS = {
     "User-Agent": (
@@ -155,6 +157,22 @@ def load_seen():
 def save_seen(seen):
     seen = seen[-SEEN_LIMIT:]
     SEEN_PATH.write_text(json.dumps(seen, indent=2) + "\n")
+
+
+def load_skipped():
+    """Timestamps of quiet runs (no new alerts) since the last alert was sent."""
+    if SKIPPED_PATH.exists():
+        try:
+            return list(json.loads(SKIPPED_PATH.read_text()))
+        except Exception:
+            return []
+    return []
+
+
+def save_skipped(skipped):
+    skipped = skipped[-SKIPPED_LIMIT:]
+    SKIPPED_PATH.parent.mkdir(parents=True, exist_ok=True)
+    SKIPPED_PATH.write_text(json.dumps(skipped, indent=2) + "\n")
 
 
 def send_telegram(token, chat_id, text):
@@ -257,14 +275,30 @@ def main():
         print(f"Sent {new_alerts} new alerts ({send_errors} send errors)")
 
         ts_ist = datetime.now(IST).strftime("%H:%M IST, %d %b %Y")
-        summary = (
-            f"<b>Watcher run</b> • {ts_ist}\n"
-            f"Fetched: {len(items)}\n"
-            f"New alerts: {new_alerts}\n"
-            f"Send errors: {send_errors}"
-        )
+        skipped = load_skipped()
+
+        # Quiet run: nothing new and nothing failed. Stay silent on Telegram,
+        # but remember this run so the next real alert can report the gap.
+        if new_alerts == 0 and send_errors == 0:
+            skipped.append(ts_ist)
+            save_skipped(skipped)
+            print(f"No new alerts; Telegram suppressed. {len(skipped)} quiet run(s) pending.")
+            return
+
+        lines = [
+            f"<b>Watcher run</b> • {ts_ist}",
+            f"Fetched: {len(items)}",
+            f"New alerts: {new_alerts}",
+            f"Send errors: {send_errors}",
+        ]
+        if skipped:
+            lines.append("")
+            lines.append(f"Earlier runs with no new alerts ({len(skipped)}):")
+            lines.extend(f"• {t}" for t in skipped)
+        summary = "\n".join(lines)
         try:
             send_telegram(token, chat_id, summary)
+            save_skipped([])  # reset only after the gap has been reported
         except Exception as e:
             print(f"Heartbeat failed: {e}", file=sys.stderr)
     except Exception as e:
