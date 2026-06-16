@@ -68,6 +68,26 @@ SEEN_PATH = Path(__file__).parent / "seen.json"
 SEEN_LIMIT = 5000
 SKIPPED_PATH = Path(__file__).parent / ".heartbeat" / "skipped_runs.json"
 SKIPPED_LIMIT = 200
+NON_BSE500_PATH = Path(__file__).parent / ".heartbeat" / "non_bse500.json"
+NON_BSE500_LIMIT = 1000
+
+# BSE 500 constituents — index code 17 on bseindices.com. Fetched live each run
+# (so it tracks the ~biannual reconstitution) with the committed bse500.json as
+# a fallback when the live list is unreachable.
+BSE500_PATH = Path(__file__).parent / "bse500.json"
+BSE500_URL = "https://www.bseindices.com/AsiaIndexAPI/api/Codewise_Indices/w"
+BSE500_CODE = "17"
+BSE500_MIN_EXPECTED = 400  # sanity floor; a live list smaller than this is rejected
+BSE500_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+    ),
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Referer": "https://www.bseindices.com/",
+    "Origin": "https://www.bseindices.com",
+}
 
 BSE_HEADERS = {
     "User-Agent": (
@@ -175,6 +195,90 @@ def save_skipped(skipped):
     SKIPPED_PATH.write_text(json.dumps(skipped, indent=2) + "\n")
 
 
+def load_non_bse500():
+    """Return (items, last_flush_iso). Items are non-BSE500 matches banked since
+    the digest was last flushed (via a BSE500 alert or the 3-day periodic flush)."""
+    if NON_BSE500_PATH.exists():
+        try:
+            data = json.loads(NON_BSE500_PATH.read_text())
+            if isinstance(data, dict):
+                return list(data.get("items") or []), str(data.get("last_flush") or "")
+            if isinstance(data, list):  # legacy format
+                return list(data), ""
+        except Exception:
+            pass
+    return [], ""
+
+
+def save_non_bse500(items, last_flush):
+    payload = {"last_flush": last_flush, "items": items[-NON_BSE500_LIMIT:]}
+    NON_BSE500_PATH.parent.mkdir(parents=True, exist_ok=True)
+    NON_BSE500_PATH.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n")
+
+
+def format_non_bse500_bullet(row):
+    company = row.get("company") or "(unknown)"
+    scrip = row.get("scrip") or ""
+    title = (row.get("title") or "").strip()
+    pdf = row.get("pdf") or BSE_ANN_PAGE
+    title_disp = html.escape(title[:200]) if title else "PDF"
+    return (
+        f"• <b>{html.escape(str(company))}</b> ({html.escape(str(scrip))}) — "
+        f"<a href=\"{html.escape(pdf, quote=True)}\">{title_disp}</a>"
+    )
+
+
+def _load_bse500_file():
+    if BSE500_PATH.exists():
+        try:
+            return dict(json.loads(BSE500_PATH.read_text()).get("constituents") or {})
+        except Exception:
+            return {}
+    return {}
+
+
+def _save_bse500_file(constituents, rebalance_date=""):
+    payload = {
+        "index": "BSE 500",
+        "source": f"{BSE500_URL}?code={BSE500_CODE}",
+        "rebalance_date": rebalance_date,
+        "count": len(constituents),
+        "constituents": dict(sorted(constituents.items())),
+    }
+    BSE500_PATH.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n")
+
+
+def load_bse500():
+    """Return (set_of_scrip_codes, name_map). Tries the live index, refreshing the
+    committed file when the membership changes; falls back to the committed file;
+    returns (None, {}) only if both are unavailable (caller then notifies for all)."""
+    session = requests.Session()
+    session.headers.update(BSE500_HEADERS)
+    live = {}
+    try:
+        data = _get_with_retry(session, BSE500_URL, {"code": BSE500_CODE})
+        for r in (data or {}).get("Table") or []:
+            code = str(r.get("SCRIP_CODE") or "").strip()
+            if code:
+                live[code] = (r.get("SCRIPNAME") or "").strip()
+    except Exception as e:
+        print(f"BSE500 live fetch failed: {e}", file=sys.stderr)
+
+    if len(live) >= BSE500_MIN_EXPECTED:
+        if set(live) != set(_load_bse500_file()):
+            _save_bse500_file(live)
+            print(f"BSE500 list refreshed: {len(live)} constituents", file=sys.stderr)
+        return set(live), live
+
+    committed = _load_bse500_file()
+    if committed:
+        print(f"Using committed BSE500 fallback ({len(committed)})", file=sys.stderr)
+        return set(committed), committed
+
+    print("BSE500 list unavailable; notifying for ALL companies this run", file=sys.stderr)
+    return None, {}
+
+
 def send_telegram(token, chat_id, text):
     url = f"https://api.telegram.org/bot{token}/sendMessage"
     r = requests.post(
@@ -189,6 +293,23 @@ def send_telegram(token, chat_id, text):
     )
     if not r.ok:
         raise RuntimeError(f"Telegram {r.status_code}: {r.text[:500]}")
+
+
+def send_telegram_chunked(token, chat_id, text, limit=3900):
+    """Send text as one message, or split on line boundaries if it exceeds
+    Telegram's ~4096-char cap (e.g. a very long non-BSE500 digest)."""
+    if len(text) <= limit:
+        send_telegram(token, chat_id, text)
+        return
+    chunk, length = [], 0
+    for line in text.split("\n"):
+        if length + len(line) + 1 > limit and chunk:
+            send_telegram(token, chat_id, "\n".join(chunk))
+            chunk, length = [], 0
+        chunk.append(line)
+        length += len(line) + 1
+    if chunk:
+        send_telegram(token, chat_id, "\n".join(chunk))
 
 
 def _format_ist(dt_str: str) -> str:
@@ -249,6 +370,9 @@ def main():
                 print(f"Heartbeat failed: {send_err}", file=sys.stderr)
             return
 
+        bse500_set, _bse500_names = load_bse500()
+        non_bse500, last_flush = load_non_bse500()
+
         new_alerts = 0
         send_errors = 0
         for item in items:
@@ -261,6 +385,22 @@ def main():
             )
             if not matches_keyword(blob):
                 continue
+
+            scrip = str(item.get("SCRIP_CD") or "").strip()
+            # Only filter when we actually have the BSE500 list and a scrip code.
+            # Unknown scrip or unavailable list => notify (never silently drop).
+            if bse500_set is not None and scrip and scrip not in bse500_set:
+                attachment = item.get("ATTACHMENTNAME") or ""
+                non_bse500.append({
+                    "company": str(item.get("SLONGNAME") or item.get("COMPANYNAME") or "(unknown)"),
+                    "scrip": scrip,
+                    "title": str(item.get("HEADLINE") or item.get("NEWSSUB") or item.get("NEWS_SUBJECT") or ""),
+                    "pdf": f"{BSE_PDF_BASE}{attachment}" if attachment else BSE_ANN_PAGE,
+                })
+                seen.append(news_id)
+                seen_set.add(news_id)
+                continue
+
             try:
                 send_telegram(token, chat_id, format_message(item))
             except Exception as e:
@@ -272,35 +412,71 @@ def main():
             new_alerts += 1
 
         save_seen(seen)
-        print(f"Sent {new_alerts} new alerts ({send_errors} send errors)")
+        print(
+            f"Sent {new_alerts} BSE500 alerts ({send_errors} send errors); "
+            f"{len(non_bse500)} non-BSE500 banked"
+        )
 
-        ts_ist = datetime.now(IST).strftime("%H:%M IST, %d %b %Y")
+        now_dt = datetime.now(IST)
+        ts_ist = now_dt.strftime("%H:%M IST, %d %b %Y")
+        # Start the 3-day flush clock the first time anything is banked.
+        if not last_flush:
+            last_flush = now_dt.isoformat()
+        try:
+            flush_due = bool(non_bse500) and (
+                now_dt - datetime.fromisoformat(last_flush) >= timedelta(days=3)
+            )
+        except (ValueError, TypeError):
+            flush_due = bool(non_bse500)
+
         skipped = load_skipped()
+        alert = new_alerts > 0 or send_errors > 0
 
-        # Quiet run: nothing new and nothing failed. Stay silent on Telegram,
-        # but remember this run so the next real alert can report the gap.
-        if new_alerts == 0 and send_errors == 0:
+        # Nothing to report and the non-BSE500 digest isn't due yet: stay silent,
+        # but bank this quiet run so the next alert can show the gap.
+        if not alert and not flush_due:
             skipped.append(ts_ist)
             save_skipped(skipped)
-            print(f"No new alerts; Telegram suppressed. {len(skipped)} quiet run(s) pending.")
+            save_non_bse500(non_bse500, last_flush)
+            print(f"No BSE500 alerts; Telegram suppressed. {len(skipped)} quiet run(s) pending.")
             return
 
-        lines = [
-            f"<b>Watcher run</b> • {ts_ist}",
-            f"Fetched: {len(items)}",
-            f"New alerts: {new_alerts}",
-            f"Send errors: {send_errors}",
-        ]
-        if skipped:
-            lines.append("")
-            lines.append(f"Earlier runs with no new alerts ({len(skipped)}):")
-            lines.extend(f"• {t}" for t in skipped)
-        summary = "\n".join(lines)
+        if alert:
+            lines = [
+                f"<b>Watcher run</b> • {ts_ist}",
+                f"Fetched: {len(items)}",
+                f"New alerts: {new_alerts}",
+                f"Send errors: {send_errors}",
+            ]
+            if skipped:
+                lines.append("")
+                lines.append(f"Earlier runs with no new alerts ({len(skipped)}):")
+                lines.extend(f"• {t}" for t in skipped)
+            if non_bse500:
+                lines.append("")
+                lines.append(f"Non-BSE500 filings since last alert ({len(non_bse500)}):")
+                lines.extend(format_non_bse500_bullet(r) for r in non_bse500)
+        else:
+            # 3-day periodic flush: non-BSE500 digest only. The quiet-run gap list
+            # keeps riding the next real BSE500 alert.
+            lines = [
+                f"<b>Non-BSE500 digest</b> • {ts_ist}",
+                "(periodic 3-day flush — no BSE500 alerts in this window)",
+                "",
+                f"Non-BSE500 filings ({len(non_bse500)}):",
+            ]
+            lines.extend(format_non_bse500_bullet(r) for r in non_bse500)
+
         try:
-            send_telegram(token, chat_id, summary)
-            save_skipped([])  # reset only after the gap has been reported
+            send_telegram_chunked(token, chat_id, "\n".join(lines))
+            # Clear the non-BSE500 bank + reset the 3-day clock on any successful send.
+            save_non_bse500([], now_dt.isoformat())
+            # The quiet-run gap list is cleared only when an actual alert reported it.
+            if alert:
+                save_skipped([])
         except Exception as e:
             print(f"Heartbeat failed: {e}", file=sys.stderr)
+            save_non_bse500(non_bse500, last_flush)  # retain bank for next attempt
     except Exception as e:
         import traceback
         tb = traceback.format_exc()
