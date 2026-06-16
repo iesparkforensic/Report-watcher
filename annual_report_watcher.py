@@ -216,16 +216,48 @@ def save_non_bse500(items, last_flush):
     NON_BSE500_PATH.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n")
 
 
-def format_non_bse500_bullet(row):
-    company = row.get("company") or "(unknown)"
-    scrip = row.get("scrip") or ""
-    title = (row.get("title") or "").strip()
-    pdf = row.get("pdf") or BSE_ANN_PAGE
-    title_disp = html.escape(title[:200]) if title else "PDF"
-    return (
-        f"• <b>{html.escape(str(company))}</b> ({html.escape(str(scrip))}) — "
-        f"<a href=\"{html.escape(pdf, quote=True)}\">{title_disp}</a>"
-    )
+def _group_non_bse500_by_company(rows):
+    """Preserve insertion order; group successive (and non-successive) rows
+    sharing scrip+company so a company with N filings becomes one bullet."""
+    groups = {}  # key -> {"company": str, "scrip": str, "filings": [{"title","pdf"}]}
+    order = []
+    for r in rows:
+        scrip = (r.get("scrip") or "").strip()
+        company = r.get("company") or "(unknown)"
+        key = scrip or f"name:{company}"
+        if key not in groups:
+            groups[key] = {"company": company, "scrip": scrip, "filings": []}
+            order.append(key)
+        groups[key]["filings"].append({
+            "title": (r.get("title") or "").strip(),
+            "pdf": r.get("pdf") or BSE_ANN_PAGE,
+        })
+    return [groups[k] for k in order]
+
+
+def format_non_bse500_bullets(rows):
+    """Return one bullet block per company. A company with multiple filings gets
+    sub-bullets indented under its name."""
+    out = []
+    for g in _group_non_bse500_by_company(rows):
+        head = (
+            f"• <b>{html.escape(str(g['company']))}</b> "
+            f"({html.escape(str(g['scrip']))})"
+        )
+        if len(g["filings"]) == 1:
+            f0 = g["filings"][0]
+            title_disp = html.escape(f0["title"][:200]) if f0["title"] else "PDF"
+            out.append(
+                f"{head} — <a href=\"{html.escape(f0['pdf'], quote=True)}\">{title_disp}</a>"
+            )
+        else:
+            out.append(head)
+            for f in g["filings"]:
+                title_disp = html.escape(f["title"][:200]) if f["title"] else "PDF"
+                out.append(
+                    f"    – <a href=\"{html.escape(f['pdf'], quote=True)}\">{title_disp}</a>"
+                )
+    return out
 
 
 def _load_bse500_file():
@@ -323,20 +355,22 @@ def _format_ist(dt_str: str) -> str:
         return dt_str
 
 
-def format_message(item):
-    company = item.get("SLONGNAME") or item.get("COMPANYNAME") or ""
-    scrip = item.get("SCRIP_CD") or ""
-    headline = item.get("HEADLINE") or item.get("NEWSSUB") or item.get("NEWS_SUBJECT") or ""
-    category = item.get("CATEGORYNAME") or ""
-    news_dt = _format_ist(item.get("NEWS_DT") or "")
-    attachment = item.get("ATTACHMENTNAME") or ""
-    pdf = f"{BSE_PDF_BASE}{attachment}" if attachment else BSE_ANN_PAGE
-    return (
-        f"<b>{html.escape(str(company))}</b> ({html.escape(str(scrip))})\n"
-        f"{html.escape(str(category))} • {html.escape(news_dt)}\n\n"
-        f"{html.escape(str(headline))[:1500]}\n\n"
-        f"<a href=\"{html.escape(pdf, quote=True)}\">PDF</a>"
-    )
+def format_company_alert(company, scrip, items):
+    """One message covering all of a company's matching filings in this run."""
+    lines = [f"<b>{html.escape(str(company))}</b> ({html.escape(str(scrip))})"]
+    for it in items:
+        category = it.get("CATEGORYNAME") or ""
+        news_dt = _format_ist(it.get("NEWS_DT") or "")
+        headline = it.get("HEADLINE") or it.get("NEWSSUB") or it.get("NEWS_SUBJECT") or ""
+        attachment = it.get("ATTACHMENTNAME") or ""
+        pdf = f"{BSE_PDF_BASE}{attachment}" if attachment else BSE_ANN_PAGE
+        meta = " • ".join(p for p in (html.escape(str(category)), html.escape(news_dt)) if p)
+        lines.append("")
+        if meta:
+            lines.append(meta)
+        lines.append(html.escape(str(headline))[:1500])
+        lines.append(f"<a href=\"{html.escape(pdf, quote=True)}\">PDF</a>")
+    return "\n".join(lines)
 
 
 def main():
@@ -373,8 +407,9 @@ def main():
         bse500_set, _bse500_names = load_bse500()
         non_bse500, last_flush = load_non_bse500()
 
-        new_alerts = 0
-        send_errors = 0
+        # Group BSE500 matches by SCRIP_CD so each company gets one Telegram message.
+        # Insertion order is preserved (newest-first as returned by BSE).
+        bse500_groups = {}  # scrip -> {"company": str, "items": [item, ...], "news_ids": [...]}
         for item in items:
             news_id = str(item.get("NEWSID") or "")
             if not news_id or news_id in seen_set:
@@ -387,12 +422,14 @@ def main():
                 continue
 
             scrip = str(item.get("SCRIP_CD") or "").strip()
-            # Only filter when we actually have the BSE500 list and a scrip code.
+            company = str(item.get("SLONGNAME") or item.get("COMPANYNAME") or "(unknown)")
+
+            # Filter only when we actually have the BSE500 list AND a scrip code.
             # Unknown scrip or unavailable list => notify (never silently drop).
             if bse500_set is not None and scrip and scrip not in bse500_set:
                 attachment = item.get("ATTACHMENTNAME") or ""
                 non_bse500.append({
-                    "company": str(item.get("SLONGNAME") or item.get("COMPANYNAME") or "(unknown)"),
+                    "company": company,
                     "scrip": scrip,
                     "title": str(item.get("HEADLINE") or item.get("NEWSSUB") or item.get("NEWS_SUBJECT") or ""),
                     "pdf": f"{BSE_PDF_BASE}{attachment}" if attachment else BSE_ANN_PAGE,
@@ -401,19 +438,38 @@ def main():
                 seen_set.add(news_id)
                 continue
 
+            # BSE500 (or notify-all fallback) — bank for grouped send.
+            # Use scrip as the dedup key when present; fall back to company name so
+            # blank-scrip items still get an alert (and grouped together if same name).
+            key = scrip or f"name:{company}"
+            grp = bse500_groups.get(key)
+            if grp is None:
+                grp = {"company": company, "scrip": scrip, "items": [], "news_ids": []}
+                bse500_groups[key] = grp
+            grp["items"].append(item)
+            grp["news_ids"].append(news_id)
+
+        new_alerts = 0  # count of announcements actually delivered (not companies)
+        send_errors = 0
+        for grp in bse500_groups.values():
             try:
-                send_telegram(token, chat_id, format_message(item))
+                send_telegram(
+                    token, chat_id,
+                    format_company_alert(grp["company"], grp["scrip"], grp["items"]),
+                )
             except Exception as e:
-                print(f"Telegram send failed for {news_id}: {e}", file=sys.stderr)
+                print(f"Telegram send failed for {grp['scrip']}: {e}", file=sys.stderr)
                 send_errors += 1
                 continue
-            seen.append(news_id)
-            seen_set.add(news_id)
-            new_alerts += 1
+            for nid in grp["news_ids"]:
+                seen.append(nid)
+                seen_set.add(nid)
+            new_alerts += len(grp["items"])
 
         save_seen(seen)
         print(
-            f"Sent {new_alerts} BSE500 alerts ({send_errors} send errors); "
+            f"Sent {len(bse500_groups) - send_errors} grouped messages "
+            f"covering {new_alerts} announcements ({send_errors} send errors); "
             f"{len(non_bse500)} non-BSE500 banked"
         )
 
@@ -453,19 +509,29 @@ def main():
                 lines.append(f"Earlier runs with no new alerts ({len(skipped)}):")
                 lines.extend(f"• {t}" for t in skipped)
             if non_bse500:
+                bullets = format_non_bse500_bullets(non_bse500)
+                n_companies = len(_group_non_bse500_by_company(non_bse500))
                 lines.append("")
-                lines.append(f"Non-BSE500 filings since last alert ({len(non_bse500)}):")
-                lines.extend(format_non_bse500_bullet(r) for r in non_bse500)
+                lines.append(
+                    f"Non-BSE500 filings since last alert "
+                    f"({n_companies} compan{'y' if n_companies == 1 else 'ies'}, "
+                    f"{len(non_bse500)} filing{'' if len(non_bse500) == 1 else 's'}):"
+                )
+                lines.extend(bullets)
         else:
             # 3-day periodic flush: non-BSE500 digest only. The quiet-run gap list
             # keeps riding the next real BSE500 alert.
+            bullets = format_non_bse500_bullets(non_bse500)
+            n_companies = len(_group_non_bse500_by_company(non_bse500))
             lines = [
                 f"<b>Non-BSE500 digest</b> • {ts_ist}",
                 "(periodic 3-day flush — no BSE500 alerts in this window)",
                 "",
-                f"Non-BSE500 filings ({len(non_bse500)}):",
+                f"Non-BSE500 filings "
+                f"({n_companies} compan{'y' if n_companies == 1 else 'ies'}, "
+                f"{len(non_bse500)} filing{'' if len(non_bse500) == 1 else 's'}):",
             ]
-            lines.extend(format_non_bse500_bullet(r) for r in non_bse500)
+            lines.extend(bullets)
 
         try:
             send_telegram_chunked(token, chat_id, "\n".join(lines))
