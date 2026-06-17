@@ -1,4 +1,11 @@
 {
   "last_flush": "2026-06-17T05:20:16.470897+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Meyer Apparel Ltd",
+      "scrip": "531613",
+      "title": "Intimation regarding the letter sent to members containing weblink of Annual Report for FY 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8bd696c3-5dca-4b72-8d75-b98a06e6350e.pdf"
+    }
+  ]
 }
