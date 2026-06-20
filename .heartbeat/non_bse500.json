@@ -1,17 +1,4 @@
 {
-  "last_flush": "2026-06-20T15:45:20.235201+05:30",
-  "items": [
-    {
-      "company": "Dodla Dairy Ltd",
-      "scrip": "543306",
-      "title": "BRSR for FY 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/04aba8b4-a692-42da-86d9-364e1adbce41.pdf"
-    },
-    {
-      "company": "Dodla Dairy Ltd",
-      "scrip": "543306",
-      "title": "Annual Report for the Financial Year 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/06b340f3-a884-41f7-bb31-32dce11ac184.pdf"
-    }
-  ]
+  "last_flush": "2026-06-20T20:04:18.281627+05:30",
+  "items": []
 }
