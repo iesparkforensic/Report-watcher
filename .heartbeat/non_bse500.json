@@ -1,4 +1,65 @@
 {
   "last_flush": "2026-06-22T23:25:15.666498+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Raymond Lifestyle Ltd",
+      "scrip": "544240",
+      "title": "Notice of Annual General Meeting for FY 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5fb19320-a3f8-4003-93e8-35a36fc86e46.pdf"
+    },
+    {
+      "company": "Raymond Lifestyle Ltd",
+      "scrip": "544240",
+      "title": "Notice of Annual General Meeting for FY 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6dd9c9a5-bc46-4ac6-86ce-cc5d94af92e3.pdf"
+    },
+    {
+      "company": "Raymond Ltd",
+      "scrip": "500330",
+      "title": "Please find attached intimation under Regulation 30 of SEBI Listing Regulations",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0a7a6e04-8d10-42cc-9a8e-d1013faaf584.pdf"
+    },
+    {
+      "company": "Raymond Lifestyle Ltd",
+      "scrip": "544240",
+      "title": "Annual Report of the Company for FY 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ce43804e-5050-45d1-806e-4ee033baf17f.pdf"
+    },
+    {
+      "company": "Raymond Lifestyle Ltd",
+      "scrip": "544240",
+      "title": "Please find attached intimation regarding Business Responsibility and Sustainability Reporting.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/28ed26b9-d1cd-40c0-852e-021ca2f71a8d.pdf"
+    },
+    {
+      "company": "Raymond Ltd",
+      "scrip": "500330",
+      "title": "Please find attached BRSR Report for FY2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/69d37742-f897-40a4-8061-680d5132b610.pdf"
+    },
+    {
+      "company": "Raymond Realty Ltd",
+      "scrip": "544420",
+      "title": "Please find enclosed herewith the Business Responsibility and Sustainability Report of Raymond Realty Limited for FY2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/40e42207-310f-45ac-b0cb-56e8c0cfa53e.pdf"
+    },
+    {
+      "company": "Raymond Lifestyle Ltd",
+      "scrip": "544240",
+      "title": "Please find attached Annual Report for FY 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4d9fa837-c6d4-4caa-9c87-dfc415841fa3.pdf"
+    },
+    {
+      "company": "Raymond Realty Ltd",
+      "scrip": "544420",
+      "title": "Please find enclosed herewith the Annual Report of Raymond Realty Limited for FY2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/43898be6-3b0f-412e-8783-bcdded4b3093.pdf"
+    },
+    {
+      "company": "Raymond Ltd",
+      "scrip": "500330",
+      "title": "Please find enclosed Annual Report",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9acf1216-e428-42a8-8b82-1300b9e55a02.pdf"
+    }
+  ]
 }
