@@ -1,4 +1,17 @@
 {
   "last_flush": "2026-06-27T20:27:50.526106+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Tanla Platforms Ltd",
+      "scrip": "532790",
+      "title": "Enclosed",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3536807d-aebe-47aa-b316-02bae1d8f7e9.pdf"
+    },
+    {
+      "company": "Tanla Platforms Ltd",
+      "scrip": "532790",
+      "title": "Enclosed",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3e61f679-b923-4389-b259-2a5254ae4632.pdf"
+    }
+  ]
 }
