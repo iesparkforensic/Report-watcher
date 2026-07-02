@@ -2,7 +2,7 @@
   "index": "BSE 500",
   "source": "https://www.bseindices.com/AsiaIndexAPI/api/Codewise_Indices/w?code=17",
   "rebalance_date": "",
-  "count": 500,
+  "count": 501,
   "constituents": {
     "500002": "ABB INDIA LIMITED",
     "500003": "AEGIS LOGISTICS LTD.",
@@ -327,7 +327,7 @@
     "539177": "Authum Investment & Infrastruc",
     "539254": "Adani Energy Solutions Limited",
     "539268": "Syngene International Limited",
-    "539336": "Gujarat Gas Limited",
+    "539336": "Gujarat Energy Limited",
     "539437": "IDFC FIRST BANK LIMITED",
     "539448": "InterGlobe Aviation Limited",
     "539523": "Alkem Laboratories Limited",
@@ -503,6 +503,7 @@
     "544609": "Physicswallah Limited",
     "544612": "Tenneco Clean Air India Limite",
     "544632": "Meesho Limited",
-    "544658": "ICICI Prudential Asset Managem"
+    "544658": "ICICI Prudential Asset Managem",
+    "544801": "GSPL Transmission Limited"
   }
 }
