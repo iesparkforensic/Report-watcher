@@ -1,4 +1,11 @@
 {
   "last_flush": "2026-07-03T21:00:37.354347+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Kolte-Patil Developers Ltd",
+      "scrip": "532924",
+      "title": "Submission of Annual Report for the Financial Year 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5b06f5a8-aa08-4e16-8d4c-6bcbb2e03879.pdf"
+    }
+  ]
 }
