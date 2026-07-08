@@ -1,4 +1,29 @@
 {
   "last_flush": "2026-07-07T23:53:05.918174+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Rasandik Engineering Industries India Ltd-$",
+      "scrip": "522207",
+      "title": "Notice of Annual General Meeting to be held on Friday 31st July 2026",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a61322d2-a507-4571-b776-96f44f4ae532.pdf"
+    },
+    {
+      "company": "BF Investment Ltd",
+      "scrip": "533303",
+      "title": "Newspaper Advertisement Informing about completion of dispatch of 17th AGM Notice and Annual Report for FY 2025-26 and Remote E-voting information.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e58f603d-0c6c-4386-acf8-fd31f189b0f4.pdf"
+    },
+    {
+      "company": "Indian Hume Pipe Company Ltd",
+      "scrip": "504741",
+      "title": "Business Responsibility and Sustainability Report (BRSR) as per attached letter.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/dec3a0c8-092f-4e78-b5ee-dbd0933b5fd8.pdf"
+    },
+    {
+      "company": "Indian Hume Pipe Company Ltd",
+      "scrip": "504741",
+      "title": "Annual Report for the financial year 2025-26 as per attached letter",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d2aa1449-2289-4a8b-a287-002375a72414.pdf"
+    }
+  ]
 }
