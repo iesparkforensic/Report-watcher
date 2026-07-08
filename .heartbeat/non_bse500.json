@@ -1,4 +1,47 @@
 {
   "last_flush": "2026-07-08T22:22:31.086680+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "ArisInfra Solutions Ltd",
+      "scrip": "544419",
+      "title": "Annual Report for Financial Year 2025-26 attached",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f19a646d-1183-46d2-8e5e-0b968d63d7b8.pdf"
+    },
+    {
+      "company": "Swelect Energy Systems Ltd-$",
+      "scrip": "532051",
+      "title": "Intimation Letter to shareholders providing weblink of Notice and Annual Report for the financial year 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/bff75a0c-9ee8-4f87-9b05-58116948b86b.pdf"
+    },
+    {
+      "company": "ArisInfra Solutions Ltd",
+      "scrip": "544419",
+      "title": "Annual Report along with Notice of Annual General Meeting attached",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/bdc7a031-d189-45f1-9a08-c81221c96374.pdf"
+    },
+    {
+      "company": "ArisInfra Solutions Ltd",
+      "scrip": "544419",
+      "title": "Please find attached inland letters send to members pursuant to Regulation 36(1)(b) of SEBI (LODR) Regulation 2015",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/764f91ca-4c84-4689-9747-a55cd0280e0a.pdf"
+    },
+    {
+      "company": "India Nippon Electricals Ltd",
+      "scrip": "532240",
+      "title": "Please find enclosed intimation regarding issuance of letter to shareholders under Regulation 36(1)(b) of SEBI Listing Regulations, 2015",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/cf5affa0-2a91-494e-991c-65113f418b99.pdf"
+    },
+    {
+      "company": "Swelect Energy Systems Ltd-$",
+      "scrip": "532051",
+      "title": "Annual Report for the financial year 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5ee79dbb-4f08-4f4f-863d-4a1185e5a514.pdf"
+    },
+    {
+      "company": "ArisInfra Solutions Ltd",
+      "scrip": "544419",
+      "title": "Annual Report for Financial Year 2025-26 along with Notice of 5th Annual General Meeting",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ca07d3fd-1a44-4ff2-a838-32e33d2908d8.pdf"
+    }
+  ]
 }
