@@ -1,23 +1,4 @@
 {
-  "last_flush": "2026-07-11T16:06:47.085429+05:30",
-  "items": [
-    {
-      "company": "Akme Fintrade (India) Ltd",
-      "scrip": "544200",
-      "title": "Akme Fintrade (India) Limited has informed the exchange regarding the Annual General Meeting to be held on August 04, 2026 through Video Conference/other audio visual means.",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f809825d-159b-4fae-8914-8d9dfe1b458a.pdf"
-    },
-    {
-      "company": "Smartlink Holdings Ltd",
-      "scrip": "532419",
-      "title": "Enclosed please find the specimen of the letter sent to those shareholders whose email IDs are not registered with the RTA/Depositories, providing the weblink including the exact path for ....",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2d4a9a33-71bc-4f39-8c4e-89b1552b7c9f.pdf"
-    },
-    {
-      "company": "Akme Fintrade (India) Ltd",
-      "scrip": "544200",
-      "title": "Akme Fintrade (India) Limited has informed the exchange regarding Annual report for the FY 2025-2026.",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/24c495ee-1f4b-4b94-a874-83f5d094aac1.pdf"
-    }
-  ]
+  "last_flush": "2026-07-11T19:28:02.656779+05:30",
+  "items": []
 }
