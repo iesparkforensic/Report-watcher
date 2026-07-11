@@ -1,4 +1,11 @@
 {
   "last_flush": "2026-07-11T19:28:02.656779+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Cosmo First Ltd",
+      "scrip": "508814",
+      "title": "Newspaper Publication in relation to dispatch of Notice of 49th Annual General Meeting and Annual Report for FY 2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/edbe9d42-ac78-49db-897b-ba283a243f2d.pdf"
+    }
+  ]
 }
