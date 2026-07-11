@@ -1,4 +1,29 @@
 {
   "last_flush": "2026-07-11T09:16:28.288612+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Uniroyal Marine Exports Ltd",
+      "scrip": "526113",
+      "title": "News paper publication of 34th AGM Notice and Annual report for the FY 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2e1f52e1-4a98-4e33-a3e2-305863d34b86.pdf"
+    },
+    {
+      "company": "GPT Infraprojects Ltd",
+      "scrip": "533761",
+      "title": "Please find enclosed herewith copies of the newspaper publication post dispatch of Annual report and 46th AGM of the Company",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0f4a46b1-41b4-49f8-8399-1e29e08145f2.pdf"
+    },
+    {
+      "company": "Ram Ratna Wires Ltd-$",
+      "scrip": "522281",
+      "title": "Please find enclosed herewith the BRSR for FY 2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/37d76b45-aea1-4079-9583-15eb121fc0ef.pdf"
+    },
+    {
+      "company": "Ram Ratna Wires Ltd-$",
+      "scrip": "522281",
+      "title": "Please find enclosed herewith the 34th Annual Report for FY 2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5a46990e-4ae8-4465-9c11-0867e3bc9467.pdf"
+    }
+  ]
 }
