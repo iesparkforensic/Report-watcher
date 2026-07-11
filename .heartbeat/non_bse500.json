@@ -1,4 +1,11 @@
 {
   "last_flush": "2026-07-12T01:05:16.484497+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Thirumalai Chemicals Ltd",
+      "scrip": "500412",
+      "title": "Please find enclosed the BRSR report for year ended March 31, 2026.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/36a5c8e7-3da6-4a33-8ec3-cb2c968b4022.pdf"
+    }
+  ]
 }
