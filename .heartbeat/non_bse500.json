@@ -1,4 +1,11 @@
 {
   "last_flush": "2026-07-12T14:48:52.843819+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Everest Industries Ltd",
+      "scrip": "508906",
+      "title": "Pursuant to Regulation 36(1)(b) of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, on July 11, 2026, the Company has sent letter providing a Web-link to access ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e630cc39-df33-4834-8e0b-3e7151e2af8c.pdf"
+    }
+  ]
 }
