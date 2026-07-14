@@ -1,4 +1,23 @@
 {
   "last_flush": "2026-07-14T23:06:26.379331+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Suryoday Small Finance Bank Ltd",
+      "scrip": "543279",
+      "title": "Please find attached herewith Notice of Eighteenth Annual General Meeting along with Annual Report for the Financial Year 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2af5b076-4bc6-479f-9a62-b660672ebeb8.pdf"
+    },
+    {
+      "company": "Suryoday Small Finance Bank Ltd",
+      "scrip": "543279",
+      "title": "Please find attached herewith Business Responsibility and Sustainability Reporting for the FY 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/336f75b2-5b6f-43bf-b302-3c1e55dde604.pdf"
+    },
+    {
+      "company": "Suryoday Small Finance Bank Ltd",
+      "scrip": "543279",
+      "title": "Please find attached herewith Annual Report for the FY 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/dc2d7982-8828-41e3-bd26-1bc272142aaa.pdf"
+    }
+  ]
 }
