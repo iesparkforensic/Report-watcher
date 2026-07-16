@@ -1,4 +1,17 @@
 {
   "last_flush": "2026-07-15T23:11:51.087380+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Suryaamba Spinning Mills Ltd",
+      "scrip": "533101",
+      "title": "Notice of 19th Annual General Meeting including Annual Report for the F.Y. 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5bc11bd1-cc4b-43fb-8824-9029a1ef7cba.pdf"
+    },
+    {
+      "company": "V-Guard Industries Ltd",
+      "scrip": "532953",
+      "title": "copy of Newspaper publication on dispatch of 30th AGM Notice & Annual Report 2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/df1020e3-aad8-44fe-8083-39217bb371f8.pdf"
+    }
+  ]
 }
