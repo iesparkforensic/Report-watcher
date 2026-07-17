@@ -1,4 +1,35 @@
 {
   "last_flush": "2026-07-17T21:15:51.904565+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Centrum Capital Ltd",
+      "scrip": "501150",
+      "title": "Please find attached the Notice of 48th Annual General Meeting and Annual Report of the Company for the Financial Year 2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d2243351-cfa4-43df-9cb9-59cd08d83935.pdf"
+    },
+    {
+      "company": "Matrimony.com Ltd",
+      "scrip": "540704",
+      "title": "Please find attached the business responsibility and sustainability report for the year ended 31st March 2026",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2bece370-6161-498c-8ff9-050b8b109cab.pdf"
+    },
+    {
+      "company": "Natural Capsules Ltd",
+      "scrip": "524654",
+      "title": "Annual Report for the Financial Year 2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b037f794-0605-4cf3-9442-8b40f659a1e3.pdf"
+    },
+    {
+      "company": "Matrimony.com Ltd",
+      "scrip": "540704",
+      "title": "Please find attached the annual report for the year ended 31st March 2026",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3bd7a67c-6f53-480e-96d8-17214d0bec9b.pdf"
+    },
+    {
+      "company": "Centrum Capital Ltd",
+      "scrip": "501150",
+      "title": "Please find attached Annual Report for the Financial Year 2025-26 containing the Notice convening the 48th Annual General Meeting of the Company.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/16b15214-8b46-4ada-8fc4-ed90da737561.pdf"
+    }
+  ]
 }
