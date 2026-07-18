@@ -1,4 +1,11 @@
 {
   "last_flush": "2026-07-18T19:23:25.360864+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "AstraZeneca Pharma India Ltd",
+      "scrip": "506820",
+      "title": "Please refer to the enclosed revised intimation as per the captioned subject due to inadvertent omission of certain pages of the assurance statement from the previous intimation.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3d93d54c-c1d6-49b7-a59c-696c30c5946d.pdf"
+    }
+  ]
 }
