@@ -1,4 +1,11 @@
 {
   "last_flush": "2026-07-18T01:05:37.292502+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Rane Holdings Ltd",
+      "scrip": "505800",
+      "title": "Annual Report for FY 2025-26 being sent to the shareholders is enclosed",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/66e2b2b6-b5a8-42b4-99eb-9f81038bebef.pdf"
+    }
+  ]
 }
