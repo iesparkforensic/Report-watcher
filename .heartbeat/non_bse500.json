@@ -1,4 +1,29 @@
 {
   "last_flush": "2026-07-20T21:33:26.205805+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Ganges Securities Ltd",
+      "scrip": "540647",
+      "title": "In terms of requirements of Regulation 36(1)(b) of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, the Company has issued letters to those Shareholders whose email ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/cdec8749-64b0-4550-9420-b7b4ae5d3eb6.pdf"
+    },
+    {
+      "company": "VA Tech Wabag Ltd",
+      "scrip": "533269",
+      "title": "Business Responsibility and Sustainability Report (BRSR) for the FY 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6e51fa27-5aa8-4bc7-b71d-e4358f44a7b5.pdf"
+    },
+    {
+      "company": "Centrum Capital Ltd",
+      "scrip": "501150",
+      "title": "Updated Annual Report of Centrum Capital Limited for the Financial Year 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ffbfdedb-74b6-4eb1-a8bc-ad1f4fdbde61.pdf"
+    },
+    {
+      "company": "VA Tech Wabag Ltd",
+      "scrip": "533269",
+      "title": "Notice of the 31st Annual General Meeting (AGM) of the Company and Annual Report for the FY 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/786ac7ec-73bc-480d-bfad-db14160288be.pdf"
+    }
+  ]
 }
