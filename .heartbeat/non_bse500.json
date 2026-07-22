@@ -1,4 +1,29 @@
 {
   "last_flush": "2026-07-22T02:07:57.610018+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Mukand Ltd",
+      "scrip": "500460",
+      "title": "Please find enclosed herewith a copy of Letter to the shareholders providing the weblink, including the exact path, where complete details of the Annual Report 2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0dd073dc-6e5b-4e44-b4e8-949866e44de7.pdf"
+    },
+    {
+      "company": "Seasons Textiles Ltd-$",
+      "scrip": "514264",
+      "title": "Intimation regarding Publication of Notice of AGM after dispatched of 40th Annual Report to Sharholders.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d8c26b56-699d-482d-94cd-708204739a58.pdf"
+    },
+    {
+      "company": "Seasons Textiles Ltd-$",
+      "scrip": "514264",
+      "title": "Intimation regarding Publication of Notice of AGM after dispatched of 40th Annual Report to Sharholders.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5257bbd6-8c47-443e-af31-cf20aa59bd12.pdf"
+    },
+    {
+      "company": "BDH Industries Ltd",
+      "scrip": "524828",
+      "title": "Kindly find enclosed herewith the Annual Report 2025-26 alongwith Notice of 36th Annual General Meeting of the Company for your information and record.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b596c77f-a16f-476c-85cd-a14ca30f6ba6.pdf"
+    }
+  ]
 }
