@@ -1,11 +1,11 @@
 name: Daily Email Report
 
-# Sends the bifurcated Excel report by email every day at 18:00 IST (12:30 UTC).
+# Sends the bifurcated Excel report by email every day at 17:22 IST (11:52 UTC).
 # Requires repo secrets: GMAIL_ADDRESS, GMAIL_APP_PASSWORD, REPORT_EMAIL_TO.
 
 on:
   schedule:
-    - cron: '30 12 * * *'
+    - cron: '52 11 * * *'
   workflow_dispatch:
 
 permissions:
