@@ -28,6 +28,9 @@ from openpyxl.utils import get_column_letter
 
 ROOT = Path(__file__).parent
 IST = timezone(timedelta(hours=5, minutes=30))
+# High-water mark: NEWSIDs that have already gone out in an email. Committed back
+# by the workflow so each email's "new" sheets = announcements added since the last.
+REPORTED_PATH = ROOT / "reported.json"
 
 DETAIL_API = "https://api.bseindia.com/BseIndiaAPI/api/CorpAnnouncementDTNewDataBeta/w"
 PDF_BASE = "https://www.bseindia.com"
@@ -140,12 +143,28 @@ def detail_sheet(wb, title, records):
             cell.alignment = Alignment(vertical="top", wrap_text=True)
 
 
+def load_reported():
+    """Set of already-emailed NEWSIDs, or None on the first-ever run."""
+    if REPORTED_PATH.exists():
+        try:
+            return set(json.loads(REPORTED_PATH.read_text()))
+        except Exception:
+            return set()
+    return None
+
+
+def save_reported(newsids):
+    REPORTED_PATH.write_text(json.dumps(sorted(set(newsids)), indent=2) + "\n")
+
+
 def build_workbook(out_path):
     newsids = json.loads((ROOT / "seen.json").read_text())
     bse500 = json.loads((ROOT / "bse500.json").read_text())["constituents"]
     bse500_set = set(bse500)
     today_str = datetime.now(IST).strftime("%Y-%m-%d")
-    print(f"Resolving {len(newsids)} NEWSIDs...", file=sys.stderr)
+    reported = load_reported()
+    first_run = reported is None
+    print(f"Resolving {len(newsids)} NEWSIDs (first_run={first_run})...", file=sys.stderr)
 
     session = requests.Session()
     session.headers.update(HEADERS)
@@ -156,16 +175,23 @@ def build_workbook(out_path):
             rows.append(f.result())
 
     ok = [r for r in rows if r.get("_status") == "ok"]
-    today_rows = [r for r in ok if r["date"][:10] == today_str]
+    # "New since last email": announcements not yet emailed. On the very first
+    # run (no high-water mark yet) fall back to today's date so the first email
+    # isn't a giant backfill; tracking is exact from the second email onward.
+    if first_run:
+        new_rows = [r for r in ok if r["date"][:10] == today_str]
+    else:
+        new_rows = [r for r in ok if r["NewsID"] not in reported]
+
     bse_rows = [r for r in ok if r["bse500"]]
     non_rows = [r for r in ok if not r["bse500"]]
     bse_c, non_c = aggregate(bse_rows), aggregate(non_rows)
-    today_bse_c = aggregate([r for r in today_rows if r["bse500"]])
-    today_non_c = aggregate([r for r in today_rows if not r["bse500"]])
+    new_bse_c = aggregate([r for r in new_rows if r["bse500"]])
+    new_non_c = aggregate([r for r in new_rows if not r["bse500"]])
 
     wb = Workbook()
-    company_sheet(wb, f"Today BSE 500 ({len(today_bse_c)})", today_bse_c, HEAD_FILL)
-    company_sheet(wb, f"Today non-BSE 500 ({len(today_non_c)})", today_non_c, NON_FILL)
+    company_sheet(wb, f"New BSE 500 ({len(new_bse_c)})", new_bse_c, HEAD_FILL)
+    company_sheet(wb, f"New non-BSE 500 ({len(new_non_c)})", new_non_c, NON_FILL)
     company_sheet(wb, f"BSE 500 companies ({len(bse_c)})", bse_c, HEAD_FILL)
     company_sheet(wb, f"Non-BSE 500 companies ({len(non_c)})", non_c, NON_FILL)
     detail_sheet(wb, "All announcements", ok)
@@ -173,12 +199,16 @@ def build_workbook(out_path):
 
     wb.save(out_path)
     return {
-        "today": len(today_rows),
+        "new": len(new_rows),
+        "new_companies": len(new_bse_c) + len(new_non_c),
         "total": len(ok),
         "companies": len(bse_c) + len(non_c),
         "bse500_companies": len(bse_c),
         "non_companies": len(non_c),
         "date": today_str,
+        # Everything currently seen becomes the new high-water mark once the
+        # email actually sends (persisted by main after send_email succeeds).
+        "all_ids": [r["NewsID"] for r in rows],
     }
 
 
@@ -196,7 +226,9 @@ def send_email(xlsx_path, stats):
     msg["To"] = to
     msg.set_content(
         f"Daily report for {stats['date']} (IST).\n\n"
-        f"Announcements today: {stats['today']}\n"
+        f"New since last email: {stats['new']} announcements "
+        f"across {stats['new_companies']} companies "
+        f"(see the 'New ...' sheets).\n\n"
         f"Total to date: {stats['total']} announcements across "
         f"{stats['companies']} companies "
         f"({stats['bse500_companies']} BSE 500, {stats['non_companies']} non-BSE 500).\n\n"
@@ -212,13 +244,16 @@ def send_email(xlsx_path, stats):
     with smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=60) as smtp:
         smtp.login(sender, password)
         smtp.send_message(msg)
-    print(f"Emailed {to}: today={stats['today']}, total={stats['total']}")
+    print(f"Emailed {to}: new={stats['new']}, total={stats['total']}")
 
 
 def main():
     out = ROOT / "daily_report.xlsx"
     stats = build_workbook(out)
     send_email(out, stats)
+    # Only advance the high-water mark after the email has actually gone out,
+    # so a failed send leaves the same "new" set to retry next run.
+    save_reported(stats["all_ids"])
 
 
 if __name__ == "__main__":
