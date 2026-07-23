@@ -65,7 +65,11 @@ BSE_PAGE_SIZE = 50
 BSE_MAX_PAGES_PER_CATEGORY = 50
 IST = timezone(timedelta(hours=5, minutes=30))
 SEEN_PATH = Path(__file__).parent / "seen.json"
-SEEN_LIMIT = 5000
+# Rolling dedup window. Kept modest because daily_report.py re-fetches every ID
+# here from BSE on each run (~1200/min); a much larger cap would push that job
+# past its time budget. For a truly unbounded archive, see the persistent
+# announcements-database approach rather than raising this further.
+SEEN_LIMIT = 10000
 SKIPPED_PATH = Path(__file__).parent / ".heartbeat" / "skipped_runs.json"
 SKIPPED_LIMIT = 200
 NON_BSE500_PATH = Path(__file__).parent / ".heartbeat" / "non_bse500.json"
