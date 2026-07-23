@@ -291,18 +291,21 @@ def load_bse500():
     session = requests.Session()
     session.headers.update(BSE500_HEADERS)
     live = {}
+    rebalance_date = ""
     try:
         data = _get_with_retry(session, BSE500_URL, {"code": BSE500_CODE})
         for r in (data or {}).get("Table") or []:
             code = str(r.get("SCRIP_CODE") or "").strip()
             if code:
                 live[code] = (r.get("SCRIPNAME") or "").strip()
+            if not rebalance_date:
+                rebalance_date = str(r.get("TransDate") or "")[:10]
     except Exception as e:
         print(f"BSE500 live fetch failed: {e}", file=sys.stderr)
 
     if len(live) >= BSE500_MIN_EXPECTED:
         if set(live) != set(_load_bse500_file()):
-            _save_bse500_file(live)
+            _save_bse500_file(live, rebalance_date)
             print(f"BSE500 list refreshed: {len(live)} constituents", file=sys.stderr)
         return set(live), live
 

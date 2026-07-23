@@ -34,7 +34,7 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests==2.34.2
 
       - name: Run watcher
         id: run
@@ -115,10 +115,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A seen.json bse500.json .heartbeat 2>/dev/null || true
-          if [ -n "$(git status --porcelain)" ]; then
+          if ! git diff --cached --quiet; then
             git commit -m "Heartbeat + seen.json update [skip ci]"
-            git pull --rebase origin main
-            git push
+            for i in 1 2 3 4; do
+              git pull --rebase origin main && git push && break
+              sleep $((2 ** i))
+            done
           fi
 
       - name: Fail job if watcher errored
