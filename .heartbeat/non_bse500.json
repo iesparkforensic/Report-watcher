@@ -1,4 +1,41 @@
 {
   "last_flush": "2026-07-24T21:20:00.614324+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Arvind Fashions Ltd",
+      "scrip": "542484",
+      "title": "Intimation of Notice of Annual General Meeting along with the Integrated Annual Report of the Company for the FY 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/42d13ace-616a-4d43-89b8-2f328fa4dec4.pdf"
+    },
+    {
+      "company": "Polymac Thermoformers Ltd",
+      "scrip": "537573",
+      "title": "Polymac Thermoformers Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 29/07/2026 ,inter alia, to consider and approve This is to inform you ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1f5214bb-9828-4a83-943f-ebbdf2178d18.pdf"
+    },
+    {
+      "company": "Sterlite Technologies Ltd",
+      "scrip": "532374",
+      "title": "Annual Report for FY 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/dd5015f0-cbf9-4237-b96c-b72ded707e24.pdf"
+    },
+    {
+      "company": "Arvind Fashions Ltd",
+      "scrip": "542484",
+      "title": "Submission of the Business Responsibility and Sustainability Reporting (BRSR) for the FY 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3fc3e86e-2d9e-469c-8525-2341e000d536.pdf"
+    },
+    {
+      "company": "Arvind Fashions Ltd",
+      "scrip": "542484",
+      "title": "Intimation of Integrated Annual Report for the FY 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/770ef54e-8c07-4feb-a121-813899ce024e.pdf"
+    },
+    {
+      "company": "Astonea Labs Ltd",
+      "scrip": "544409",
+      "title": "Annual Report of the Company for the Financial year 2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fffd94f8-bdba-467f-9b9c-822fe2d91bf9.pdf"
+    }
+  ]
 }
