@@ -1,4 +1,11 @@
 {
   "last_flush": "2026-07-25T01:19:39.421477+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "India Glycols Ltd",
+      "scrip": "500201",
+      "title": "Please find attached",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6c09072e-3216-4203-b878-90b4b9593d0f.pdf"
+    }
+  ]
 }
