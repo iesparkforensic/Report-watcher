@@ -1,4 +1,41 @@
 {
   "last_flush": "2026-07-25T16:17:14.873392+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Eureka Forbes Ltd",
+      "scrip": "543482",
+      "title": "Please find attached herewith Notice of 17th Annual General Meeting of the Company with the Integrated Annual Report for the Financial Year 2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4e936cd6-80cf-4652-a52e-740e0d03d582.pdf"
+    },
+    {
+      "company": "Ramco Systems Ltd",
+      "scrip": "532370",
+      "title": "Annual Report for the FY 2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a2d3ef7d-259c-471c-a081-f8a3669cc573.pdf"
+    },
+    {
+      "company": "Orkla India Ltd",
+      "scrip": "544595",
+      "title": "Business Responsibility and Sustainability Report for FY 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/17ef0fc8-a2e0-4459-948f-21d5ae41fa1a.pdf"
+    },
+    {
+      "company": "Orkla India Ltd",
+      "scrip": "544595",
+      "title": "Annual Report FY 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/17a3c029-0c34-450f-901d-0de77d92d76e.pdf"
+    },
+    {
+      "company": "Eureka Forbes Ltd",
+      "scrip": "543482",
+      "title": "Please find enclosed herewith Integrated Annual Report for the Financial Year 2025-26 along with Business Responsibility and Sustainability Report",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5bd7b323-ec12-4b19-8318-7a37c321e563.pdf"
+    },
+    {
+      "company": "T Spiritual World Ltd",
+      "scrip": "532444",
+      "title": "Notice convening 40th Annual General Meeting and Annual Report 2025-2026",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/41787de0-b95c-4c9b-b302-1e052f2cdff7.pdf"
+    }
+  ]
 }
