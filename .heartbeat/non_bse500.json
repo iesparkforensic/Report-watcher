@@ -1,4 +1,17 @@
 {
   "last_flush": "2026-07-25T19:35:17.855139+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "UFO Moviez India Ltd",
+      "scrip": "539141",
+      "title": "Please find enclosed letter sent to those Members whose e-mail ids are not registered, providing the web-link and QR code where the Annual Report for the Financial Year 2025-26 and the ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7fa418a4-023f-4942-bd30-1119548a7c61.pdf"
+    },
+    {
+      "company": "UFO Moviez India Ltd",
+      "scrip": "539141",
+      "title": "Pursuant to Regulation 30 of the SEBI LODR, please find enclosed newspaper advertisement regarding electronic dispatch of the Annual Report of the Company for the FY 2025-26 alongwith the ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/212df0c7-834e-4585-8109-77cd6db47f7e.pdf"
+    }
+  ]
 }
