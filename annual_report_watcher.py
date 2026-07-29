@@ -74,6 +74,10 @@ SKIPPED_PATH = Path(__file__).parent / ".heartbeat" / "skipped_runs.json"
 SKIPPED_LIMIT = 200
 NON_BSE500_PATH = Path(__file__).parent / ".heartbeat" / "non_bse500.json"
 NON_BSE500_LIMIT = 1000
+# Company notification history: scrip -> {"first": date, "count": n}. Used to
+# distinguish first-time companies (individual alert) from previously notified
+# ones (combined repeat digest / separate digest section).
+NOTIFIED_PATH = Path(__file__).parent / ".heartbeat" / "notified_companies.json"
 
 # BSE 500 constituents — index code 17 on bseindices.com. Fetched live each run
 # (so it tracks the ~biannual reconstitution) with the committed bse500.json as
@@ -218,6 +222,34 @@ def save_non_bse500(items, last_flush):
     payload = {"last_flush": last_flush, "items": items[-NON_BSE500_LIMIT:]}
     NON_BSE500_PATH.parent.mkdir(parents=True, exist_ok=True)
     NON_BSE500_PATH.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n")
+
+
+def load_notified_companies():
+    if NOTIFIED_PATH.exists():
+        try:
+            data = json.loads(NOTIFIED_PATH.read_text())
+            if isinstance(data, dict):
+                return data
+        except Exception:
+            pass
+    return {}
+
+
+def save_notified_companies(notified):
+    NOTIFIED_PATH.parent.mkdir(parents=True, exist_ok=True)
+    NOTIFIED_PATH.write_text(json.dumps(notified, indent=2, ensure_ascii=False) + "\n")
+
+
+def mark_company_notified(notified, scrip, company, n_filings, when_iso):
+    """Record n_filings for a company in the history dict (in place)."""
+    key = str(scrip or f"name:{company}")
+    entry = notified.get(key)
+    if entry is None:
+        notified[key] = {"first": when_iso, "count": n_filings, "company": str(company)}
+    else:
+        entry["count"] = int(entry.get("count") or 0) + n_filings
+        entry.setdefault("first", when_iso)
+        entry["company"] = str(company)
 
 
 def _group_non_bse500_by_company(rows):
@@ -413,6 +445,8 @@ def main():
 
         bse500_set, _bse500_names = load_bse500()
         non_bse500, last_flush = load_non_bse500()
+        notified = load_notified_companies()
+        today_iso = datetime.now(IST).strftime("%Y-%m-%d")
 
         # Group BSE500 matches by SCRIP_CD so each company gets one Telegram message.
         # Insertion order is preserved (newest-first as returned by BSE).
@@ -456,9 +490,15 @@ def main():
             grp["items"].append(item)
             grp["news_ids"].append(news_id)
 
+        # First-time companies get an individual alert; companies already in the
+        # notification history are combined into one repeat digest message.
+        fresh_groups, repeat_groups = [], []
+        for key, grp in bse500_groups.items():
+            (repeat_groups if key in notified else fresh_groups).append(grp)
+
         new_alerts = 0  # count of announcements actually delivered (not companies)
         send_errors = 0
-        for grp in bse500_groups.values():
+        for grp in fresh_groups:
             try:
                 send_telegram(
                     token, chat_id,
@@ -471,9 +511,45 @@ def main():
             for nid in grp["news_ids"]:
                 seen.append(nid)
                 seen_set.add(nid)
+            mark_company_notified(notified, grp["scrip"], grp["company"],
+                                  len(grp["items"]), today_iso)
             new_alerts += len(grp["items"])
 
+        if repeat_groups:
+            digest_rows = []
+            for grp in repeat_groups:
+                for it in grp["items"]:
+                    attachment = it.get("ATTACHMENTNAME") or ""
+                    digest_rows.append({
+                        "company": grp["company"],
+                        "scrip": grp["scrip"],
+                        "title": str(it.get("HEADLINE") or it.get("NEWSSUB") or it.get("NEWS_SUBJECT") or ""),
+                        "pdf": f"{BSE_PDF_BASE}{attachment}" if attachment else BSE_ANN_PAGE,
+                    })
+            n_filings = len(digest_rows)
+            header = (
+                f"<b>Previously notified BSE 500 — new filings</b> "
+                f"({len(repeat_groups)} compan{'y' if len(repeat_groups) == 1 else 'ies'}, "
+                f"{n_filings} filing{'' if n_filings == 1 else 's'})"
+            )
+            try:
+                send_telegram_chunked(
+                    token, chat_id,
+                    "\n".join([header, ""] + format_non_bse500_bullets(digest_rows)),
+                )
+                for grp in repeat_groups:
+                    for nid in grp["news_ids"]:
+                        seen.append(nid)
+                        seen_set.add(nid)
+                    mark_company_notified(notified, grp["scrip"], grp["company"],
+                                          len(grp["items"]), today_iso)
+                new_alerts += n_filings
+            except Exception as e:
+                print(f"Repeat digest send failed: {e}", file=sys.stderr)
+                send_errors += 1
+
         save_seen(seen)
+        save_notified_companies(notified)
         print(
             f"Sent {len(bse500_groups) - send_errors} grouped messages "
             f"covering {new_alerts} announcements ({send_errors} send errors); "
@@ -504,6 +580,35 @@ def main():
             print(f"No BSE500 alerts; Telegram suppressed. {len(skipped)} quiet run(s) pending.")
             return
 
+        # Split the banked non-BSE500 filings into first-time vs previously
+        # notified companies for the two digest sections.
+        nb_fresh, nb_repeat = [], []
+        for r in non_bse500:
+            key = (r.get("scrip") or "").strip() or f"name:{r.get('company') or '(unknown)'}"
+            (nb_repeat if key in notified else nb_fresh).append(r)
+
+        def non_bse500_sections():
+            out = []
+            if nb_fresh:
+                n_c = len(_group_non_bse500_by_company(nb_fresh))
+                out.append("")
+                out.append(
+                    f"Non-BSE500 filings since last alert — new companies "
+                    f"({n_c} compan{'y' if n_c == 1 else 'ies'}, "
+                    f"{len(nb_fresh)} filing{'' if len(nb_fresh) == 1 else 's'}):"
+                )
+                out.extend(format_non_bse500_bullets(nb_fresh))
+            if nb_repeat:
+                n_c = len(_group_non_bse500_by_company(nb_repeat))
+                out.append("")
+                out.append(
+                    f"Non-BSE500 filings — previously notified companies "
+                    f"({n_c} compan{'y' if n_c == 1 else 'ies'}, "
+                    f"{len(nb_repeat)} filing{'' if len(nb_repeat) == 1 else 's'}):"
+                )
+                out.extend(format_non_bse500_bullets(nb_repeat))
+            return out
+
         if alert:
             lines = [
                 f"<b>Watcher run</b> • {ts_ist}",
@@ -515,35 +620,25 @@ def main():
                 lines.append("")
                 lines.append(f"Earlier runs with no new alerts ({len(skipped)}):")
                 lines.extend(f"• {t}" for t in skipped)
-            if non_bse500:
-                bullets = format_non_bse500_bullets(non_bse500)
-                n_companies = len(_group_non_bse500_by_company(non_bse500))
-                lines.append("")
-                lines.append(
-                    f"Non-BSE500 filings since last alert "
-                    f"({n_companies} compan{'y' if n_companies == 1 else 'ies'}, "
-                    f"{len(non_bse500)} filing{'' if len(non_bse500) == 1 else 's'}):"
-                )
-                lines.extend(bullets)
+            lines.extend(non_bse500_sections())
         else:
             # 3-day periodic flush: non-BSE500 digest only. The quiet-run gap list
             # keeps riding the next real BSE500 alert.
-            bullets = format_non_bse500_bullets(non_bse500)
-            n_companies = len(_group_non_bse500_by_company(non_bse500))
             lines = [
                 f"<b>Non-BSE500 digest</b> • {ts_ist}",
                 "(periodic 3-day flush — no BSE500 alerts in this window)",
-                "",
-                f"Non-BSE500 filings "
-                f"({n_companies} compan{'y' if n_companies == 1 else 'ies'}, "
-                f"{len(non_bse500)} filing{'' if len(non_bse500) == 1 else 's'}):",
             ]
-            lines.extend(bullets)
+            lines.extend(non_bse500_sections())
 
         try:
             send_telegram_chunked(token, chat_id, "\n".join(lines))
             # Clear the non-BSE500 bank + reset the 3-day clock on any successful send.
             save_non_bse500([], now_dt.isoformat())
+            # Digested companies now count as notified for future runs.
+            for g in _group_non_bse500_by_company(non_bse500):
+                mark_company_notified(notified, g["scrip"], g["company"],
+                                      len(g["filings"]), today_iso)
+            save_notified_companies(notified)
             # The quiet-run gap list is cleared only when an actual alert reported it.
             if alert:
                 save_skipped([])

@@ -1,0 +1,5307 @@
+{
+  "500003": {
+    "first": "2026-07-14",
+    "count": 2,
+    "company": "AEGISLOG"
+  },
+  "500008": {
+    "first": "2026-07-17",
+    "count": 2,
+    "company": "ARE&M"
+  },
+  "500009": {
+    "first": "2026-07-07",
+    "count": 2,
+    "company": "AMBALALSA"
+  },
+  "500020": {
+    "first": "2026-07-09",
+    "count": 3,
+    "company": "BOMDYEING"
+  },
+  "500027": {
+    "first": "2026-07-07",
+    "count": 4,
+    "company": "ATUL"
+  },
+  "500028": {
+    "first": "2026-07-14",
+    "count": 1,
+    "company": "ATVPR"
+  },
+  "500031": {
+    "first": "2026-07-10",
+    "count": 2,
+    "company": "BAJAJELEC"
+  },
+  "500034": {
+    "first": "2026-07-07",
+    "count": 2,
+    "company": "BAJFINANCE"
+  },
+  "500040": {
+    "first": "2026-07-01",
+    "count": 2,
+    "company": "ABREL"
+  },
+  "500042": {
+    "first": "2026-07-16",
+    "count": 4,
+    "company": "BASF"
+  },
+  "500043": {
+    "first": "2026-07-17",
+    "count": 3,
+    "company": "BATAINDIA"
+  },
+  "500052": {
+    "first": "2026-06-26",
+    "count": 4,
+    "company": "BEPL"
+  },
+  "500060": {
+    "first": "2026-07-10",
+    "count": 2,
+    "company": "BIRLACABLE"
+  },
+  "500067": {
+    "first": "2026-07-13",
+    "count": 3,
+    "company": "BLUESTARCO"
+  },
+  "500068": {
+    "first": "2026-07-20",
+    "count": 2,
+    "company": "DISAQ"
+  },
+  "500069": {
+    "first": "2026-07-01",
+    "count": 1,
+    "company": "QUESTCAP"
+  },
+  "500078": {
+    "first": "2026-07-24",
+    "count": 2,
+    "company": "OAL"
+  },
+  "500083": {
+    "first": "2026-07-22",
+    "count": 3,
+    "company": "CENTEXT"
+  },
+  "500086": {
+    "first": "2026-06-16",
+    "count": 2,
+    "company": "EXIDEIND"
+  },
+  "500087": {
+    "first": "2026-06-01",
+    "count": 4,
+    "company": "CIPLA"
+  },
+  "500093": {
+    "first": "2026-06-30",
+    "count": 4,
+    "company": "CGPOWER"
+  },
+  "500096": {
+    "first": "2026-07-06",
+    "count": 4,
+    "company": "DABUR"
+  },
+  "500097": {
+    "first": "2026-06-17",
+    "count": 1,
+    "company": "DALMIASUG"
+  },
+  "500103": {
+    "first": "2026-07-10",
+    "count": 3,
+    "company": "BHEL"
+  },
+  "500109": {
+    "first": "2026-07-23",
+    "count": 2,
+    "company": "MRPL"
+  },
+  "500112": {
+    "first": "2026-05-27",
+    "count": 3,
+    "company": "SBIN"
+  },
+  "500114": {
+    "first": "2026-07-03",
+    "count": 3,
+    "company": "TITAN"
+  },
+  "500116": {
+    "first": "2026-06-25",
+    "count": 2,
+    "company": "IDBI"
+  },
+  "500124": {
+    "first": "2026-05-30",
+    "count": 4,
+    "company": "DRREDDY"
+  },
+  "500125": {
+    "first": "2026-07-17",
+    "count": 2,
+    "company": "EIDPARRY"
+  },
+  "500133": {
+    "first": "2026-07-03",
+    "count": 4,
+    "company": "ESABINDIA"
+  },
+  "500142": {
+    "first": "2026-07-02",
+    "count": 3,
+    "company": "FGP"
+  },
+  "500147": {
+    "first": "2026-05-26",
+    "count": 5,
+    "company": "COCKERILL"
+  },
+  "500148": {
+    "first": "2026-07-04",
+    "count": 3,
+    "company": "UFLEX"
+  },
+  "500150": {
+    "first": "2026-05-25",
+    "count": 1,
+    "company": "FOSECOIND"
+  },
+  "500164": {
+    "first": "2026-07-20",
+    "count": 3,
+    "company": "GODREJIND"
+  },
+  "500165": {
+    "first": "2026-06-11",
+    "count": 2,
+    "company": "KANSAINER"
+  },
+  "500166": {
+    "first": "2026-07-01",
+    "count": 2,
+    "company": "GOODRICKE"
+  },
+  "500168": {
+    "first": "2026-07-17",
+    "count": 3,
+    "company": "GOODYEAR"
+  },
+  "500171": {
+    "first": "2026-06-01",
+    "count": 3,
+    "company": "GHCL"
+  },
+  "500174": {
+    "first": "2026-06-09",
+    "count": 2,
+    "company": "GLFL"
+  },
+  "500180": {
+    "first": "2026-07-10",
+    "count": 3,
+    "company": "HDFCBANK"
+  },
+  "500182": {
+    "first": "2026-07-10",
+    "count": 4,
+    "company": "HEROMOTOCO"
+  },
+  "500184": {
+    "first": "2026-05-21",
+    "count": 1,
+    "company": "HSCL"
+  },
+  "500185": {
+    "first": "2026-07-24",
+    "count": 4,
+    "company": "HCC"
+  },
+  "500188": {
+    "first": "2026-06-05",
+    "count": 2,
+    "company": "HINDZINC"
+  },
+  "500199": {
+    "first": "2026-07-10",
+    "count": 3,
+    "company": "IGPL"
+  },
+  "500201": {
+    "first": "2026-07-24",
+    "count": 4,
+    "company": "INDIAGLYCO"
+  },
+  "500206": {
+    "first": "2026-07-15",
+    "count": 1,
+    "company": "MARGOFIN"
+  },
+  "500209": {
+    "first": "2026-05-29",
+    "count": 5,
+    "company": "INFY"
+  },
+  "500210": {
+    "first": "2026-07-20",
+    "count": 1,
+    "company": "INGERRAND"
+  },
+  "500219": {
+    "first": "2026-07-17",
+    "count": 1,
+    "company": "JISLJALEQS"
+  },
+  "500220": {
+    "first": "2026-07-21",
+    "count": 1,
+    "company": "JASCH"
+  },
+  "500228": {
+    "first": "2026-07-02",
+    "count": 2,
+    "company": "JSWSTEEL"
+  },
+  "500234": {
+    "first": "2026-07-07",
+    "count": 1,
+    "company": "KAKATCEM"
+  },
+  "500235": {
+    "first": "2026-07-29",
+    "count": 3,
+    "company": "KSL"
+  },
+  "500241": {
+    "first": "2026-07-07",
+    "count": 2,
+    "company": "KIRLOSBROS"
+  },
+  "500243": {
+    "first": "2026-06-26",
+    "count": 7,
+    "company": "KIRLOSIND"
+  },
+  "500245": {
+    "first": "2026-07-13",
+    "count": 3,
+    "company": "KIRLFER"
+  },
+  "500247": {
+    "first": "2026-07-10",
+    "count": 4,
+    "company": "KOTAKBANK"
+  },
+  "500251": {
+    "first": "2026-05-30",
+    "count": 3,
+    "company": "TRENT"
+  },
+  "500252": {
+    "first": "2026-06-29",
+    "count": 3,
+    "company": "LMW"
+  },
+  "500257": {
+    "first": "2026-07-13",
+    "count": 3,
+    "company": "LUPIN"
+  },
+  "500259": {
+    "first": "2026-07-17",
+    "count": 1,
+    "company": "LYKALABS"
+  },
+  "500260": {
+    "first": "2026-07-21",
+    "count": 4,
+    "company": "RAMCOCEM"
+  },
+  "500264": {
+    "first": "2026-07-07",
+    "count": 2,
+    "company": "MAFATIND"
+  },
+  "500266": {
+    "first": "2026-07-04",
+    "count": 3,
+    "company": "MAHSCOOTER"
+  },
+  "500267": {
+    "first": "2026-07-02",
+    "count": 2,
+    "company": "MAJESAUT"
+  },
+  "500271": {
+    "first": "2026-07-27",
+    "count": 2,
+    "company": "MFSL"
+  },
+  "500280": {
+    "first": "2026-07-27",
+    "count": 3,
+    "company": "CENTENKA"
+  },
+  "500290": {
+    "first": "2026-07-14",
+    "count": 3,
+    "company": "MRF"
+  },
+  "500294": {
+    "first": "2026-07-27",
+    "count": 2,
+    "company": "NCC"
+  },
+  "500295": {
+    "first": "2026-06-19",
+    "count": 3,
+    "company": "VEDL"
+  },
+  "500300": {
+    "first": "2026-07-16",
+    "count": 2,
+    "company": "GRASIM"
+  },
+  "500313": {
+    "first": "2026-07-17",
+    "count": 1,
+    "company": "OILCOUNTUB"
+  },
+  "500314": {
+    "first": "2026-07-07",
+    "count": 2,
+    "company": "ORIENTHOT"
+  },
+  "500325": {
+    "first": "2026-05-28",
+    "count": 2,
+    "company": "RELIANCE"
+  },
+  "500327": {
+    "first": "2026-05-26",
+    "count": 1,
+    "company": "PILITA"
+  },
+  "500330": {
+    "first": "2026-06-23",
+    "count": 3,
+    "company": "RAYMOND"
+  },
+  "500331": {
+    "first": "2026-07-06",
+    "count": 4,
+    "company": "PIDILITIND"
+  },
+  "500333": {
+    "first": "2026-06-30",
+    "count": 2,
+    "company": "PIXTRANS"
+  },
+  "500335": {
+    "first": "2026-07-09",
+    "count": 2,
+    "company": "BIRLACORPN"
+  },
+  "500338": {
+    "first": "2026-07-16",
+    "count": 3,
+    "company": "PRSMJOHNSN"
+  },
+  "500339": {
+    "first": "2026-06-11",
+    "count": 1,
+    "company": "RAIN"
+  },
+  "500354": {
+    "first": "2026-06-25",
+    "count": 3,
+    "company": "RAJSREESUG"
+  },
+  "500355": {
+    "first": "2026-05-28",
+    "count": 3,
+    "company": "RALLIS"
+  },
+  "500358": {
+    "first": "2026-07-14",
+    "count": 1,
+    "company": "RAMAPETRO"
+  },
+  "500365": {
+    "first": "2026-06-22",
+    "count": 2,
+    "company": "WELSPLSOL"
+  },
+  "500380": {
+    "first": "2026-07-06",
+    "count": 3,
+    "company": "JKLAKSHMI"
+  },
+  "500387": {
+    "first": "2026-07-07",
+    "count": 3,
+    "company": "SHREECEM"
+  },
+  "500390": {
+    "first": "2026-07-23",
+    "count": 4,
+    "company": "RELINFRA"
+  },
+  "500400": {
+    "first": "2026-06-10",
+    "count": 2,
+    "company": "TATAPOWER"
+  },
+  "500403": {
+    "first": "2026-06-02",
+    "count": 2,
+    "company": "SUNDRMFAST"
+  },
+  "500405": {
+    "first": "2026-06-17",
+    "count": 2,
+    "company": "SPLPETRO"
+  },
+  "500407": {
+    "first": "2026-06-19",
+    "count": 2,
+    "company": "SWARAJENG"
+  },
+  "500408": {
+    "first": "2026-06-01",
+    "count": 3,
+    "company": "TATAELXSI"
+  },
+  "500410": {
+    "first": "2026-05-30",
+    "count": 3,
+    "company": "ACC"
+  },
+  "500411": {
+    "first": "2026-07-03",
+    "count": 2,
+    "company": "THERMAX"
+  },
+  "500412": {
+    "first": "2026-07-11",
+    "count": 2,
+    "company": "TIRUMALCHM"
+  },
+  "500414": {
+    "first": "2026-07-20",
+    "count": 3,
+    "company": "TIMEX"
+  },
+  "500420": {
+    "first": "2026-06-01",
+    "count": 4,
+    "company": "TORNTPHARM"
+  },
+  "500425": {
+    "first": "2026-05-30",
+    "count": 3,
+    "company": "AMBUJACEM"
+  },
+  "500429": {
+    "first": "2026-07-16",
+    "count": 2,
+    "company": "UNIENTER"
+  },
+  "500440": {
+    "first": "2026-06-30",
+    "count": 3,
+    "company": "HINDALCO"
+  },
+  "500444": {
+    "first": "2026-07-21",
+    "count": 3,
+    "company": "WSTCSTPAPR"
+  },
+  "500450": {
+    "first": "2026-06-23",
+    "count": 1,
+    "company": "MPILCORPL"
+  },
+  "500460": {
+    "first": "2026-07-20",
+    "count": 2,
+    "company": "MUKANDLTD"
+  },
+  "500470": {
+    "first": "2026-06-03",
+    "count": 2,
+    "company": "TATASTEEL"
+  },
+  "500472": {
+    "first": "2026-07-16",
+    "count": 2,
+    "company": "SKFINDIA"
+  },
+  "500477": {
+    "first": "2026-07-20",
+    "count": 3,
+    "company": "ASHOKLEY"
+  },
+  "500480": {
+    "first": "2026-07-09",
+    "count": 5,
+    "company": "CUMMINSIND"
+  },
+  "500483": {
+    "first": "2026-06-16",
+    "count": 2,
+    "company": "TATACOMM"
+  },
+  "500488": {
+    "first": "2026-07-20",
+    "count": 3,
+    "company": "ABBOTINDIA"
+  },
+  "500490": {
+    "first": "2026-07-07",
+    "count": 2,
+    "company": "BAJAJHLDNG"
+  },
+  "500493": {
+    "first": "2026-07-17",
+    "count": 3,
+    "company": "BHARATFORG"
+  },
+  "500495": {
+    "first": "2026-06-19",
+    "count": 4,
+    "company": "ESCORTS"
+  },
+  "500520": {
+    "first": "2026-07-04",
+    "count": 4,
+    "company": "M&M"
+  },
+  "500530": {
+    "first": "2026-07-10",
+    "count": 2,
+    "company": "BOSCHLTD"
+  },
+  "500550": {
+    "first": "2026-07-13",
+    "count": 5,
+    "company": "SIEMENS"
+  },
+  "500570": {
+    "first": "2026-06-15",
+    "count": 3,
+    "company": "TMPV"
+  },
+  "500575": {
+    "first": "2026-06-06",
+    "count": 3,
+    "company": "VOLTAS"
+  },
+  "500620": {
+    "first": "2026-07-09",
+    "count": 3,
+    "company": "GESHIP"
+  },
+  "500660": {
+    "first": "2026-06-05",
+    "count": 3,
+    "company": "GLAXO"
+  },
+  "500680": {
+    "first": "2026-07-06",
+    "count": 2,
+    "company": "PFIZER"
+  },
+  "500696": {
+    "first": "2026-06-02",
+    "count": 3,
+    "company": "HINDUNILVR"
+  },
+  "500710": {
+    "first": "2026-06-16",
+    "count": 4,
+    "company": "JSWDULUX"
+  },
+  "500720": {
+    "first": "2026-05-29",
+    "count": 1,
+    "company": "FUTURAPOLY"
+  },
+  "500730": {
+    "first": "2026-07-06",
+    "count": 2,
+    "company": "NOCIL"
+  },
+  "500770": {
+    "first": "2026-06-04",
+    "count": 3,
+    "company": "TATACHEM"
+  },
+  "500790": {
+    "first": "2026-05-27",
+    "count": 3,
+    "company": "NESTLEIND"
+  },
+  "500820": {
+    "first": "2026-06-12",
+    "count": 4,
+    "company": "ASIANPAINT"
+  },
+  "500825": {
+    "first": "2026-07-16",
+    "count": 3,
+    "company": "BRITANNIA"
+  },
+  "500830": {
+    "first": "2026-07-04",
+    "count": 2,
+    "company": "COLPAL"
+  },
+  "500840": {
+    "first": "2026-07-14",
+    "count": 3,
+    "company": "EIHOTEL"
+  },
+  "500850": {
+    "first": "2026-06-04",
+    "count": 2,
+    "company": "INDHOTEL"
+  },
+  "500875": {
+    "first": "2026-06-26",
+    "count": 2,
+    "company": "ITC"
+  },
+  "500877": {
+    "first": "2026-07-06",
+    "count": 4,
+    "company": "APOLLOTYRE"
+  },
+  "500878": {
+    "first": "2026-07-23",
+    "count": 4,
+    "company": "CEATLTD"
+  },
+  "501110": {
+    "first": "2026-07-03",
+    "count": 1,
+    "company": "SUNRINV"
+  },
+  "501150": {
+    "first": "2026-07-17",
+    "count": 3,
+    "company": "CENTRUM"
+  },
+  "501298": {
+    "first": "2026-07-21",
+    "count": 4,
+    "company": "INDPRUD"
+  },
+  "501301": {
+    "first": "2026-06-04",
+    "count": 3,
+    "company": "TATAINVEST"
+  },
+  "501370": {
+    "first": "2026-07-03",
+    "count": 1,
+    "company": "WALCHPF"
+  },
+  "501386": {
+    "first": "2026-07-23",
+    "count": 2,
+    "company": "EENTER"
+  },
+  "501425": {
+    "first": "2026-07-17",
+    "count": 3,
+    "company": "BBTC"
+  },
+  "501430": {
+    "first": "2026-07-10",
+    "count": 2,
+    "company": "BOMBCYC"
+  },
+  "501455": {
+    "first": "2026-07-09",
+    "count": 2,
+    "company": "GREAVESCOT"
+  },
+  "501833": {
+    "first": "2026-07-10",
+    "count": 3,
+    "company": "CHOWGULSTM"
+  },
+  "502090": {
+    "first": "2026-05-30",
+    "count": 2,
+    "company": "SAGCEM"
+  },
+  "502281": {
+    "first": "2026-07-23",
+    "count": 2,
+    "company": "TRIVENIGQ"
+  },
+  "502330": {
+    "first": "2026-07-13",
+    "count": 4,
+    "company": "ANDHRAPAP"
+  },
+  "502355": {
+    "first": "2026-07-06",
+    "count": 3,
+    "company": "BALKRISIND"
+  },
+  "502420": {
+    "first": "2026-07-07",
+    "count": 4,
+    "company": "ORIENTPPR"
+  },
+  "502450": {
+    "first": "2026-05-26",
+    "count": 3,
+    "company": "SESHAPAPER"
+  },
+  "502589": {
+    "first": "2026-07-22",
+    "count": 1,
+    "company": "VAPIENTER"
+  },
+  "502865": {
+    "first": "2026-07-03",
+    "count": 1,
+    "company": "FORBESCO"
+  },
+  "502937": {
+    "first": "2026-07-21",
+    "count": 2,
+    "company": "KESORAMIND"
+  },
+  "503229": {
+    "first": "2026-07-09",
+    "count": 2,
+    "company": "SIMPLXREA"
+  },
+  "503626": {
+    "first": "2026-06-12",
+    "count": 2,
+    "company": "MANGLAM"
+  },
+  "503639": {
+    "first": "2026-06-01",
+    "count": 2,
+    "company": "APOLLOIN"
+  },
+  "503681": {
+    "first": "2026-07-06",
+    "count": 4,
+    "company": "ELCIDIN"
+  },
+  "503722": {
+    "first": "2026-07-06",
+    "count": 1,
+    "company": "BANSWRAS"
+  },
+  "503804": {
+    "first": "2026-07-15",
+    "count": 1,
+    "company": "SHRIDINE"
+  },
+  "503806": {
+    "first": "2026-06-06",
+    "count": 2,
+    "company": "SRF"
+  },
+  "503811": {
+    "first": "2026-07-08",
+    "count": 3,
+    "company": "SIYSIL"
+  },
+  "503816": {
+    "first": "2026-06-01",
+    "count": 3,
+    "company": "SWADPOL"
+  },
+  "503823": {
+    "first": "2026-05-25",
+    "count": 3,
+    "company": "BIRLATR"
+  },
+  "503960": {
+    "first": "2026-06-26",
+    "count": 3,
+    "company": "BBL"
+  },
+  "504036": {
+    "first": "2026-07-14",
+    "count": 1,
+    "company": "HIRECT"
+  },
+  "504067": {
+    "first": "2026-07-08",
+    "count": 4,
+    "company": "ZENSARTECH"
+  },
+  "504080": {
+    "first": "2026-06-08",
+    "count": 2,
+    "company": "JSLINDL"
+  },
+  "504112": {
+    "first": "2026-06-01",
+    "count": 2,
+    "company": "NELCO"
+  },
+  "504132": {
+    "first": "2026-07-13",
+    "count": 1,
+    "company": "PERMAGN"
+  },
+  "504176": {
+    "first": "2026-06-04",
+    "count": 3,
+    "company": "HIGHENE"
+  },
+  "504212": {
+    "first": "2026-07-10",
+    "count": 3,
+    "company": "UNIVCABLES"
+  },
+  "504258": {
+    "first": "2026-07-01",
+    "count": 2,
+    "company": "LAKSELEC"
+  },
+  "504273": {
+    "first": "2026-06-29",
+    "count": 2,
+    "company": "MODULEX"
+  },
+  "504378": {
+    "first": "2026-07-14",
+    "count": 2,
+    "company": "NYSSACORP"
+  },
+  "504646": {
+    "first": "2026-07-23",
+    "count": 1,
+    "company": "BGWTATO"
+  },
+  "504648": {
+    "first": "2026-07-22",
+    "count": 3,
+    "company": "BOMBWIR"
+  },
+  "504741": {
+    "first": "2026-07-08",
+    "count": 2,
+    "company": "INDIANHUME"
+  },
+  "504786": {
+    "first": "2026-07-10",
+    "count": 1,
+    "company": "INVPRECQ"
+  },
+  "504840": {
+    "first": "2026-07-14",
+    "count": 2,
+    "company": "KAIRA"
+  },
+  "504908": {
+    "first": "2026-06-30",
+    "count": 1,
+    "company": "DUNCANENG"
+  },
+  "504918": {
+    "first": "2026-07-27",
+    "count": 1,
+    "company": "SANDUMA"
+  },
+  "504973": {
+    "first": "2026-07-22",
+    "count": 2,
+    "company": "CHOLAHLDNG"
+  },
+  "505010": {
+    "first": "2026-07-18",
+    "count": 3,
+    "company": "AUTOAXLES"
+  },
+  "505029": {
+    "first": "2026-07-17",
+    "count": 1,
+    "company": "ATLASCYCLE"
+  },
+  "505036": {
+    "first": "2026-06-29",
+    "count": 1,
+    "company": "ACGL"
+  },
+  "505163": {
+    "first": "2026-07-02",
+    "count": 1,
+    "company": "ZFSTEERING"
+  },
+  "505192": {
+    "first": "2026-06-27",
+    "count": 3,
+    "company": "SMLMAH"
+  },
+  "505196": {
+    "first": "2026-07-03",
+    "count": 1,
+    "company": "TIL"
+  },
+  "505200": {
+    "first": "2026-07-25",
+    "count": 3,
+    "company": "EICHERMOT"
+  },
+  "505255": {
+    "first": "2026-07-10",
+    "count": 3,
+    "company": "GMMPFAUDLR"
+  },
+  "505283": {
+    "first": "2026-06-29",
+    "count": 5,
+    "company": "KIRLPNU"
+  },
+  "505299": {
+    "first": "2026-07-14",
+    "count": 1,
+    "company": "KPT"
+  },
+  "505302": {
+    "first": "2026-07-17",
+    "count": 3,
+    "company": "LAKSHMIEW"
+  },
+  "505324": {
+    "first": "2026-07-29",
+    "count": 2,
+    "company": "MANUGRAPH"
+  },
+  "505355": {
+    "first": "2026-07-03",
+    "count": 2,
+    "company": "NESCO"
+  },
+  "505358": {
+    "first": "2026-06-19",
+    "count": 2,
+    "company": "INTEGRAEN"
+  },
+  "505412": {
+    "first": "2026-07-02",
+    "count": 2,
+    "company": "WENDT"
+  },
+  "505681": {
+    "first": "2026-06-27",
+    "count": 4,
+    "company": "BIMETAL"
+  },
+  "505685": {
+    "first": "2026-07-05",
+    "count": 2,
+    "company": "TAPARIA"
+  },
+  "505688": {
+    "first": "2026-07-17",
+    "count": 2,
+    "company": "BHARATGEAR"
+  },
+  "505700": {
+    "first": "2026-06-02",
+    "count": 2,
+    "company": "ELECON"
+  },
+  "505714": {
+    "first": "2026-07-28",
+    "count": 2,
+    "company": "GABRIEL"
+  },
+  "505720": {
+    "first": "2026-07-14",
+    "count": 2,
+    "company": "HERCULES"
+  },
+  "505726": {
+    "first": "2026-07-07",
+    "count": 4,
+    "company": "IFBIND"
+  },
+  "505729": {
+    "first": "2026-07-15",
+    "count": 1,
+    "company": "SINGERIND"
+  },
+  "505737": {
+    "first": "2026-07-24",
+    "count": 3,
+    "company": "INTLCOMBQ"
+  },
+  "505800": {
+    "first": "2026-07-18",
+    "count": 2,
+    "company": "RANEHOLDIN"
+  },
+  "505827": {
+    "first": "2026-07-17",
+    "count": 1,
+    "company": "SNL"
+  },
+  "505854": {
+    "first": "2026-07-15",
+    "count": 1,
+    "company": "TRF"
+  },
+  "505872": {
+    "first": "2026-07-14",
+    "count": 2,
+    "company": "WPIL"
+  },
+  "506076": {
+    "first": "2026-06-30",
+    "count": 3,
+    "company": "GRINDWELL"
+  },
+  "506105": {
+    "first": "2026-06-18",
+    "count": 1,
+    "company": "STANROS"
+  },
+  "506120": {
+    "first": "2026-07-20",
+    "count": 2,
+    "company": "ALNATRD"
+  },
+  "506197": {
+    "first": "2026-06-23",
+    "count": 2,
+    "company": "BLISSGVS"
+  },
+  "506235": {
+    "first": "2026-07-10",
+    "count": 4,
+    "company": "ALEMBICLTD"
+  },
+  "506260": {
+    "first": "2026-07-18",
+    "count": 1,
+    "company": "ANUHPHR"
+  },
+  "506261": {
+    "first": "2026-06-29",
+    "count": 3,
+    "company": "MODISONLTD"
+  },
+  "506285": {
+    "first": "2026-07-21",
+    "count": 3,
+    "company": "BAYERCROP"
+  },
+  "506390": {
+    "first": "2026-07-27",
+    "count": 2,
+    "company": "SUDARCOLOR"
+  },
+  "506395": {
+    "first": "2026-07-01",
+    "count": 3,
+    "company": "COROMANDEL"
+  },
+  "506401": {
+    "first": "2026-07-14",
+    "count": 1,
+    "company": "DEEPAKNTR"
+  },
+  "506414": {
+    "first": "2026-07-16",
+    "count": 4,
+    "company": "FERMENTA"
+  },
+  "506528": {
+    "first": "2026-07-13",
+    "count": 1,
+    "company": "KELENRG"
+  },
+  "506532": {
+    "first": "2026-07-03",
+    "count": 3,
+    "company": "NITTAGELA"
+  },
+  "506579": {
+    "first": "2026-06-30",
+    "count": 2,
+    "company": "AGVENTURES"
+  },
+  "506597": {
+    "first": "2026-07-22",
+    "count": 1,
+    "company": "AMAL"
+  },
+  "506618": {
+    "first": "2026-07-09",
+    "count": 3,
+    "company": "PUNJABCHEM"
+  },
+  "506655": {
+    "first": "2026-07-27",
+    "count": 2,
+    "company": "SUDARSCHEM"
+  },
+  "506685": {
+    "first": "2026-06-27",
+    "count": 3,
+    "company": "ULTRAMAR"
+  },
+  "506690": {
+    "first": "2026-07-03",
+    "count": 3,
+    "company": "UNICHEMLAB"
+  },
+  "506734": {
+    "first": "2026-07-17",
+    "count": 4,
+    "company": "MYSORPETRO"
+  },
+  "506767": {
+    "first": "2026-06-09",
+    "count": 4,
+    "company": "ALKYLAMINE"
+  },
+  "506820": {
+    "first": "2026-07-18",
+    "count": 3,
+    "company": "ASTRAZEN"
+  },
+  "506919": {
+    "first": "2026-07-10",
+    "count": 2,
+    "company": "MAKERSL"
+  },
+  "506943": {
+    "first": "2026-05-25",
+    "count": 3,
+    "company": "JBCHEPHARM"
+  },
+  "507180": {
+    "first": "2026-07-28",
+    "count": 4,
+    "company": "KESARENT"
+  },
+  "507265": {
+    "first": "2026-07-01",
+    "count": 1,
+    "company": "EMERALL"
+  },
+  "507410": {
+    "first": "2026-07-15",
+    "count": 2,
+    "company": "WALCHANNAG"
+  },
+  "507438": {
+    "first": "2026-07-07",
+    "count": 4,
+    "company": "IFBAGRO"
+  },
+  "507543": {
+    "first": "2026-07-14",
+    "count": 1,
+    "company": "CORAGRO"
+  },
+  "507580": {
+    "first": "2026-07-13",
+    "count": 2,
+    "company": "IVP"
+  },
+  "507685": {
+    "first": "2026-06-03",
+    "count": 3,
+    "company": "WIPRO"
+  },
+  "507717": {
+    "first": "2026-07-03",
+    "count": 3,
+    "company": "DHANUKA"
+  },
+  "507747": {
+    "first": "2026-06-27",
+    "count": 4,
+    "company": "TTKHLTCARE"
+  },
+  "507779": {
+    "first": "2026-07-14",
+    "count": 3,
+    "company": "KANPRPLA"
+  },
+  "507794": {
+    "first": "2026-06-20",
+    "count": 4,
+    "company": "KHAICHEM"
+  },
+  "507817": {
+    "first": "2026-07-03",
+    "count": 2,
+    "company": "WIREFABR"
+  },
+  "507836": {
+    "first": "2026-07-14",
+    "count": 2,
+    "company": "MCCHRLS-B"
+  },
+  "507948": {
+    "first": "2026-06-08",
+    "count": 1,
+    "company": "KEYCORP"
+  },
+  "507952": {
+    "first": "2026-07-07",
+    "count": 3,
+    "company": "SHIKHARLETR"
+  },
+  "507968": {
+    "first": "2026-07-07",
+    "count": 3,
+    "company": "JOLYPLS"
+  },
+  "508136": {
+    "first": "2026-07-06",
+    "count": 2,
+    "company": "BNALTD"
+  },
+  "508486": {
+    "first": "2026-07-04",
+    "count": 2,
+    "company": "HAWKINCOOK"
+  },
+  "508670": {
+    "first": "2026-07-27",
+    "count": 1,
+    "company": "NEAGI"
+  },
+  "508814": {
+    "first": "2026-07-10",
+    "count": 4,
+    "company": "COSMOFIRST"
+  },
+  "508905": {
+    "first": "2026-07-15",
+    "count": 2,
+    "company": "NEXOME"
+  },
+  "508906": {
+    "first": "2026-07-11",
+    "count": 3,
+    "company": "EVERESTIND"
+  },
+  "508941": {
+    "first": "2026-06-05",
+    "count": 2,
+    "company": "PANCARBON"
+  },
+  "508956": {
+    "first": "2026-07-29",
+    "count": 2,
+    "company": "HBLEAS"
+  },
+  "508961": {
+    "first": "2026-07-09",
+    "count": 2,
+    "company": "SHRICON"
+  },
+  "509055": {
+    "first": "2026-07-08",
+    "count": 3,
+    "company": "VISAKAIND"
+  },
+  "509073": {
+    "first": "2026-07-24",
+    "count": 1,
+    "company": "HATHWAYB"
+  },
+  "509152": {
+    "first": "2026-06-30",
+    "count": 3,
+    "company": "GRPLTD"
+  },
+  "509162": {
+    "first": "2026-07-20",
+    "count": 3,
+    "company": "INDAG"
+  },
+  "509220": {
+    "first": "2026-07-03",
+    "count": 2,
+    "company": "PTL"
+  },
+  "509438": {
+    "first": "2026-06-30",
+    "count": 2,
+    "company": "BENARAS"
+  },
+  "509470": {
+    "first": "2026-07-28",
+    "count": 2,
+    "company": "BOMOXY-B1"
+  },
+  "509472": {
+    "first": "2026-07-01",
+    "count": 3,
+    "company": "CRAVATEX"
+  },
+  "509480": {
+    "first": "2026-07-21",
+    "count": 4,
+    "company": "BERGEPAINT"
+  },
+  "509488": {
+    "first": "2026-07-08",
+    "count": 2,
+    "company": "GRAPHITE"
+  },
+  "509496": {
+    "first": "2026-05-29",
+    "count": 3,
+    "company": "CEMPRO"
+  },
+  "509631": {
+    "first": "2026-06-25",
+    "count": 3,
+    "company": "HEG"
+  },
+  "509675": {
+    "first": "2026-07-10",
+    "count": 3,
+    "company": "BIRLANU"
+  },
+  "509715": {
+    "first": "2026-07-22",
+    "count": 1,
+    "company": "JAYSREETEA"
+  },
+  "509782": {
+    "first": "2026-05-27",
+    "count": 2,
+    "company": "OSEASPR"
+  },
+  "509917": {
+    "first": "2026-05-27",
+    "count": 2,
+    "company": "TECHCON"
+  },
+  "509930": {
+    "first": "2026-06-01",
+    "count": 3,
+    "company": "SUPREMEIND"
+  },
+  "509945": {
+    "first": "2026-07-29",
+    "count": 1,
+    "company": "THACKER"
+  },
+  "509966": {
+    "first": "2026-07-06",
+    "count": 3,
+    "company": "VSTIND"
+  },
+  "511176": {
+    "first": "2026-07-27",
+    "count": 1,
+    "company": "PARSHWANA"
+  },
+  "511196": {
+    "first": "2026-07-06",
+    "count": 5,
+    "company": "CANFINHOME"
+  },
+  "511218": {
+    "first": "2026-06-17",
+    "count": 4,
+    "company": "SHRIRAMFIN"
+  },
+  "511243": {
+    "first": "2026-07-06",
+    "count": 3,
+    "company": "CHOLAFIN"
+  },
+  "511254": {
+    "first": "2026-07-15",
+    "count": 1,
+    "company": "SAGARSYST"
+  },
+  "511413": {
+    "first": "2026-07-29",
+    "count": 2,
+    "company": "CREST"
+  },
+  "511535": {
+    "first": "2026-07-23",
+    "count": 1,
+    "company": "NDASEC"
+  },
+  "511549": {
+    "first": "2026-06-08",
+    "count": 1,
+    "company": "MORARKFI"
+  },
+  "511601": {
+    "first": "2026-06-03",
+    "count": 1,
+    "company": "YASHMGM"
+  },
+  "511626": {
+    "first": "2026-05-30",
+    "count": 1,
+    "company": "RRFIN"
+  },
+  "511630": {
+    "first": "2026-07-21",
+    "count": 1,
+    "company": "SAMBHAAV"
+  },
+  "511658": {
+    "first": "2026-07-10",
+    "count": 1,
+    "company": "NETTLINX"
+  },
+  "511676": {
+    "first": "2026-06-30",
+    "count": 2,
+    "company": "GICHSGFIN"
+  },
+  "511692": {
+    "first": "2026-06-24",
+    "count": 3,
+    "company": "AJCON"
+  },
+  "511712": {
+    "first": "2026-07-21",
+    "count": 1,
+    "company": "RELICTEC"
+  },
+  "512070": {
+    "first": "2026-07-15",
+    "count": 2,
+    "company": "UPL"
+  },
+  "512103": {
+    "first": "2026-06-25",
+    "count": 2,
+    "company": "NIDHGRN"
+  },
+  "512213": {
+    "first": "2026-06-03",
+    "count": 3,
+    "company": "CLASELE"
+  },
+  "512307": {
+    "first": "2026-07-29",
+    "count": 1,
+    "company": "TYPHOON"
+  },
+  "512344": {
+    "first": "2026-06-06",
+    "count": 1,
+    "company": "ARAVALIS"
+  },
+  "512359": {
+    "first": "2026-07-10",
+    "count": 1,
+    "company": "SWORDEDGE"
+  },
+  "512425": {
+    "first": "2026-07-03",
+    "count": 1,
+    "company": "NIRAVCOM"
+  },
+  "512445": {
+    "first": "2026-07-22",
+    "count": 1,
+    "company": "DEVITRD"
+  },
+  "512455": {
+    "first": "2026-05-25",
+    "count": 2,
+    "company": "LLOYDSME"
+  },
+  "512463": {
+    "first": "2026-06-15",
+    "count": 2,
+    "company": "LLOYDSENT"
+  },
+  "512517": {
+    "first": "2026-07-18",
+    "count": 1,
+    "company": "VINVANI"
+  },
+  "512527": {
+    "first": "2026-06-24",
+    "count": 2,
+    "company": "SUPER"
+  },
+  "512529": {
+    "first": "2026-07-17",
+    "count": 3,
+    "company": "VIYASH"
+  },
+  "512573": {
+    "first": "2026-07-22",
+    "count": 3,
+    "company": "AVANTIFEED"
+  },
+  "512599": {
+    "first": "2026-05-29",
+    "count": 4,
+    "company": "ADANIENT"
+  },
+  "513023": {
+    "first": "2026-07-20",
+    "count": 2,
+    "company": "NAVA"
+  },
+  "513108": {
+    "first": "2026-07-17",
+    "count": 3,
+    "company": "GANDHITUBE"
+  },
+  "513250": {
+    "first": "2026-07-22",
+    "count": 3,
+    "company": "JYOTISTRUC"
+  },
+  "513343": {
+    "first": "2026-06-05",
+    "count": 3,
+    "company": "GFSTEELS"
+  },
+  "513375": {
+    "first": "2026-07-16",
+    "count": 3,
+    "company": "CARBORUNIV"
+  },
+  "513418": {
+    "first": "2026-07-01",
+    "count": 2,
+    "company": "SMFIL"
+  },
+  "513507": {
+    "first": "2026-07-22",
+    "count": 2,
+    "company": "GUJCONT"
+  },
+  "513517": {
+    "first": "2026-07-06",
+    "count": 2,
+    "company": "STEELCAS"
+  },
+  "513532": {
+    "first": "2026-07-15",
+    "count": 2,
+    "company": "PRADPME"
+  },
+  "514030": {
+    "first": "2026-07-20",
+    "count": 2,
+    "company": "DEEPAKSP"
+  },
+  "514045": {
+    "first": "2026-07-28",
+    "count": 3,
+    "company": "BSL"
+  },
+  "514142": {
+    "first": "2026-07-08",
+    "count": 1,
+    "company": "TTL"
+  },
+  "514223": {
+    "first": "2026-07-14",
+    "count": 1,
+    "company": "RAMGOPOLY"
+  },
+  "514234": {
+    "first": "2026-06-04",
+    "count": 3,
+    "company": "SANGAMIND"
+  },
+  "514264": {
+    "first": "2026-07-20",
+    "count": 3,
+    "company": "SEASONST"
+  },
+  "514286": {
+    "first": "2026-07-13",
+    "count": 2,
+    "company": "ASHIMASYN"
+  },
+  "514300": {
+    "first": "2026-07-29",
+    "count": 1,
+    "company": "PIONEEREMB"
+  },
+  "514306": {
+    "first": "2026-06-05",
+    "count": 5,
+    "company": "GARLNIN"
+  },
+  "514322": {
+    "first": "2026-07-27",
+    "count": 1,
+    "company": "KAMADGIRI"
+  },
+  "515043": {
+    "first": "2026-07-06",
+    "count": 2,
+    "company": "SEKURITIND"
+  },
+  "515055": {
+    "first": "2026-07-14",
+    "count": 2,
+    "company": "ANANTRAJ"
+  },
+  "516016": {
+    "first": "2026-07-18",
+    "count": 1,
+    "company": "SHREYANIND"
+  },
+  "516078": {
+    "first": "2026-07-06",
+    "count": 1,
+    "company": "JUMBO"
+  },
+  "516092": {
+    "first": "2026-07-07",
+    "count": 2,
+    "company": "3PLAND"
+  },
+  "517015": {
+    "first": "2026-07-10",
+    "count": 3,
+    "company": "VINDHYATEL"
+  },
+  "517041": {
+    "first": "2026-06-30",
+    "count": 3,
+    "company": "ADOR"
+  },
+  "517146": {
+    "first": "2026-07-27",
+    "count": 3,
+    "company": "USHAMART"
+  },
+  "517174": {
+    "first": "2026-07-07",
+    "count": 3,
+    "company": "HONAUT"
+  },
+  "517286": {
+    "first": "2026-07-06",
+    "count": 1,
+    "company": "RNITAI"
+  },
+  "517288": {
+    "first": "2026-07-23",
+    "count": 1,
+    "company": "GUJARATPOLY"
+  },
+  "517334": {
+    "first": "2026-07-07",
+    "count": 3,
+    "company": "MOTHERSON"
+  },
+  "517344": {
+    "first": "2026-07-21",
+    "count": 1,
+    "company": "MINDTECK"
+  },
+  "517354": {
+    "first": "2026-05-22",
+    "count": 1,
+    "company": "HAVELLS"
+  },
+  "517380": {
+    "first": "2026-07-13",
+    "count": 3,
+    "company": "IGARASHI"
+  },
+  "517385": {
+    "first": "2026-07-11",
+    "count": 2,
+    "company": "SYMPHONY"
+  },
+  "517393": {
+    "first": "2026-06-22",
+    "count": 1,
+    "company": "REGANTO"
+  },
+  "517421": {
+    "first": "2026-07-09",
+    "count": 2,
+    "company": "BUTTERFLY"
+  },
+  "517447": {
+    "first": "2026-07-01",
+    "count": 5,
+    "company": "RSSOFTWARE"
+  },
+  "517506": {
+    "first": "2026-07-10",
+    "count": 4,
+    "company": "TTKPRESTIG"
+  },
+  "517522": {
+    "first": "2026-07-02",
+    "count": 3,
+    "company": "RAJRATAN"
+  },
+  "517536": {
+    "first": "2026-06-22",
+    "count": 2,
+    "company": "ONWARDTEC"
+  },
+  "517544": {
+    "first": "2026-07-22",
+    "count": 2,
+    "company": "CENTUM"
+  },
+  "517546": {
+    "first": "2026-06-27",
+    "count": 3,
+    "company": "ALFATRAN"
+  },
+  "518053": {
+    "first": "2026-07-24",
+    "count": 2,
+    "company": "SRICC"
+  },
+  "519003": {
+    "first": "2026-07-07",
+    "count": 2,
+    "company": "MODINATUR"
+  },
+  "519091": {
+    "first": "2026-07-22",
+    "count": 2,
+    "company": "TASTYBITE"
+  },
+  "519105": {
+    "first": "2026-07-24",
+    "count": 3,
+    "company": "AVTNPL"
+  },
+  "519183": {
+    "first": "2026-07-17",
+    "count": 3,
+    "company": "ADFFOODS"
+  },
+  "519262": {
+    "first": "2026-07-22",
+    "count": 1,
+    "company": "PRIMAGR"
+  },
+  "519307": {
+    "first": "2026-05-29",
+    "count": 2,
+    "company": "VIKASWSP"
+  },
+  "519353": {
+    "first": "2026-06-01",
+    "count": 2,
+    "company": "BANSTEA"
+  },
+  "519359": {
+    "first": "2026-07-24",
+    "count": 1,
+    "company": "POONADAL"
+  },
+  "519528": {
+    "first": "2026-06-10",
+    "count": 3,
+    "company": "NORBTEAEXP"
+  },
+  "519552": {
+    "first": "2026-06-25",
+    "count": 3,
+    "company": "HERITGFOOD"
+  },
+  "519612": {
+    "first": "2026-06-22",
+    "count": 2,
+    "company": "LAKESHORE"
+  },
+  "520056": {
+    "first": "2026-06-29",
+    "count": 2,
+    "company": "TVSHLTD"
+  },
+  "520111": {
+    "first": "2026-07-14",
+    "count": 3,
+    "company": "RATNAMANI"
+  },
+  "520119": {
+    "first": "2026-07-06",
+    "count": 3,
+    "company": "ASAL"
+  },
+  "520127": {
+    "first": "2026-07-17",
+    "count": 1,
+    "company": "BALTE"
+  },
+  "520131": {
+    "first": "2026-07-15",
+    "count": 2,
+    "company": "COARO"
+  },
+  "520151": {
+    "first": "2026-07-24",
+    "count": 3,
+    "company": "TRANSWORLD"
+  },
+  "520155": {
+    "first": "2026-07-22",
+    "count": 1,
+    "company": "STARLOG"
+  },
+  "521034": {
+    "first": "2026-07-06",
+    "count": 1,
+    "company": "SOMATEX"
+  },
+  "521064": {
+    "first": "2026-07-09",
+    "count": 3,
+    "company": "TRIDENT"
+  },
+  "521070": {
+    "first": "2026-06-29",
+    "count": 2,
+    "company": "ALOKINDS"
+  },
+  "521141": {
+    "first": "2026-07-16",
+    "count": 1,
+    "company": "ADITYASP"
+  },
+  "521161": {
+    "first": "2026-07-27",
+    "count": 2,
+    "company": "SLSTLQ"
+  },
+  "521176": {
+    "first": "2026-07-24",
+    "count": 1,
+    "company": "GANGOTRI"
+  },
+  "521194": {
+    "first": "2026-07-07",
+    "count": 2,
+    "company": "SILINV"
+  },
+  "521220": {
+    "first": "2026-07-16",
+    "count": 2,
+    "company": "DAMODARIND"
+  },
+  "522004": {
+    "first": "2026-07-14",
+    "count": 2,
+    "company": "BATLIBOI"
+  },
+  "522034": {
+    "first": "2026-07-06",
+    "count": 3,
+    "company": "SHANTIGEAR"
+  },
+  "522074": {
+    "first": "2026-07-20",
+    "count": 4,
+    "company": "ELGIEQUIP"
+  },
+  "522113": {
+    "first": "2026-07-21",
+    "count": 2,
+    "company": "TIMKEN"
+  },
+  "522122": {
+    "first": "2026-07-24",
+    "count": 2,
+    "company": "VOITHPAPR"
+  },
+  "522152": {
+    "first": "2026-06-04",
+    "count": 1,
+    "company": "SOLIMAC"
+  },
+  "522205": {
+    "first": "2026-07-21",
+    "count": 2,
+    "company": "PRAJIND"
+  },
+  "522207": {
+    "first": "2026-07-07",
+    "count": 2,
+    "company": "RASANDIK"
+  },
+  "522229": {
+    "first": "2026-07-13",
+    "count": 1,
+    "company": "TANAA"
+  },
+  "522237": {
+    "first": "2026-07-28",
+    "count": 1,
+    "company": "SHIVAGR"
+  },
+  "522241": {
+    "first": "2026-07-17",
+    "count": 2,
+    "company": "MMFL"
+  },
+  "522281": {
+    "first": "2026-07-11",
+    "count": 2,
+    "company": "RAMRAT"
+  },
+  "522287": {
+    "first": "2026-06-22",
+    "count": 2,
+    "company": "KPIL"
+  },
+  "522295": {
+    "first": "2026-06-29",
+    "count": 2,
+    "company": "CONTROLPR"
+  },
+  "522650": {
+    "first": "2026-07-17",
+    "count": 1,
+    "company": "BEMHY"
+  },
+  "523011": {
+    "first": "2026-07-01",
+    "count": 2,
+    "company": "WEIZMANIND"
+  },
+  "523019": {
+    "first": "2026-07-20",
+    "count": 2,
+    "company": "BNRSEC"
+  },
+  "523025": {
+    "first": "2026-07-10",
+    "count": 2,
+    "company": "SAFARI"
+  },
+  "523116": {
+    "first": "2026-07-01",
+    "count": 1,
+    "company": "SANCTRN"
+  },
+  "523127": {
+    "first": "2026-07-10",
+    "count": 3,
+    "company": "EIHAHOTELS"
+  },
+  "523186": {
+    "first": "2026-06-29",
+    "count": 2,
+    "company": "BAPACK"
+  },
+  "523207": {
+    "first": "2026-07-10",
+    "count": 2,
+    "company": "KOKUYOCMLN"
+  },
+  "523229": {
+    "first": "2026-06-25",
+    "count": 2,
+    "company": "BHARATSE"
+  },
+  "523301": {
+    "first": "2026-07-17",
+    "count": 2,
+    "company": "TCPLPACK"
+  },
+  "523323": {
+    "first": "2026-07-27",
+    "count": 2,
+    "company": "KOVAI"
+  },
+  "523367": {
+    "first": "2026-07-21",
+    "count": 2,
+    "company": "DCMSHRIRAM"
+  },
+  "523369": {
+    "first": "2026-06-18",
+    "count": 3,
+    "company": "DCMSRIND"
+  },
+  "523371": {
+    "first": "2026-05-28",
+    "count": 2,
+    "company": "MAWANASUG"
+  },
+  "523385": {
+    "first": "2026-06-22",
+    "count": 1,
+    "company": "NILKAMAL"
+  },
+  "523405": {
+    "first": "2026-07-10",
+    "count": 3,
+    "company": "JMFINANCIL"
+  },
+  "523411": {
+    "first": "2026-07-14",
+    "count": 1,
+    "company": "ADCINDIA"
+  },
+  "523445": {
+    "first": "2026-05-30",
+    "count": 3,
+    "company": "RIIL"
+  },
+  "523457": {
+    "first": "2026-07-20",
+    "count": 3,
+    "company": "LINDEINDIA"
+  },
+  "523539": {
+    "first": "2026-07-13",
+    "count": 3,
+    "company": "PRECWIRE"
+  },
+  "523586": {
+    "first": "2026-06-12",
+    "count": 1,
+    "company": "INDTONER"
+  },
+  "523606": {
+    "first": "2026-07-20",
+    "count": 2,
+    "company": "SIKA"
+  },
+  "523638": {
+    "first": "2026-07-27",
+    "count": 2,
+    "company": "IPRINGLTD"
+  },
+  "523642": {
+    "first": "2026-07-20",
+    "count": 3,
+    "company": "PIIND"
+  },
+  "523672": {
+    "first": "2026-06-19",
+    "count": 1,
+    "company": "FLEXFO"
+  },
+  "523676": {
+    "first": "2026-07-27",
+    "count": 1,
+    "company": "GOLKUNDIA"
+  },
+  "523694": {
+    "first": "2026-05-29",
+    "count": 2,
+    "company": "APCOTEXIND"
+  },
+  "523696": {
+    "first": "2026-07-02",
+    "count": 2,
+    "company": "FORTISMLR"
+  },
+  "523708": {
+    "first": "2026-06-02",
+    "count": 1,
+    "company": "EIMCOELECO"
+  },
+  "523736": {
+    "first": "2026-07-27",
+    "count": 2,
+    "company": "DVL"
+  },
+  "523826": {
+    "first": "2026-07-22",
+    "count": 1,
+    "company": "SOVERDIA"
+  },
+  "523828": {
+    "first": "2026-07-10",
+    "count": 1,
+    "company": "MENONBE"
+  },
+  "523850": {
+    "first": "2026-07-09",
+    "count": 1,
+    "company": "AXTEL"
+  },
+  "524000": {
+    "first": "2026-07-01",
+    "count": 2,
+    "company": "POONAWALLA"
+  },
+  "524037": {
+    "first": "2026-07-17",
+    "count": 1,
+    "company": "RAMAPHO"
+  },
+  "524075": {
+    "first": "2026-07-13",
+    "count": 3,
+    "company": "ALBERTDAVD"
+  },
+  "524109": {
+    "first": "2026-07-20",
+    "count": 3,
+    "company": "KABRAEXTRU"
+  },
+  "524218": {
+    "first": "2026-07-09",
+    "count": 3,
+    "company": "RESONANCE"
+  },
+  "524280": {
+    "first": "2026-07-25",
+    "count": 1,
+    "company": "KOPRAN"
+  },
+  "524314": {
+    "first": "2026-07-28",
+    "count": 1,
+    "company": "GUJTERC"
+  },
+  "524342": {
+    "first": "2026-07-02",
+    "count": 2,
+    "company": "INDOBORAX"
+  },
+  "524394": {
+    "first": "2026-06-01",
+    "count": 3,
+    "company": "VIMTALABS"
+  },
+  "524440": {
+    "first": "2026-07-13",
+    "count": 1,
+    "company": "CAMEXLTD"
+  },
+  "524494": {
+    "first": "2026-07-14",
+    "count": 2,
+    "company": "IPCALAB"
+  },
+  "524558": {
+    "first": "2026-07-09",
+    "count": 4,
+    "company": "NEULANDLAB"
+  },
+  "524634": {
+    "first": "2026-06-24",
+    "count": 2,
+    "company": "ALUFLUOR"
+  },
+  "524654": {
+    "first": "2026-07-17",
+    "count": 2,
+    "company": "NATCAPSUQ"
+  },
+  "524669": {
+    "first": "2026-06-18",
+    "count": 3,
+    "company": "HESTERBIO"
+  },
+  "524709": {
+    "first": "2026-06-29",
+    "count": 3,
+    "company": "NACLIND"
+  },
+  "524715": {
+    "first": "2026-07-06",
+    "count": 2,
+    "company": "SUNPHARMA"
+  },
+  "524748": {
+    "first": "2026-07-27",
+    "count": 2,
+    "company": "LINKPH"
+  },
+  "524820": {
+    "first": "2026-07-28",
+    "count": 2,
+    "company": "PANAMAPET"
+  },
+  "524828": {
+    "first": "2026-07-22",
+    "count": 1,
+    "company": "BDH"
+  },
+  "526027": {
+    "first": "2026-07-07",
+    "count": 1,
+    "company": "CUBEXTUB"
+  },
+  "526113": {
+    "first": "2026-07-07",
+    "count": 2,
+    "company": "UNRYLMA"
+  },
+  "526137": {
+    "first": "2026-07-06",
+    "count": 3,
+    "company": "SHETR"
+  },
+  "526187": {
+    "first": "2026-07-24",
+    "count": 1,
+    "company": "ASHRAM"
+  },
+  "526269": {
+    "first": "2026-07-13",
+    "count": 1,
+    "company": "CRSTCHM"
+  },
+  "526299": {
+    "first": "2026-07-01",
+    "count": 7,
+    "company": "MPHASIS"
+  },
+  "526423": {
+    "first": "2026-07-21",
+    "count": 1,
+    "company": "KRITI"
+  },
+  "526433": {
+    "first": "2026-07-14",
+    "count": 1,
+    "company": "ASMTEC"
+  },
+  "526479": {
+    "first": "2026-07-10",
+    "count": 2,
+    "company": "SKYIND"
+  },
+  "526588": {
+    "first": "2026-05-28",
+    "count": 1,
+    "company": "PHOTOQUP"
+  },
+  "526642": {
+    "first": "2026-07-03",
+    "count": 1,
+    "company": "MIRZAINT"
+  },
+  "526650": {
+    "first": "2026-07-29",
+    "count": 2,
+    "company": "TFCILTD"
+  },
+  "526705": {
+    "first": "2026-06-10",
+    "count": 3,
+    "company": "ELEMARB"
+  },
+  "526721": {
+    "first": "2026-06-11",
+    "count": 2,
+    "company": "NICCOPAR"
+  },
+  "526739": {
+    "first": "2026-07-21",
+    "count": 2,
+    "company": "SHAWGELTIN"
+  },
+  "526817": {
+    "first": "2026-07-13",
+    "count": 2,
+    "company": "CHEVIOT"
+  },
+  "526823": {
+    "first": "2026-06-13",
+    "count": 6,
+    "company": "RAJINFRA"
+  },
+  "526827": {
+    "first": "2026-07-15",
+    "count": 2,
+    "company": "SPICEISLIN"
+  },
+  "526841": {
+    "first": "2026-07-13",
+    "count": 3,
+    "company": "SHAKTIPR"
+  },
+  "526847": {
+    "first": "2026-06-24",
+    "count": 2,
+    "company": "ASHSI"
+  },
+  "526849": {
+    "first": "2026-06-24",
+    "count": 3,
+    "company": "BANARBEADS"
+  },
+  "526885": {
+    "first": "2026-07-01",
+    "count": 1,
+    "company": "SARLAPOLY"
+  },
+  "526921": {
+    "first": "2026-07-14",
+    "count": 3,
+    "company": "21STCENMGM"
+  },
+  "526953": {
+    "first": "2026-07-24",
+    "count": 2,
+    "company": "VENUSREM"
+  },
+  "530005": {
+    "first": "2026-07-17",
+    "count": 2,
+    "company": "INDIACEM"
+  },
+  "530007": {
+    "first": "2026-07-13",
+    "count": 2,
+    "company": "JKTYRE"
+  },
+  "530017": {
+    "first": "2026-07-21",
+    "count": 1,
+    "company": "SIL"
+  },
+  "530065": {
+    "first": "2026-07-27",
+    "count": 2,
+    "company": "LORDSHOTL"
+  },
+  "530117": {
+    "first": "2026-07-10",
+    "count": 3,
+    "company": "PRIVISCL"
+  },
+  "530145": {
+    "first": "2026-06-22",
+    "count": 1,
+    "company": "KISAN"
+  },
+  "530233": {
+    "first": "2026-07-16",
+    "count": 2,
+    "company": "AUROLAB"
+  },
+  "530281": {
+    "first": "2026-07-20",
+    "count": 3,
+    "company": "QUANTDIA"
+  },
+  "530341": {
+    "first": "2026-07-16",
+    "count": 1,
+    "company": "MUKESHB"
+  },
+  "530361": {
+    "first": "2026-07-29",
+    "count": 2,
+    "company": "PRABHHANS"
+  },
+  "530363": {
+    "first": "2026-07-13",
+    "count": 1,
+    "company": "UGARSUGAR"
+  },
+  "530365": {
+    "first": "2026-07-17",
+    "count": 1,
+    "company": "ORIENTBELL"
+  },
+  "530367": {
+    "first": "2026-07-06",
+    "count": 3,
+    "company": "NRBBEARING"
+  },
+  "530377": {
+    "first": "2026-07-07",
+    "count": 2,
+    "company": "NILAINFRA"
+  },
+  "530419": {
+    "first": "2026-07-27",
+    "count": 4,
+    "company": "SUMEDHA"
+  },
+  "530445": {
+    "first": "2026-07-06",
+    "count": 1,
+    "company": "SUMERUIND"
+  },
+  "530469": {
+    "first": "2026-07-23",
+    "count": 1,
+    "company": "GSLSEC"
+  },
+  "530521": {
+    "first": "2026-07-14",
+    "count": 2,
+    "company": "VIRAT"
+  },
+  "530585": {
+    "first": "2026-06-02",
+    "count": 3,
+    "company": "SWASTIKA"
+  },
+  "530589": {
+    "first": "2026-07-18",
+    "count": 2,
+    "company": "PRIMAPLA"
+  },
+  "530663": {
+    "first": "2026-07-20",
+    "count": 2,
+    "company": "GOYALASS"
+  },
+  "530689": {
+    "first": "2026-06-22",
+    "count": 1,
+    "company": "LYKISLTD"
+  },
+  "530701": {
+    "first": "2026-05-21",
+    "count": 2,
+    "company": "KDJHRL"
+  },
+  "530705": {
+    "first": "2026-07-08",
+    "count": 1,
+    "company": "ANIRIT"
+  },
+  "530709": {
+    "first": "2026-06-22",
+    "count": 3,
+    "company": "GOWRALE"
+  },
+  "530757": {
+    "first": "2026-07-29",
+    "count": 3,
+    "company": "SHENTRA"
+  },
+  "530803": {
+    "first": "2026-07-09",
+    "count": 3,
+    "company": "BHAGERIA"
+  },
+  "530809": {
+    "first": "2026-06-17",
+    "count": 1,
+    "company": "BNRUDY"
+  },
+  "530845": {
+    "first": "2026-06-05",
+    "count": 2,
+    "company": "SUNSHIEL"
+  },
+  "530871": {
+    "first": "2026-06-24",
+    "count": 1,
+    "company": "CHEMBOND"
+  },
+  "530881": {
+    "first": "2026-07-20",
+    "count": 1,
+    "company": "ABVL"
+  },
+  "530925": {
+    "first": "2026-06-29",
+    "count": 3,
+    "company": "RAMSONS"
+  },
+  "530931": {
+    "first": "2026-07-22",
+    "count": 1,
+    "company": "STANPACK"
+  },
+  "530999": {
+    "first": "2026-06-16",
+    "count": 2,
+    "company": "BALAMINES"
+  },
+  "531003": {
+    "first": "2026-05-26",
+    "count": 2,
+    "company": "SWRNASE"
+  },
+  "531144": {
+    "first": "2026-05-28",
+    "count": 2,
+    "company": "ELFORGE"
+  },
+  "531161": {
+    "first": "2026-07-03",
+    "count": 3,
+    "company": "ABMKNO"
+  },
+  "531176": {
+    "first": "2026-07-17",
+    "count": 2,
+    "company": "MEFCOMCAP"
+  },
+  "531201": {
+    "first": "2026-07-17",
+    "count": 2,
+    "company": "SHILCTECH"
+  },
+  "531209": {
+    "first": "2026-07-02",
+    "count": 2,
+    "company": "NUCLEUS"
+  },
+  "531213": {
+    "first": "2026-07-20",
+    "count": 2,
+    "company": "MANAPPURAM"
+  },
+  "531246": {
+    "first": "2026-07-22",
+    "count": 1,
+    "company": "PRIMAIN"
+  },
+  "531253": {
+    "first": "2026-07-29",
+    "count": 1,
+    "company": "INDGELA"
+  },
+  "531259": {
+    "first": "2026-06-12",
+    "count": 1,
+    "company": "ESHAMEDIA"
+  },
+  "531274": {
+    "first": "2026-07-13",
+    "count": 1,
+    "company": "KINETRU"
+  },
+  "531286": {
+    "first": "2026-06-17",
+    "count": 1,
+    "company": "ADHHATA"
+  },
+  "531324": {
+    "first": "2026-07-28",
+    "count": 1,
+    "company": "ROSELABS"
+  },
+  "531335": {
+    "first": "2026-07-10",
+    "count": 2,
+    "company": "ZYDUSWELL"
+  },
+  "531359": {
+    "first": "2026-07-03",
+    "count": 3,
+    "company": "SRAMSET"
+  },
+  "531420": {
+    "first": "2026-07-27",
+    "count": 2,
+    "company": "BMBMUMG"
+  },
+  "531431": {
+    "first": "2026-07-14",
+    "count": 3,
+    "company": "SHAKTIPUMP"
+  },
+  "531433": {
+    "first": "2026-06-04",
+    "count": 1,
+    "company": "SUNGOLD"
+  },
+  "531503": {
+    "first": "2026-07-27",
+    "count": 1,
+    "company": "MARIS"
+  },
+  "531508": {
+    "first": "2026-07-17",
+    "count": 3,
+    "company": "EVEREADY"
+  },
+  "531530": {
+    "first": "2026-06-02",
+    "count": 1,
+    "company": "BETALA"
+  },
+  "531541": {
+    "first": "2026-06-26",
+    "count": 4,
+    "company": "KOBO"
+  },
+  "531548": {
+    "first": "2026-07-18",
+    "count": 4,
+    "company": "SOMANYCERA"
+  },
+  "531594": {
+    "first": "2026-06-23",
+    "count": 2,
+    "company": "INCON"
+  },
+  "531613": {
+    "first": "2026-06-16",
+    "count": 2,
+    "company": "MAL"
+  },
+  "531638": {
+    "first": "2026-06-04",
+    "count": 1,
+    "company": "SURAJLTD"
+  },
+  "531642": {
+    "first": "2026-07-09",
+    "count": 5,
+    "company": "MARICO"
+  },
+  "531667": {
+    "first": "2026-07-15",
+    "count": 1,
+    "company": "RRMETAL"
+  },
+  "531719": {
+    "first": "2026-07-08",
+    "count": 3,
+    "company": "BHAGCHEM"
+  },
+  "531727": {
+    "first": "2026-07-11",
+    "count": 1,
+    "company": "MENNPIS"
+  },
+  "531761": {
+    "first": "2026-07-10",
+    "count": 2,
+    "company": "APOLLOPIPE"
+  },
+  "531762": {
+    "first": "2026-07-20",
+    "count": 1,
+    "company": "UNJHAFOR"
+  },
+  "531810": {
+    "first": "2026-07-24",
+    "count": 2,
+    "company": "METALCO"
+  },
+  "531841": {
+    "first": "2026-06-17",
+    "count": 1,
+    "company": "INDUSFINL"
+  },
+  "531861": {
+    "first": "2026-07-09",
+    "count": 1,
+    "company": "JOINDRE"
+  },
+  "531918": {
+    "first": "2026-07-07",
+    "count": 2,
+    "company": "HINDAPL"
+  },
+  "531929": {
+    "first": "2026-07-13",
+    "count": 1,
+    "company": "INNOCORP"
+  },
+  "531930": {
+    "first": "2026-07-22",
+    "count": 3,
+    "company": "SARTHAKIND"
+  },
+  "531960": {
+    "first": "2026-07-16",
+    "count": 1,
+    "company": "JUNE"
+  },
+  "531979": {
+    "first": "2026-07-02",
+    "count": 1,
+    "company": "HINDALUMI"
+  },
+  "532051": {
+    "first": "2026-07-08",
+    "count": 2,
+    "company": "SWELECTES"
+  },
+  "532134": {
+    "first": "2026-05-29",
+    "count": 4,
+    "company": "BANKBARODA"
+  },
+  "532141": {
+    "first": "2026-05-30",
+    "count": 1,
+    "company": "ACL"
+  },
+  "532144": {
+    "first": "2026-06-22",
+    "count": 2,
+    "company": "WELCORP"
+  },
+  "532149": {
+    "first": "2026-05-22",
+    "count": 2,
+    "company": "BANKINDIA"
+  },
+  "532156": {
+    "first": "2026-07-13",
+    "count": 5,
+    "company": "VAIBHAVGBL"
+  },
+  "532160": {
+    "first": "2026-06-25",
+    "count": 1,
+    "company": "GUJSTATFIN"
+  },
+  "532172": {
+    "first": "2026-07-20",
+    "count": 1,
+    "company": "ADROITINFO"
+  },
+  "532174": {
+    "first": "2026-07-07",
+    "count": 6,
+    "company": "ICICIBANK"
+  },
+  "532175": {
+    "first": "2026-06-09",
+    "count": 2,
+    "company": "CYIENT"
+  },
+  "532210": {
+    "first": "2026-07-20",
+    "count": 2,
+    "company": "CUB"
+  },
+  "532215": {
+    "first": "2026-06-25",
+    "count": 3,
+    "company": "AXISBANK"
+  },
+  "532218": {
+    "first": "2026-07-27",
+    "count": 3,
+    "company": "SOUTHBANK"
+  },
+  "532221": {
+    "first": "2026-07-07",
+    "count": 2,
+    "company": "SONATSOFTW"
+  },
+  "532230": {
+    "first": "2026-07-10",
+    "count": 1,
+    "company": "BENGALT"
+  },
+  "532240": {
+    "first": "2026-07-08",
+    "count": 4,
+    "company": "INDNIPPON"
+  },
+  "532262": {
+    "first": "2026-07-06",
+    "count": 1,
+    "company": "TCIIND"
+  },
+  "532281": {
+    "first": "2026-07-20",
+    "count": 4,
+    "company": "HCLTECH"
+  },
+  "532284": {
+    "first": "2026-06-12",
+    "count": 1,
+    "company": "TCFCFINQ"
+  },
+  "532285": {
+    "first": "2026-07-02",
+    "count": 1,
+    "company": "GEOJITFSL"
+  },
+  "532290": {
+    "first": "2026-06-29",
+    "count": 1,
+    "company": "BLBLIMITED"
+  },
+  "532300": {
+    "first": "2026-07-17",
+    "count": 4,
+    "company": "WOCKPHARMA"
+  },
+  "532309": {
+    "first": "2026-07-18",
+    "count": 2,
+    "company": "GVPIL"
+  },
+  "532313": {
+    "first": "2026-06-30",
+    "count": 3,
+    "company": "MAHLIFE"
+  },
+  "532315": {
+    "first": "2026-06-25",
+    "count": 1,
+    "company": "GROARC"
+  },
+  "532321": {
+    "first": "2026-07-10",
+    "count": 3,
+    "company": "ZYDUSLIFE"
+  },
+  "532323": {
+    "first": "2026-06-25",
+    "count": 1,
+    "company": "SHIVACEM"
+  },
+  "532324": {
+    "first": "2026-06-03",
+    "count": 1,
+    "company": "CINEVISTA"
+  },
+  "532331": {
+    "first": "2026-06-18",
+    "count": 2,
+    "company": "AJANTPHARM"
+  },
+  "532343": {
+    "first": "2026-06-29",
+    "count": 2,
+    "company": "TVSMOTOR"
+  },
+  "532348": {
+    "first": "2026-07-13",
+    "count": 3,
+    "company": "SUBEXLTD"
+  },
+  "532349": {
+    "first": "2026-07-06",
+    "count": 5,
+    "company": "TCI"
+  },
+  "532369": {
+    "first": "2026-07-27",
+    "count": 2,
+    "company": "RAMCOIND"
+  },
+  "532370": {
+    "first": "2026-07-25",
+    "count": 3,
+    "company": "RAMCOSYS"
+  },
+  "532374": {
+    "first": "2026-07-24",
+    "count": 1,
+    "company": "STLTECH"
+  },
+  "532376": {
+    "first": "2026-07-20",
+    "count": 1,
+    "company": "UMIYA-MRO"
+  },
+  "532388": {
+    "first": "2026-06-11",
+    "count": 2,
+    "company": "IOB"
+  },
+  "532400": {
+    "first": "2026-06-22",
+    "count": 3,
+    "company": "BSOFT"
+  },
+  "532406": {
+    "first": "2026-05-30",
+    "count": 3,
+    "company": "AVANTEL"
+  },
+  "532410": {
+    "first": "2026-06-19",
+    "count": 1,
+    "company": "TRANSCOR"
+  },
+  "532419": {
+    "first": "2026-07-07",
+    "count": 3,
+    "company": "SMARTLINK"
+  },
+  "532424": {
+    "first": "2026-07-15",
+    "count": 3,
+    "company": "GODREJCP"
+  },
+  "532432": {
+    "first": "2026-07-10",
+    "count": 3,
+    "company": "UNITDSPR"
+  },
+  "532443": {
+    "first": "2026-06-29",
+    "count": 2,
+    "company": "CERA"
+  },
+  "532444": {
+    "first": "2026-07-25",
+    "count": 1,
+    "company": "TSPIRITUAL"
+  },
+  "532454": {
+    "first": "2026-07-11",
+    "count": 4,
+    "company": "BHARTIARTL"
+  },
+  "532455": {
+    "first": "2026-06-05",
+    "count": 3,
+    "company": "SHALIWIR"
+  },
+  "532460": {
+    "first": "2026-05-27",
+    "count": 4,
+    "company": "PONNIERODE"
+  },
+  "532461": {
+    "first": "2026-05-27",
+    "count": 3,
+    "company": "PNB"
+  },
+  "532466": {
+    "first": "2026-06-25",
+    "count": 3,
+    "company": "OFSS"
+  },
+  "532470": {
+    "first": "2026-06-12",
+    "count": 2,
+    "company": "MPFSL"
+  },
+  "532477": {
+    "first": "2026-06-15",
+    "count": 3,
+    "company": "UNIONBANK"
+  },
+  "532478": {
+    "first": "2026-07-20",
+    "count": 4,
+    "company": "UBL"
+  },
+  "532482": {
+    "first": "2026-07-15",
+    "count": 3,
+    "company": "GRANULES"
+  },
+  "532483": {
+    "first": "2026-05-27",
+    "count": 2,
+    "company": "CANBK"
+  },
+  "532486": {
+    "first": "2026-07-01",
+    "count": 2,
+    "company": "POKARNA"
+  },
+  "532488": {
+    "first": "2026-07-15",
+    "count": 2,
+    "company": "DIVISLAB"
+  },
+  "532497": {
+    "first": "2026-07-14",
+    "count": 2,
+    "company": "RADICO"
+  },
+  "532504": {
+    "first": "2026-07-15",
+    "count": 3,
+    "company": "NAVINFLUOR"
+  },
+  "532505": {
+    "first": "2026-05-21",
+    "count": 2,
+    "company": "UCOBANK"
+  },
+  "532513": {
+    "first": "2026-07-17",
+    "count": 1,
+    "company": "TVSELECT"
+  },
+  "532523": {
+    "first": "2026-07-15",
+    "count": 2,
+    "company": "BIOCON"
+  },
+  "532525": {
+    "first": "2026-06-06",
+    "count": 2,
+    "company": "MAHABANK"
+  },
+  "532529": {
+    "first": "2026-05-29",
+    "count": 3,
+    "company": "NDTV"
+  },
+  "532531": {
+    "first": "2026-07-21",
+    "count": 2,
+    "company": "STAR"
+  },
+  "532538": {
+    "first": "2026-07-24",
+    "count": 2,
+    "company": "ULTRACEMCO"
+  },
+  "532539": {
+    "first": "2026-07-03",
+    "count": 4,
+    "company": "UNOMINDA"
+  },
+  "532610": {
+    "first": "2026-07-10",
+    "count": 2,
+    "company": "DWARKESH"
+  },
+  "532627": {
+    "first": "2026-07-04",
+    "count": 5,
+    "company": "JPPOWER"
+  },
+  "532633": {
+    "first": "2026-07-16",
+    "count": 3,
+    "company": "ALLDIGI"
+  },
+  "532636": {
+    "first": "2026-06-30",
+    "count": 5,
+    "company": "IIFL"
+  },
+  "532638": {
+    "first": "2026-06-25",
+    "count": 3,
+    "company": "SHOPERSTOP"
+  },
+  "532642": {
+    "first": "2026-07-08",
+    "count": 3,
+    "company": "JSWHL"
+  },
+  "532644": {
+    "first": "2026-06-25",
+    "count": 3,
+    "company": "JKCEMENT"
+  },
+  "532648": {
+    "first": "2026-07-24",
+    "count": 2,
+    "company": "YESBANK"
+  },
+  "532651": {
+    "first": "2026-07-16",
+    "count": 3,
+    "company": "SPLIL"
+  },
+  "532661": {
+    "first": "2026-07-11",
+    "count": 1,
+    "company": "RML"
+  },
+  "532663": {
+    "first": "2026-07-06",
+    "count": 5,
+    "company": "SASKEN"
+  },
+  "532673": {
+    "first": "2026-07-04",
+    "count": 2,
+    "company": "KMSUGAR"
+  },
+  "532674": {
+    "first": "2026-07-14",
+    "count": 1,
+    "company": "BASML"
+  },
+  "532687": {
+    "first": "2026-07-10",
+    "count": 2,
+    "company": "REPRO"
+  },
+  "532716": {
+    "first": "2026-06-09",
+    "count": 2,
+    "company": "GILLANDERS"
+  },
+  "532720": {
+    "first": "2026-06-25",
+    "count": 4,
+    "company": "M&MFIN"
+  },
+  "532725": {
+    "first": "2026-07-20",
+    "count": 3,
+    "company": "SOLARINDS"
+  },
+  "532735": {
+    "first": "2026-05-29",
+    "count": 3,
+    "company": "RSYSTEMS"
+  },
+  "532737": {
+    "first": "2026-07-17",
+    "count": 2,
+    "company": "EMKAY"
+  },
+  "532742": {
+    "first": "2026-07-02",
+    "count": 2,
+    "company": "PAUSHAKLTD"
+  },
+  "532755": {
+    "first": "2026-06-23",
+    "count": 4,
+    "company": "TECHM"
+  },
+  "532757": {
+    "first": "2026-07-07",
+    "count": 2,
+    "company": "VOLTAMP"
+  },
+  "532768": {
+    "first": "2026-07-08",
+    "count": 2,
+    "company": "FIEMIND"
+  },
+  "532772": {
+    "first": "2026-06-10",
+    "count": 3,
+    "company": "DCBBANK"
+  },
+  "532774": {
+    "first": "2026-06-05",
+    "count": 1,
+    "company": "INSPIRISYS"
+  },
+  "532779": {
+    "first": "2026-07-10",
+    "count": 3,
+    "company": "TORNTPOWER"
+  },
+  "532782": {
+    "first": "2026-07-02",
+    "count": 3,
+    "company": "SUTLEJTEX"
+  },
+  "532784": {
+    "first": "2026-06-26",
+    "count": 2,
+    "company": "SOBHA"
+  },
+  "532790": {
+    "first": "2026-06-27",
+    "count": 2,
+    "company": "TANLA"
+  },
+  "532805": {
+    "first": "2026-07-07",
+    "count": 3,
+    "company": "REDINGTON"
+  },
+  "532808": {
+    "first": "2026-06-25",
+    "count": 2,
+    "company": "PGIL"
+  },
+  "532809": {
+    "first": "2026-07-14",
+    "count": 2,
+    "company": "FSL"
+  },
+  "532814": {
+    "first": "2026-05-23",
+    "count": 2,
+    "company": "INDIANB"
+  },
+  "532821": {
+    "first": "2026-07-07",
+    "count": 2,
+    "company": "INDUSFILA"
+  },
+  "532827": {
+    "first": "2026-07-16",
+    "count": 2,
+    "company": "PAGEIND"
+  },
+  "532834": {
+    "first": "2026-07-18",
+    "count": 2,
+    "company": "CAMLINFINE"
+  },
+  "532835": {
+    "first": "2026-07-03",
+    "count": 1,
+    "company": "ICRA"
+  },
+  "532841": {
+    "first": "2026-07-22",
+    "count": 1,
+    "company": "SAHYADRI"
+  },
+  "532843": {
+    "first": "2026-07-17",
+    "count": 4,
+    "company": "FORTIS"
+  },
+  "532851": {
+    "first": "2026-07-14",
+    "count": 3,
+    "company": "INSECTICID"
+  },
+  "532864": {
+    "first": "2026-06-30",
+    "count": 2,
+    "company": "NELCAST"
+  },
+  "532867": {
+    "first": "2026-07-08",
+    "count": 2,
+    "company": "V2RETAIL"
+  },
+  "532868": {
+    "first": "2026-07-11",
+    "count": 2,
+    "company": "DLF"
+  },
+  "532872": {
+    "first": "2026-07-16",
+    "count": 3,
+    "company": "SPARC"
+  },
+  "532884": {
+    "first": "2026-07-08",
+    "count": 3,
+    "company": "REFEX"
+  },
+  "532885": {
+    "first": "2026-07-09",
+    "count": 3,
+    "company": "CENTRALBK"
+  },
+  "532889": {
+    "first": "2026-06-27",
+    "count": 3,
+    "company": "KPRMILL"
+  },
+  "532892": {
+    "first": "2026-06-22",
+    "count": 3,
+    "company": "MOTILALOFS"
+  },
+  "532893": {
+    "first": "2026-07-09",
+    "count": 2,
+    "company": "VTMLTD"
+  },
+  "532902": {
+    "first": "2026-07-02",
+    "count": 2,
+    "company": "CCCL"
+  },
+  "532907": {
+    "first": "2026-06-25",
+    "count": 2,
+    "company": "IL&FSENGG"
+  },
+  "532921": {
+    "first": "2026-05-29",
+    "count": 3,
+    "company": "ADANIPORTS"
+  },
+  "532924": {
+    "first": "2026-07-03",
+    "count": 2,
+    "company": "KOLTEPATIL"
+  },
+  "532926": {
+    "first": "2026-06-19",
+    "count": 4,
+    "company": "JYOTHYLAB"
+  },
+  "532929": {
+    "first": "2026-07-22",
+    "count": 3,
+    "company": "BRIGADE"
+  },
+  "532939": {
+    "first": "2026-07-23",
+    "count": 4,
+    "company": "RPOWER"
+  },
+  "532944": {
+    "first": "2026-07-14",
+    "count": 2,
+    "company": "ONMOBILE"
+  },
+  "532953": {
+    "first": "2026-07-14",
+    "count": 3,
+    "company": "VGUARD"
+  },
+  "532974": {
+    "first": "2026-07-07",
+    "count": 2,
+    "company": "BIRLAMONEY"
+  },
+  "532977": {
+    "first": "2026-06-25",
+    "count": 2,
+    "company": "BAJAJ-AUTO"
+  },
+  "532978": {
+    "first": "2026-07-08",
+    "count": 2,
+    "company": "BAJAJFINSV"
+  },
+  "532983": {
+    "first": "2026-07-01",
+    "count": 3,
+    "company": "RPGLIFE"
+  },
+  "532993": {
+    "first": "2026-06-25",
+    "count": 1,
+    "company": "SEJALLTD"
+  },
+  "533007": {
+    "first": "2026-07-20",
+    "count": 1,
+    "company": "LGBFORGE"
+  },
+  "533018": {
+    "first": "2026-07-09",
+    "count": 3,
+    "company": "SIMPLXMIL"
+  },
+  "533019": {
+    "first": "2026-07-09",
+    "count": 3,
+    "company": "SIMPLXPAP"
+  },
+  "533022": {
+    "first": "2026-07-09",
+    "count": 1,
+    "company": "20MICRONS"
+  },
+  "533023": {
+    "first": "2026-07-02",
+    "count": 2,
+    "company": "ZFCVINDIA"
+  },
+  "533047": {
+    "first": "2026-07-13",
+    "count": 2,
+    "company": "IMFA"
+  },
+  "533088": {
+    "first": "2026-06-26",
+    "count": 4,
+    "company": "MHRIL"
+  },
+  "533096": {
+    "first": "2026-05-29",
+    "count": 3,
+    "company": "ADANIPOWER"
+  },
+  "533101": {
+    "first": "2026-07-16",
+    "count": 2,
+    "company": "SURYAAMBA"
+  },
+  "533138": {
+    "first": "2026-07-08",
+    "count": 4,
+    "company": "ASTEC"
+  },
+  "533146": {
+    "first": "2026-07-16",
+    "count": 2,
+    "company": "DLINKINDIA"
+  },
+  "533148": {
+    "first": "2026-06-16",
+    "count": 4,
+    "company": "JSWENERGY"
+  },
+  "533150": {
+    "first": "2026-07-08",
+    "count": 2,
+    "company": "GODREJPROP"
+  },
+  "533156": {
+    "first": "2026-07-16",
+    "count": 1,
+    "company": "VASCONEQ"
+  },
+  "533158": {
+    "first": "2026-07-01",
+    "count": 3,
+    "company": "THANGAMAYL"
+  },
+  "533162": {
+    "first": "2026-07-24",
+    "count": 2,
+    "company": "HATHWAY"
+  },
+  "533168": {
+    "first": "2026-07-27",
+    "count": 2,
+    "company": "ROSSELLIND"
+  },
+  "533169": {
+    "first": "2026-07-17",
+    "count": 5,
+    "company": "MANINFRA"
+  },
+  "533170": {
+    "first": "2026-07-27",
+    "count": 1,
+    "company": "TAMBOLIIN"
+  },
+  "533179": {
+    "first": "2026-07-11",
+    "count": 2,
+    "company": "PERSISTENT"
+  },
+  "533193": {
+    "first": "2026-07-21",
+    "count": 1,
+    "company": "KECL"
+  },
+  "533202": {
+    "first": "2026-06-05",
+    "count": 1,
+    "company": "SATCH"
+  },
+  "533210": {
+    "first": "2026-07-21",
+    "count": 2,
+    "company": "KRITINUT"
+  },
+  "533221": {
+    "first": "2026-05-26",
+    "count": 1,
+    "company": "AHLWEST"
+  },
+  "533229": {
+    "first": "2026-07-11",
+    "count": 2,
+    "company": "BAJAJCON"
+  },
+  "533263": {
+    "first": "2026-06-26",
+    "count": 3,
+    "company": "GREENPOWER"
+  },
+  "533269": {
+    "first": "2026-07-20",
+    "count": 3,
+    "company": "WABAG"
+  },
+  "533273": {
+    "first": "2026-06-03",
+    "count": 1,
+    "company": "OBEROIRLTY"
+  },
+  "533274": {
+    "first": "2026-07-28",
+    "count": 2,
+    "company": "PRESTIGE"
+  },
+  "533289": {
+    "first": "2026-06-25",
+    "count": 3,
+    "company": "KTIL"
+  },
+  "533293": {
+    "first": "2026-07-03",
+    "count": 5,
+    "company": "KIRLOSENG"
+  },
+  "533295": {
+    "first": "2026-07-06",
+    "count": 2,
+    "company": "PSB"
+  },
+  "533303": {
+    "first": "2026-07-07",
+    "count": 3,
+    "company": "BFINVEST"
+  },
+  "533306": {
+    "first": "2026-07-02",
+    "count": 2,
+    "company": "SUMMITSEC"
+  },
+  "533336": {
+    "first": "2026-07-24",
+    "count": 2,
+    "company": "DHUNINV"
+  },
+  "533451": {
+    "first": "2026-07-01",
+    "count": 2,
+    "company": "KARMAENG"
+  },
+  "533553": {
+    "first": "2026-07-15",
+    "count": 4,
+    "company": "TDPOWERSYS"
+  },
+  "533573": {
+    "first": "2026-07-10",
+    "count": 2,
+    "company": "APLLTD"
+  },
+  "533608": {
+    "first": "2026-07-27",
+    "count": 2,
+    "company": "RDBRL"
+  },
+  "533629": {
+    "first": "2026-07-01",
+    "count": 2,
+    "company": "TIJARIA"
+  },
+  "533644": {
+    "first": "2026-06-22",
+    "count": 1,
+    "company": "UEL"
+  },
+  "533761": {
+    "first": "2026-07-10",
+    "count": 2,
+    "company": "GPTINFRA"
+  },
+  "534063": {
+    "first": "2026-07-20",
+    "count": 1,
+    "company": "FUTSOL"
+  },
+  "534328": {
+    "first": "2026-05-29",
+    "count": 1,
+    "company": "HEXATRADEX"
+  },
+  "534804": {
+    "first": "2026-06-08",
+    "count": 1,
+    "company": "CARERATING"
+  },
+  "534816": {
+    "first": "2026-07-28",
+    "count": 2,
+    "company": "INDUSTOWER"
+  },
+  "534976": {
+    "first": "2026-07-02",
+    "count": 2,
+    "company": "VMART"
+  },
+  "535458": {
+    "first": "2026-07-22",
+    "count": 2,
+    "company": "NIBL"
+  },
+  "535621": {
+    "first": "2026-05-25",
+    "count": 2,
+    "company": "SVGLOBAL"
+  },
+  "535754": {
+    "first": "2026-05-29",
+    "count": 3,
+    "company": "ORIENTCEM"
+  },
+  "536493": {
+    "first": "2026-07-07",
+    "count": 1,
+    "company": "JKAGRI"
+  },
+  "537573": {
+    "first": "2026-07-24",
+    "count": 1,
+    "company": "POLYMAC"
+  },
+  "537669": {
+    "first": "2026-06-23",
+    "count": 1,
+    "company": "LAXMIPATI"
+  },
+  "537820": {
+    "first": "2026-07-21",
+    "count": 1,
+    "company": "VIJIFIN"
+  },
+  "537840": {
+    "first": "2026-07-07",
+    "count": 2,
+    "company": "RAUNAQ"
+  },
+  "538119": {
+    "first": "2026-07-14",
+    "count": 2,
+    "company": "RNBDENIMS"
+  },
+  "538212": {
+    "first": "2026-07-15",
+    "count": 1,
+    "company": "SHARPINV"
+  },
+  "538268": {
+    "first": "2026-07-28",
+    "count": 2,
+    "company": "WONDERLA"
+  },
+  "538520": {
+    "first": "2026-06-15",
+    "count": 1,
+    "company": "SBL"
+  },
+  "538556": {
+    "first": "2026-07-28",
+    "count": 2,
+    "company": "ARMAN"
+  },
+  "538598": {
+    "first": "2026-07-13",
+    "count": 2,
+    "company": "VISHAL"
+  },
+  "538666": {
+    "first": "2026-07-14",
+    "count": 2,
+    "company": "SHARDACROP"
+  },
+  "538685": {
+    "first": "2026-07-22",
+    "count": 1,
+    "company": "SHEMAROO"
+  },
+  "538730": {
+    "first": "2026-07-07",
+    "count": 3,
+    "company": "PDSL"
+  },
+  "538835": {
+    "first": "2026-07-06",
+    "count": 2,
+    "company": "INTELLECT"
+  },
+  "538838": {
+    "first": "2026-07-14",
+    "count": 3,
+    "company": "ICL"
+  },
+  "538894": {
+    "first": "2026-07-17",
+    "count": 1,
+    "company": "OCTAL"
+  },
+  "538902": {
+    "first": "2026-07-27",
+    "count": 1,
+    "company": "DTIL"
+  },
+  "538962": {
+    "first": "2026-07-29",
+    "count": 1,
+    "company": "MINDACORP"
+  },
+  "538979": {
+    "first": "2026-07-07",
+    "count": 3,
+    "company": "GREENLAM"
+  },
+  "539090": {
+    "first": "2026-06-20",
+    "count": 1,
+    "company": "RAJPUTANA"
+  },
+  "539118": {
+    "first": "2026-07-12",
+    "count": 3,
+    "company": "VRLLOG"
+  },
+  "539120": {
+    "first": "2026-07-06",
+    "count": 1,
+    "company": "GRAMEVA"
+  },
+  "539141": {
+    "first": "2026-07-24",
+    "count": 4,
+    "company": "UFO"
+  },
+  "539196": {
+    "first": "2026-06-04",
+    "count": 3,
+    "company": "AEL"
+  },
+  "539199": {
+    "first": "2026-06-05",
+    "count": 2,
+    "company": "SGFIN"
+  },
+  "539222": {
+    "first": "2026-06-15",
+    "count": 4,
+    "company": "GROWINGTON"
+  },
+  "539254": {
+    "first": "2026-05-31",
+    "count": 3,
+    "company": "ADANIENSOL"
+  },
+  "539267": {
+    "first": "2026-07-18",
+    "count": 1,
+    "company": "SAMSRITA"
+  },
+  "539268": {
+    "first": "2026-07-02",
+    "count": 2,
+    "company": "SYNGENE"
+  },
+  "539276": {
+    "first": "2026-07-21",
+    "count": 1,
+    "company": "KAYA"
+  },
+  "539314": {
+    "first": "2026-07-04",
+    "count": 3,
+    "company": "UNIAUTO"
+  },
+  "539332": {
+    "first": "2026-07-13",
+    "count": 1,
+    "company": "NAVKARCORP"
+  },
+  "539354": {
+    "first": "2026-07-28",
+    "count": 2,
+    "company": "POLYSPIN"
+  },
+  "539404": {
+    "first": "2026-07-10",
+    "count": 2,
+    "company": "SATIN"
+  },
+  "539405": {
+    "first": "2026-07-27",
+    "count": 2,
+    "company": "DITCO"
+  },
+  "539448": {
+    "first": "2026-07-28",
+    "count": 6,
+    "company": "INDIGO"
+  },
+  "539450": {
+    "first": "2026-07-01",
+    "count": 2,
+    "company": "SHK"
+  },
+  "539488": {
+    "first": "2026-07-14",
+    "count": 1,
+    "company": "TFLL"
+  },
+  "539515": {
+    "first": "2026-07-21",
+    "count": 2,
+    "company": "QUINT"
+  },
+  "539522": {
+    "first": "2026-06-15",
+    "count": 1,
+    "company": "GROVY"
+  },
+  "539524": {
+    "first": "2026-07-01",
+    "count": 3,
+    "company": "LALPATHLAB"
+  },
+  "539527": {
+    "first": "2026-07-23",
+    "count": 1,
+    "company": "CREATIVE"
+  },
+  "539551": {
+    "first": "2026-07-23",
+    "count": 2,
+    "company": "NH"
+  },
+  "539620": {
+    "first": "2026-07-24",
+    "count": 2,
+    "company": "KEIL"
+  },
+  "539636": {
+    "first": "2026-07-08",
+    "count": 2,
+    "company": "PRECAM"
+  },
+  "539730": {
+    "first": "2026-06-08",
+    "count": 1,
+    "company": "FREDUN"
+  },
+  "539767": {
+    "first": "2026-07-29",
+    "count": 2,
+    "company": "MNIL"
+  },
+  "539788": {
+    "first": "2026-07-11",
+    "count": 1,
+    "company": "KDML"
+  },
+  "539833": {
+    "first": "2026-06-15",
+    "count": 4,
+    "company": "SICLTD"
+  },
+  "539837": {
+    "first": "2026-06-05",
+    "count": 2,
+    "company": "RPEL"
+  },
+  "539871": {
+    "first": "2026-06-04",
+    "count": 4,
+    "company": "THYROCARE"
+  },
+  "539876": {
+    "first": "2026-07-08",
+    "count": 4,
+    "company": "CROMPTON"
+  },
+  "539883": {
+    "first": "2026-06-19",
+    "count": 3,
+    "company": "PILANIINVS"
+  },
+  "539922": {
+    "first": "2026-07-13",
+    "count": 4,
+    "company": "RGIL"
+  },
+  "539927": {
+    "first": "2026-07-25",
+    "count": 4,
+    "company": "LIKHAMI"
+  },
+  "540025": {
+    "first": "2026-07-08",
+    "count": 3,
+    "company": "ADVENZYMES"
+  },
+  "540026": {
+    "first": "2026-07-27",
+    "count": 2,
+    "company": "LAHL"
+  },
+  "540062": {
+    "first": "2026-07-24",
+    "count": 1,
+    "company": "GOLDENCREST"
+  },
+  "540078": {
+    "first": "2026-07-09",
+    "count": 2,
+    "company": "MITSU"
+  },
+  "540124": {
+    "first": "2026-06-06",
+    "count": 3,
+    "company": "GNA"
+  },
+  "540133": {
+    "first": "2026-06-04",
+    "count": 5,
+    "company": "ICICIPRULI"
+  },
+  "540143": {
+    "first": "2026-06-18",
+    "count": 1,
+    "company": "SAGARSOFT"
+  },
+  "540153": {
+    "first": "2026-07-21",
+    "count": 2,
+    "company": "ENDURANCE"
+  },
+  "540173": {
+    "first": "2026-07-23",
+    "count": 3,
+    "company": "PNBHOUSING"
+  },
+  "540192": {
+    "first": "2026-06-20",
+    "count": 1,
+    "company": "LKPSEC"
+  },
+  "540203": {
+    "first": "2026-06-20",
+    "count": 4,
+    "company": "SFL"
+  },
+  "540212": {
+    "first": "2026-07-15",
+    "count": 4,
+    "company": "TCIEXP"
+  },
+  "540222": {
+    "first": "2026-06-08",
+    "count": 3,
+    "company": "LAURUSLABS"
+  },
+  "540293": {
+    "first": "2026-07-13",
+    "count": 1,
+    "company": "PRICOLLTD"
+  },
+  "540318": {
+    "first": "2026-07-15",
+    "count": 1,
+    "company": "SUERYAAKNI"
+  },
+  "540376": {
+    "first": "2026-07-23",
+    "count": 2,
+    "company": "DMART"
+  },
+  "540393": {
+    "first": "2026-07-18",
+    "count": 3,
+    "company": "SMLT"
+  },
+  "540404": {
+    "first": "2026-07-27",
+    "count": 2,
+    "company": "PRIMEFRESH"
+  },
+  "540425": {
+    "first": "2026-05-27",
+    "count": 2,
+    "company": "SHANKARA"
+  },
+  "540544": {
+    "first": "2026-05-28",
+    "count": 2,
+    "company": "PSPPROJECT"
+  },
+  "540595": {
+    "first": "2026-06-01",
+    "count": 3,
+    "company": "TEJASNET"
+  },
+  "540615": {
+    "first": "2026-07-16",
+    "count": 2,
+    "company": "7NR"
+  },
+  "540647": {
+    "first": "2026-07-20",
+    "count": 2,
+    "company": "GANGESSECU"
+  },
+  "540648": {
+    "first": "2026-07-13",
+    "count": 2,
+    "company": "PALASHSECU"
+  },
+  "540649": {
+    "first": "2026-07-06",
+    "count": 3,
+    "company": "AVADHSUGAR"
+  },
+  "540650": {
+    "first": "2026-07-07",
+    "count": 2,
+    "company": "MAGADSUGAR"
+  },
+  "540673": {
+    "first": "2026-06-13",
+    "count": 3,
+    "company": "SIS"
+  },
+  "540686": {
+    "first": "2026-07-17",
+    "count": 3,
+    "company": "SMRUTHIORG"
+  },
+  "540691": {
+    "first": "2026-07-17",
+    "count": 2,
+    "company": "ABCAPITAL"
+  },
+  "540704": {
+    "first": "2026-07-17",
+    "count": 2,
+    "company": "MATRIMONY"
+  },
+  "540710": {
+    "first": "2026-07-01",
+    "count": 5,
+    "company": "CAPACITE"
+  },
+  "540716": {
+    "first": "2026-05-27",
+    "count": 3,
+    "company": "ICICIGI"
+  },
+  "540719": {
+    "first": "2026-07-23",
+    "count": 2,
+    "company": "SBILIFE"
+  },
+  "540735": {
+    "first": "2026-07-21",
+    "count": 3,
+    "company": "IRIS"
+  },
+  "540743": {
+    "first": "2026-07-10",
+    "count": 2,
+    "company": "GODREJAGRO"
+  },
+  "540762": {
+    "first": "2026-07-10",
+    "count": 2,
+    "company": "TIINDIA"
+  },
+  "540767": {
+    "first": "2026-06-15",
+    "count": 4,
+    "company": "NAM-INDIA"
+  },
+  "540768": {
+    "first": "2026-06-23",
+    "count": 3,
+    "company": "MAHLOG"
+  },
+  "540769": {
+    "first": "2026-07-06",
+    "count": 3,
+    "company": "NIACL"
+  },
+  "540774": {
+    "first": "2026-07-14",
+    "count": 3,
+    "company": "IFGLEXPOR"
+  },
+  "540777": {
+    "first": "2026-06-24",
+    "count": 3,
+    "company": "HDFCLIFE"
+  },
+  "540795": {
+    "first": "2026-06-22",
+    "count": 3,
+    "company": "DYCL"
+  },
+  "540796": {
+    "first": "2026-07-22",
+    "count": 1,
+    "company": "RATNABHUMI"
+  },
+  "540850": {
+    "first": "2026-06-16",
+    "count": 1,
+    "company": "JFL"
+  },
+  "540900": {
+    "first": "2026-06-29",
+    "count": 3,
+    "company": "NEWGEN"
+  },
+  "540904": {
+    "first": "2026-07-21",
+    "count": 1,
+    "company": "TIRUFOAM"
+  },
+  "540935": {
+    "first": "2026-07-17",
+    "count": 2,
+    "company": "GALAXYSURF"
+  },
+  "540956": {
+    "first": "2026-07-01",
+    "count": 1,
+    "company": "BHATIA"
+  },
+  "540961": {
+    "first": "2026-07-27",
+    "count": 1,
+    "company": "SHIVAMILLS"
+  },
+  "541005": {
+    "first": "2026-07-22",
+    "count": 1,
+    "company": "KANCOTEA"
+  },
+  "541019": {
+    "first": "2026-07-28",
+    "count": 3,
+    "company": "HGINFRA"
+  },
+  "541167": {
+    "first": "2026-07-14",
+    "count": 2,
+    "company": "YASHO"
+  },
+  "541301": {
+    "first": "2026-06-29",
+    "count": 2,
+    "company": "ORIENTELEC"
+  },
+  "541358": {
+    "first": "2026-06-10",
+    "count": 2,
+    "company": "UCIL"
+  },
+  "541400": {
+    "first": "2026-06-05",
+    "count": 3,
+    "company": "ZIMLAB"
+  },
+  "541403": {
+    "first": "2026-07-13",
+    "count": 3,
+    "company": "DOLLAR"
+  },
+  "541450": {
+    "first": "2026-05-29",
+    "count": 2,
+    "company": "ADANIGREEN"
+  },
+  "541557": {
+    "first": "2026-07-27",
+    "count": 2,
+    "company": "FINEORG"
+  },
+  "541578": {
+    "first": "2026-07-28",
+    "count": 6,
+    "company": "VARROC"
+  },
+  "541729": {
+    "first": "2026-06-01",
+    "count": 3,
+    "company": "HDFCAMC"
+  },
+  "541770": {
+    "first": "2026-06-09",
+    "count": 3,
+    "company": "CREDITACC"
+  },
+  "541799": {
+    "first": "2026-06-08",
+    "count": 1,
+    "company": "SMEL"
+  },
+  "541929": {
+    "first": "2026-07-01",
+    "count": 2,
+    "company": "SGIL"
+  },
+  "542057": {
+    "first": "2026-07-28",
+    "count": 3,
+    "company": "BCPL"
+  },
+  "542066": {
+    "first": "2026-05-29",
+    "count": 2,
+    "company": "ATGL"
+  },
+  "542216": {
+    "first": "2026-06-04",
+    "count": 3,
+    "company": "DALBHARAT"
+  },
+  "542333": {
+    "first": "2026-07-08",
+    "count": 3,
+    "company": "RPSGVENT"
+  },
+  "542351": {
+    "first": "2026-07-16",
+    "count": 2,
+    "company": "GLOSTERLTD"
+  },
+  "542446": {
+    "first": "2026-07-23",
+    "count": 1,
+    "company": "JONJUA"
+  },
+  "542484": {
+    "first": "2026-07-24",
+    "count": 3,
+    "company": "ARVINDFASN"
+  },
+  "542650": {
+    "first": "2026-07-27",
+    "count": 3,
+    "company": "METROPOLIS"
+  },
+  "542652": {
+    "first": "2026-05-30",
+    "count": 5,
+    "company": "POLYCAB"
+  },
+  "542665": {
+    "first": "2026-07-24",
+    "count": 2,
+    "company": "NEOGEN"
+  },
+  "542726": {
+    "first": "2026-06-02",
+    "count": 4,
+    "company": "INDIAMART"
+  },
+  "542759": {
+    "first": "2026-07-24",
+    "count": 3,
+    "company": "SPANDANA"
+  },
+  "542760": {
+    "first": "2026-06-09",
+    "count": 4,
+    "company": "SWSOLAR"
+  },
+  "542857": {
+    "first": "2026-07-15",
+    "count": 2,
+    "company": "GREENPANEL"
+  },
+  "542867": {
+    "first": "2026-07-28",
+    "count": 3,
+    "company": "CSBBANK"
+  },
+  "542904": {
+    "first": "2026-06-30",
+    "count": 2,
+    "company": "UJJIVANSFB"
+  },
+  "542905": {
+    "first": "2026-07-25",
+    "count": 3,
+    "company": "HINDWAREAP"
+  },
+  "542919": {
+    "first": "2026-07-07",
+    "count": 4,
+    "company": "ARTEMISMED"
+  },
+  "542920": {
+    "first": "2026-07-01",
+    "count": 4,
+    "company": "SUMICHEM"
+  },
+  "543193": {
+    "first": "2026-06-21",
+    "count": 1,
+    "company": "DJML"
+  },
+  "543213": {
+    "first": "2026-06-27",
+    "count": 2,
+    "company": "ROSSARI"
+  },
+  "543214": {
+    "first": "2026-07-02",
+    "count": 2,
+    "company": "NDRAUTO"
+  },
+  "543220": {
+    "first": "2026-07-08",
+    "count": 3,
+    "company": "MAXHEALTH"
+  },
+  "543223": {
+    "first": "2026-07-28",
+    "count": 1,
+    "company": "MAXIND"
+  },
+  "543227": {
+    "first": "2026-07-03",
+    "count": 3,
+    "company": "HAPPSTMNDS"
+  },
+  "543232": {
+    "first": "2026-06-15",
+    "count": 5,
+    "company": "CAMS"
+  },
+  "543238": {
+    "first": "2026-06-24",
+    "count": 3,
+    "company": "UTIAMC"
+  },
+  "543248": {
+    "first": "2026-07-28",
+    "count": 2,
+    "company": "RBA"
+  },
+  "543252": {
+    "first": "2026-06-24",
+    "count": 2,
+    "company": "FAIRCHEMOR"
+  },
+  "543259": {
+    "first": "2026-05-29",
+    "count": 3,
+    "company": "HOMEFIRST"
+  },
+  "543263": {
+    "first": "2026-06-04",
+    "count": 2,
+    "company": "SMCGLOBAL"
+  },
+  "543264": {
+    "first": "2026-07-03",
+    "count": 3,
+    "company": "NURECA"
+  },
+  "543265": {
+    "first": "2026-07-28",
+    "count": 2,
+    "company": "RAILTEL"
+  },
+  "543269": {
+    "first": "2026-06-05",
+    "count": 1,
+    "company": "ADJIA"
+  },
+  "543276": {
+    "first": "2026-06-27",
+    "count": 3,
+    "company": "CRAFTSMAN"
+  },
+  "543277": {
+    "first": "2026-07-14",
+    "count": 3,
+    "company": "LXCHEM"
+  },
+  "543279": {
+    "first": "2026-07-14",
+    "count": 3,
+    "company": "SURYODAY"
+  },
+  "543287": {
+    "first": "2026-07-10",
+    "count": 2,
+    "company": "LODHA"
+  },
+  "543288": {
+    "first": "2026-07-29",
+    "count": 1,
+    "company": "DEEPINDS"
+  },
+  "543300": {
+    "first": "2026-06-20",
+    "count": 3,
+    "company": "SONACOMS"
+  },
+  "543306": {
+    "first": "2026-06-20",
+    "count": 2,
+    "company": "DODLA"
+  },
+  "543317": {
+    "first": "2026-06-30",
+    "count": 3,
+    "company": "GRINFRA"
+  },
+  "543324": {
+    "first": "2026-07-08",
+    "count": 2,
+    "company": "GCSL"
+  },
+  "543329": {
+    "first": "2026-07-01",
+    "count": 2,
+    "company": "WINDLAS"
+  },
+  "543330": {
+    "first": "2026-07-23",
+    "count": 3,
+    "company": "DEVYANI"
+  },
+  "543335": {
+    "first": "2026-07-13",
+    "count": 3,
+    "company": "APTUS"
+  },
+  "543336": {
+    "first": "2026-07-14",
+    "count": 1,
+    "company": "CHEMPLASTS"
+  },
+  "543352": {
+    "first": "2026-07-16",
+    "count": 1,
+    "company": "POBS"
+  },
+  "543374": {
+    "first": "2026-07-03",
+    "count": 3,
+    "company": "ABSLAMC"
+  },
+  "543387": {
+    "first": "2026-06-10",
+    "count": 3,
+    "company": "SJS"
+  },
+  "543397": {
+    "first": "2026-06-27",
+    "count": 4,
+    "company": "SAPPHIRE"
+  },
+  "543398": {
+    "first": "2026-07-07",
+    "count": 4,
+    "company": "LATENTVIEW"
+  },
+  "543410": {
+    "first": "2026-06-08",
+    "count": 3,
+    "company": "DMR"
+  },
+  "543425": {
+    "first": "2026-06-25",
+    "count": 5,
+    "company": "MAPMYINDIA"
+  },
+  "543427": {
+    "first": "2026-07-23",
+    "count": 2,
+    "company": "MEDPLUS"
+  },
+  "543428": {
+    "first": "2026-07-07",
+    "count": 7,
+    "company": "DATAPATTNS"
+  },
+  "543458": {
+    "first": "2026-06-13",
+    "count": 3,
+    "company": "AWL"
+  },
+  "543482": {
+    "first": "2026-07-20",
+    "count": 4,
+    "company": "EUREKAFORB"
+  },
+  "543498": {
+    "first": "2026-07-06",
+    "count": 2,
+    "company": "MSUMI"
+  },
+  "543514": {
+    "first": "2026-07-15",
+    "count": 2,
+    "company": "VERANDA"
+  },
+  "543520": {
+    "first": "2026-06-02",
+    "count": 1,
+    "company": "GLHRL"
+  },
+  "543523": {
+    "first": "2026-07-23",
+    "count": 2,
+    "company": "CAMPUS"
+  },
+  "543524": {
+    "first": "2026-07-04",
+    "count": 5,
+    "company": "RAINBOW"
+  },
+  "543526": {
+    "first": "2026-07-03",
+    "count": 3,
+    "company": "LICI"
+  },
+  "543527": {
+    "first": "2026-07-06",
+    "count": 2,
+    "company": "PRUDENT"
+  },
+  "543533": {
+    "first": "2026-05-25",
+    "count": 2,
+    "company": "EMUDHRA"
+  },
+  "543538": {
+    "first": "2026-06-25",
+    "count": 1,
+    "company": "GOEL"
+  },
+  "543539": {
+    "first": "2026-07-10",
+    "count": 1,
+    "company": "MODIS"
+  },
+  "543543": {
+    "first": "2026-07-22",
+    "count": 2,
+    "company": "BRRL"
+  },
+  "543593": {
+    "first": "2026-07-01",
+    "count": 3,
+    "company": "DBOL"
+  },
+  "543596": {
+    "first": "2026-06-18",
+    "count": 2,
+    "company": "TMB"
+  },
+  "543600": {
+    "first": "2026-06-29",
+    "count": 3,
+    "company": "HARSHA"
+  },
+  "543635": {
+    "first": "2026-07-03",
+    "count": 3,
+    "company": "PPLPHARMA"
+  },
+  "543638": {
+    "first": "2026-07-23",
+    "count": 3,
+    "company": "TRACXN"
+  },
+  "543643": {
+    "first": "2026-06-25",
+    "count": 1,
+    "company": "NARMADA"
+  },
+  "543644": {
+    "first": "2026-07-15",
+    "count": 2,
+    "company": "INFOBEAN"
+  },
+  "543652": {
+    "first": "2026-06-30",
+    "count": 4,
+    "company": "FUSION"
+  },
+  "543653": {
+    "first": "2026-05-21",
+    "count": 4,
+    "company": "BIKAJI"
+  },
+  "543657": {
+    "first": "2026-05-21",
+    "count": 3,
+    "company": "ACI"
+  },
+  "543686": {
+    "first": "2026-07-20",
+    "count": 3,
+    "company": "SIRCA"
+  },
+  "543709": {
+    "first": "2026-05-28",
+    "count": 3,
+    "company": "GARGI"
+  },
+  "543711": {
+    "first": "2026-05-29",
+    "count": 3,
+    "company": "SULA"
+  },
+  "543720": {
+    "first": "2026-06-29",
+    "count": 4,
+    "company": "KFINTECH"
+  },
+  "543782": {
+    "first": "2026-06-30",
+    "count": 2,
+    "company": "SEALMATIC"
+  },
+  "543904": {
+    "first": "2026-07-09",
+    "count": 2,
+    "company": "MANKIND"
+  },
+  "543918": {
+    "first": "2026-06-03",
+    "count": 2,
+    "company": "GHCLTEXTIL"
+  },
+  "543920": {
+    "first": "2026-07-15",
+    "count": 1,
+    "company": "CFF"
+  },
+  "543923": {
+    "first": "2026-07-07",
+    "count": 3,
+    "company": "IKIO"
+  },
+  "543926": {
+    "first": "2026-07-06",
+    "count": 2,
+    "company": "BIZOTIC"
+  },
+  "543932": {
+    "first": "2026-07-13",
+    "count": 3,
+    "company": "IDEAFORGE"
+  },
+  "543933": {
+    "first": "2026-06-08",
+    "count": 1,
+    "company": "CYIENTDLM"
+  },
+  "543938": {
+    "first": "2026-07-02",
+    "count": 1,
+    "company": "ACCELERATE"
+  },
+  "543942": {
+    "first": "2026-07-10",
+    "count": 3,
+    "company": "UTKARSHBNK"
+  },
+  "543953": {
+    "first": "2026-07-17",
+    "count": 2,
+    "company": "KHAZANCHI"
+  },
+  "543959": {
+    "first": "2026-06-18",
+    "count": 4,
+    "company": "SBFC"
+  },
+  "543960": {
+    "first": "2026-07-07",
+    "count": 2,
+    "company": "CONCORDBIO"
+  },
+  "543965": {
+    "first": "2026-07-11",
+    "count": 2,
+    "company": "TVSSCS"
+  },
+  "543972": {
+    "first": "2026-06-27",
+    "count": 2,
+    "company": "AEROFLEX"
+  },
+  "543977": {
+    "first": "2026-07-09",
+    "count": 2,
+    "company": "RISHABH"
+  },
+  "543980": {
+    "first": "2026-06-22",
+    "count": 4,
+    "company": "JLHL"
+  },
+  "543981": {
+    "first": "2026-06-19",
+    "count": 3,
+    "company": "RRKABEL"
+  },
+  "543989": {
+    "first": "2026-07-17",
+    "count": 2,
+    "company": "KALAMANDIR"
+  },
+  "543994": {
+    "first": "2026-07-22",
+    "count": 3,
+    "company": "JSWINFRA"
+  },
+  "544002": {
+    "first": "2026-07-13",
+    "count": 2,
+    "company": "VIVAA"
+  },
+  "544008": {
+    "first": "2026-07-28",
+    "count": 4,
+    "company": "MAXESTATES"
+  },
+  "544012": {
+    "first": "2026-07-16",
+    "count": 3,
+    "company": "CELLO"
+  },
+  "544013": {
+    "first": "2026-07-25",
+    "count": 2,
+    "company": "KKSHL"
+  },
+  "544020": {
+    "first": "2026-07-20",
+    "count": 3,
+    "company": "ESAFSFB"
+  },
+  "544022": {
+    "first": "2026-07-10",
+    "count": 4,
+    "company": "ASKAUTOLTD"
+  },
+  "544028": {
+    "first": "2026-06-03",
+    "count": 3,
+    "company": "TATATECH"
+  },
+  "544042": {
+    "first": "2026-07-17",
+    "count": 3,
+    "company": "BAJEL"
+  },
+  "544044": {
+    "first": "2026-06-22",
+    "count": 5,
+    "company": "INDIASHLTR"
+  },
+  "544046": {
+    "first": "2026-06-01",
+    "count": 2,
+    "company": "INOXINDIA"
+  },
+  "544055": {
+    "first": "2026-07-15",
+    "count": 2,
+    "company": "MUTHOOTMF"
+  },
+  "544057": {
+    "first": "2026-06-30",
+    "count": 2,
+    "company": "HAPPYFORGE"
+  },
+  "544066": {
+    "first": "2026-07-02",
+    "count": 2,
+    "company": "SUNCLAY"
+  },
+  "544067": {
+    "first": "2026-06-04",
+    "count": 4,
+    "company": "INNOVACAP"
+  },
+  "544101": {
+    "first": "2026-07-01",
+    "count": 3,
+    "company": "BRISK"
+  },
+  "544106": {
+    "first": "2026-07-09",
+    "count": 1,
+    "company": "MCFL"
+  },
+  "544112": {
+    "first": "2026-07-28",
+    "count": 1,
+    "company": "JGTL"
+  },
+  "544120": {
+    "first": "2026-05-28",
+    "count": 3,
+    "company": "CAPITALSFB"
+  },
+  "544122": {
+    "first": "2026-07-27",
+    "count": 3,
+    "company": "ENTERO"
+  },
+  "544131": {
+    "first": "2026-07-09",
+    "count": 2,
+    "company": "GPTHEALTH"
+  },
+  "544136": {
+    "first": "2026-07-23",
+    "count": 2,
+    "company": "RKSWAMY"
+  },
+  "544162": {
+    "first": "2026-07-17",
+    "count": 4,
+    "company": "BHARTIHEXA"
+  },
+  "544172": {
+    "first": "2026-07-17",
+    "count": 3,
+    "company": "INDGN"
+  },
+  "544176": {
+    "first": "2026-07-10",
+    "count": 4,
+    "company": "AADHARHFC"
+  },
+  "544179": {
+    "first": "2026-07-14",
+    "count": 3,
+    "company": "GODIGIT"
+  },
+  "544186": {
+    "first": "2026-07-02",
+    "count": 2,
+    "company": "TOTEM"
+  },
+  "544191": {
+    "first": "2026-06-01",
+    "count": 2,
+    "company": "PURPLEFIN"
+  },
+  "544200": {
+    "first": "2026-07-11",
+    "count": 2,
+    "company": "AFIL"
+  },
+  "544202": {
+    "first": "2026-07-27",
+    "count": 1,
+    "company": "STANLEY"
+  },
+  "544203": {
+    "first": "2026-06-12",
+    "count": 2,
+    "company": "ABDL"
+  },
+  "544222": {
+    "first": "2026-06-18",
+    "count": 3,
+    "company": "AKUMS"
+  },
+  "544236": {
+    "first": "2026-07-20",
+    "count": 1,
+    "company": "RAL"
+  },
+  "544240": {
+    "first": "2026-06-23",
+    "count": 5,
+    "company": "RAYMONDLSL"
+  },
+  "544244": {
+    "first": "2026-06-08",
+    "count": 2,
+    "company": "GALAPREC"
+  },
+  "544250": {
+    "first": "2026-06-04",
+    "count": 2,
+    "company": "SANOFICONR"
+  },
+  "544252": {
+    "first": "2026-07-04",
+    "count": 2,
+    "company": "BAJAJHFL"
+  },
+  "544260": {
+    "first": "2026-07-25",
+    "count": 2,
+    "company": "NORTHARC"
+  },
+  "544270": {
+    "first": "2026-07-25",
+    "count": 1,
+    "company": "KGVL"
+  },
+  "544273": {
+    "first": "2026-07-04",
+    "count": 2,
+    "company": "MGEL"
+  },
+  "544280": {
+    "first": "2026-07-08",
+    "count": 2,
+    "company": "AFCONS"
+  },
+  "544282": {
+    "first": "2026-07-22",
+    "count": 4,
+    "company": "SAGILITY"
+  },
+  "544285": {
+    "first": "2026-07-24",
+    "count": 2,
+    "company": "SWIGGY"
+  },
+  "544286": {
+    "first": "2026-07-17",
+    "count": 3,
+    "company": "NIVABUPA"
+  },
+  "544311": {
+    "first": "2026-07-23",
+    "count": 3,
+    "company": "IGIL"
+  },
+  "544318": {
+    "first": "2026-07-17",
+    "count": 1,
+    "company": "MAMATA"
+  },
+  "544325": {
+    "first": "2026-07-11",
+    "count": 1,
+    "company": "ITCHOTELS"
+  },
+  "544344": {
+    "first": "2026-07-03",
+    "count": 4,
+    "company": "SHRIPISTON"
+  },
+  "544353": {
+    "first": "2026-07-22",
+    "count": 1,
+    "company": "AMWILL"
+  },
+  "544364": {
+    "first": "2026-07-17",
+    "count": 2,
+    "company": "BAJAJINDEF"
+  },
+  "544397": {
+    "first": "2026-07-27",
+    "count": 3,
+    "company": "ATHERENERG"
+  },
+  "544403": {
+    "first": "2026-07-24",
+    "count": 2,
+    "company": "ABLBL"
+  },
+  "544407": {
+    "first": "2026-07-14",
+    "count": 1,
+    "company": "AEGISVOPAK"
+  },
+  "544409": {
+    "first": "2026-07-24",
+    "count": 1,
+    "company": "ASTONEALAB"
+  },
+  "544412": {
+    "first": "2026-07-17",
+    "count": 1,
+    "company": "3BFILMS"
+  },
+  "544419": {
+    "first": "2026-07-08",
+    "count": 4,
+    "company": "ARIS"
+  },
+  "544420": {
+    "first": "2026-06-23",
+    "count": 2,
+    "company": "RAYMONDREL"
+  },
+  "544423": {
+    "first": "2026-07-10",
+    "count": 2,
+    "company": "KALPATARU"
+  },
+  "544429": {
+    "first": "2026-06-01",
+    "count": 3,
+    "company": "HDBFS"
+  },
+  "544440": {
+    "first": "2026-07-29",
+    "count": 1,
+    "company": "CRYOGENIC"
+  },
+  "544444": {
+    "first": "2026-07-28",
+    "count": 2,
+    "company": "GLEN"
+  },
+  "544449": {
+    "first": "2026-06-30",
+    "count": 4,
+    "company": "ANTHEM"
+  },
+  "544450": {
+    "first": "2026-07-06",
+    "count": 1,
+    "company": "CHEMBONDCH"
+  },
+  "544451": {
+    "first": "2026-06-01",
+    "count": 3,
+    "company": "MONIKA"
+  },
+  "544454": {
+    "first": "2026-07-07",
+    "count": 2,
+    "company": "INDIQUBE"
+  },
+  "544457": {
+    "first": "2026-07-14",
+    "count": 3,
+    "company": "BRIGHOTEL"
+  },
+  "544466": {
+    "first": "2026-07-10",
+    "count": 2,
+    "company": "CPPLUS"
+  },
+  "544480": {
+    "first": "2026-07-09",
+    "count": 3,
+    "company": "JSWCEMENT"
+  },
+  "544488": {
+    "first": "2026-07-10",
+    "count": 1,
+    "company": "VIKRAMSOLR"
+  },
+  "544491": {
+    "first": "2026-07-28",
+    "count": 2,
+    "company": "GEMAROMA"
+  },
+  "544500": {
+    "first": "2026-07-07",
+    "count": 5,
+    "company": "ABRIL"
+  },
+  "544515": {
+    "first": "2026-06-05",
+    "count": 3,
+    "company": "URBANCO"
+  },
+  "544517": {
+    "first": "2026-06-10",
+    "count": 2,
+    "company": "BUILDPRO"
+  },
+  "544523": {
+    "first": "2026-07-25",
+    "count": 1,
+    "company": "IVALUE"
+  },
+  "544530": {
+    "first": "2026-06-06",
+    "count": 2,
+    "company": "ARSSBL"
+  },
+  "544534": {
+    "first": "2026-07-06",
+    "count": 2,
+    "company": "JARO"
+  },
+  "544547": {
+    "first": "2026-07-18",
+    "count": 1,
+    "company": "JKIPL"
+  },
+  "544549": {
+    "first": "2026-07-17",
+    "count": 1,
+    "company": "EARKART"
+  },
+  "544554": {
+    "first": "2026-07-13",
+    "count": 4,
+    "company": "KVSCASTING"
+  },
+  "544560": {
+    "first": "2026-07-27",
+    "count": 3,
+    "company": "SODHACAP"
+  },
+  "544567": {
+    "first": "2026-07-15",
+    "count": 2,
+    "company": "INFINITY"
+  },
+  "544569": {
+    "first": "2026-06-06",
+    "count": 2,
+    "company": "TMCV"
+  },
+  "544572": {
+    "first": "2026-07-16",
+    "count": 2,
+    "company": "SKFINDUS"
+  },
+  "544574": {
+    "first": "2026-07-23",
+    "count": 3,
+    "company": "TATACAP"
+  },
+  "544576": {
+    "first": "2026-07-22",
+    "count": 1,
+    "company": "LGEINDIA"
+  },
+  "544580": {
+    "first": "2026-06-25",
+    "count": 3,
+    "company": "CRAMC"
+  },
+  "544583": {
+    "first": "2026-07-23",
+    "count": 3,
+    "company": "CANHLIFE"
+  },
+  "544595": {
+    "first": "2026-07-25",
+    "count": 2,
+    "company": "ORKLAINDIA"
+  },
+  "544597": {
+    "first": "2026-06-10",
+    "count": 3,
+    "company": "PIRAMALFIN"
+  },
+  "544600": {
+    "first": "2026-07-24",
+    "count": 4,
+    "company": "LENSKART"
+  },
+  "544619": {
+    "first": "2026-07-10",
+    "count": 2,
+    "company": "SUDEEPPHRM"
+  },
+  "544621": {
+    "first": "2026-06-12",
+    "count": 2,
+    "company": "SSMD"
+  },
+  "544641": {
+    "first": "2026-07-23",
+    "count": 1,
+    "company": "KVTOYS"
+  },
+  "544644": {
+    "first": "2026-06-15",
+    "count": 4,
+    "company": "CORONA"
+  },
+  "544647": {
+    "first": "2026-07-16",
+    "count": 2,
+    "company": "NEPHROPLUS"
+  },
+  "544657": {
+    "first": "2026-07-21",
+    "count": 3,
+    "company": "PAJSON"
+  },
+  "544668": {
+    "first": "2026-07-22",
+    "count": 2,
+    "company": "NANTA"
+  },
+  "544678": {
+    "first": "2026-07-16",
+    "count": 1,
+    "company": "BHARATCOAL"
+  },
+  "544687": {
+    "first": "2026-06-18",
+    "count": 1,
+    "company": "HANNAH"
+  },
+  "544702": {
+    "first": "2026-06-17",
+    "count": 3,
+    "company": "DCMSIL"
+  },
+  "544703": {
+    "first": "2026-06-20",
+    "count": 3,
+    "company": "DSFCL"
+  },
+  "544717": {
+    "first": "2026-06-30",
+    "count": 1,
+    "company": "CLEANMAX"
+  },
+  "544718": {
+    "first": "2026-06-03",
+    "count": 3,
+    "company": "PNGSREVA"
+  },
+  "544735": {
+    "first": "2026-06-26",
+    "count": 1,
+    "company": "NOVUS"
+  },
+  "544739": {
+    "first": "2026-07-26",
+    "count": 1,
+    "company": "CMPDI"
+  },
+  "544764": {
+    "first": "2026-07-06",
+    "count": 2,
+    "company": "MWL"
+  },
+  "570004": {
+    "first": "2026-07-17",
+    "count": 1,
+    "company": "JISLDVREQS"
+  },
+  "590013": {
+    "first": "2026-06-23",
+    "count": 2,
+    "company": "XPROINDIA"
+  },
+  "590051": {
+    "first": "2026-07-16",
+    "count": 2,
+    "company": "SAKSOFT"
+  },
+  "590065": {
+    "first": "2026-06-30",
+    "count": 1,
+    "company": "IMPAL"
+  },
+  "590066": {
+    "first": "2026-07-10",
+    "count": 1,
+    "company": "KCP"
+  },
+  "590072": {
+    "first": "2026-07-01",
+    "count": 2,
+    "company": "SUNDRMBRAK"
+  }
+}

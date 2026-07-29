@@ -110,6 +110,50 @@ def aggregate(records):
     return sorted(by.values(), key=lambda x: x["first"] or "9999")
 
 
+SECT_FILL = PatternFill("solid", fgColor="FBE5D6")
+SECT_FONT = Font(bold=True)
+
+
+def new_company_sheet(wb, title, fresh, repeats, fill):
+    """New-since-last-email sheet: first-time companies listed directly, then a
+    labelled section for previously notified companies with new filings."""
+    s = wb.create_sheet(title)
+    s.append(["Company", "Scrip Code", "New filings", "First notified", "Earlier filings"])
+    for c in s[1]:
+        c.fill = fill
+        c.font = HEAD_FONT
+
+    def _row(g, earlier=""):
+        s.append([g["company"], g["scrip"], g["count"], None, earlier])
+        cell = s.cell(row=s.max_row, column=4)
+        if g["first"]:
+            cell.value = datetime.strptime(g["first"][:10], "%Y-%m-%d").date()
+            cell.number_format = "dd-mmm-yyyy"
+        for cell in s[s.max_row]:
+            cell.alignment = Alignment(vertical="top", wrap_text=True)
+
+    for g in fresh:
+        _row(g)
+    if repeats:
+        s.append(["", "", "", "", ""])
+        s.append([
+            f"PREVIOUSLY NOTIFIED COMPANIES WITH NEW FILINGS ({len(repeats)})",
+            "", "", "", "",
+        ])
+        label_row = s.max_row
+        for cell in s[label_row]:
+            cell.fill = SECT_FILL
+            cell.font = SECT_FONT
+            cell.alignment = Alignment(vertical="center", wrap_text=False)
+        s.row_dimensions[label_row].height = 22
+        for g in repeats:
+            _row(g, earlier=g.get("earlier", ""))
+
+    for i, w in enumerate([56, 12, 12, 16, 14], 1):
+        s.column_dimensions[get_column_letter(i)].width = w
+    s.freeze_panes = "A2"
+
+
 def company_sheet(wb, title, companies, fill):
     s = wb.create_sheet(title)
     s.append(["Company", "Scrip Code", "Notifications", "First notified"])
@@ -206,9 +250,40 @@ def build_workbook(out_path):
     new_bse_c = aggregate([r for r in new_rows if r["bse500"]])
     new_non_c = aggregate([r for r in new_rows if not r["bse500"]])
 
+    # A company is "previously notified" if any of its announcements went out
+    # in an earlier email. Track per-company prior filing count + first date.
+    def _key(scrip, company):
+        return scrip or f"name:{company}"
+
+    prior = {}
+    for r in ok:
+        if reported is not None and r["NewsID"] in reported:
+            k = _key(r["scrip"], r["company"])
+            st = prior.setdefault(k, {"count": 0, "first": None})
+            st["count"] += 1
+            d = r["date"]
+            if d and (st["first"] is None or d < st["first"]):
+                st["first"] = d
+
+    def split_new(companies):
+        fresh, repeats = [], []
+        for g in companies:
+            k = _key(g["scrip"], g["company"])
+            if k in prior:
+                repeats.append({**g, "first": prior[k]["first"] or g["first"],
+                                "earlier": prior[k]["count"]})
+            else:
+                fresh.append(g)
+        return fresh, repeats
+
+    new_bse_fresh, new_bse_rep = split_new(new_bse_c)
+    new_non_fresh, new_non_rep = split_new(new_non_c)
+
     wb = Workbook()
-    company_sheet(wb, f"New BSE 500 ({len(new_bse_c)})", new_bse_c, HEAD_FILL)
-    company_sheet(wb, f"New non-BSE 500 ({len(new_non_c)})", new_non_c, NON_FILL)
+    new_company_sheet(wb, f"New BSE 500 ({len(new_bse_c)})",
+                      new_bse_fresh, new_bse_rep, HEAD_FILL)
+    new_company_sheet(wb, f"New non-BSE 500 ({len(new_non_c)})",
+                      new_non_fresh, new_non_rep, NON_FILL)
     company_sheet(wb, f"BSE 500 companies ({len(bse_c)})", bse_c, HEAD_FILL)
     company_sheet(wb, f"Non-BSE 500 companies ({len(non_c)})", non_c, NON_FILL)
     detail_sheet(wb, "All announcements", ok)
