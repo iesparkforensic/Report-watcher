@@ -151,8 +151,8 @@
   },
   "500133": {
     "first": "2026-07-03",
-    "count": 4,
-    "company": "ESABINDIA"
+    "count": 5,
+    "company": "Esab India Ltd"
   },
   "500142": {
     "first": "2026-07-02",
@@ -5303,5 +5303,40 @@
     "first": "2026-07-01",
     "count": 2,
     "company": "SUNDRMBRAK"
+  },
+  "539523": {
+    "first": "2026-07-29",
+    "count": 3,
+    "company": "Alkem Laboratories Ltd"
+  },
+  "543320": {
+    "first": "2026-07-29",
+    "count": 1,
+    "company": "Eternal Ltd"
+  },
+  "532714": {
+    "first": "2026-07-29",
+    "count": 2,
+    "company": "KEC International Ltd"
+  },
+  "540744": {
+    "first": "2026-07-29",
+    "count": 1,
+    "company": "Mideast Integrated Steels Ltd"
+  },
+  "531314": {
+    "first": "2026-07-29",
+    "count": 1,
+    "company": "Integra Capital  Ltd"
+  },
+  "533029": {
+    "first": "2026-07-29",
+    "count": 1,
+    "company": "Alkali Metals Ltd"
+  },
+  "539486": {
+    "first": "2026-07-29",
+    "count": 1,
+    "company": "Geetanjali Credit and Capital Ltd"
   }
 }
