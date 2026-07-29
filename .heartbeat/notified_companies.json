@@ -5166,8 +5166,8 @@
   },
   "544576": {
     "first": "2026-07-22",
-    "count": 1,
-    "company": "LGEINDIA"
+    "count": 3,
+    "company": "LG Electronics India Ltd"
   },
   "544580": {
     "first": "2026-06-25",
@@ -5338,5 +5338,30 @@
     "first": "2026-07-29",
     "count": 1,
     "company": "Geetanjali Credit and Capital Ltd"
+  },
+  "532898": {
+    "first": "2026-07-29",
+    "count": 1,
+    "company": "Power Grid Corporation of India Ltd"
+  },
+  "543254": {
+    "first": "2026-07-29",
+    "count": 2,
+    "company": "Antony Waste Handling Cell Ltd"
+  },
+  "544551": {
+    "first": "2026-07-29",
+    "count": 1,
+    "company": "Bhavik Enterprises Ltd"
+  },
+  "532553": {
+    "first": "2026-07-29",
+    "count": 3,
+    "company": "Welspun Enterprises Ltd"
+  },
+  "502157": {
+    "first": "2026-07-29",
+    "count": 3,
+    "company": "Mangalam Cement Ltd"
   }
 }
