@@ -3491,8 +3491,8 @@
   },
   "533193": {
     "first": "2026-07-21",
-    "count": 1,
-    "company": "KECL"
+    "count": 2,
+    "company": "Kirloskar Electric Company Ltd"
   },
   "533202": {
     "first": "2026-06-05",
@@ -3726,8 +3726,8 @@
   },
   "538902": {
     "first": "2026-07-27",
-    "count": 1,
-    "company": "DTIL"
+    "count": 2,
+    "company": "Dhunseri Tea & Industries Ltd"
   },
   "538962": {
     "first": "2026-07-29",
@@ -3856,8 +3856,8 @@
   },
   "539551": {
     "first": "2026-07-23",
-    "count": 2,
-    "company": "NH"
+    "count": 3,
+    "company": "Narayana Hrudayalaya Ltd"
   },
   "539620": {
     "first": "2026-07-24",
@@ -5166,7 +5166,7 @@
   },
   "544576": {
     "first": "2026-07-22",
-    "count": 3,
+    "count": 4,
     "company": "LG Electronics India Ltd"
   },
   "544580": {
@@ -5326,7 +5326,7 @@
   },
   "531314": {
     "first": "2026-07-29",
-    "count": 1,
+    "count": 2,
     "company": "Integra Capital  Ltd"
   },
   "533029": {
@@ -5366,7 +5366,7 @@
   },
   "544603": {
     "first": "2026-07-30",
-    "count": 1,
+    "count": 2,
     "company": "Billionbrains Garage Ventures Ltd"
   },
   "530239": {
@@ -5383,5 +5383,70 @@
     "first": "2026-07-30",
     "count": 1,
     "company": "Shiva Texyarn Ltd"
+  },
+  "502219": {
+    "first": "2026-07-30",
+    "count": 3,
+    "company": "Borosil Renewables Ltd"
+  },
+  "506605": {
+    "first": "2026-07-30",
+    "count": 2,
+    "company": "Polychem Ltd"
+  },
+  "500119": {
+    "first": "2026-07-30",
+    "count": 2,
+    "company": "Dhampur Sugar Mills Ltd"
+  },
+  "533121": {
+    "first": "2026-07-30",
+    "count": 3,
+    "company": "Expleo Solutions Ltd"
+  },
+  "520021": {
+    "first": "2026-07-30",
+    "count": 2,
+    "company": "Omax Autos Ltd"
+  },
+  "524636": {
+    "first": "2026-07-30",
+    "count": 1,
+    "company": "Oxygenta Pharmaceutical Ltd"
+  },
+  "534748": {
+    "first": "2026-07-30",
+    "count": 2,
+    "company": "Steel Exchange India Ltd"
+  },
+  "512101": {
+    "first": "2026-07-30",
+    "count": 1,
+    "company": "Triochem Products Ltd"
+  },
+  "531582": {
+    "first": "2026-07-30",
+    "count": 1,
+    "company": "Beryl Securities Ltd"
+  },
+  "531688": {
+    "first": "2026-07-30",
+    "count": 1,
+    "company": "Prithvi Exchange (India) Ltd"
+  },
+  "500250": {
+    "first": "2026-07-30",
+    "count": 2,
+    "company": "LG Balakrishnan & Bros Ltd"
+  },
+  "501630": {
+    "first": "2026-07-30",
+    "count": 1,
+    "company": "Anand Projects Ltd"
+  },
+  "532216": {
+    "first": "2026-07-30",
+    "count": 1,
+    "company": "HB Stockholdings Ltd"
   }
 }
