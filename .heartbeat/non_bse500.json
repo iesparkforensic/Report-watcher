@@ -1,4 +1,29 @@
 {
   "last_flush": "2026-07-30T12:17:44.806070+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Borosil Renewables Ltd",
+      "scrip": "502219",
+      "title": "Annual Report for FY 2025-26 including Notice of 63rd AGM",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4d8d5b01-05b2-48b3-acc8-2b255c57cecd.pdf"
+    },
+    {
+      "company": "Polychem Ltd",
+      "scrip": "506605",
+      "title": "Pursuant to Regulation 36(1)(b) of SEBI (LODR) Regulations, 2015, the Company has sent letter providing web-link of Annual Report for FY 2025-26 to those members whose email id are not ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f04a7fcd-81c7-4877-a9a7-3e883d8a6513.pdf"
+    },
+    {
+      "company": "Dhunseri Tea & Industries Ltd",
+      "scrip": "538902",
+      "title": "Intimation to shareholders whose email ids are not registered providing them the weblink, including the exact path, where the complete details of Annual Report including Notice of 29th ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/23231929-5690-40a4-aba0-26e7682ad762.pdf"
+    },
+    {
+      "company": "Integra Capital  Ltd",
+      "scrip": "531314",
+      "title": "Please find attached the newspaper advertisement published in 'Financial Express' (English) and 'Jansatta' (Hindi) newspaper dated Thursday, 30th July, 2026 regarding dispatch of Annual ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d25aee7b-79e9-42cc-ab64-007651f95bfa.pdf"
+    }
+  ]
 }
