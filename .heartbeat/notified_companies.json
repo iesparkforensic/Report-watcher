@@ -4261,8 +4261,8 @@
   },
   "542446": {
     "first": "2026-07-23",
-    "count": 1,
-    "company": "JONJUA"
+    "count": 2,
+    "company": "Jonjua Overseas Ltd"
   },
   "542484": {
     "first": "2026-07-24",
@@ -4531,8 +4531,8 @@
   },
   "543514": {
     "first": "2026-07-15",
-    "count": 2,
-    "company": "VERANDA"
+    "count": 3,
+    "company": "Veranda Learning Solutions Ltd"
   },
   "543520": {
     "first": "2026-06-02",
@@ -4841,8 +4841,8 @@
   },
   "544122": {
     "first": "2026-07-27",
-    "count": 3,
-    "company": "ENTERO"
+    "count": 4,
+    "company": "Entero Healthcare Solutions Ltd"
   },
   "544131": {
     "first": "2026-07-09",
@@ -5316,7 +5316,7 @@
   },
   "532714": {
     "first": "2026-07-29",
-    "count": 2,
+    "count": 3,
     "company": "KEC International Ltd"
   },
   "540744": {
@@ -5396,7 +5396,7 @@
   },
   "500119": {
     "first": "2026-07-30",
-    "count": 2,
+    "count": 3,
     "company": "Dhampur Sugar Mills Ltd"
   },
   "533121": {
@@ -5436,7 +5436,7 @@
   },
   "500250": {
     "first": "2026-07-30",
-    "count": 2,
+    "count": 3,
     "company": "LG Balakrishnan & Bros Ltd"
   },
   "501630": {
@@ -5448,5 +5448,70 @@
     "first": "2026-07-30",
     "count": 1,
     "company": "HB Stockholdings Ltd"
+  },
+  "500469": {
+    "first": "2026-07-30",
+    "count": 3,
+    "company": "Federal Bank Ltd"
+  },
+  "532955": {
+    "first": "2026-07-30",
+    "count": 3,
+    "company": "REC Ltd"
+  },
+  "540530": {
+    "first": "2026-07-30",
+    "count": 3,
+    "company": "Housing & Urban Development Corporation Ltd"
+  },
+  "540611": {
+    "first": "2026-07-30",
+    "count": 1,
+    "company": "AU Small Finance Bank Ltd"
+  },
+  "531162": {
+    "first": "2026-07-30",
+    "count": 2,
+    "company": "Emami Ltd-$"
+  },
+  "543971": {
+    "first": "2026-07-30",
+    "count": 2,
+    "company": "Bondada Engineering Ltd"
+  },
+  "532806": {
+    "first": "2026-07-30",
+    "count": 2,
+    "company": "AI Champdany Industries Ltd"
+  },
+  "532992": {
+    "first": "2026-07-30",
+    "count": 1,
+    "company": "CHL Ltd"
+  },
+  "540782": {
+    "first": "2026-07-30",
+    "count": 1,
+    "company": "Sanghvi Brands Ltd"
+  },
+  "520043": {
+    "first": "2026-07-30",
+    "count": 2,
+    "company": "Munjal Showa Ltd"
+  },
+  "544080": {
+    "first": "2026-07-30",
+    "count": 1,
+    "company": "Sayaji Hotels (Indore) Ltd"
+  },
+  "507880": {
+    "first": "2026-07-30",
+    "count": 2,
+    "company": "VIP Industries Ltd-$"
+  },
+  "539992": {
+    "first": "2026-07-30",
+    "count": 2,
+    "company": "Lloyds Engineering Works Ltd"
   }
 }
