@@ -1651,8 +1651,8 @@
   },
   "514306": {
     "first": "2026-06-05",
-    "count": 5,
-    "company": "GARLNIN"
+    "count": 9,
+    "company": "Garlon Polyfab Industries Ltd"
   },
   "514322": {
     "first": "2026-07-27",
@@ -3646,8 +3646,8 @@
   },
   "537573": {
     "first": "2026-07-24",
-    "count": 1,
-    "company": "POLYMAC"
+    "count": 3,
+    "company": "Polymac Thermoformers Ltd"
   },
   "537669": {
     "first": "2026-06-23",
@@ -5626,7 +5626,7 @@
   },
   "500104": {
     "first": "2026-07-31",
-    "count": 1,
+    "count": 2,
     "company": "Hindustan Petroleum Corporation Ltd"
   },
   "500163": {
@@ -5636,7 +5636,7 @@
   },
   "514138": {
     "first": "2026-07-31",
-    "count": 1,
+    "count": 2,
     "company": "Suryalata Spinning Mills Ltd-$"
   },
   "523648": {
@@ -5646,12 +5646,12 @@
   },
   "539978": {
     "first": "2026-07-31",
-    "count": 3,
+    "count": 4,
     "company": "Quess Corp Ltd"
   },
   "541006": {
     "first": "2026-07-31",
-    "count": 2,
+    "count": 3,
     "company": "Angel Fibers Ltd"
   },
   "540980": {
@@ -5676,7 +5676,7 @@
   },
   "544570": {
     "first": "2026-07-31",
-    "count": 2,
+    "count": 3,
     "company": "WeWork India Management Ltd"
   },
   "517449": {
@@ -5693,5 +5693,70 @@
     "first": "2026-07-31",
     "count": 1,
     "company": "Sukhjit Starch & Chemicals Ltd-$"
+  },
+  "543412": {
+    "first": "2026-07-31",
+    "count": 3,
+    "company": "Star Health and Allied Insurance Company Ltd"
+  },
+  "543245": {
+    "first": "2026-07-31",
+    "count": 3,
+    "company": "Gland Pharma Ltd"
+  },
+  "535755": {
+    "first": "2026-07-31",
+    "count": 2,
+    "company": "Aditya Birla Fashion and Retail Ltd"
+  },
+  "532830": {
+    "first": "2026-07-31",
+    "count": 2,
+    "company": "Astral Ltd"
+  },
+  "521018": {
+    "first": "2026-07-31",
+    "count": 2,
+    "company": "Maral Overseas Ltd"
+  },
+  "539143": {
+    "first": "2026-07-31",
+    "count": 2,
+    "company": "Panth Infinity Ltd"
+  },
+  "505509": {
+    "first": "2026-07-31",
+    "count": 3,
+    "company": "Responsive Industries Ltd"
+  },
+  "524774": {
+    "first": "2026-07-31",
+    "count": 3,
+    "company": "NGL Fine Chem Ltd"
+  },
+  "590005": {
+    "first": "2026-07-31",
+    "count": 3,
+    "company": "Veedol Corporation Ltd"
+  },
+  "542460": {
+    "first": "2026-07-31",
+    "count": 1,
+    "company": "The Anup Engineering Ltd"
+  },
+  "544726": {
+    "first": "2026-07-31",
+    "count": 1,
+    "company": "Kotyark Industries Ltd"
+  },
+  "535910": {
+    "first": "2026-07-31",
+    "count": 1,
+    "company": "Money Masters Leasing & Finance Ltd"
+  },
+  "521097": {
+    "first": "2026-07-31",
+    "count": 1,
+    "company": "Amarjothi Spinning Mills Ltd"
   }
 }
