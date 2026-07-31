@@ -5741,7 +5741,7 @@
   },
   "542460": {
     "first": "2026-07-31",
-    "count": 1,
+    "count": 3,
     "company": "The Anup Engineering Ltd"
   },
   "544726": {
@@ -5758,5 +5758,20 @@
     "first": "2026-07-31",
     "count": 1,
     "company": "Amarjothi Spinning Mills Ltd"
+  },
+  "533155": {
+    "first": "2026-07-31",
+    "count": 4,
+    "company": "Jubilant FoodWorks Ltd"
+  },
+  "532777": {
+    "first": "2026-07-31",
+    "count": 4,
+    "company": "Info Edge (India) Ltd"
+  },
+  "544257": {
+    "first": "2026-07-31",
+    "count": 2,
+    "company": "Sodhani Academy of Fintech Enablers Ltd"
   }
 }
