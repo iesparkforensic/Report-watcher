@@ -1806,8 +1806,8 @@
   },
   "519262": {
     "first": "2026-07-22",
-    "count": 1,
-    "company": "PRIMAGR"
+    "count": 2,
+    "company": "Prima Agro Ltd"
   },
   "519307": {
     "first": "2026-05-29",
@@ -4991,8 +4991,8 @@
   },
   "544364": {
     "first": "2026-07-17",
-    "count": 2,
-    "company": "BAJAJINDEF"
+    "count": 3,
+    "company": "Indef Manufacturing Ltd"
   },
   "544397": {
     "first": "2026-07-27",
@@ -5386,7 +5386,7 @@
   },
   "502219": {
     "first": "2026-07-30",
-    "count": 3,
+    "count": 4,
     "company": "Borosil Renewables Ltd"
   },
   "506605": {
@@ -5516,7 +5516,7 @@
   },
   "541153": {
     "first": "2026-07-31",
-    "count": 2,
+    "count": 4,
     "company": "Bandhan Bank Ltd"
   },
   "511571": {
@@ -5556,7 +5556,72 @@
   },
   "523160": {
     "first": "2026-07-31",
-    "count": 1,
+    "count": 2,
     "company": "Foseco Crucible (India) Ltd"
+  },
+  "543187": {
+    "first": "2026-07-31",
+    "count": 2,
+    "company": "Hitachi Energy India Ltd"
+  },
+  "500215": {
+    "first": "2026-07-31",
+    "count": 1,
+    "company": "Sundrop Brands Ltd"
+  },
+  "544335": {
+    "first": "2026-07-31",
+    "count": 1,
+    "company": "B.R.Goyal Infrastructure Ltd"
+  },
+  "523100": {
+    "first": "2026-07-31",
+    "count": 2,
+    "company": "Cosmo Ferrites Ltd-$"
+  },
+  "522261": {
+    "first": "2026-07-31",
+    "count": 1,
+    "company": "Dolphin Offshore Enterprises (India) Ltd-$"
+  },
+  "532937": {
+    "first": "2026-07-31",
+    "count": 2,
+    "company": "Kuantum Papers Ltd"
+  },
+  "531695": {
+    "first": "2026-07-31",
+    "count": 1,
+    "company": "Veronica Production Ltd"
+  },
+  "514171": {
+    "first": "2026-07-31",
+    "count": 1,
+    "company": "Ceeta Industries Ltd"
+  },
+  "526797": {
+    "first": "2026-07-31",
+    "count": 2,
+    "company": "Greenply Industries Ltd"
+  },
+  "544543": {
+    "first": "2026-07-31",
+    "count": 1,
+    "company": "BMW Ventures Ltd"
+  },
+  "524204": {
+    "first": "2026-07-31",
+    "count": 1,
+    "company": "Teesta Agro Industries Ltd"
+  },
+  "532666": {
+    "first": "2026-07-31",
+    "count": 1,
+    "company": "FCS Software Solutions Ltd"
+  },
+  "533212": {
+    "first": "2026-07-31",
+    "count": 1,
+    "company": "GKB Ophthalmics Ltd"
   }
 }
