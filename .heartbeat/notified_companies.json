@@ -2221,8 +2221,8 @@
   },
   "524669": {
     "first": "2026-06-18",
-    "count": 3,
-    "company": "HESTERBIO"
+    "count": 4,
+    "company": "Hester Biosciences Ltd"
   },
   "524709": {
     "first": "2026-06-29",
@@ -2576,12 +2576,12 @@
   },
   "531246": {
     "first": "2026-07-22",
-    "count": 1,
-    "company": "PRIMAIN"
+    "count": 2,
+    "company": "Prima Industries Ltd"
   },
   "531253": {
     "first": "2026-07-29",
-    "count": 2,
+    "count": 3,
     "company": "India Gelatine & Chemicals Ltd-$"
   },
   "531259": {
@@ -2961,8 +2961,8 @@
   },
   "532444": {
     "first": "2026-07-25",
-    "count": 1,
-    "company": "TSPIRITUAL"
+    "count": 2,
+    "company": "T Spiritual World Ltd"
   },
   "532454": {
     "first": "2026-07-11",
@@ -5561,12 +5561,12 @@
   },
   "543187": {
     "first": "2026-07-31",
-    "count": 2,
+    "count": 3,
     "company": "Hitachi Energy India Ltd"
   },
   "500215": {
     "first": "2026-07-31",
-    "count": 1,
+    "count": 4,
     "company": "Sundrop Brands Ltd"
   },
   "544335": {
@@ -5596,7 +5596,7 @@
   },
   "514171": {
     "first": "2026-07-31",
-    "count": 1,
+    "count": 2,
     "company": "Ceeta Industries Ltd"
   },
   "526797": {
@@ -5621,7 +5621,77 @@
   },
   "533212": {
     "first": "2026-07-31",
-    "count": 1,
+    "count": 2,
     "company": "GKB Ophthalmics Ltd"
+  },
+  "500104": {
+    "first": "2026-07-31",
+    "count": 1,
+    "company": "Hindustan Petroleum Corporation Ltd"
+  },
+  "500163": {
+    "first": "2026-07-31",
+    "count": 2,
+    "company": "Godfrey Phillips India Ltd"
+  },
+  "514138": {
+    "first": "2026-07-31",
+    "count": 1,
+    "company": "Suryalata Spinning Mills Ltd-$"
+  },
+  "523648": {
+    "first": "2026-07-31",
+    "count": 2,
+    "company": "Plastiblends India Ltd-$"
+  },
+  "539978": {
+    "first": "2026-07-31",
+    "count": 3,
+    "company": "Quess Corp Ltd"
+  },
+  "541006": {
+    "first": "2026-07-31",
+    "count": 2,
+    "company": "Angel Fibers Ltd"
+  },
+  "540980": {
+    "first": "2026-07-31",
+    "count": 2,
+    "company": "The Yamuna Syndicate Ltd"
+  },
+  "514378": {
+    "first": "2026-07-31",
+    "count": 1,
+    "company": "Yarn Syndicate Ltd"
+  },
+  "540061": {
+    "first": "2026-07-31",
+    "count": 2,
+    "company": "Bigbloc Construction Ltd"
+  },
+  "544558": {
+    "first": "2026-07-31",
+    "count": 1,
+    "company": "Fabtech Technologies Ltd"
+  },
+  "544570": {
+    "first": "2026-07-31",
+    "count": 2,
+    "company": "WeWork India Management Ltd"
+  },
+  "517449": {
+    "first": "2026-07-31",
+    "count": 1,
+    "company": "Magna Electro Castings Ltd-$"
+  },
+  "534741": {
+    "first": "2026-07-31",
+    "count": 1,
+    "company": "Virtual Global Education Ltd"
+  },
+  "524542": {
+    "first": "2026-07-31",
+    "count": 1,
+    "company": "Sukhjit Starch & Chemicals Ltd-$"
   }
 }
