@@ -1,4 +1,35 @@
 {
   "last_flush": "2026-07-31T23:26:43.736699+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Dai-Ichi Karkaria Ltd-$",
+      "scrip": "526821",
+      "title": "Enclosed herewith newspaper publication dated August 1, 2026 for Intimation of dispatch of Annual Report and and E-voting Information for the 66th Annual General Meeting.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f7049994-7ef4-4dfc-9e32-3b55e9c7dcf2.pdf"
+    },
+    {
+      "company": "Kuantum Papers Ltd",
+      "scrip": "532937",
+      "title": "Newspaper Publication of Notice of Annual General Meeting (AGM) and E-Voting Information",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/62eddc55-2fc4-4226-8027-5e903e29f901.pdf"
+    },
+    {
+      "company": "WeWork India Management Ltd",
+      "scrip": "544570",
+      "title": "Newspaper publication post-dispatch of the AGM Notice and Annual Report (FY 2025-26) to the shareholders of the Company.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/416c78e3-ede0-441b-a534-e87790bf4bd4.pdf"
+    },
+    {
+      "company": "Kuantum Papers Ltd",
+      "scrip": "532937",
+      "title": "Dispatch of Letter containing web link of Annual Report and Notice of AGM",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3158a2b5-1fe6-44b8-a82c-879a1de58f87.pdf"
+    },
+    {
+      "company": "Maha Rashtra Apex Corporation Ltd",
+      "scrip": "523384",
+      "title": "Attached herewith 82nd Annual General Meeting Notice and Annual Report for the year ended 31st March, 2026.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c9e1d3b2-cb45-4441-ad95-318ab2315fc5.pdf"
+    }
+  ]
 }
