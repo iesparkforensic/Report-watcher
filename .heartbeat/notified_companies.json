@@ -2266,8 +2266,8 @@
   },
   "526187": {
     "first": "2026-07-24",
-    "count": 1,
-    "company": "ASHRAM"
+    "count": 2,
+    "company": "Ashram Online.Com Ltd"
   },
   "526269": {
     "first": "2026-07-13",
@@ -5376,7 +5376,7 @@
   },
   "531931": {
     "first": "2026-07-30",
-    "count": 1,
+    "count": 2,
     "company": "Sai Capital Ltd"
   },
   "511108": {
@@ -5681,7 +5681,7 @@
   },
   "517449": {
     "first": "2026-07-31",
-    "count": 1,
+    "count": 3,
     "company": "Magna Electro Castings Ltd-$"
   },
   "534741": {
@@ -5706,7 +5706,7 @@
   },
   "535755": {
     "first": "2026-07-31",
-    "count": 2,
+    "count": 3,
     "company": "Aditya Birla Fashion and Retail Ltd"
   },
   "532830": {
@@ -5716,7 +5716,7 @@
   },
   "521018": {
     "first": "2026-07-31",
-    "count": 2,
+    "count": 3,
     "company": "Maral Overseas Ltd"
   },
   "539143": {
@@ -5741,7 +5741,7 @@
   },
   "542460": {
     "first": "2026-07-31",
-    "count": 3,
+    "count": 4,
     "company": "The Anup Engineering Ltd"
   },
   "544726": {
@@ -5828,5 +5828,45 @@
     "first": "2026-08-01",
     "count": 1,
     "company": "Silver Touch Technologies Ltd"
+  },
+  "543271": {
+    "first": "2026-08-01",
+    "count": 3,
+    "company": "Jubilant Ingrevia Ltd"
+  },
+  "543257": {
+    "first": "2026-08-01",
+    "count": 2,
+    "company": "Indian Railway Finance Corporation Ltd"
+  },
+  "524500": {
+    "first": "2026-08-01",
+    "count": 2,
+    "company": "Kilitch Drugs India Ltd"
+  },
+  "538732": {
+    "first": "2026-08-01",
+    "count": 1,
+    "company": "Vibrant Global Capital Ltd"
+  },
+  "532339": {
+    "first": "2026-08-01",
+    "count": 1,
+    "company": "Compucom Software Ltd-$"
+  },
+  "500213": {
+    "first": "2026-08-01",
+    "count": 1,
+    "company": "International Travel House Ltd-$"
+  },
+  "531278": {
+    "first": "2026-08-01",
+    "count": 1,
+    "company": "Elixir Capital Ltd"
+  },
+  "538634": {
+    "first": "2026-08-01",
+    "count": 1,
+    "company": "Vasundhara Rasayans Ltd"
   }
 }
