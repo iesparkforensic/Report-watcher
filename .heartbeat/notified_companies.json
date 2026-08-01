@@ -5521,7 +5521,7 @@
   },
   "511571": {
     "first": "2026-07-31",
-    "count": 2,
+    "count": 3,
     "company": "Crescentis Capital Ltd"
   },
   "500422": {
@@ -5601,7 +5601,7 @@
   },
   "526797": {
     "first": "2026-07-31",
-    "count": 2,
+    "count": 3,
     "company": "Greenply Industries Ltd"
   },
   "544543": {
@@ -5793,5 +5793,40 @@
     "first": "2026-08-01",
     "count": 1,
     "company": "Raw Edge Industrial Solutions Ltd"
+  },
+  "542649": {
+    "first": "2026-08-01",
+    "count": 2,
+    "company": "Rail Vikas Nigam Ltd"
+  },
+  "500350": {
+    "first": "2026-08-01",
+    "count": 3,
+    "company": "RSWM Ltd"
+  },
+  "543957": {
+    "first": "2026-08-01",
+    "count": 3,
+    "company": "Redtape Ltd"
+  },
+  "532640": {
+    "first": "2026-08-01",
+    "count": 1,
+    "company": "Cyber Media India Ltd"
+  },
+  "544614": {
+    "first": "2026-08-01",
+    "count": 2,
+    "company": "Capillary Technologies India Ltd"
+  },
+  "544509": {
+    "first": "2026-08-01",
+    "count": 1,
+    "company": "Krupalu Metals Ltd"
+  },
+  "543525": {
+    "first": "2026-08-01",
+    "count": 1,
+    "company": "Silver Touch Technologies Ltd"
   }
 }
