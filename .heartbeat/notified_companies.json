@@ -5386,7 +5386,7 @@
   },
   "502219": {
     "first": "2026-07-30",
-    "count": 4,
+    "count": 5,
     "company": "Borosil Renewables Ltd"
   },
   "506605": {
@@ -5461,7 +5461,7 @@
   },
   "540530": {
     "first": "2026-07-30",
-    "count": 3,
+    "count": 4,
     "company": "Housing & Urban Development Corporation Ltd"
   },
   "540611": {
@@ -5531,7 +5531,7 @@
   },
   "526821": {
     "first": "2026-07-31",
-    "count": 2,
+    "count": 3,
     "company": "Dai-Ichi Karkaria Ltd-$"
   },
   "522064": {
@@ -5576,7 +5576,7 @@
   },
   "523100": {
     "first": "2026-07-31",
-    "count": 2,
+    "count": 3,
     "company": "Cosmo Ferrites Ltd-$"
   },
   "522261": {
@@ -5586,7 +5586,7 @@
   },
   "532937": {
     "first": "2026-07-31",
-    "count": 2,
+    "count": 4,
     "company": "Kuantum Papers Ltd"
   },
   "531695": {
@@ -5621,7 +5621,7 @@
   },
   "533212": {
     "first": "2026-07-31",
-    "count": 2,
+    "count": 3,
     "company": "GKB Ophthalmics Ltd"
   },
   "500104": {
@@ -5676,7 +5676,7 @@
   },
   "544570": {
     "first": "2026-07-31",
-    "count": 3,
+    "count": 4,
     "company": "WeWork India Management Ltd"
   },
   "517449": {
@@ -5773,5 +5773,25 @@
     "first": "2026-07-31",
     "count": 2,
     "company": "Sodhani Academy of Fintech Enablers Ltd"
+  },
+  "508869": {
+    "first": "2026-08-01",
+    "count": 1,
+    "company": "Apollo Hospitals Enterprise Ltd"
+  },
+  "523384": {
+    "first": "2026-08-01",
+    "count": 1,
+    "company": "Maha Rashtra Apex Corporation Ltd"
+  },
+  "505216": {
+    "first": "2026-08-01",
+    "count": 1,
+    "company": "Alfred Herbert India Ltd"
+  },
+  "541634": {
+    "first": "2026-08-01",
+    "count": 1,
+    "company": "Raw Edge Industrial Solutions Ltd"
   }
 }
