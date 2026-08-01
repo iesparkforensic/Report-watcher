@@ -1,4 +1,23 @@
 {
   "last_flush": "2026-08-01T22:48:59.386102+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Lumax Industries Ltd",
+      "scrip": "517206",
+      "title": "Intimation regarding dispatch of letters to shareholders for providing the weblink & QR to access the Notice of 45th AGM and Integrated Annual Report for FY 2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3cf4b99e-e90e-43fb-ae65-6194ab56f96a.pdf"
+    },
+    {
+      "company": "Tatia Global Vennture Ltd",
+      "scrip": "521228",
+      "title": "Annual Report for the Financial Year ended March 31, 2026",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/eb76ae39-40d6-4dc8-b5a7-1318e241dcfa.pdf"
+    },
+    {
+      "company": "Lumax Auto Technologies Ltd",
+      "scrip": "532796",
+      "title": "Business Responsibility and Sustainability Report for the year ended March 31, 2026",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a28a9edd-2100-4a2c-97b3-af88a51db863.pdf"
+    }
+  ]
 }
