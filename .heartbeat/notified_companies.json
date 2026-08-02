@@ -2741,8 +2741,8 @@
   },
   "532051": {
     "first": "2026-07-08",
-    "count": 2,
-    "company": "SWELECTES"
+    "count": 3,
+    "company": "Swelect Energy Systems Ltd-$"
   },
   "532134": {
     "first": "2026-05-29",
@@ -5886,12 +5886,27 @@
   },
   "517206": {
     "first": "2026-08-01",
-    "count": 2,
+    "count": 4,
     "company": "Lumax Industries Ltd"
   },
   "532796": {
     "first": "2026-08-01",
-    "count": 1,
+    "count": 3,
     "company": "Lumax Auto Technologies Ltd"
+  },
+  "532541": {
+    "first": "2026-08-02",
+    "count": 2,
+    "company": "Coforge Ltd"
+  },
+  "521228": {
+    "first": "2026-08-02",
+    "count": 1,
+    "company": "Tatia Global Vennture Ltd"
+  },
+  "544615": {
+    "first": "2026-08-02",
+    "count": 1,
+    "company": "KSR Footwear Ltd"
   }
 }
