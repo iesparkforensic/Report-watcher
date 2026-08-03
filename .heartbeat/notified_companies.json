@@ -1566,8 +1566,8 @@
   },
   "513023": {
     "first": "2026-07-20",
-    "count": 2,
-    "company": "NAVA"
+    "count": 3,
+    "company": "Nava Ltd"
   },
   "513108": {
     "first": "2026-07-17",
@@ -5901,12 +5901,12 @@
   },
   "521228": {
     "first": "2026-08-02",
-    "count": 1,
+    "count": 2,
     "company": "Tatia Global Vennture Ltd"
   },
   "544615": {
     "first": "2026-08-02",
-    "count": 1,
+    "count": 3,
     "company": "KSR Footwear Ltd"
   },
   "543940": {
@@ -6003,5 +6003,110 @@
     "first": "2026-08-03",
     "count": 1,
     "company": "Fervent Synergies Ltd"
+  },
+  "500547": {
+    "first": "2026-08-03",
+    "count": 2,
+    "company": "Bharat Petroleum Corporation Ltd"
+  },
+  "543299": {
+    "first": "2026-08-03",
+    "count": 2,
+    "company": "Shyam Metalics and Energy Ltd"
+  },
+  "524804": {
+    "first": "2026-08-03",
+    "count": 2,
+    "company": "Aurobindo Pharma Ltd"
+  },
+  "544274": {
+    "first": "2026-08-03",
+    "count": 2,
+    "company": "Hyundai Motor India Ltd"
+  },
+  "502901": {
+    "first": "2026-08-03",
+    "count": 2,
+    "company": "Jamshri Realty Ltd-$"
+  },
+  "530609": {
+    "first": "2026-08-03",
+    "count": 2,
+    "company": "Carnation Industries Ltd"
+  },
+  "530139": {
+    "first": "2026-08-03",
+    "count": 2,
+    "company": "Kreon Finnancial Services Ltd"
+  },
+  "532543": {
+    "first": "2026-08-03",
+    "count": 2,
+    "company": "GP Petroleums Ltd"
+  },
+  "544185": {
+    "first": "2026-08-03",
+    "count": 1,
+    "company": "Adtech Systems Ltd"
+  },
+  "543787": {
+    "first": "2026-08-03",
+    "count": 1,
+    "company": "Macfos Ltd"
+  },
+  "532975": {
+    "first": "2026-08-03",
+    "count": 1,
+    "company": "Telogica Ltd"
+  },
+  "540023": {
+    "first": "2026-08-03",
+    "count": 1,
+    "company": "Colorchips New Media Ltd"
+  },
+  "544321": {
+    "first": "2026-08-03",
+    "count": 2,
+    "company": "Ventive Hospitality Ltd"
+  },
+  "539012": {
+    "first": "2026-08-03",
+    "count": 1,
+    "company": "Megri Soft Ltd"
+  },
+  "544213": {
+    "first": "2026-08-03",
+    "count": 1,
+    "company": "Aelea Commodities Ltd"
+  },
+  "504882": {
+    "first": "2026-08-03",
+    "count": 2,
+    "company": "National Standard (India) Ltd"
+  },
+  "507960": {
+    "first": "2026-08-03",
+    "count": 1,
+    "company": "Gujarat Hotels Ltd"
+  },
+  "521016": {
+    "first": "2026-08-03",
+    "count": 2,
+    "company": "Indo Count Industries Ltd"
+  },
+  "530073": {
+    "first": "2026-08-03",
+    "count": 2,
+    "company": "Sanghvi Movers Ltd"
+  },
+  "508664": {
+    "first": "2026-08-03",
+    "count": 1,
+    "company": "Best Eastern Hotels Ltd"
+  },
+  "544624": {
+    "first": "2026-08-03",
+    "count": 1,
+    "company": "K K Silk Mills Ltd"
   }
 }
