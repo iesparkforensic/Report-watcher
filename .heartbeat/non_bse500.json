@@ -1,4 +1,11 @@
 {
   "last_flush": "2026-08-04T01:30:49.824591+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Milestone Global Ltd",
+      "scrip": "531338",
+      "title": "Submission of Annual Report for the financial year ending 31st March 2026.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d99a5e59-bf2e-416b-8cf9-df4c84f04861.pdf"
+    }
+  ]
 }
