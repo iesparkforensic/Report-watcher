@@ -1416,8 +1416,8 @@
   },
   "511176": {
     "first": "2026-07-27",
-    "count": 1,
-    "company": "PARSHWANA"
+    "count": 2,
+    "company": "Parshwanath Corporation Ltd"
   },
   "511196": {
     "first": "2026-07-06",
@@ -4601,8 +4601,8 @@
   },
   "543638": {
     "first": "2026-07-23",
-    "count": 3,
-    "company": "TRACXN"
+    "count": 4,
+    "company": "Tracxn Technologies Ltd"
   },
   "543643": {
     "first": "2026-06-25",
@@ -4971,8 +4971,8 @@
   },
   "544318": {
     "first": "2026-07-17",
-    "count": 1,
-    "company": "MAMATA"
+    "count": 2,
+    "company": "Mamata Machinery Ltd"
   },
   "544325": {
     "first": "2026-07-11",
@@ -5571,7 +5571,7 @@
   },
   "544335": {
     "first": "2026-07-31",
-    "count": 1,
+    "count": 2,
     "company": "B.R.Goyal Infrastructure Ltd"
   },
   "523100": {
@@ -5626,7 +5626,7 @@
   },
   "500104": {
     "first": "2026-07-31",
-    "count": 2,
+    "count": 3,
     "company": "Hindustan Petroleum Corporation Ltd"
   },
   "500163": {
@@ -5821,7 +5821,7 @@
   },
   "544509": {
     "first": "2026-08-01",
-    "count": 1,
+    "count": 2,
     "company": "Krupalu Metals Ltd"
   },
   "543525": {
@@ -5866,7 +5866,7 @@
   },
   "538634": {
     "first": "2026-08-01",
-    "count": 1,
+    "count": 2,
     "company": "Vasundhara Rasayans Ltd"
   },
   "543384": {
@@ -5991,7 +5991,7 @@
   },
   "526947": {
     "first": "2026-08-03",
-    "count": 2,
+    "count": 4,
     "company": "La Opala RG Ltd"
   },
   "531609": {
@@ -6026,7 +6026,7 @@
   },
   "502901": {
     "first": "2026-08-03",
-    "count": 2,
+    "count": 5,
     "company": "Jamshri Realty Ltd-$"
   },
   "530609": {
@@ -6041,7 +6041,7 @@
   },
   "532543": {
     "first": "2026-08-03",
-    "count": 2,
+    "count": 3,
     "company": "GP Petroleums Ltd"
   },
   "544185": {
@@ -6096,7 +6096,7 @@
   },
   "530073": {
     "first": "2026-08-03",
-    "count": 2,
+    "count": 3,
     "company": "Sanghvi Movers Ltd"
   },
   "508664": {
@@ -6166,7 +6166,7 @@
   },
   "544144": {
     "first": "2026-08-04",
-    "count": 1,
+    "count": 3,
     "company": "Popular Vehicles and Services Ltd"
   },
   "524404": {
@@ -6181,12 +6181,162 @@
   },
   "523395": {
     "first": "2026-08-04",
-    "count": 1,
+    "count": 3,
     "company": "3M India Ltd"
   },
   "505533": {
     "first": "2026-08-04",
-    "count": 1,
+    "count": 4,
     "company": "Westlife Foodworld Ltd"
+  },
+  "532822": {
+    "first": "2026-08-05",
+    "count": 2,
+    "company": "Vodafone Idea Ltd"
+  },
+  "543237": {
+    "first": "2026-08-05",
+    "count": 2,
+    "company": "Mazagon Dock Shipbuilders Ltd"
+  },
+  "532555": {
+    "first": "2026-08-05",
+    "count": 2,
+    "company": "NTPC Ltd"
+  },
+  "526951": {
+    "first": "2026-08-05",
+    "count": 3,
+    "company": "Stylam Industries Ltd"
+  },
+  "533108": {
+    "first": "2026-08-05",
+    "count": 3,
+    "company": "Bhilwara Technical Textiles Ltd"
+  },
+  "543830": {
+    "first": "2026-08-05",
+    "count": 2,
+    "company": "Labelkraft Technologies Ltd"
+  },
+  "544322": {
+    "first": "2026-08-05",
+    "count": 4,
+    "company": "Unimech Aerospace and Manufacturing Ltd"
+  },
+  "530571": {
+    "first": "2026-08-05",
+    "count": 1,
+    "company": "Explicit Finance Ltd"
+  },
+  "532057": {
+    "first": "2026-08-05",
+    "count": 1,
+    "company": "Abhinav Capital Services Ltd"
+  },
+  "531923": {
+    "first": "2026-08-05",
+    "count": 1,
+    "company": "Dhampure Specialty Sugars Ltd"
+  },
+  "542524": {
+    "first": "2026-08-05",
+    "count": 1,
+    "company": "Ambassador Intra Holdings Ltd"
+  },
+  "530643": {
+    "first": "2026-08-05",
+    "count": 1,
+    "company": "Eco Recycling Ltd"
+  },
+  "533208": {
+    "first": "2026-08-05",
+    "count": 2,
+    "company": "Emami Paper Mills Ltd"
+  },
+  "544379": {
+    "first": "2026-08-05",
+    "count": 1,
+    "company": "Prabha Energy Ltd"
+  },
+  "532503": {
+    "first": "2026-08-05",
+    "count": 3,
+    "company": "Rajapalayam Mills Ltd-$"
+  },
+  "544694": {
+    "first": "2026-08-05",
+    "count": 1,
+    "company": "Accretion Nutraveda Ltd"
+  },
+  "526530": {
+    "first": "2026-08-05",
+    "count": 1,
+    "company": "IIRM Holdings India Ltd"
+  },
+  "530615": {
+    "first": "2026-08-05",
+    "count": 1,
+    "company": "Garg Furnace Ltd"
+  },
+  "544383": {
+    "first": "2026-08-05",
+    "count": 1,
+    "company": "Paradeep Parivahan Ltd"
+  },
+  "520066": {
+    "first": "2026-08-05",
+    "count": 2,
+    "company": "Jay Bharat Maruti Ltd"
+  },
+  "544492": {
+    "first": "2026-08-05",
+    "count": 1,
+    "company": "Mangal Electrical Industries Ltd"
+  },
+  "544278": {
+    "first": "2026-08-05",
+    "count": 1,
+    "company": "OCCL Ltd"
+  },
+  "503031": {
+    "first": "2026-08-05",
+    "count": 1,
+    "company": "Peninsula Land Ltd"
+  },
+  "516082": {
+    "first": "2026-08-05",
+    "count": 1,
+    "company": "NR Agarwal Industries Ltd"
+  },
+  "526628": {
+    "first": "2026-08-05",
+    "count": 1,
+    "company": "Ajwa Fun World & Resort Ltd"
+  },
+  "531989": {
+    "first": "2026-08-05",
+    "count": 1,
+    "company": "Deccan Polypacks Ltd"
+  },
+  "501831": {
+    "first": "2026-08-05",
+    "count": 1,
+    "company": "Coastal Corporation Ltd"
+  },
+  "530665": {
+    "first": "2026-08-05",
+    "count": 1,
+    "company": "Zenith Healthcare Ltd"
+  },
+  "500262": {
+    "first": "2026-08-05",
+    "count": 1,
+    "company": "Hybrid Financial Services Ltd"
+  },
+  "500193": {
+    "first": "2026-08-05",
+    "count": 1,
+    "company": "HLV Ltd"
   }
 }
