@@ -781,8 +781,8 @@
   },
   "502937": {
     "first": "2026-07-21",
-    "count": 2,
-    "company": "KESORAMIND"
+    "count": 3,
+    "company": "Kesoram Industries Ltd"
   },
   "503229": {
     "first": "2026-07-09",
@@ -6016,12 +6016,12 @@
   },
   "524804": {
     "first": "2026-08-03",
-    "count": 2,
+    "count": 3,
     "company": "Aurobindo Pharma Ltd"
   },
   "544274": {
     "first": "2026-08-03",
-    "count": 2,
+    "count": 3,
     "company": "Hyundai Motor India Ltd"
   },
   "502901": {
@@ -6138,5 +6138,45 @@
     "first": "2026-08-03",
     "count": 1,
     "company": "EKI Energy Services Ltd"
+  },
+  "500253": {
+    "first": "2026-08-04",
+    "count": 1,
+    "company": "LIC Housing Finance Ltd"
+  },
+  "541154": {
+    "first": "2026-08-04",
+    "count": 2,
+    "company": "Hindustan Aeronautics Ltd"
+  },
+  "531338": {
+    "first": "2026-08-04",
+    "count": 1,
+    "company": "Milestone Global Ltd"
+  },
+  "531260": {
+    "first": "2026-08-04",
+    "count": 1,
+    "company": "Refex Renewables & Infrastructure Ltd"
+  },
+  "530993": {
+    "first": "2026-08-04",
+    "count": 1,
+    "company": "Sarthak Global Ltd"
+  },
+  "544144": {
+    "first": "2026-08-04",
+    "count": 1,
+    "company": "Popular Vehicles and Services Ltd"
+  },
+  "524404": {
+    "first": "2026-08-04",
+    "count": 2,
+    "company": "Marksans Pharma Ltd"
+  },
+  "526723": {
+    "first": "2026-08-04",
+    "count": 1,
+    "company": "NTC Industries Ltd"
   }
 }
