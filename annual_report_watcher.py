@@ -130,46 +130,81 @@ def _get_with_retry(session, url, params, attempts=4, base_delay=3):
     raise last_exc
 
 
+FETCH_DEADLINE_SECONDS = 360  # stop scanning politely well before the job's kill switch
+
+
 def fetch_bse_announcements():
+    """Scan all categories, degrading gracefully when BSE is slow.
+
+    Each category is fetched independently: one failing/slow category is
+    skipped (the hourly cadence + 3-day window catches it next run) instead of
+    aborting the whole scan. A soft deadline stops the scan before the job's
+    timeout so partial results still get processed and alerted.
+    Raises only if every category failed — the caller then sends the
+    'BSE temporarily unreachable' notice.
+    """
     now_ist = datetime.now(IST)
     prev = (now_ist - timedelta(days=3)).strftime("%Y%m%d")
     today = now_ist.strftime("%Y%m%d")
     session = requests.Session()
     session.headers.update(BSE_HEADERS)
+    started = time.monotonic()
 
     items = []
     seen_ids = set()
+    ok_categories = 0
+    failed = []
+    last_exc = None
     for category in BSE_CATEGORIES:
-        pageno = 1
-        while True:
-            params = {
-                "pageno": pageno,
-                "strCat": category,
-                "strPrevDate": prev,
-                "strScrip": "",
-                "strSearch": "P",
-                "strToDate": today,
-                "strType": "C",
-                "subcategory": "-1",
-            }
-            data = _get_with_retry(session, BSE_API, params)
-            page = (data or {}).get("Table") or []
-            if not page:
-                break
-            for it in page:
-                nid = str(it.get("NEWSID") or "")
-                if nid and nid in seen_ids:
-                    continue
-                if nid:
-                    seen_ids.add(nid)
-                items.append(it)
-            table1 = (data or {}).get("Table1") or []
-            row_count = (table1[0].get("ROWCNT") if table1 else 0) or 0
-            if pageno * BSE_PAGE_SIZE >= row_count:
-                break
-            if pageno >= BSE_MAX_PAGES_PER_CATEGORY:
-                break
-            pageno += 1
+        if time.monotonic() - started > FETCH_DEADLINE_SECONDS:
+            failed.append(f"{category} (deadline)")
+            continue
+        try:
+            pageno = 1
+            while True:
+                params = {
+                    "pageno": pageno,
+                    "strCat": category,
+                    "strPrevDate": prev,
+                    "strScrip": "",
+                    "strSearch": "P",
+                    "strToDate": today,
+                    "strType": "C",
+                    "subcategory": "-1",
+                }
+                data = _get_with_retry(session, BSE_API, params, attempts=2)
+                page = (data or {}).get("Table") or []
+                if not page:
+                    break
+                for it in page:
+                    nid = str(it.get("NEWSID") or "")
+                    if nid and nid in seen_ids:
+                        continue
+                    if nid:
+                        seen_ids.add(nid)
+                    items.append(it)
+                table1 = (data or {}).get("Table1") or []
+                row_count = (table1[0].get("ROWCNT") if table1 else 0) or 0
+                if pageno * BSE_PAGE_SIZE >= row_count:
+                    break
+                if pageno >= BSE_MAX_PAGES_PER_CATEGORY:
+                    break
+                if time.monotonic() - started > FETCH_DEADLINE_SECONDS:
+                    failed.append(f"{category} (deadline mid-scan)")
+                    break
+                pageno += 1
+            ok_categories += 1
+        except (requests.exceptions.RequestException, ValueError) as e:
+            last_exc = e
+            failed.append(category)
+            print(f"Category '{category}' failed, skipping this run: {e}", file=sys.stderr)
+
+    if failed:
+        print(f"Partial fetch: {ok_categories}/{len(BSE_CATEGORIES)} categories OK; "
+              f"skipped: {', '.join(failed)}", file=sys.stderr)
+    if ok_categories == 0:
+        raise last_exc if last_exc else requests.exceptions.ConnectionError(
+            "no category could be fetched before the deadline")
     return items
 
 
