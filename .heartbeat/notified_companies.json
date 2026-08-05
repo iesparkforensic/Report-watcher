@@ -1606,8 +1606,8 @@
   },
   "513532": {
     "first": "2026-07-15",
-    "count": 2,
-    "company": "PRADPME"
+    "count": 3,
+    "company": "Pradeep Metals Ltd"
   },
   "514030": {
     "first": "2026-07-20",
@@ -2556,8 +2556,8 @@
   },
   "531176": {
     "first": "2026-07-17",
-    "count": 2,
-    "company": "MEFCOMCAP"
+    "count": 3,
+    "company": "Mefcom Capital Markets Ltd"
   },
   "531201": {
     "first": "2026-07-17",
@@ -4971,7 +4971,7 @@
   },
   "544318": {
     "first": "2026-07-17",
-    "count": 2,
+    "count": 3,
     "company": "Mamata Machinery Ltd"
   },
   "544325": {
@@ -5351,7 +5351,7 @@
   },
   "544551": {
     "first": "2026-07-29",
-    "count": 2,
+    "count": 4,
     "company": "Bhavik Enterprises Ltd"
   },
   "532553": {
@@ -5446,7 +5446,7 @@
   },
   "532216": {
     "first": "2026-07-30",
-    "count": 1,
+    "count": 2,
     "company": "HB Stockholdings Ltd"
   },
   "500469": {
@@ -5721,7 +5721,7 @@
   },
   "539143": {
     "first": "2026-07-31",
-    "count": 2,
+    "count": 3,
     "company": "Panth Infinity Ltd"
   },
   "505509": {
@@ -5946,7 +5946,7 @@
   },
   "523566": {
     "first": "2026-08-03",
-    "count": 1,
+    "count": 2,
     "company": "Martin Burn Ltd"
   },
   "543743": {
@@ -6161,7 +6161,7 @@
   },
   "530993": {
     "first": "2026-08-04",
-    "count": 1,
+    "count": 2,
     "company": "Sarthak Global Ltd"
   },
   "544144": {
@@ -6186,17 +6186,17 @@
   },
   "505533": {
     "first": "2026-08-04",
-    "count": 4,
+    "count": 5,
     "company": "Westlife Foodworld Ltd"
   },
   "532822": {
     "first": "2026-08-05",
-    "count": 2,
+    "count": 3,
     "company": "Vodafone Idea Ltd"
   },
   "543237": {
     "first": "2026-08-05",
-    "count": 2,
+    "count": 3,
     "company": "Mazagon Dock Shipbuilders Ltd"
   },
   "532555": {
@@ -6286,12 +6286,12 @@
   },
   "520066": {
     "first": "2026-08-05",
-    "count": 2,
+    "count": 3,
     "company": "Jay Bharat Maruti Ltd"
   },
   "544492": {
     "first": "2026-08-05",
-    "count": 1,
+    "count": 2,
     "company": "Mangal Electrical Industries Ltd"
   },
   "544278": {
@@ -6341,27 +6341,177 @@
   },
   "532155": {
     "first": "2026-08-05",
-    "count": 2,
+    "count": 4,
     "company": "Gail (India) Ltd"
   },
   "544289": {
     "first": "2026-08-05",
-    "count": 1,
+    "count": 3,
     "company": "NTPC Green Energy Ltd"
   },
   "533098": {
     "first": "2026-08-05",
-    "count": 1,
+    "count": 3,
     "company": "NHPC Ltd"
   },
   "540366": {
     "first": "2026-08-05",
-    "count": 2,
+    "count": 3,
     "company": "Music Broadcast Ltd"
   },
   "500128": {
     "first": "2026-08-05",
-    "count": 1,
+    "count": 3,
     "company": "Electrosteel Castings Ltd"
+  },
+  "532187": {
+    "first": "2026-08-06",
+    "count": 3,
+    "company": "Indusind Bank Ltd"
+  },
+  "500049": {
+    "first": "2026-08-06",
+    "count": 3,
+    "company": "Bharat Electronics Ltd"
+  },
+  "543308": {
+    "first": "2026-08-06",
+    "count": 3,
+    "company": "Krishna Institute of Medical Sciences Ltd"
+  },
+  "542651": {
+    "first": "2026-08-06",
+    "count": 2,
+    "company": "KPIT Technologies Ltd"
+  },
+  "532527": {
+    "first": "2026-08-06",
+    "count": 2,
+    "company": "Ramkrishna Forgings Ltd"
+  },
+  "500085": {
+    "first": "2026-08-06",
+    "count": 2,
+    "company": "Chambal Fertilisers & Chemicals Ltd"
+  },
+  "544174": {
+    "first": "2026-08-06",
+    "count": 2,
+    "company": "TBO TEK Ltd"
+  },
+  "544173": {
+    "first": "2026-08-06",
+    "count": 2,
+    "company": "Finelistings Technologies Ltd"
+  },
+  "538788": {
+    "first": "2026-08-06",
+    "count": 1,
+    "company": "Gilada Finance & Investments Ltd"
+  },
+  "504380": {
+    "first": "2026-08-06",
+    "count": 1,
+    "company": "Flomic Global Logistics Ltd"
+  },
+  "524506": {
+    "first": "2026-08-06",
+    "count": 1,
+    "company": "Coral Laboratories Ltd"
+  },
+  "532628": {
+    "first": "2026-08-06",
+    "count": 1,
+    "company": "3i Infotech Ltd"
+  },
+  "544537": {
+    "first": "2026-08-06",
+    "count": 2,
+    "company": "Jain Resource Recycling Ltd"
+  },
+  "543519": {
+    "first": "2026-08-06",
+    "count": 1,
+    "company": "Shashwat Furnishing Solutions Ltd"
+  },
+  "544030": {
+    "first": "2026-08-06",
+    "count": 1,
+    "company": "Flair Writing Industries Ltd"
+  },
+  "506906": {
+    "first": "2026-08-06",
+    "count": 1,
+    "company": "Saptak Chem And Business Ltd"
+  },
+  "506222": {
+    "first": "2026-08-06",
+    "count": 1,
+    "company": "Styrenix Performance Materials Ltd"
+  },
+  "531540": {
+    "first": "2026-08-06",
+    "count": 1,
+    "company": "Maruti Infrastructure Ltd"
+  },
+  "531744": {
+    "first": "2026-08-06",
+    "count": 1,
+    "company": "Gini Silk Mills Ltd-$"
+  },
+  "531268": {
+    "first": "2026-08-06",
+    "count": 1,
+    "company": "B2B Software Technologies Ltd"
+  },
+  "539785": {
+    "first": "2026-08-06",
+    "count": 1,
+    "company": "Pudumjee Paper Products Ltd"
+  },
+  "544413": {
+    "first": "2026-08-06",
+    "count": 1,
+    "company": "Digitide Solutions Ltd"
+  },
+  "500343": {
+    "first": "2026-08-06",
+    "count": 1,
+    "company": "AMJ Land Holdings Ltd"
+  },
+  "540311": {
+    "first": "2026-08-06",
+    "count": 1,
+    "company": "JITF Infralogistics Ltd"
+  },
+  "543311": {
+    "first": "2026-08-06",
+    "count": 2,
+    "company": "India Pesticides Ltd"
+  },
+  "533227": {
+    "first": "2026-08-06",
+    "count": 1,
+    "company": "Asian Hotels (East) Ltd"
+  },
+  "524546": {
+    "first": "2026-08-06",
+    "count": 1,
+    "company": "Satiate Agri Ltd"
+  },
+  "505250": {
+    "first": "2026-08-06",
+    "count": 1,
+    "company": "G. G. Dandekar Properties Ltd"
+  },
+  "511074": {
+    "first": "2026-08-06",
+    "count": 1,
+    "company": "Easy Fincorp Ltd"
+  },
+  "535620": {
+    "first": "2026-08-06",
+    "count": 1,
+    "company": "Binny Mills Ltd"
   }
 }
