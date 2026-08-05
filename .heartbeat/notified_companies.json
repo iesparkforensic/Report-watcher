@@ -5351,7 +5351,7 @@
   },
   "544551": {
     "first": "2026-07-29",
-    "count": 1,
+    "count": 2,
     "company": "Bhavik Enterprises Ltd"
   },
   "532553": {
@@ -6338,5 +6338,30 @@
     "first": "2026-08-05",
     "count": 1,
     "company": "HLV Ltd"
+  },
+  "532155": {
+    "first": "2026-08-05",
+    "count": 2,
+    "company": "Gail (India) Ltd"
+  },
+  "544289": {
+    "first": "2026-08-05",
+    "count": 1,
+    "company": "NTPC Green Energy Ltd"
+  },
+  "533098": {
+    "first": "2026-08-05",
+    "count": 1,
+    "company": "NHPC Ltd"
+  },
+  "540366": {
+    "first": "2026-08-05",
+    "count": 2,
+    "company": "Music Broadcast Ltd"
+  },
+  "500128": {
+    "first": "2026-08-05",
+    "count": 1,
+    "company": "Electrosteel Castings Ltd"
   }
 }
