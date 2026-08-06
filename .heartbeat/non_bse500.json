@@ -1,4 +1,35 @@
 {
   "last_flush": "2026-08-06T01:28:23.144927+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Kanoria Chemicals & Industries Ltd",
+      "scrip": "506525",
+      "title": "The Annual General Meeting shall be held on Wednesday, 2nd September 2026 at 11:00 A.M. through Video Conference (\"VC\")/Other Audio Visual Means (\"OAVM)",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/698a569c-8508-4e00-ac41-dc88de5b4440.pdf"
+    },
+    {
+      "company": "Shanti Spintex Ltd",
+      "scrip": "544059",
+      "title": "Shanti Spintex Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/08/2026 ,inter alia, to consider and approve The Annual Report including ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/bc9931af-1934-497e-9ed1-8e02c3ab0424.pdf"
+    },
+    {
+      "company": "Electrosteel Castings Ltd",
+      "scrip": "500128",
+      "title": "Newspaper Publication w.r.t. Date of AGM and confirmation of despatch of Notice and Annual Report.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/044f2f8f-1d3c-4533-bac7-24cb292b1050.pdf"
+    },
+    {
+      "company": "Digitide Solutions Ltd",
+      "scrip": "544413",
+      "title": "Letter sent to Members providing web-link of Annual Report 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/877c2a08-5b7f-4e4c-9338-e971d9853597.pdf"
+    },
+    {
+      "company": "Music Broadcast Ltd",
+      "scrip": "540366",
+      "title": "Newspaper Advertisement - Dispatch of Annual Report",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/dbd42656-aeb8-42f7-ab5f-0df4a45a8698.pdf"
+    }
+  ]
 }
