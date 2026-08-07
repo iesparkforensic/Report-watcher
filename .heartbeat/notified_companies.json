@@ -6421,7 +6421,7 @@
   },
   "532628": {
     "first": "2026-08-06",
-    "count": 1,
+    "count": 2,
     "company": "3i Infotech Ltd"
   },
   "544537": {
@@ -6526,7 +6526,7 @@
   },
   "533339": {
     "first": "2026-08-07",
-    "count": 2,
+    "count": 3,
     "company": "ZEN Technologies Ltd"
   },
   "543663": {
@@ -6761,17 +6761,17 @@
   },
   "590022": {
     "first": "2026-08-07",
-    "count": 1,
+    "count": 2,
     "company": "Eastern Silk Industries Ltd"
   },
   "540065": {
     "first": "2026-08-07",
-    "count": 1,
+    "count": 3,
     "company": "RBL Bank Ltd"
   },
   "532234": {
     "first": "2026-08-07",
-    "count": 1,
+    "count": 3,
     "company": "National Aluminium Company Ltd"
   },
   "531155": {
@@ -6781,12 +6781,12 @@
   },
   "533398": {
     "first": "2026-08-07",
-    "count": 1,
+    "count": 3,
     "company": "Muthoot Finance Ltd"
   },
   "530309": {
     "first": "2026-08-07",
-    "count": 1,
+    "count": 2,
     "company": "Chandra Prabhu International Ltd-$"
   },
   "544245": {
@@ -6796,7 +6796,7 @@
   },
   "543936": {
     "first": "2026-08-07",
-    "count": 1,
+    "count": 3,
     "company": "Senco Gold Ltd"
   },
   "542802": {
@@ -6806,17 +6806,47 @@
   },
   "511766": {
     "first": "2026-08-07",
-    "count": 1,
+    "count": 3,
     "company": "Muthoot Capital Services Ltd"
   },
   "543984": {
     "first": "2026-08-07",
-    "count": 1,
+    "count": 2,
     "company": "Samhi Hotels Ltd"
   },
   "540776": {
     "first": "2026-08-07",
-    "count": 1,
+    "count": 3,
     "company": "5paisa Capital Ltd"
+  },
+  "500312": {
+    "first": "2026-08-08",
+    "count": 2,
+    "company": "Oil and Natural Gas Corporation Ltd"
+  },
+  "530965": {
+    "first": "2026-08-08",
+    "count": 2,
+    "company": "Indian Oil Corporation Ltd"
+  },
+  "539010": {
+    "first": "2026-08-08",
+    "count": 13,
+    "company": "Shri Mahalaxmi Agricultural Development Ltd"
+  },
+  "533257": {
+    "first": "2026-08-08",
+    "count": 4,
+    "company": "Indosolar Ltd"
+  },
+  "540190": {
+    "first": "2026-08-08",
+    "count": 1,
+    "company": "Franklin Industries Ltd"
+  },
+  "519421": {
+    "first": "2026-08-08",
+    "count": 2,
+    "company": "KSE Ltd-$"
   }
 }
