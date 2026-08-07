@@ -1,23 +1,4 @@
 {
-  "last_flush": "2026-08-07T19:17:56.534899+05:30",
-  "items": [
-    {
-      "company": "Chandra Prabhu International Ltd-$",
-      "scrip": "530309",
-      "title": "Notice of ensuing AGM and Annual Report",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fe12d28e-a69b-469e-8ca3-2b253869c9e8.pdf"
-    },
-    {
-      "company": "Naturewings Holidays Ltd",
-      "scrip": "544245",
-      "title": "Submission of Annual Report",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a1008595-5a1a-4bd3-82f5-85cf909a3a40.pdf"
-    },
-    {
-      "company": "Senco Gold Ltd",
-      "scrip": "543936",
-      "title": "Please find enclosed letter to shareholders.",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/75da04e9-cf1e-4fa0-b898-8c0e686e47e1.pdf"
-    }
-  ]
+  "last_flush": "2026-08-07T23:40:44.233297+05:30",
+  "items": []
 }
