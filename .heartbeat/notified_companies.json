@@ -5936,7 +5936,7 @@
   },
   "531082": {
     "first": "2026-08-03",
-    "count": 1,
+    "count": 2,
     "company": "Alankit Ltd"
   },
   "522005": {
@@ -6763,5 +6763,20 @@
     "first": "2026-08-07",
     "count": 1,
     "company": "Eastern Silk Industries Ltd"
+  },
+  "540065": {
+    "first": "2026-08-07",
+    "count": 1,
+    "company": "RBL Bank Ltd"
+  },
+  "532234": {
+    "first": "2026-08-07",
+    "count": 1,
+    "company": "National Aluminium Company Ltd"
+  },
+  "531155": {
+    "first": "2026-08-07",
+    "count": 2,
+    "company": "Epsom Properties Ltd"
   }
 }
