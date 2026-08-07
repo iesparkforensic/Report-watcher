@@ -5486,7 +5486,7 @@
   },
   "532992": {
     "first": "2026-07-30",
-    "count": 1,
+    "count": 2,
     "company": "CHL Ltd"
   },
   "540782": {
@@ -6011,7 +6011,7 @@
   },
   "543299": {
     "first": "2026-08-03",
-    "count": 2,
+    "count": 3,
     "company": "Shyam Metalics and Energy Ltd"
   },
   "524804": {
@@ -6643,5 +6643,25 @@
     "first": "2026-08-07",
     "count": 2,
     "company": "D. B. Corp Ltd"
+  },
+  "544850": {
+    "first": "2026-08-07",
+    "count": 2,
+    "company": "Aarvi Encon Ltd"
+  },
+  "501477": {
+    "first": "2026-08-07",
+    "count": 1,
+    "company": "Muller & Phipps India Ltd"
+  },
+  "530331": {
+    "first": "2026-08-07",
+    "count": 1,
+    "company": "Premco Global Ltd-$"
+  },
+  "524667": {
+    "first": "2026-08-07",
+    "count": 2,
+    "company": "Savita Oil Technologies Ltd"
   }
 }
