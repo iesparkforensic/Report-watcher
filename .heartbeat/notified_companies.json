@@ -4426,7 +4426,7 @@
   },
   "543288": {
     "first": "2026-07-29",
-    "count": 2,
+    "count": 4,
     "company": "Deep Industries Ltd"
   },
   "543300": {
@@ -6666,27 +6666,92 @@
   },
   "544414": {
     "first": "2026-08-07",
-    "count": 1,
+    "count": 2,
     "company": "Bluspring Enterprises Ltd"
   },
   "543521": {
     "first": "2026-08-07",
-    "count": 1,
+    "count": 2,
     "company": "Fone4 Communications (India) Ltd"
   },
   "513043": {
     "first": "2026-08-07",
-    "count": 2,
+    "count": 3,
     "company": "Remi Edelstahl Tubulars Ltd"
   },
   "526001": {
     "first": "2026-08-07",
-    "count": 1,
+    "count": 2,
     "company": "Jauss Polymers Ltd"
   },
   "523710": {
     "first": "2026-08-07",
     "count": 1,
     "company": "Sayaji Hotels Ltd"
+  },
+  "533278": {
+    "first": "2026-08-07",
+    "count": 3,
+    "company": "Coal India Ltd"
+  },
+  "543334": {
+    "first": "2026-08-07",
+    "count": 2,
+    "company": "Nuvoco Vistas Corporation Ltd"
+  },
+  "511716": {
+    "first": "2026-08-07",
+    "count": 2,
+    "company": "Invigorated Business Consulting Ltd"
+  },
+  "539005": {
+    "first": "2026-08-07",
+    "count": 1,
+    "company": "Jayatma Enterprises Ltd"
+  },
+  "531921": {
+    "first": "2026-08-07",
+    "count": 1,
+    "company": "Agarwal Industrial Corporation Ltd"
+  },
+  "524164": {
+    "first": "2026-08-07",
+    "count": 2,
+    "company": "IOL Chemicals & Pharmaceuticals Ltd"
+  },
+  "539956": {
+    "first": "2026-08-07",
+    "count": 1,
+    "company": "TAAL Tech Ltd"
+  },
+  "505232": {
+    "first": "2026-08-07",
+    "count": 1,
+    "company": "Veljan Denison Ltd"
+  },
+  "540749": {
+    "first": "2026-08-07",
+    "count": 2,
+    "company": "MAS Financial Services Ltd"
+  },
+  "520059": {
+    "first": "2026-08-07",
+    "count": 1,
+    "company": "Munjal Auto Industries Ltd"
+  },
+  "512404": {
+    "first": "2026-08-07",
+    "count": 1,
+    "company": "Bengal Steel Industries Ltd"
+  },
+  "532468": {
+    "first": "2026-08-07",
+    "count": 2,
+    "company": "Kama Holdings Ltd-$"
+  },
+  "506520": {
+    "first": "2026-08-07",
+    "count": 1,
+    "company": "Jayshree Chemicals Ltd"
   }
 }
