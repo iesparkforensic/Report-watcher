@@ -581,8 +581,8 @@
   },
   "500520": {
     "first": "2026-07-04",
-    "count": 4,
-    "company": "M&M"
+    "count": 5,
+    "company": "Mahindra & Mahindra Ltd"
   },
   "500530": {
     "first": "2026-07-10",
@@ -6291,7 +6291,7 @@
   },
   "544492": {
     "first": "2026-08-05",
-    "count": 2,
+    "count": 3,
     "company": "Mangal Electrical Industries Ltd"
   },
   "544278": {
@@ -6678,5 +6678,15 @@
     "first": "2026-08-07",
     "count": 2,
     "company": "Remi Edelstahl Tubulars Ltd"
+  },
+  "526001": {
+    "first": "2026-08-07",
+    "count": 1,
+    "company": "Jauss Polymers Ltd"
+  },
+  "523710": {
+    "first": "2026-08-07",
+    "count": 1,
+    "company": "Sayaji Hotels Ltd"
   }
 }
