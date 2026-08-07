@@ -4426,8 +4426,8 @@
   },
   "543288": {
     "first": "2026-07-29",
-    "count": 1,
-    "company": "DEEPINDS"
+    "count": 2,
+    "company": "Deep Industries Ltd"
   },
   "543300": {
     "first": "2026-06-20",
@@ -6336,7 +6336,7 @@
   },
   "500193": {
     "first": "2026-08-05",
-    "count": 1,
+    "count": 2,
     "company": "HLV Ltd"
   },
   "532155": {
@@ -6536,7 +6536,7 @@
   },
   "533206": {
     "first": "2026-08-07",
-    "count": 1,
+    "count": 2,
     "company": "SJVN Ltd"
   },
   "506525": {
@@ -6556,7 +6556,7 @@
   },
   "538092": {
     "first": "2026-08-07",
-    "count": 2,
+    "count": 3,
     "company": "Shri Vasuprada Plantations Ltd"
   },
   "509550": {
@@ -6571,7 +6571,7 @@
   },
   "521180": {
     "first": "2026-08-07",
-    "count": 2,
+    "count": 3,
     "company": "Super Spinning Mills Ltd"
   },
   "544545": {
@@ -6641,7 +6641,7 @@
   },
   "533151": {
     "first": "2026-08-07",
-    "count": 2,
+    "count": 3,
     "company": "D. B. Corp Ltd"
   },
   "544850": {
@@ -6663,5 +6663,20 @@
     "first": "2026-08-07",
     "count": 2,
     "company": "Savita Oil Technologies Ltd"
+  },
+  "544414": {
+    "first": "2026-08-07",
+    "count": 1,
+    "company": "Bluspring Enterprises Ltd"
+  },
+  "543521": {
+    "first": "2026-08-07",
+    "count": 1,
+    "company": "Fone4 Communications (India) Ltd"
+  },
+  "513043": {
+    "first": "2026-08-07",
+    "count": 2,
+    "company": "Remi Edelstahl Tubulars Ltd"
   }
 }
