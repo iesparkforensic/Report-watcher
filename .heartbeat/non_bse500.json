@@ -1,17 +1,4 @@
 {
-  "last_flush": "2026-08-08T14:35:26.701896+05:30",
-  "items": [
-    {
-      "company": "Allied Digital Services Ltd",
-      "scrip": "532875",
-      "title": "Disclosure is made pursuant to Regulation 30 and 36(1)(b) of the SEBI (LODR) Regulation, 2015",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3a3bb293-1574-47ba-bc07-0cd16e2bad36.pdf"
-    },
-    {
-      "company": "Neueon Corporation Ltd",
-      "scrip": "532887",
-      "title": "as per attached letter.",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fd893eda-272e-4fe3-976a-5c88efb083e9.pdf"
-    }
-  ]
+  "last_flush": "2026-08-08T17:19:25.437842+05:30",
+  "items": []
 }
