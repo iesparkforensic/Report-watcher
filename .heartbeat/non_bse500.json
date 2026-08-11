@@ -1,4 +1,23 @@
 {
   "last_flush": "2026-08-11T19:20:07.135240+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Sunita Tools Ltd",
+      "scrip": "544001",
+      "title": "Sunita Tools Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 14/08/2026 ,inter alia, to consider and approve 1. Raising of Equity Capital through ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a7134834-714f-4692-b4a7-542661ff4e63.pdf"
+    },
+    {
+      "company": "Network People Services Technologies Ltd",
+      "scrip": "544396",
+      "title": "The Board of Directors of the Company at their Board Meeting held on Tuesday, August 11, 2026 at 05:00 P.M at the Registered Office of the Company situated at Off No. 427/428/429, A-Wing, ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d058019d-d0b9-4ea3-b1bb-7cb8129db0c4.pdf"
+    },
+    {
+      "company": "Kkalpana Plastick Ltd",
+      "scrip": "523652",
+      "title": "Please find attached the copies of Advertisement published on Tuesday, August 11, 2026, in Financial Express (English Newspaper) and Sukhabar (Bengali Newspaper), made prior to the dispatch ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/764f9bc2-664c-484c-aa01-188b6505133e.pdf"
+    }
+  ]
 }
