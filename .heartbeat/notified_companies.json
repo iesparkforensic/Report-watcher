@@ -2451,8 +2451,8 @@
   },
   "530469": {
     "first": "2026-07-23",
-    "count": 1,
-    "company": "GSLSEC"
+    "count": 2,
+    "company": "GSL Securities Ltd"
   },
   "530521": {
     "first": "2026-07-14",
@@ -2641,8 +2641,8 @@
   },
   "531530": {
     "first": "2026-06-02",
-    "count": 1,
-    "company": "BETALA"
+    "count": 2,
+    "company": "Betala Global Securities Ltd"
   },
   "531541": {
     "first": "2026-06-26",
@@ -5761,7 +5761,7 @@
   },
   "533155": {
     "first": "2026-07-31",
-    "count": 4,
+    "count": 5,
     "company": "Jubilant FoodWorks Ltd"
   },
   "532777": {
@@ -6241,7 +6241,7 @@
   },
   "542524": {
     "first": "2026-08-05",
-    "count": 2,
+    "count": 3,
     "company": "Ambassador Intra Holdings Ltd"
   },
   "530643": {
@@ -6636,7 +6636,7 @@
   },
   "532162": {
     "first": "2026-08-07",
-    "count": 2,
+    "count": 3,
     "company": "JK Paper Ltd"
   },
   "533151": {
@@ -7041,7 +7041,7 @@
   },
   "544045": {
     "first": "2026-08-11",
-    "count": 3,
+    "count": 5,
     "company": "DOMS Industries Ltd"
   },
   "540146": {
@@ -7201,7 +7201,7 @@
   },
   "544599": {
     "first": "2026-08-11",
-    "count": 2,
+    "count": 3,
     "company": "Studds Accessories Ltd"
   },
   "526703": {
@@ -7256,7 +7256,7 @@
   },
   "533095": {
     "first": "2026-08-12",
-    "count": 1,
+    "count": 2,
     "company": "Bengal & Assam Company Ltd"
   },
   "508494": {
@@ -7266,17 +7266,17 @@
   },
   "514240": {
     "first": "2026-08-12",
-    "count": 2,
+    "count": 3,
     "company": "Kush Industries Ltd"
   },
   "532334": {
     "first": "2026-08-12",
-    "count": 1,
+    "count": 2,
     "company": "HB Estate Developers Ltd"
   },
   "500304": {
     "first": "2026-08-12",
-    "count": 1,
+    "count": 3,
     "company": "NIIT Ltd"
   },
   "539435": {
@@ -7286,12 +7286,12 @@
   },
   "539046": {
     "first": "2026-08-12",
-    "count": 1,
+    "count": 2,
     "company": "Manaksia Coated Metals & Industries Ltd"
   },
   "500126": {
     "first": "2026-08-12",
-    "count": 1,
+    "count": 3,
     "company": "Procter & Gamble Health Ltd"
   },
   "532932": {
@@ -7301,17 +7301,72 @@
   },
   "531640": {
     "first": "2026-08-12",
-    "count": 1,
+    "count": 3,
     "company": "Suvidha Infraestate Corporation Ltd"
   },
   "503310": {
     "first": "2026-08-12",
-    "count": 1,
+    "count": 2,
     "company": "Swan Corp Ltd"
   },
   "524226": {
     "first": "2026-08-12",
-    "count": 1,
+    "count": 3,
     "company": "Gujarat Ambuja Exports Ltd"
+  },
+  "533543": {
+    "first": "2026-08-13",
+    "count": 2,
+    "company": "Brooks Laboratories Ltd"
+  },
+  "539911": {
+    "first": "2026-08-13",
+    "count": 1,
+    "company": "Svarnim Trade Udyog Ltd"
+  },
+  "509079": {
+    "first": "2026-08-13",
+    "count": 2,
+    "company": "Gufic Biosciences Ltd"
+  },
+  "512229": {
+    "first": "2026-08-13",
+    "count": 2,
+    "company": "Veritas (India) Ltd"
+  },
+  "541083": {
+    "first": "2026-08-13",
+    "count": 1,
+    "company": "Inflame Appliances Ltd"
+  },
+  "531237": {
+    "first": "2026-08-13",
+    "count": 1,
+    "company": "Dhruva Capital Services Ltd"
+  },
+  "500284": {
+    "first": "2026-08-13",
+    "count": 1,
+    "company": "Lords Chloro Alkali Ltd"
+  },
+  "532866": {
+    "first": "2026-08-13",
+    "count": 1,
+    "company": "Quintegra Solutions Ltd"
+  },
+  "530217": {
+    "first": "2026-08-13",
+    "count": 1,
+    "company": "Swojas Foods Ltd"
+  },
+  "532333": {
+    "first": "2026-08-13",
+    "count": 1,
+    "company": "HB Portfolio Ltd"
+  },
+  "509760": {
+    "first": "2026-08-13",
+    "count": 1,
+    "company": "Modern Shares & Stockbrokers Ltd"
   }
 }
