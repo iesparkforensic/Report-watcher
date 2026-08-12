@@ -6241,7 +6241,7 @@
   },
   "542524": {
     "first": "2026-08-05",
-    "count": 1,
+    "count": 2,
     "company": "Ambassador Intra Holdings Ltd"
   },
   "530643": {
@@ -7041,7 +7041,7 @@
   },
   "544045": {
     "first": "2026-08-11",
-    "count": 1,
+    "count": 2,
     "company": "DOMS Industries Ltd"
   },
   "540146": {
@@ -7136,7 +7136,7 @@
   },
   "513097": {
     "first": "2026-08-11",
-    "count": 2,
+    "count": 3,
     "company": "Shivalik Bimetal Controls Ltd"
   },
   "526367": {
@@ -7186,7 +7186,7 @@
   },
   "522245": {
     "first": "2026-08-11",
-    "count": 2,
+    "count": 3,
     "company": "Iykot Hitech Toolroom Ltd"
   },
   "519494": {
@@ -7216,7 +7216,7 @@
   },
   "523023": {
     "first": "2026-08-11",
-    "count": 1,
+    "count": 2,
     "company": "Sinclairs Hotels Ltd-$"
   },
   "502250": {
@@ -7261,7 +7261,47 @@
   },
   "508494": {
     "first": "2026-08-12",
-    "count": 1,
+    "count": 2,
     "company": "Warren Tea Ltd-$"
+  },
+  "514240": {
+    "first": "2026-08-12",
+    "count": 2,
+    "company": "Kush Industries Ltd"
+  },
+  "532334": {
+    "first": "2026-08-12",
+    "count": 1,
+    "company": "HB Estate Developers Ltd"
+  },
+  "500304": {
+    "first": "2026-08-12",
+    "count": 1,
+    "company": "NIIT Ltd"
+  },
+  "539435": {
+    "first": "2026-08-12",
+    "count": 1,
+    "company": "Richfield Financial Services Ltd"
+  },
+  "539046": {
+    "first": "2026-08-12",
+    "count": 1,
+    "company": "Manaksia Coated Metals & Industries Ltd"
+  },
+  "500126": {
+    "first": "2026-08-12",
+    "count": 1,
+    "company": "Procter & Gamble Health Ltd"
+  },
+  "532932": {
+    "first": "2026-08-12",
+    "count": 1,
+    "company": "Manaksia Ltd"
+  },
+  "531640": {
+    "first": "2026-08-12",
+    "count": 1,
+    "company": "Suvidha Infraestate Corporation Ltd"
   }
 }
