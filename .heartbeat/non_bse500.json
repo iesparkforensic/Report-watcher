@@ -1,4 +1,17 @@
 {
   "last_flush": "2026-08-12T12:16:57.314757+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Kush Industries Ltd",
+      "scrip": "514240",
+      "title": "Submission of Notice of 34th AGM along with Annual Report 2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0fed6a68-7a1e-4180-a9fb-7d603d35b0d0.pdf"
+    },
+    {
+      "company": "HB Estate Developers Ltd",
+      "scrip": "532334",
+      "title": "The 32nd AGM of the Company is scheduled to be held on Wednesday, September 9, 2026 at 12:00 Noon (IST) through VC/ OAVM",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/cf156b30-3d69-4c81-ba43-f63e5e62df02.pdf"
+    }
+  ]
 }
