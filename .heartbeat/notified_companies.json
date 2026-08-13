@@ -5466,7 +5466,7 @@
   },
   "540611": {
     "first": "2026-07-30",
-    "count": 1,
+    "count": 2,
     "company": "AU Small Finance Bank Ltd"
   },
   "531162": {
@@ -7438,5 +7438,20 @@
     "first": "2026-08-13",
     "count": 1,
     "company": "Triveni Engineering & Industries Ltd"
+  },
+  "524590": {
+    "first": "2026-08-13",
+    "count": 1,
+    "company": "Hemo Organic Ltd"
+  },
+  "543310": {
+    "first": "2026-08-13",
+    "count": 1,
+    "company": "Times Green Energy (India) Ltd"
+  },
+  "538786": {
+    "first": "2026-08-13",
+    "count": 1,
+    "company": "Citizen Solar Ltd"
   }
 }
