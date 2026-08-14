@@ -4306,8 +4306,8 @@
   },
   "542867": {
     "first": "2026-07-28",
-    "count": 3,
-    "company": "CSBBANK"
+    "count": 4,
+    "company": "CSB Bank Ltd"
   },
   "542904": {
     "first": "2026-06-30",
@@ -7601,7 +7601,7 @@
   },
   "544303": {
     "first": "2026-08-14",
-    "count": 1,
+    "count": 2,
     "company": "Toss The Coin Ltd"
   },
   "540718": {
@@ -7643,5 +7643,20 @@
     "first": "2026-08-14",
     "count": 1,
     "company": "Cantabil Retail India Ltd"
+  },
+  "500084": {
+    "first": "2026-08-14",
+    "count": 1,
+    "company": "CESC Ltd"
+  },
+  "543952": {
+    "first": "2026-08-14",
+    "count": 1,
+    "company": "NIIT Learning Systems Ltd"
+  },
+  "542337": {
+    "first": "2026-08-14",
+    "count": 1,
+    "company": "Spencers Retail Ltd"
   }
 }
