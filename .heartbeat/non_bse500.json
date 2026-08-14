@@ -1,23 +1,4 @@
 {
-  "last_flush": "2026-08-14T03:38:22.946806+05:30",
-  "items": [
-    {
-      "company": "Diffusion Engineers Ltd",
-      "scrip": "544264",
-      "title": "Notice of 44th Annual General Meeting scheduled on 07th September, 2026 and Annual Report for Financial Year ended 31st March, 2026",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7ff88fce-96a7-45f4-a666-66fb8a513908.pdf"
-    },
-    {
-      "company": "Diffusion Engineers Ltd",
-      "scrip": "544264",
-      "title": "Annual Report for financial year ended March 31, 2026",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f0620bfd-4c5f-477e-96f9-026c2ec2d428.pdf"
-    },
-    {
-      "company": "Vadilal Enterprises Ltd",
-      "scrip": "519152",
-      "title": "Annual Report for the Financial Year 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3b5ada9b-d984-4094-9bbc-66561dbf93f7.pdf"
-    }
-  ]
+  "last_flush": "2026-08-14T12:21:02.619430+05:30",
+  "items": []
 }
