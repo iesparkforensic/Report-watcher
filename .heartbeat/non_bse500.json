@@ -1,23 +1,4 @@
 {
-  "last_flush": "2026-08-14T15:55:14.042972+05:30",
-  "items": [
-    {
-      "company": "STL Networks Ltd",
-      "scrip": "544395",
-      "title": "Annual Report for the Financial Year 2025-26 along with notice of 5th Annual General Meeting of the Company",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1bd2e9b7-acb3-418a-9549-c72ebb51b2e7.pdf"
-    },
-    {
-      "company": "PVP Ventures Ltd",
-      "scrip": "517556",
-      "title": "Annual Report of PVP Ventures Limited (Reg 34)",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fa72647a-b440-4917-818d-4c74de8857cc.pdf"
-    },
-    {
-      "company": "Cantabil Retail India Ltd",
-      "scrip": "533267",
-      "title": "Notice of Annual General Meeting scheduled to be held on September 8, 2026",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3c1d47b0-755f-48e1-9b74-585bc785a63f.pdf"
-    }
-  ]
+  "last_flush": "2026-08-14T21:43:29.935970+05:30",
+  "items": []
 }
