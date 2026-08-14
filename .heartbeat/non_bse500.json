@@ -1,4 +1,47 @@
 {
   "last_flush": "2026-08-14T12:21:02.619430+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Sampre Nutritions Ltd",
+      "scrip": "530617",
+      "title": "The company has dispatched the letter to all the shareholders holding shares of the company in physical form, containing a QR code that provides direct access to the Annual Report available ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e8aa8134-f71b-4747-9f90-00d53e65ad88.pdf"
+    },
+    {
+      "company": "Sampre Nutritions Ltd",
+      "scrip": "530617",
+      "title": "This is a corrigendum to the Notice of the 35th AGM. There was a typographical error in the date of appointment of the scrutinizer. The said error has been rectified. Neither any material ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/bb43a792-11c1-4fec-ac3b-6a16f84577ce.pdf"
+    },
+    {
+      "company": "North Eastern Carrying Corporation Ltd",
+      "scrip": "534615",
+      "title": "This is to inform you that the 41st Annual General Meeting of the Company will be hold on Thursday, September 10, 2026 at 12:30 P.M. (IST) through Video Conferencing /Other Audio Visual ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/cf317776-a2b1-4c1c-8cff-f6c07edb1f7a.pdf"
+    },
+    {
+      "company": "Toss The Coin Ltd",
+      "scrip": "544303",
+      "title": "Pursuant to Regulation 34 (1) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, we are submitting herewith the Notice convening the Sixth AGM of the Company ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e5566d57-d58c-4932-945e-1f76ce2e7ace.pdf"
+    },
+    {
+      "company": "Adtech Systems Ltd",
+      "scrip": "544185",
+      "title": "Outcome of Board Meeting held on 14th August 2026 to consider and approve the Unaudited financial results for quarter ended on 30th June 2026, approval of Annual Report, fixation of Book ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d961bfe7-96df-4516-987e-08789bdcbb83.pdf"
+    },
+    {
+      "company": "Aayush Art And Bullion Ltd",
+      "scrip": "540718",
+      "title": "Submission of Notice of the 17th Annual General Meeting ('AGM') along with Annual Report of the Company for the financial year 2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ca2f9b2b-ac02-4bc5-8bcf-0683db1003a7.pdf"
+    },
+    {
+      "company": "Diamines & Chemicals Ltd-$",
+      "scrip": "500120",
+      "title": "We submit herewith letter containing the exact weblink and path of accessing the Annual Report for FY 2025-26 sent to shareholders.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/50d7d922-898b-40e0-a6bb-04184242f631.pdf"
+    }
+  ]
 }
