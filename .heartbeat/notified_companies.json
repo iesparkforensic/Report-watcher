@@ -7711,7 +7711,7 @@
   },
   "530879": {
     "first": "2026-08-15",
-    "count": 2,
+    "count": 3,
     "company": "Capital India Finance Ltd"
   },
   "531870": {
@@ -7773,5 +7773,10 @@
     "first": "2026-08-15",
     "count": 1,
     "company": "Kkalpana Industries (India) Ltd"
+  },
+  "532667": {
+    "first": "2026-08-15",
+    "count": 3,
+    "company": "Suzlon Energy Ltd"
   }
 }
