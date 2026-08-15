@@ -1,4 +1,11 @@
 {
   "last_flush": "2026-08-15T18:36:36.841115+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "NIIT Learning Systems Ltd",
+      "scrip": "543952",
+      "title": "Newspaper advertisements for dispatch of Notice of 24th Annual General Meeting and Annual Report for financial year 2025-26 & e-Voting information.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/90836bb7-a7a0-4f43-991d-ce77d075b508.pdf"
+    }
+  ]
 }
