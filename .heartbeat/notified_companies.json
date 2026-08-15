@@ -7661,7 +7661,7 @@
   },
   "540750": {
     "first": "2026-08-15",
-    "count": 2,
+    "count": 3,
     "company": "Indian Energy Exchange Ltd"
   },
   "544497": {
@@ -7746,7 +7746,7 @@
   },
   "538993": {
     "first": "2026-08-15",
-    "count": 1,
+    "count": 2,
     "company": "Purohit Construction Ltd"
   },
   "514215": {
@@ -7768,5 +7768,10 @@
     "first": "2026-08-15",
     "count": 1,
     "company": "Dolfin Rubbers Ltd"
+  },
+  "526409": {
+    "first": "2026-08-15",
+    "count": 1,
+    "company": "Kkalpana Industries (India) Ltd"
   }
 }
