@@ -7651,7 +7651,7 @@
   },
   "543952": {
     "first": "2026-08-14",
-    "count": 3,
+    "count": 4,
     "company": "NIIT Learning Systems Ltd"
   },
   "542337": {
@@ -7686,7 +7686,7 @@
   },
   "504605": {
     "first": "2026-08-15",
-    "count": 2,
+    "count": 3,
     "company": "Uni Abex Alloy Products Ltd"
   },
   "532794": {
@@ -7778,5 +7778,10 @@
     "first": "2026-08-15",
     "count": 3,
     "company": "Suzlon Energy Ltd"
+  },
+  "532832": {
+    "first": "2026-08-16",
+    "count": 2,
+    "company": "Embassy Developments Ltd"
   }
 }
