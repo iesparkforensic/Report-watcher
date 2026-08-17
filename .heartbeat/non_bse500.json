@@ -1,4 +1,23 @@
 {
   "last_flush": "2026-08-16T20:14:25.536367+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Hindustan Hardy Ltd",
+      "scrip": "505893",
+      "title": "Pursuant to the provisions of Regulation 47 (3) of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, the newspaper clipping regarding publication of Notice to Shareholders ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9dcc6d7e-b852-4292-9df7-0fcc9f73c3c5.pdf"
+    },
+    {
+      "company": "Empire Industries Ltd",
+      "scrip": "509525",
+      "title": "Notice of 125th Annual General Meeting and Annual Report for the financial year 2025-26 under Regulation 30 and 34 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/56a1d343-41ce-4a3b-be09-5ca4418ffc33.pdf"
+    },
+    {
+      "company": "Gujarat Pipavav Port Ltd",
+      "scrip": "533248",
+      "title": "Annual Report including the Notice convening the AGM attached",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/85eb5206-2c76-4b1d-bd19-d727368c4a9a.pdf"
+    }
+  ]
 }
