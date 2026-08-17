@@ -7231,7 +7231,7 @@
   },
   "543318": {
     "first": "2026-08-12",
-    "count": 3,
+    "count": 4,
     "company": "Clean Science and Technology Ltd"
   },
   "544001": {
@@ -7848,5 +7848,15 @@
     "first": "2026-08-17",
     "count": 1,
     "company": "Escorp Asset Management Ltd"
+  },
+  "523550": {
+    "first": "2026-08-17",
+    "count": 2,
+    "company": "Krypton Industries Ltd"
+  },
+  "544140": {
+    "first": "2026-08-17",
+    "count": 2,
+    "company": "Gopal Snacks Ltd"
   }
 }
