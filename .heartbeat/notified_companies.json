@@ -6236,7 +6236,7 @@
   },
   "531923": {
     "first": "2026-08-05",
-    "count": 1,
+    "count": 2,
     "company": "Dhampure Specialty Sugars Ltd"
   },
   "542524": {
@@ -7861,7 +7861,7 @@
   },
   "500459": {
     "first": "2026-08-17",
-    "count": 2,
+    "count": 3,
     "company": "Procter & Gamble Hygiene and Health Care Ltd"
   },
   "532927": {
@@ -7966,12 +7966,32 @@
   },
   "542773": {
     "first": "2026-08-17",
-    "count": 2,
+    "count": 3,
     "company": "IIFL Capital Services Ltd"
   },
   "522108": {
     "first": "2026-08-17",
     "count": 1,
     "company": "Yuken India Ltd-$"
+  },
+  "544642": {
+    "first": "2026-08-17",
+    "count": 1,
+    "company": "Wakefit Innovations Ltd"
+  },
+  "541269": {
+    "first": "2026-08-17",
+    "count": 1,
+    "company": "Chemfab Alkalis Ltd"
+  },
+  "531775": {
+    "first": "2026-08-17",
+    "count": 1,
+    "company": "CISTRO Telelink Ltd"
+  },
+  "513575": {
+    "first": "2026-08-17",
+    "count": 1,
+    "company": "Sterling Powergensys Ltd"
   }
 }
