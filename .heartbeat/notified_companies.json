@@ -746,8 +746,8 @@
   },
   "502281": {
     "first": "2026-07-23",
-    "count": 2,
-    "company": "TRIVENIGQ"
+    "count": 4,
+    "company": "Triveni Glass Ltd-$"
   },
   "502330": {
     "first": "2026-07-13",
@@ -7976,12 +7976,12 @@
   },
   "544642": {
     "first": "2026-08-17",
-    "count": 1,
+    "count": 3,
     "company": "Wakefit Innovations Ltd"
   },
   "541269": {
     "first": "2026-08-17",
-    "count": 1,
+    "count": 2,
     "company": "Chemfab Alkalis Ltd"
   },
   "531775": {
@@ -7993,5 +7993,50 @@
     "first": "2026-08-17",
     "count": 1,
     "company": "Sterling Powergensys Ltd"
+  },
+  "519600": {
+    "first": "2026-08-17",
+    "count": 3,
+    "company": "CCL Products (India) Ltd"
+  },
+  "544484": {
+    "first": "2026-08-17",
+    "count": 2,
+    "company": "BlueStone Jewellery and Lifestyle Ltd"
+  },
+  "500307": {
+    "first": "2026-08-17",
+    "count": 3,
+    "company": "Nirlon Ltd"
+  },
+  "538564": {
+    "first": "2026-08-17",
+    "count": 1,
+    "company": "James Warren Tea Ltd"
+  },
+  "538860": {
+    "first": "2026-08-17",
+    "count": 1,
+    "company": "Panafic Industrials Ltd"
+  },
+  "544312": {
+    "first": "2026-08-17",
+    "count": 1,
+    "company": "Hamps Bio Ltd"
+  },
+  "514183": {
+    "first": "2026-08-17",
+    "count": 1,
+    "company": "Black Rose Industries Ltd"
+  },
+  "533078": {
+    "first": "2026-08-17",
+    "count": 2,
+    "company": "Manjeera Constructions Ltd"
+  },
+  "544119": {
+    "first": "2026-08-17",
+    "count": 2,
+    "company": "Rashi Peripherals Ltd"
   }
 }
