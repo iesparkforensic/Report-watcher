@@ -6871,7 +6871,7 @@
   },
   "539662": {
     "first": "2026-08-08",
-    "count": 1,
+    "count": 2,
     "company": "BFL Asset Finvest Ltd"
   },
   "532875": {
@@ -7271,7 +7271,7 @@
   },
   "532334": {
     "first": "2026-08-12",
-    "count": 2,
+    "count": 3,
     "company": "HB Estate Developers Ltd"
   },
   "500304": {
@@ -7361,7 +7361,7 @@
   },
   "532333": {
     "first": "2026-08-13",
-    "count": 1,
+    "count": 2,
     "company": "HB Portfolio Ltd"
   },
   "509760": {
@@ -7586,7 +7586,7 @@
   },
   "500456": {
     "first": "2026-08-14",
-    "count": 2,
+    "count": 3,
     "company": "Pasupati Acrylon Ltd"
   },
   "533655": {
@@ -7786,7 +7786,7 @@
   },
   "509525": {
     "first": "2026-08-17",
-    "count": 1,
+    "count": 2,
     "company": "Empire Industries Ltd"
   },
   "533248": {
@@ -7796,7 +7796,7 @@
   },
   "523537": {
     "first": "2026-08-17",
-    "count": 3,
+    "count": 4,
     "company": "APM Industries Ltd-$"
   },
   "517417": {
@@ -7966,7 +7966,7 @@
   },
   "542773": {
     "first": "2026-08-17",
-    "count": 3,
+    "count": 4,
     "company": "IIFL Capital Services Ltd"
   },
   "522108": {
@@ -7976,12 +7976,12 @@
   },
   "544642": {
     "first": "2026-08-17",
-    "count": 3,
+    "count": 4,
     "company": "Wakefit Innovations Ltd"
   },
   "541269": {
     "first": "2026-08-17",
-    "count": 2,
+    "count": 3,
     "company": "Chemfab Alkalis Ltd"
   },
   "531775": {
@@ -8038,5 +8038,75 @@
     "first": "2026-08-17",
     "count": 2,
     "company": "Rashi Peripherals Ltd"
+  },
+  "534139": {
+    "first": "2026-08-18",
+    "count": 3,
+    "company": "Schneider Electric Infrastructure Ltd"
+  },
+  "530077": {
+    "first": "2026-08-18",
+    "count": 1,
+    "company": "Puretrop Fruits  Ltd"
+  },
+  "543515": {
+    "first": "2026-08-18",
+    "count": 1,
+    "company": "Sunrise Efficient Marketing Ltd"
+  },
+  "532848": {
+    "first": "2026-08-18",
+    "count": 2,
+    "company": "Delta Corp Ltd"
+  },
+  "543367": {
+    "first": "2026-08-18",
+    "count": 2,
+    "company": "Paras Defence and Space Technologies Ltd"
+  },
+  "534639": {
+    "first": "2026-08-18",
+    "count": 1,
+    "company": "Vinayak Polycon International Ltd"
+  },
+  "515037": {
+    "first": "2026-08-18",
+    "count": 1,
+    "company": "Murudeshwar Ceramics Ltd"
+  },
+  "532056": {
+    "first": "2026-08-18",
+    "count": 1,
+    "company": "Trustedge Capital Ltd"
+  },
+  "544009": {
+    "first": "2026-08-18",
+    "count": 3,
+    "company": "Blue Jet Healthcare Ltd"
+  },
+  "526494": {
+    "first": "2026-08-18",
+    "count": 3,
+    "company": "Promact Plastics Ltd"
+  },
+  "506687": {
+    "first": "2026-08-18",
+    "count": 1,
+    "company": "Transpek Industry Ltd-$"
+  },
+  "530443": {
+    "first": "2026-08-18",
+    "count": 1,
+    "company": "Kiran Syntex Ltd"
+  },
+  "507526": {
+    "first": "2026-08-18",
+    "count": 1,
+    "company": "Associated Alcohols & Breweries Ltd"
+  },
+  "532457": {
+    "first": "2026-08-18",
+    "count": 1,
+    "company": "Gulshan Polyols Ltd"
   }
 }
