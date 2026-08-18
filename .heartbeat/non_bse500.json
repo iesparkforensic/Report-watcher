@@ -1,4 +1,41 @@
 {
   "last_flush": "2026-08-18T15:22:11.795799+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Shalimar Paints Ltd-$",
+      "scrip": "509874",
+      "title": "PFA herewith Notice of 124th Annual General Meeting and Annual Report for FY 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5d87d9bc-f89a-42d0-87c3-16ae23194e2f.pdf"
+    },
+    {
+      "company": "Mukka Proteins Ltd",
+      "scrip": "544135",
+      "title": "Annual Report for the Financial Year 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c508b98a-2bf3-4074-862f-d76e7bd65343.pdf"
+    },
+    {
+      "company": "Olympia Industries Ltd",
+      "scrip": "521105",
+      "title": "Enclosed herewith is the Annual Report of the Company for FY 2025-26 including Notice of 37th AGM",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/08c0e528-3f66-4a5f-9800-e6f8b1dd4b26.pdf"
+    },
+    {
+      "company": "Shalimar Paints Ltd-$",
+      "scrip": "509874",
+      "title": "PFA Annual Report for the FY 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/35be475c-4130-4a9e-8701-b56a34f6ccb8.pdf"
+    },
+    {
+      "company": "Arvind SmartSpaces Ltd",
+      "scrip": "539301",
+      "title": "Pursuant to Regulation 34 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, we enclose herewith the Annual Report of the Company for the financial year 2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b7a2e3e0-e2df-4dae-ac99-a55bc51603a4.pdf"
+    },
+    {
+      "company": "Gulshan Polyols Ltd",
+      "scrip": "532457",
+      "title": "Find enclosed the Business Responsibility and Sustainability Report for Financial Year ended on March 31, 2026.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1f487edf-6ded-49bd-aee3-23e30a67b8fc.pdf"
+    }
+  ]
 }
