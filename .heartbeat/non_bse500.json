@@ -1,4 +1,17 @@
 {
   "last_flush": "2026-08-17T22:20:59.493591+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Empire Industries Ltd",
+      "scrip": "509525",
+      "title": "Letter of Weblink of Annual Report for FY 2025-2026",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/13e3eb47-716b-4ce5-b279-e6dd9aab154f.pdf"
+    },
+    {
+      "company": "Puretrop Fruits  Ltd",
+      "scrip": "530077",
+      "title": "Annual Report for the financial year 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/18a3120d-4f86-4fde-a320-672ce6836291.pdf"
+    }
+  ]
 }
