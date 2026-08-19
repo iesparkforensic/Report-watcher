@@ -6801,7 +6801,7 @@
   },
   "542802": {
     "first": "2026-08-07",
-    "count": 1,
+    "count": 3,
     "company": "Galactico Corporate Services Ltd"
   },
   "511766": {
@@ -7071,7 +7071,7 @@
   },
   "544699": {
     "first": "2026-08-11",
-    "count": 1,
+    "count": 2,
     "company": "Aye Finance Ltd"
   },
   "530617": {
@@ -7231,7 +7231,7 @@
   },
   "543318": {
     "first": "2026-08-12",
-    "count": 4,
+    "count": 5,
     "company": "Clean Science and Technology Ltd"
   },
   "544001": {
@@ -7711,7 +7711,7 @@
   },
   "530879": {
     "first": "2026-08-15",
-    "count": 3,
+    "count": 4,
     "company": "Capital India Finance Ltd"
   },
   "531870": {
@@ -7921,7 +7921,7 @@
   },
   "500207": {
     "first": "2026-08-17",
-    "count": 1,
+    "count": 2,
     "company": "Indo Rama Synthetics (India) Ltd"
   },
   "531310": {
@@ -7981,7 +7981,7 @@
   },
   "541269": {
     "first": "2026-08-17",
-    "count": 3,
+    "count": 5,
     "company": "Chemfab Alkalis Ltd"
   },
   "531775": {
@@ -8011,7 +8011,7 @@
   },
   "538564": {
     "first": "2026-08-17",
-    "count": 1,
+    "count": 2,
     "company": "James Warren Tea Ltd"
   },
   "538860": {
@@ -8106,7 +8106,217 @@
   },
   "532457": {
     "first": "2026-08-18",
-    "count": 1,
+    "count": 2,
     "company": "Gulshan Polyols Ltd"
+  },
+  "509874": {
+    "first": "2026-08-19",
+    "count": 4,
+    "company": "Shalimar Paints Ltd-$"
+  },
+  "544135": {
+    "first": "2026-08-19",
+    "count": 1,
+    "company": "Mukka Proteins Ltd"
+  },
+  "521105": {
+    "first": "2026-08-19",
+    "count": 1,
+    "company": "Olympia Industries Ltd"
+  },
+  "539301": {
+    "first": "2026-08-19",
+    "count": 2,
+    "company": "Arvind SmartSpaces Ltd"
+  },
+  "524572": {
+    "first": "2026-08-19",
+    "count": 2,
+    "company": "Pharmaids Pharmaceuticals Ltd"
+  },
+  "506530": {
+    "first": "2026-08-19",
+    "count": 3,
+    "company": "Kemp & Company Ltd"
+  },
+  "537536": {
+    "first": "2026-08-19",
+    "count": 3,
+    "company": "Denis Chem Lab Ltd"
+  },
+  "531454": {
+    "first": "2026-08-19",
+    "count": 1,
+    "company": "Polylink Polymers India Ltd"
+  },
+  "544453": {
+    "first": "2026-08-19",
+    "count": 1,
+    "company": "Monarch Surveyors and Engineering Consultants Ltd"
+  },
+  "533333": {
+    "first": "2026-08-19",
+    "count": 3,
+    "company": "Fineotex Chemical Ltd"
+  },
+  "500214": {
+    "first": "2026-08-19",
+    "count": 3,
+    "company": "Ion Exchange India Ltd-$"
+  },
+  "539910": {
+    "first": "2026-08-19",
+    "count": 1,
+    "company": "Kome-On Communication Ltd"
+  },
+  "506405": {
+    "first": "2026-08-19",
+    "count": 1,
+    "company": "DMCC Speciality Chemicals Ltd"
+  },
+  "541302": {
+    "first": "2026-08-19",
+    "count": 1,
+    "company": "Dhruv Consultancy Services Ltd"
+  },
+  "530979": {
+    "first": "2026-08-19",
+    "count": 3,
+    "company": "India Home Loan Ltd"
+  },
+  "538890": {
+    "first": "2026-08-19",
+    "count": 1,
+    "company": "M.K. Exim (India) Ltd"
+  },
+  "544060": {
+    "first": "2026-08-19",
+    "count": 1,
+    "company": "RBZ Jewellers Ltd"
+  },
+  "531399": {
+    "first": "2026-08-19",
+    "count": 1,
+    "company": "GG Automotive Gears Ltd"
+  },
+  "518091": {
+    "first": "2026-08-19",
+    "count": 2,
+    "company": "Anjani Portland Cement Ltd-$"
+  },
+  "544142": {
+    "first": "2026-08-19",
+    "count": 3,
+    "company": "Shipping Corporation of India Land and Assets Ltd"
+  },
+  "514414": {
+    "first": "2026-08-19",
+    "count": 2,
+    "company": "Oxford Industries Ltd"
+  },
+  "544695": {
+    "first": "2026-08-19",
+    "count": 2,
+    "company": "Msafe Equipments Ltd"
+  },
+  "531017": {
+    "first": "2026-08-19",
+    "count": 1,
+    "company": "Arihants Securities Ltd"
+  },
+  "531289": {
+    "first": "2026-08-19",
+    "count": 1,
+    "company": "National Fittings Ltd"
+  },
+  "524514": {
+    "first": "2026-08-19",
+    "count": 1,
+    "company": "Tulasee Bio Ethanol Ltd"
+  },
+  "538646": {
+    "first": "2026-08-19",
+    "count": 2,
+    "company": "QGO Finance Ltd"
+  },
+  "531887": {
+    "first": "2026-08-19",
+    "count": 1,
+    "company": "Tacent Projects Ltd"
+  },
+  "534425": {
+    "first": "2026-08-19",
+    "count": 2,
+    "company": "Speciality Restaurants Ltd"
+  },
+  "530141": {
+    "first": "2026-08-19",
+    "count": 1,
+    "company": "Gyan Developers & Builders Ltd"
+  },
+  "544439": {
+    "first": "2026-08-19",
+    "count": 2,
+    "company": "Crizac Ltd"
+  },
+  "533329": {
+    "first": "2026-08-19",
+    "count": 1,
+    "company": "Indian Terrain Fashions Ltd"
+  },
+  "522105": {
+    "first": "2026-08-19",
+    "count": 2,
+    "company": "Birla Precision Technologies Ltd"
+  },
+  "541196": {
+    "first": "2026-08-19",
+    "count": 1,
+    "company": "Lex Nimble Solutions Ltd"
+  },
+  "542599": {
+    "first": "2026-08-19",
+    "count": 1,
+    "company": "Roopshri Resorts Ltd"
+  },
+  "544518": {
+    "first": "2026-08-19",
+    "count": 1,
+    "company": "L. T. Elevator Ltd"
+  },
+  "544320": {
+    "first": "2026-08-19",
+    "count": 2,
+    "company": "Carraro India Ltd"
+  },
+  "544430": {
+    "first": "2026-08-19",
+    "count": 1,
+    "company": "Sambhv Steel Tubes Ltd"
+  },
+  "512165": {
+    "first": "2026-08-19",
+    "count": 2,
+    "company": "Abans Enterprises Ltd"
+  },
+  "500336": {
+    "first": "2026-08-19",
+    "count": 2,
+    "company": "Surya Roshni Ltd"
+  },
+  "514358": {
+    "first": "2026-08-19",
+    "count": 1,
+    "company": "Everlon Financials Ltd"
+  },
+  "543260": {
+    "first": "2026-08-19",
+    "count": 1,
+    "company": "Stove Kraft Ltd"
+  },
+  "530057": {
+    "first": "2026-08-19",
+    "count": 2,
+    "company": "Vivanza Biosciences Ltd"
   }
 }
