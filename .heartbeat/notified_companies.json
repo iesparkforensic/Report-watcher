@@ -6801,7 +6801,7 @@
   },
   "542802": {
     "first": "2026-08-07",
-    "count": 3,
+    "count": 4,
     "company": "Galactico Corporate Services Ltd"
   },
   "511766": {
@@ -7706,7 +7706,7 @@
   },
   "524703": {
     "first": "2026-08-15",
-    "count": 1,
+    "count": 3,
     "company": "Sandu Pharmaceuticals Ltd"
   },
   "530879": {
@@ -7866,7 +7866,7 @@
   },
   "532927": {
     "first": "2026-08-17",
-    "count": 2,
+    "count": 3,
     "company": "eClerx Services Ltd"
   },
   "544221": {
@@ -8101,7 +8101,7 @@
   },
   "507526": {
     "first": "2026-08-18",
-    "count": 2,
+    "count": 3,
     "company": "Associated Alcohols & Breweries Ltd"
   },
   "532457": {
@@ -8413,5 +8413,65 @@
     "first": "2026-08-19",
     "count": 1,
     "company": "Vardhan Capital & Finance Ltd"
+  },
+  "543534": {
+    "first": "2026-08-19",
+    "count": 2,
+    "company": "Aether Industries Ltd"
+  },
+  "530799": {
+    "first": "2026-08-19",
+    "count": 3,
+    "company": "Anna Infrastructures Ltd"
+  },
+  "544635": {
+    "first": "2026-08-19",
+    "count": 2,
+    "company": "Luxury Time Ltd"
+  },
+  "534422": {
+    "first": "2026-08-19",
+    "count": 1,
+    "company": "Looks Health Services Ltd"
+  },
+  "538567": {
+    "first": "2026-08-19",
+    "count": 2,
+    "company": "Gulf Oil Lubricants India Ltd"
+  },
+  "544314": {
+    "first": "2026-08-19",
+    "count": 2,
+    "company": "Sanathan Textiles Ltd"
+  },
+  "531092": {
+    "first": "2026-08-19",
+    "count": 1,
+    "company": "OM Infra Ltd"
+  },
+  "544742": {
+    "first": "2026-08-19",
+    "count": 1,
+    "company": "Sai Parenterals Ltd"
+  },
+  "522027": {
+    "first": "2026-08-19",
+    "count": 1,
+    "company": "EMA India Ltd"
+  },
+  "544011": {
+    "first": "2026-08-19",
+    "count": 1,
+    "company": "Vrundavan Plantation Ltd"
+  },
+  "531272": {
+    "first": "2026-08-19",
+    "count": 1,
+    "company": "Nikki Global Finance Ltd"
+  },
+  "544141": {
+    "first": "2026-08-19",
+    "count": 1,
+    "company": "Pune E - Stock Broking Ltd"
   }
 }
