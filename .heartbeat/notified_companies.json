@@ -3901,8 +3901,8 @@
   },
   "539876": {
     "first": "2026-07-08",
-    "count": 4,
-    "company": "CROMPTON"
+    "count": 5,
+    "company": "Crompton Greaves Consumer Electricals Ltd"
   },
   "539883": {
     "first": "2026-06-19",
@@ -7706,7 +7706,7 @@
   },
   "524703": {
     "first": "2026-08-15",
-    "count": 3,
+    "count": 4,
     "company": "Sandu Pharmaceuticals Ltd"
   },
   "530879": {
@@ -8331,7 +8331,7 @@
   },
   "522249": {
     "first": "2026-08-19",
-    "count": 2,
+    "count": 3,
     "company": "Mayur Uniquoters Ltd-$"
   },
   "543860": {
@@ -8496,7 +8496,7 @@
   },
   "523796": {
     "first": "2026-08-20",
-    "count": 2,
+    "count": 3,
     "company": "Viceroy Hotels Ltd"
   },
   "543537": {
@@ -8548,5 +8548,40 @@
     "first": "2026-08-20",
     "count": 1,
     "company": "Vikran Engineering Ltd"
+  },
+  "543278": {
+    "first": "2026-08-20",
+    "count": 2,
+    "company": "Kalyan Jewellers India Ltd"
+  },
+  "522285": {
+    "first": "2026-08-20",
+    "count": 2,
+    "company": "Jayaswal Neco Industries Ltd"
+  },
+  "543532": {
+    "first": "2026-08-20",
+    "count": 3,
+    "company": "Ethos Ltd"
+  },
+  "540132": {
+    "first": "2026-08-20",
+    "count": 2,
+    "company": "Sabrimala Industries India Ltd"
+  },
+  "530259": {
+    "first": "2026-08-20",
+    "count": 2,
+    "company": "Inter State Oil Carrier Ltd"
+  },
+  "512608": {
+    "first": "2026-08-20",
+    "count": 1,
+    "company": "Bhandari Hosiery Exports Ltd"
+  },
+  "532649": {
+    "first": "2026-08-20",
+    "count": 1,
+    "company": "Nectar Lifesciences Ltd"
   }
 }
