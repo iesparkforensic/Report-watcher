@@ -6236,7 +6236,7 @@
   },
   "531923": {
     "first": "2026-08-05",
-    "count": 2,
+    "count": 3,
     "company": "Dhampure Specialty Sugars Ltd"
   },
   "542524": {
@@ -6406,12 +6406,12 @@
   },
   "538788": {
     "first": "2026-08-06",
-    "count": 1,
+    "count": 2,
     "company": "Gilada Finance & Investments Ltd"
   },
   "504380": {
     "first": "2026-08-06",
-    "count": 1,
+    "count": 2,
     "company": "Flomic Global Logistics Ltd"
   },
   "524506": {
@@ -7636,7 +7636,7 @@
   },
   "517556": {
     "first": "2026-08-14",
-    "count": 1,
+    "count": 2,
     "company": "PVP Ventures Ltd"
   },
   "533267": {
@@ -8696,7 +8696,7 @@
   },
   "544664": {
     "first": "2026-08-20",
-    "count": 1,
+    "count": 4,
     "company": "KSH International Ltd"
   },
   "526871": {
@@ -8716,7 +8716,7 @@
   },
   "544463": {
     "first": "2026-08-20",
-    "count": 1,
+    "count": 2,
     "company": "Repono Ltd"
   },
   "521244": {
@@ -8763,5 +8763,55 @@
     "first": "2026-08-20",
     "count": 1,
     "company": "Davangere Sugar Company Ltd"
+  },
+  "534309": {
+    "first": "2026-08-20",
+    "count": 3,
+    "company": "NBCC (India) Ltd"
+  },
+  "502180": {
+    "first": "2026-08-20",
+    "count": 3,
+    "company": "Shree Digvijay Cement Company Ltd-$"
+  },
+  "543929": {
+    "first": "2026-08-20",
+    "count": 1,
+    "company": "HMA Agro Industries Ltd"
+  },
+  "544074": {
+    "first": "2026-08-20",
+    "count": 1,
+    "company": "Shri Balaji Valve Components Ltd"
+  },
+  "543528": {
+    "first": "2026-08-20",
+    "count": 2,
+    "company": "Venus Pipes & Tubes Ltd"
+  },
+  "540727": {
+    "first": "2026-08-20",
+    "count": 1,
+    "company": "Poojawestern Metaliks Ltd"
+  },
+  "530499": {
+    "first": "2026-08-20",
+    "count": 2,
+    "company": "AK Capital Services Ltd"
+  },
+  "540737": {
+    "first": "2026-08-20",
+    "count": 1,
+    "company": "Shree Ganesh Remedies Ltd"
+  },
+  "505242": {
+    "first": "2026-08-20",
+    "count": 1,
+    "company": "Dynamatic Technologies Ltd-$"
+  },
+  "532509": {
+    "first": "2026-08-20",
+    "count": 1,
+    "company": "Suprajit Engineering Ltd-$"
   }
 }
