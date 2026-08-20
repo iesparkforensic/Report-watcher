@@ -1,4 +1,17 @@
 {
   "last_flush": "2026-08-20T22:24:49.056751+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Dynamatic Technologies Ltd-$",
+      "scrip": "505242",
+      "title": "Annual Report FY 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9c8916af-1a68-4687-9064-90a1e5d5fdc0.pdf"
+    },
+    {
+      "company": "Suprajit Engineering Ltd-$",
+      "scrip": "532509",
+      "title": "Business Responsibility and Sustainability Report.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d934ab6f-802c-4082-897c-441aa4620bf3.pdf"
+    }
+  ]
 }
