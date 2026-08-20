@@ -3816,8 +3816,8 @@
   },
   "539405": {
     "first": "2026-07-27",
-    "count": 2,
-    "company": "DITCO"
+    "count": 4,
+    "company": "Decorous Investment & Trading Co Ltd"
   },
   "539448": {
     "first": "2026-07-28",
@@ -7956,7 +7956,7 @@
   },
   "540797": {
     "first": "2026-08-17",
-    "count": 2,
+    "count": 3,
     "company": "Shalby Ltd"
   },
   "504988": {
@@ -8476,7 +8476,7 @@
   },
   "532689": {
     "first": "2026-08-19",
-    "count": 4,
+    "count": 5,
     "company": "PVR Inox Ltd"
   },
   "523890": {
@@ -8583,5 +8583,25 @@
     "first": "2026-08-20",
     "count": 1,
     "company": "Nectar Lifesciences Ltd"
+  },
+  "511185": {
+    "first": "2026-08-20",
+    "count": 1,
+    "company": "Rajvi Logitrade Ltd"
+  },
+  "533302": {
+    "first": "2026-08-20",
+    "count": 2,
+    "company": "Kalyani Investment Company Ltd"
+  },
+  "517059": {
+    "first": "2026-08-20",
+    "count": 1,
+    "company": "Salzer Electronics Ltd-$"
+  },
+  "531033": {
+    "first": "2026-08-20",
+    "count": 1,
+    "company": "Regal Entertainment & Consultants Ltd"
   }
 }
