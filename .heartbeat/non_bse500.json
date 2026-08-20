@@ -1,4 +1,23 @@
 {
   "last_flush": "2026-08-20T10:27:11.273684+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Jayaswal Neco Industries Ltd",
+      "scrip": "522285",
+      "title": "Business Responsibility and Sustainibility Report (BRSR) For the financial year 2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2a0ffb84-c1cf-4a3c-98c3-6bf2c6778c68.pdf"
+    },
+    {
+      "company": "Ethos Ltd",
+      "scrip": "543532",
+      "title": "Annual Report for the financial year 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/297c8d5b-4b93-4dfb-9600-5e89bfeefc86.pdf"
+    },
+    {
+      "company": "Jayaswal Neco Industries Ltd",
+      "scrip": "522285",
+      "title": "Annual Report for the Financial Year ended 31st March 2026.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/addeec3e-f06d-49fd-a5fc-3605f61b9376.pdf"
+    }
+  ]
 }
