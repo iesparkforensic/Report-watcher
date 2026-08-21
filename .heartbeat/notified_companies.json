@@ -5491,7 +5491,7 @@
   },
   "540782": {
     "first": "2026-07-30",
-    "count": 2,
+    "count": 3,
     "company": "Sanghvi Brands Ltd"
   },
   "520043": {
@@ -5796,7 +5796,7 @@
   },
   "542649": {
     "first": "2026-08-01",
-    "count": 2,
+    "count": 3,
     "company": "Rail Vikas Nigam Ltd"
   },
   "500350": {
@@ -8801,7 +8801,7 @@
   },
   "540737": {
     "first": "2026-08-20",
-    "count": 1,
+    "count": 2,
     "company": "Shree Ganesh Remedies Ltd"
   },
   "505242": {
@@ -8966,7 +8966,7 @@
   },
   "543654": {
     "first": "2026-08-21",
-    "count": 2,
+    "count": 3,
     "company": "Global Health Ltd"
   },
   "500298": {
@@ -9023,5 +9023,30 @@
     "first": "2026-08-21",
     "count": 1,
     "company": "Titaanium Ten Enterprise Ltd"
+  },
+  "543396": {
+    "first": "2026-08-21",
+    "count": 1,
+    "company": "One 97 Communications Ltd"
+  },
+  "544529": {
+    "first": "2026-08-21",
+    "count": 1,
+    "company": "Aptus Pharma Ltd"
+  },
+  "544160": {
+    "first": "2026-08-21",
+    "count": 1,
+    "company": "Jay Kailash Namkeen Ltd"
+  },
+  "544107": {
+    "first": "2026-08-21",
+    "count": 1,
+    "company": "BLS E-Services Ltd"
+  },
+  "517166": {
+    "first": "2026-08-21",
+    "count": 1,
+    "company": "SPEL Semiconductor Ltd"
   }
 }
