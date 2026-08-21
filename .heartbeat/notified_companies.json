@@ -6581,7 +6581,7 @@
   },
   "512587": {
     "first": "2026-08-07",
-    "count": 1,
+    "count": 2,
     "company": "Zodiac-JRD-MKJ Ltd"
   },
   "516072": {
@@ -7396,7 +7396,7 @@
   },
   "544253": {
     "first": "2026-08-13",
-    "count": 2,
+    "count": 3,
     "company": "Kross Ltd"
   },
   "539984": {
@@ -7776,7 +7776,7 @@
   },
   "532667": {
     "first": "2026-08-15",
-    "count": 4,
+    "count": 5,
     "company": "Suzlon Energy Ltd"
   },
   "532832": {
@@ -8006,7 +8006,7 @@
   },
   "500307": {
     "first": "2026-08-17",
-    "count": 3,
+    "count": 4,
     "company": "Nirlon Ltd"
   },
   "538564": {
@@ -8151,7 +8151,7 @@
   },
   "544453": {
     "first": "2026-08-19",
-    "count": 3,
+    "count": 4,
     "company": "Monarch Surveyors and Engineering Consultants Ltd"
   },
   "533333": {
@@ -8556,7 +8556,7 @@
   },
   "522285": {
     "first": "2026-08-20",
-    "count": 2,
+    "count": 3,
     "company": "Jayaswal Neco Industries Ltd"
   },
   "543532": {
@@ -8651,7 +8651,7 @@
   },
   "512634": {
     "first": "2026-08-20",
-    "count": 1,
+    "count": 2,
     "company": "Savera Industries Ltd"
   },
   "531306": {
@@ -8716,7 +8716,7 @@
   },
   "544463": {
     "first": "2026-08-20",
-    "count": 2,
+    "count": 3,
     "company": "Repono Ltd"
   },
   "521244": {
@@ -8831,7 +8831,7 @@
   },
   "532373": {
     "first": "2026-08-21",
-    "count": 1,
+    "count": 2,
     "company": "WEP Solutions Ltd"
   },
   "523283": {
@@ -8846,7 +8846,7 @@
   },
   "532612": {
     "first": "2026-08-21",
-    "count": 3,
+    "count": 4,
     "company": "Indoco Remedies Ltd"
   },
   "544606": {
@@ -8871,12 +8871,12 @@
   },
   "532798": {
     "first": "2026-08-21",
-    "count": 1,
+    "count": 3,
     "company": "Network 18 Media & Investments Ltd"
   },
   "544400": {
     "first": "2026-08-21",
-    "count": 1,
+    "count": 3,
     "company": "Manoj Jewellers Ltd"
   },
   "544577": {
@@ -8893,5 +8893,45 @@
     "first": "2026-08-21",
     "count": 1,
     "company": "Stanbik Agro Ltd"
+  },
+  "532683": {
+    "first": "2026-08-21",
+    "count": 2,
+    "company": "AIA Engineering Ltd"
+  },
+  "539032": {
+    "first": "2026-08-21",
+    "count": 2,
+    "company": "Fraser and Company Ltd"
+  },
+  "533104": {
+    "first": "2026-08-21",
+    "count": 1,
+    "company": "Globus Spirits Ltd"
+  },
+  "523840": {
+    "first": "2026-08-21",
+    "count": 1,
+    "company": "Innovative Tech Pack Ltd"
+  },
+  "522073": {
+    "first": "2026-08-21",
+    "count": 1,
+    "company": "The Hi-Tech Gears Ltd"
+  },
+  "544209": {
+    "first": "2026-08-21",
+    "count": 1,
+    "company": "Bansal Wire Industries Ltd"
+  },
+  "522036": {
+    "first": "2026-08-21",
+    "count": 1,
+    "company": "Miven Machine Tools Ltd"
+  },
+  "540395": {
+    "first": "2026-08-21",
+    "count": 1,
+    "company": "Chemcrux Enterprises Ltd"
   }
 }
