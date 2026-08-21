@@ -1,4 +1,17 @@
 {
   "last_flush": "2026-08-21T20:27:06.575625+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Newever Trade Wings Ltd",
+      "scrip": "536644",
+      "title": "ANNUAL REPORT FOR THE FINANCIAL YEAR 2023-24.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b0fd80db-d368-491d-a239-b1338985e153.pdf"
+    },
+    {
+      "company": "Tiaan Consumer Ltd",
+      "scrip": "540108",
+      "title": "With reference to the above-mentioned subject, please find enclosed herewith the Annual Report (including AGM Notice) as per Regulation 34 of SEBI (Listing Obligations and Disclosure Requirements) ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a2f417e7-ac1b-40d4-a657-480eb1ab0ca9.pdf"
+    }
+  ]
 }
