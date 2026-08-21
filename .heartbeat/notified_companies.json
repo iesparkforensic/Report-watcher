@@ -7716,7 +7716,7 @@
   },
   "531870": {
     "first": "2026-08-15",
-    "count": 1,
+    "count": 2,
     "company": "Popular Estate Management Ltd"
   },
   "538926": {
@@ -8446,7 +8446,7 @@
   },
   "531092": {
     "first": "2026-08-19",
-    "count": 2,
+    "count": 3,
     "company": "OM Infra Ltd"
   },
   "544742": {
@@ -8848,5 +8848,25 @@
     "first": "2026-08-21",
     "count": 1,
     "company": "Indoco Remedies Ltd"
+  },
+  "544606": {
+    "first": "2026-08-21",
+    "count": 1,
+    "company": "Pine Labs Ltd"
+  },
+  "520073": {
+    "first": "2026-08-21",
+    "count": 1,
+    "company": "RACL Geartech Ltd"
+  },
+  "544327": {
+    "first": "2026-08-21",
+    "count": 3,
+    "company": "Technichem Organics Ltd"
+  },
+  "544305": {
+    "first": "2026-08-21",
+    "count": 3,
+    "company": "One Mobikwik Systems Ltd"
   }
 }
