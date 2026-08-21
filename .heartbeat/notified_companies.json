@@ -5491,7 +5491,7 @@
   },
   "540782": {
     "first": "2026-07-30",
-    "count": 1,
+    "count": 2,
     "company": "Sanghvi Brands Ltd"
   },
   "520043": {
@@ -8576,7 +8576,7 @@
   },
   "512608": {
     "first": "2026-08-20",
-    "count": 1,
+    "count": 2,
     "company": "Bhandari Hosiery Exports Ltd"
   },
   "532649": {
@@ -8806,12 +8806,37 @@
   },
   "505242": {
     "first": "2026-08-20",
-    "count": 1,
+    "count": 2,
     "company": "Dynamatic Technologies Ltd-$"
   },
   "532509": {
     "first": "2026-08-20",
-    "count": 1,
+    "count": 2,
     "company": "Suprajit Engineering Ltd-$"
+  },
+  "500233": {
+    "first": "2026-08-21",
+    "count": 1,
+    "company": "Kajaria Ceramics Ltd"
+  },
+  "533164": {
+    "first": "2026-08-21",
+    "count": 1,
+    "company": "Texmo Pipes and Products Ltd"
+  },
+  "526435": {
+    "first": "2026-08-21",
+    "count": 3,
+    "company": "Perfectpac Ltd"
+  },
+  "532373": {
+    "first": "2026-08-21",
+    "count": 1,
+    "company": "WEP Solutions Ltd"
+  },
+  "523283": {
+    "first": "2026-08-21",
+    "count": 2,
+    "company": "Superhouse Ltd"
   }
 }
