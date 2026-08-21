@@ -8101,7 +8101,7 @@
   },
   "507526": {
     "first": "2026-08-18",
-    "count": 4,
+    "count": 5,
     "company": "Associated Alcohols & Breweries Ltd"
   },
   "532457": {
@@ -8816,7 +8816,7 @@
   },
   "500233": {
     "first": "2026-08-21",
-    "count": 1,
+    "count": 2,
     "company": "Kajaria Ceramics Ltd"
   },
   "533164": {
@@ -8838,5 +8838,15 @@
     "first": "2026-08-21",
     "count": 2,
     "company": "Superhouse Ltd"
+  },
+  "532845": {
+    "first": "2026-08-21",
+    "count": 2,
+    "company": "TGB Banquets and Hotels Ltd"
+  },
+  "532612": {
+    "first": "2026-08-21",
+    "count": 1,
+    "company": "Indoco Remedies Ltd"
   }
 }
