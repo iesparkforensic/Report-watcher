@@ -1,4 +1,17 @@
 {
   "last_flush": "2026-08-22T11:15:56.420361+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Innova Captab Ltd",
+      "scrip": "544067",
+      "title": "Pursuant to Regulation  30  and other applicable provision Board of Directors approved the AGM Notice. AGM Notice and annual report will be shared in due course.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/cc83def3-b120-4958-9c61-089f5ccf915c.pdf"
+    },
+    {
+      "company": "Perfectpac Ltd",
+      "scrip": "526435",
+      "title": "Please find attached Newspaper Advertisement for completion of dispatch of Notice and Annual Report of the company.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/caf8d0b5-20f5-4d3f-ab57-3ed1202d9115.pdf"
+    }
+  ]
 }
