@@ -9091,7 +9091,7 @@
   },
   "500670": {
     "first": "2026-08-22",
-    "count": 2,
+    "count": 3,
     "company": "Gujarat Narmada Valley Fertilizers & Chemicals Ltd"
   },
   "532850": {
@@ -9156,7 +9156,12 @@
   },
   "524046": {
     "first": "2026-08-22",
-    "count": 1,
+    "count": 2,
     "company": "Pet Plastics Ltd"
+  },
+  "544248": {
+    "first": "2026-08-22",
+    "count": 1,
+    "company": "Mach Travel Solutions Ltd"
   }
 }
