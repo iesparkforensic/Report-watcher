@@ -5421,7 +5421,7 @@
   },
   "512101": {
     "first": "2026-07-30",
-    "count": 1,
+    "count": 2,
     "company": "Triochem Products Ltd"
   },
   "531582": {
@@ -5931,7 +5931,7 @@
   },
   "504998": {
     "first": "2026-08-03",
-    "count": 1,
+    "count": 2,
     "company": "Western Ministil Ltd"
   },
   "531082": {
@@ -7396,7 +7396,7 @@
   },
   "544253": {
     "first": "2026-08-13",
-    "count": 3,
+    "count": 4,
     "company": "Kross Ltd"
   },
   "539984": {
@@ -8901,7 +8901,7 @@
   },
   "539032": {
     "first": "2026-08-21",
-    "count": 2,
+    "count": 4,
     "company": "Fraser and Company Ltd"
   },
   "533104": {
@@ -8931,7 +8931,7 @@
   },
   "540395": {
     "first": "2026-08-21",
-    "count": 1,
+    "count": 2,
     "company": "Chemcrux Enterprises Ltd"
   },
   "533758": {
@@ -8946,7 +8946,7 @@
   },
   "542907": {
     "first": "2026-08-21",
-    "count": 3,
+    "count": 4,
     "company": "Prince Pipes and Fittings Ltd"
   },
   "538562": {
@@ -9186,7 +9186,7 @@
   },
   "543992": {
     "first": "2026-08-24",
-    "count": 3,
+    "count": 4,
     "company": "Yatra Online Ltd"
   },
   "538952": {
@@ -9281,7 +9281,7 @@
   },
   "513519": {
     "first": "2026-08-24",
-    "count": 2,
+    "count": 3,
     "company": "Pitti Engineering Ltd-$"
   },
   "533344": {
@@ -9296,7 +9296,7 @@
   },
   "541988": {
     "first": "2026-08-24",
-    "count": 2,
+    "count": 4,
     "company": "AAVAS Financiers Ltd"
   },
   "544632": {
@@ -9306,7 +9306,7 @@
   },
   "539116": {
     "first": "2026-08-24",
-    "count": 3,
+    "count": 6,
     "company": "O. P. Chains Ltd"
   },
   "544477": {
@@ -9381,7 +9381,7 @@
   },
   "531120": {
     "first": "2026-08-24",
-    "count": 2,
+    "count": 3,
     "company": "Patel Engineering Ltd-$"
   },
   "541402": {
@@ -9401,7 +9401,7 @@
   },
   "532548": {
     "first": "2026-08-24",
-    "count": 1,
+    "count": 3,
     "company": "Century Plyboards (India) Ltd-$"
   },
   "531241": {
@@ -9411,7 +9411,7 @@
   },
   "544290": {
     "first": "2026-08-24",
-    "count": 1,
+    "count": 2,
     "company": "Enviro Infra Engineers Ltd"
   },
   "543901": {
@@ -9436,7 +9436,102 @@
   },
   "544187": {
     "first": "2026-08-24",
-    "count": 1,
+    "count": 2,
     "company": "Kronox Lab Sciences Ltd"
+  },
+  "532762": {
+    "first": "2026-08-24",
+    "count": 2,
+    "company": "Action Construction Equipment Ltd"
+  },
+  "500463": {
+    "first": "2026-08-24",
+    "count": 2,
+    "company": "Black Box Ltd"
+  },
+  "533326": {
+    "first": "2026-08-24",
+    "count": 3,
+    "company": "Texmaco Rail & Engineering Ltd"
+  },
+  "544733": {
+    "first": "2026-08-24",
+    "count": 2,
+    "company": "GSP Crop Science Ltd"
+  },
+  "504392": {
+    "first": "2026-08-24",
+    "count": 1,
+    "company": "Krishna Ventures Ltd"
+  },
+  "512217": {
+    "first": "2026-08-24",
+    "count": 2,
+    "company": "Prism Medico and Pharmacy Ltd"
+  },
+  "539016": {
+    "first": "2026-08-24",
+    "count": 2,
+    "company": "Neil Industries Ltd"
+  },
+  "532729": {
+    "first": "2026-08-24",
+    "count": 1,
+    "company": "Uttam Sugar Mills Ltd"
+  },
+  "501351": {
+    "first": "2026-08-24",
+    "count": 1,
+    "company": "Rapid Investments Ltd"
+  },
+  "532761": {
+    "first": "2026-08-24",
+    "count": 1,
+    "company": "HandsOn Global Management (HGM)Ltd"
+  },
+  "544333": {
+    "first": "2026-08-24",
+    "count": 1,
+    "company": "Standard Engineering Technology Ltd"
+  },
+  "516108": {
+    "first": "2026-08-24",
+    "count": 1,
+    "company": "South India Paper Mills Ltd"
+  },
+  "506190": {
+    "first": "2026-08-24",
+    "count": 1,
+    "company": "Sarvamangal Mercantile Company Ltd "
+  },
+  "530475": {
+    "first": "2026-08-24",
+    "count": 2,
+    "company": "Tinna Rubber and Infrastructure Ltd"
+  },
+  "531626": {
+    "first": "2026-08-24",
+    "count": 1,
+    "company": "Orosil Smiths India Ltd-$"
+  },
+  "543753": {
+    "first": "2026-08-24",
+    "count": 1,
+    "company": "Dharni Capital Services Ltd"
+  },
+  "526725": {
+    "first": "2026-08-24",
+    "count": 1,
+    "company": "Sandesh Ltd"
+  },
+  "508969": {
+    "first": "2026-08-24",
+    "count": 1,
+    "company": "Sulabh Engineers & Services Ltd"
+  },
+  "530271": {
+    "first": "2026-08-24",
+    "count": 1,
+    "company": "Rich Universe Network Ltd"
   }
 }
