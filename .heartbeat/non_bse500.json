@@ -1,4 +1,11 @@
 {
   "last_flush": "2026-08-26T00:30:37.900289+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "HMA Agro Industries Ltd",
+      "scrip": "543929",
+      "title": "Dear Sir/Ma''am,\r\n\r\nPlease find attached the Annual Report for the F.Y Ended 2025-2026.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d2b0a2d7-130c-4130-ba82-5e9770f41afa.pdf"
+    }
+  ]
 }
