@@ -7666,7 +7666,7 @@
   },
   "544497": {
     "first": "2026-08-15",
-    "count": 2,
+    "count": 3,
     "company": "Anlon Healthcare Ltd"
   },
   "544230": {
@@ -10076,7 +10076,7 @@
   },
   "500033": {
     "first": "2026-08-25",
-    "count": 1,
+    "count": 2,
     "company": "Force Motors Ltd-$"
   },
   "500135": {
@@ -10088,5 +10088,10 @@
     "first": "2026-08-25",
     "count": 2,
     "company": "Black Buck Ltd"
+  },
+  "540902": {
+    "first": "2026-08-26",
+    "count": 2,
+    "company": "Amber Enterprises India Ltd"
   }
 }
