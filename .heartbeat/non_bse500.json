@@ -1,4 +1,35 @@
 {
   "last_flush": "2026-08-25T20:38:50.782574+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Springform Technology Ltd",
+      "scrip": "501479",
+      "title": "Pursuant to Regulation 30 and 34 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby inform you that the 46th Annual General Meeting ('AGM') of the Company ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/590f4b12-9f62-4781-a82f-f2a6d5818ae8.pdf"
+    },
+    {
+      "company": "Helloji Holidays Ltd",
+      "scrip": "544630",
+      "title": "Notice of 15th Annual General Meeting  along with Annual Report for FY-2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1c26d768-14f8-4768-9dba-de44fdcb837d.pdf"
+    },
+    {
+      "company": "Allcargo Global Ltd",
+      "scrip": "544602",
+      "title": "Letters to members regarding 3rd Annual General Meeting and Annual Report for FY 2026 under Regulation 30 and 36 of SEBI LODR",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/29b38f1e-65ed-4845-80dc-131a5e5409e8.pdf"
+    },
+    {
+      "company": "Chemkart India Ltd",
+      "scrip": "544442",
+      "title": "Annual Report for the Financial Year 2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f31e27a5-5cfb-458f-a9ea-f73c36ea86dc.pdf"
+    },
+    {
+      "company": "Springform Technology Ltd",
+      "scrip": "501479",
+      "title": "Pursuant to Regulation 30 and 34 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby inform you that the 46th Annual General Meeting ('AGM') of the Company ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b2747cad-dd9b-4fba-832a-635b6f9c3d00.pdf"
+    }
+  ]
 }
