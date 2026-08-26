@@ -1,4 +1,23 @@
 {
   "last_flush": "2026-08-26T23:35:57.634173+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "EPACK Durable Ltd",
+      "scrip": "544095",
+      "title": "EPACK Durable Limited has informed the exchange abount the intimation of 7th AGM scheduled to be held on September 18, 2026 through VC/OAVM along with Annual Report for the FY2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b08279d2-6840-4fef-a7fa-096ced906722.pdf"
+    },
+    {
+      "company": "EPACK Durable Ltd",
+      "scrip": "544095",
+      "title": "EPACK Durable has informed the exchange about the BRSR for the FY 2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/58b9078e-bf28-4291-8886-cefc7082f129.pdf"
+    },
+    {
+      "company": "EPACK Durable Ltd",
+      "scrip": "544095",
+      "title": "EPACK Durable has informed the exchange about the Annual Report for the FY 2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/94780447-c1cf-4534-ac4d-a082d1847dca.pdf"
+    }
+  ]
 }
