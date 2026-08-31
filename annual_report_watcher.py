@@ -74,6 +74,10 @@ SKIPPED_PATH = Path(__file__).parent / ".heartbeat" / "skipped_runs.json"
 SKIPPED_LIMIT = 200
 NON_BSE500_PATH = Path(__file__).parent / ".heartbeat" / "non_bse500.json"
 NON_BSE500_LIMIT = 1000
+# Max filings rendered into one digest send. Anything beyond stays banked and
+# keeps the drain trigger firing hourly until the backlog is gone, instead of
+# one giant send tripping Telegram's per-minute message limit.
+DIGEST_MAX_FILINGS = 200
 # Company notification history: scrip -> {"first": date, "count": n}. Used to
 # distinguish first-time companies (individual alert) from previously notified
 # ones (combined repeat digest / separate digest section).
@@ -306,16 +310,29 @@ def _group_non_bse500_by_company(rows):
     return [groups[k] for k in order]
 
 
-def format_non_bse500_bullets(rows):
-    """Return one bullet block per company. A company with multiple filings gets
-    sub-bullets indented under its name."""
+def format_non_bse500_bullets(rows, compact=False):
+    """Return one bullet block per company.
+
+    compact=False: title-as-link entries; multiple filings become indented
+    sub-bullets (used for the small repeat-BSE500 digest).
+    compact=True: one short line per company — name, scrip and bare PDF
+    links only (used for the potentially large non-BSE500 digest).
+    """
     out = []
     for g in _group_non_bse500_by_company(rows):
         head = (
             f"• <b>{html.escape(str(g['company']))}</b> "
             f"({html.escape(str(g['scrip']))})"
         )
-        if len(g["filings"]) == 1:
+        if compact:
+            n = len(g["filings"])
+            links = " | ".join(
+                f"<a href=\"{html.escape(f['pdf'], quote=True)}\">"
+                f"PDF{'' if n == 1 else f' {i}'}</a>"
+                for i, f in enumerate(g["filings"], 1)
+            )
+            out.append(f"{head} — {links}")
+        elif len(g["filings"]) == 1:
             f0 = g["filings"][0]
             title_disp = html.escape(f0["title"][:200]) if f0["title"] else "PDF"
             out.append(
@@ -385,36 +402,53 @@ def load_bse500():
     return None, {}
 
 
-def send_telegram(token, chat_id, text):
+def send_telegram(token, chat_id, text, attempts=3):
     url = f"https://api.telegram.org/bot{token}/sendMessage"
-    r = requests.post(
-        url,
-        data={
-            "chat_id": chat_id,
-            "text": text,
-            "parse_mode": "HTML",
-            "disable_web_page_preview": "false",
-        },
-        timeout=30,
-    )
-    if not r.ok:
+    for attempt in range(attempts):
+        r = requests.post(
+            url,
+            data={
+                "chat_id": chat_id,
+                "text": text,
+                "parse_mode": "HTML",
+                "disable_web_page_preview": "false",
+            },
+            timeout=30,
+        )
+        if r.ok:
+            return
+        if r.status_code == 429 and attempt < attempts - 1:
+            # Telegram rate limit: honour its retry_after hint and try again.
+            try:
+                retry_after = int((r.json().get("parameters") or {}).get("retry_after", 5))
+            except Exception:
+                retry_after = 5
+            time.sleep(min(retry_after, 60) + 1)
+            continue
         raise RuntimeError(f"Telegram {r.status_code}: {r.text[:500]}")
 
 
-def send_telegram_chunked(token, chat_id, text, limit=3900):
+def send_telegram_chunked(token, chat_id, text, limit=3900, pause=3):
     """Send text as one message, or split on line boundaries if it exceeds
-    Telegram's ~4096-char cap (e.g. a very long non-BSE500 digest)."""
+    Telegram's ~4096-char cap. Multi-chunk sends are paced to stay under
+    Telegram's ~20 messages/minute group limit."""
     if len(text) <= limit:
         send_telegram(token, chat_id, text)
         return
     chunk, length = [], 0
+    first = True
     for line in text.split("\n"):
         if length + len(line) + 1 > limit and chunk:
+            if not first:
+                time.sleep(pause)
             send_telegram(token, chat_id, "\n".join(chunk))
+            first = False
             chunk, length = [], 0
         chunk.append(line)
         length += len(line) + 1
     if chunk:
+        if not first:
+            time.sleep(pause)
         send_telegram(token, chat_id, "\n".join(chunk))
 
 
@@ -599,6 +633,8 @@ def main():
         try:
             flush_due = bool(non_bse500) and (
                 now_dt - datetime.fromisoformat(last_flush) >= timedelta(days=3)
+                # Keep draining hourly while a capped-send backlog remains.
+                or len(non_bse500) >= DIGEST_MAX_FILINGS
             )
         except (ValueError, TypeError):
             flush_due = bool(non_bse500)
@@ -615,10 +651,15 @@ def main():
             print(f"No BSE500 alerts; Telegram suppressed. {len(skipped)} quiet run(s) pending.")
             return
 
-        # Split the banked non-BSE500 filings into first-time vs previously
+        # Render at most DIGEST_MAX_FILINGS per send; the remainder stays
+        # banked and follows in later runs (drain trigger above keeps firing).
+        nb_render = non_bse500[:DIGEST_MAX_FILINGS]
+        nb_rest = non_bse500[DIGEST_MAX_FILINGS:]
+
+        # Split the rendered non-BSE500 filings into first-time vs previously
         # notified companies for the two digest sections.
         nb_fresh, nb_repeat = [], []
-        for r in non_bse500:
+        for r in nb_render:
             key = (r.get("scrip") or "").strip() or f"name:{r.get('company') or '(unknown)'}"
             (nb_repeat if key in notified else nb_fresh).append(r)
 
@@ -632,7 +673,7 @@ def main():
                     f"({n_c} compan{'y' if n_c == 1 else 'ies'}, "
                     f"{len(nb_fresh)} filing{'' if len(nb_fresh) == 1 else 's'}):"
                 )
-                out.extend(format_non_bse500_bullets(nb_fresh))
+                out.extend(format_non_bse500_bullets(nb_fresh, compact=True))
             if nb_repeat:
                 n_c = len(_group_non_bse500_by_company(nb_repeat))
                 out.append("")
@@ -641,7 +682,13 @@ def main():
                     f"({n_c} compan{'y' if n_c == 1 else 'ies'}, "
                     f"{len(nb_repeat)} filing{'' if len(nb_repeat) == 1 else 's'}):"
                 )
-                out.extend(format_non_bse500_bullets(nb_repeat))
+                out.extend(format_non_bse500_bullets(nb_repeat, compact=True))
+            if nb_rest:
+                out.append("")
+                out.append(
+                    f"…plus {len(nb_rest)} more filing{'' if len(nb_rest) == 1 else 's'} "
+                    f"still queued — they'll follow in the next digest."
+                )
             return out
 
         if alert:
@@ -667,10 +714,11 @@ def main():
 
         try:
             send_telegram_chunked(token, chat_id, "\n".join(lines))
-            # Clear the non-BSE500 bank + reset the 3-day clock on any successful send.
-            save_non_bse500([], now_dt.isoformat())
+            # Clear only what was actually rendered + reset the 3-day clock;
+            # the capped remainder stays banked for the next digest.
+            save_non_bse500(nb_rest, now_dt.isoformat())
             # Digested companies now count as notified for future runs.
-            for g in _group_non_bse500_by_company(non_bse500):
+            for g in _group_non_bse500_by_company(nb_render):
                 mark_company_notified(notified, g["scrip"], g["company"],
                                       len(g["filings"]), today_iso)
             save_notified_companies(notified)
