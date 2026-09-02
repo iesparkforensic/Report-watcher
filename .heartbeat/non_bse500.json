@@ -1,635 +1,533 @@
 {
-  "last_flush": "2026-09-01T20:29:49.524791+05:30",
+  "last_flush": "2026-09-02T16:56:34.653850+05:30",
   "items": [
     {
-      "company": "BCL Industries Ltd-$",
-      "scrip": "524332",
-      "title": "BRSR Report for FY 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d9090656-955d-42fc-a725-6ee38889bac9.pdf"
-    },
-    {
-      "company": "Raghunath Tobacco Company Ltd",
-      "scrip": "531552",
-      "title": "Filing of 32nd Annual report of RTCL limited for the financial year 2025-2026",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fe7e043f-ddbd-4925-adaf-724131b9d9bc.pdf"
-    },
-    {
-      "company": "New Markets Avenue Ltd",
-      "scrip": "508867",
-      "title": "ANNUAL REPORT FOR THE FINANCIAL YEAR 2025-2026.",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/33b59890-4ebe-414d-8e07-8f7e55347db5.pdf"
-    },
-    {
-      "company": "Godavari Drugs Ltd",
-      "scrip": "530317",
-      "title": "The Company informed that the 38th AGM of the Company is scheduled to be held on Friday, the 25th Sep 2026 at 03.00 pm through Video Conferencing/ other Audio Visual means in accordance ....",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2fb385db-a91c-49aa-9a16-8f4c9fc09e5c.pdf"
-    },
-    {
-      "company": "Sharda Motor Industries Ltd",
-      "scrip": "535602",
-      "title": "Business Responsibility and Sustainability Report for the FY 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ea422032-60a3-4a7a-8038-9fcd067e72f8.pdf"
-    },
-    {
-      "company": "Sri Ramakrishna Mills Coimbatore Ltd-$",
-      "scrip": "521178",
-      "title": "ANNUAL REPORT FOR THE YEAR 2025-26 ENCLOSED",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/77ecade5-5dee-4f8f-b70c-4af189ae7939.pdf"
-    },
-    {
-      "company": "Zenith Fibres Ltd-$",
-      "scrip": "514266",
-      "title": "Notice of the 37th Annual General Meeting and Annual Report for the Financial Year 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4771259f-c2a1-492f-a2b3-55299d55cc36.pdf"
-    },
-    {
-      "company": "Brawn Biotech Ltd",
-      "scrip": "530207",
-      "title": "ANNUAL REPORT FOR FY 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0f8a500a-09b5-4dac-9142-d1d9cfda37c2.pdf"
-    },
-    {
-      "company": "Indostar Capital Finance Ltd",
-      "scrip": "541336",
-      "title": "IndoStar Capital Finance Limited has informed the exchange regarding the Annual Report for the Financial Year 2025-26.",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fbb8b4bc-2f23-445d-97c3-c805970978c6.pdf"
-    },
-    {
-      "company": "Amerise Biosciences Ltd",
-      "scrip": "531681",
-      "title": "Pursuant to Regulation 34 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, we are submitting herewith the Annual Report of the Company for the financial ....",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/85bda645-0675-4e7b-a956-40b30d859db7.pdf"
-    },
-    {
-      "company": "Samrat Forgings Ltd",
-      "scrip": "543229",
-      "title": "Annual Report 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3ea228cc-3ba9-4e87-9e37-37481b4815aa.pdf"
-    },
-    {
-      "company": "IZMO Ltd-$",
-      "scrip": "532341",
-      "title": "Annual Report for the FY 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ca09a1eb-e2db-4f2a-a4a9-8f8d64cfba0f.pdf"
-    },
-    {
-      "company": "Venmax Drugs and Pharmaceuticals Ltd",
-      "scrip": "531015",
-      "title": "Submission of Annual Report for the Financial Year 2025-26 Pursuant to Regulation 34 and other relevant provisions of the SEBI (Listing Obligations & Disclosure Requirements), 2015.",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9c0de31f-c322-4a03-8257-dc91f63993d6.pdf"
-    },
-    {
-      "company": "Seamec Ltd",
-      "scrip": "526807",
-      "title": "Please find as attached",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c8f3ae5b-18c9-4fb1-a641-89c5d822f9ed.pdf"
-    },
-    {
-      "company": "Cargosol Logistics Ltd",
-      "scrip": "543621",
-      "title": "Annual Report for the FY 2025-2026",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/bf2704d5-ff1b-4026-b233-1e05d024618e.pdf"
-    },
-    {
-      "company": "West Leisure Resorts Ltd",
-      "scrip": "538382",
-      "title": "Submission of Annual Report of the Company for the Financial Year 2025-2026",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ac414b4b-42d2-4347-8c39-6637c2626074.pdf"
-    },
-    {
-      "company": "Seamec Ltd",
-      "scrip": "526807",
-      "title": "Please find as attached",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c2fa2299-5c9d-46c1-9965-55f60270aff1.pdf"
-    },
-    {
-      "company": "Rudra Gas Enterprise Ltd",
-      "scrip": "544121",
-      "title": "Please find attached herewith Annual Report Containing Notice Calling 11th AGM of the Company along with Explanatory Statement, Financial Statements (Standalone and Consolidated) Audit ....",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0fef6770-f0a7-471a-9641-0e0433f2063e.pdf"
-    },
-    {
-      "company": "Pasupati Spinning & Weaving Mills Ltd",
-      "scrip": "503092",
-      "title": "Submission of Annual Report for the financial year 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d9b4a66e-c9dc-48c3-9491-990f560ee9e0.pdf"
-    },
-    {
-      "company": "Sharda Motor Industries Ltd",
-      "scrip": "535602",
-      "title": "Annual Report for the financial year 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3b98b3e2-875e-4c2a-990c-6003ac0fd213.pdf"
-    },
-    {
-      "company": "Nandan Denim Ltd",
-      "scrip": "532641",
-      "title": "Submission of Business Responsibility and Sustainability Reporting for Financial Year 2025-26.",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/69f075f2-29b7-443c-9185-685dc4cf26f5.pdf"
-    },
-    {
-      "company": "Amraworld Agrico Ltd",
-      "scrip": "531991",
-      "title": "Pursuant to Regulation 34 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, we are submitting herewith the Annual Report of the Company for the financial ....",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/38cc127b-9e23-44af-8e1f-cbd98a5b37dd.pdf"
-    },
-    {
-      "company": "Prima Agro Ltd",
-      "scrip": "519262",
-      "title": "Intimation of 39th Annual Report of the Company for the Financial year 2025-26.",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b1bcdd02-75a6-41ab-91db-a8116edfe3a0.pdf"
-    },
-    {
-      "company": "Foundry Fuel Products Ltd",
-      "scrip": "513579",
-      "title": "Annual Report for F.Y.2025-2026",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/63cbe84e-70a2-40e9-9264-57913134bda7.pdf"
-    },
-    {
-      "company": "Jigar Cables Ltd",
-      "scrip": "540651",
-      "title": "Please find enclosed herewith 10th Annual Report of the Company.",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0d12ef47-6b67-4f2c-b1f7-7acb5f83e528.pdf"
-    },
-    {
-      "company": "Dharani Sugars & Chemicals Ltd",
-      "scrip": "507442",
-      "title": "The Company informed that the 39th AGM of the Company is scheduled to be held on Friday, the 25th Sep 2026 at 11.00 am through Video Conferencing/ other Audio Visual means in accordance ....",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c14eb528-5e5d-4f5b-ae74-cea36634a801.pdf"
-    },
-    {
-      "company": "S.A.L. Steel Ltd",
-      "scrip": "532604",
-      "title": "Submission of Annual Report 2025-26 including notice of 23rd Annual General Meeting of the Company",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/10ecedbf-3f2d-402a-a158-2627828592c4.pdf"
-    },
-    {
-      "company": "V B Industries Ltd",
-      "scrip": "539123",
-      "title": "Please find attached Annual Report 2025-26 together with Notice of AGM",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9d87d2ee-5794-4bce-a9af-891f201ddc9f.pdf"
-    },
-    {
-      "company": "Bajaj Steel Industries Ltd",
-      "scrip": "507944",
-      "title": "With reference to captioned subject, it is being informed that the 65th Annual General Meeting (\"AGM\" ) of the Company is scheduled to be held on Wednesday, September 23, 2026, at 04.00 ....",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ebd0ba72-d321-4382-b287-23a19f79d6ed.pdf"
-    },
-    {
-      "company": "Prima Industries Ltd",
-      "scrip": "531246",
-      "title": "Intimation of 32nd Annual Report of the Company for the Financial year 2025-26.",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b1eb9897-80ae-4e74-821e-f36cab15fda4.pdf"
-    },
-    {
-      "company": "Jash Engineering Ltd",
-      "scrip": "544402",
-      "title": "Annual Report FY 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d04acf76-f826-4382-b10b-0f1fa27e9977.pdf"
-    },
-    {
-      "company": "BCL Industries Ltd-$",
-      "scrip": "524332",
-      "title": "Annual Report for the Financial Year 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7f190fc4-8fe1-4e6f-9742-564bfb8d7799.pdf"
-    },
-    {
-      "company": "Prime Capital Market Ltd",
-      "scrip": "535514",
-      "title": "Please find attached Annual Report 2025-26 together with Notice of AGM",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/187b8729-9a3d-41c5-9d35-1ea5c3460c0f.pdf"
-    },
-    {
-      "company": "Hind Commerce Ltd",
-      "scrip": "538652",
-      "title": "Annual Report of the company for FY 2025-26.",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2749e1a5-7551-483a-954a-c963ea28f1f4.pdf"
-    },
-    {
-      "company": "Shervani Industrial Syndicate Ltd",
-      "scrip": "526117",
-      "title": "We hereby submitted copy of Annual Report pursuant to Reg 34 (1) of SEBI (LODR) Regulation, 2015 as amended",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/528d73a2-788c-45c4-a4ea-38e89efe5cbd.pdf"
-    },
-    {
-      "company": "MP Agro Industries Ltd",
-      "scrip": "506543",
-      "title": "Intimation of Annual Report for the Financial Year 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1ae0a95f-0c88-4b2f-9834-53e91ec347ba.pdf"
-    },
-    {
-      "company": "Richfield Financial Services Ltd",
-      "scrip": "539435",
+      "company": "Sindhu Trade Links Ltd",
+      "scrip": "532029",
       "title": "Annual Report for the Financial Year 2025-26.",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5654dfb4-b248-4ab2-82c2-0a4d73ec23e5.pdf"
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9d06ce9b-c28f-440c-91cc-593f45abc4bd.pdf"
     },
     {
-      "company": "JMD Ventures Ltd",
-      "scrip": "511092",
-      "title": "Please find attached Annual Report 2025-26 together with Notice of AGM",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f35df580-7346-4a27-9919-b779b357647b.pdf"
+      "company": "Purple Wave Infocom Ltd",
+      "scrip": "544627",
+      "title": "Pursuant to reg 34(1) of SEBI (LODR), 2015, Annual report for the FY 2025-26 is attached .",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/eaa4fdaf-e6a9-4696-a1e2-e41b11787fc6.pdf"
     },
     {
-      "company": "Omega Ag-Seeds Punjab Ltd",
-      "scrip": "519479",
-      "title": "Submission of Annual Report for the Financial Year 2025-26 Pursuant to Regulation 34 and other relevant provisions of the SEBI (Listing Obligations & Disclosure Requirements), 2015.",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ac881cf7-208a-4026-a19a-9fd1b2648f1a.pdf"
+      "company": "PTC India Ltd",
+      "scrip": "532524",
+      "title": "Please find enclosed herewith Annual Report of PTC India Ltd. for FY 2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/08b477e2-8d69-418b-b67d-65adecc51f1a.pdf"
     },
     {
-      "company": "Brand Concepts Ltd",
-      "scrip": "543442",
-      "title": "Brand Concepts Limited has informed the exchange about the Annual Report for the Financial Year 2025-26.",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/bbaac572-69a3-4e18-bafb-7a10f82b6b68.pdf"
+      "company": "Bhartiya International Ltd",
+      "scrip": "526666",
+      "title": "Annual Report for the Financial Year 2025-26 along with Notice of Annual General Meeting.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f890e1f1-83db-480c-95fb-ed0fe9ad5603.pdf"
     },
     {
-      "company": "Cords Cable Industries Ltd",
-      "scrip": "532941",
-      "title": "Please find attached herewith Annual Report along with the notice of AGM for the FY 2026",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d181ac4a-6522-47aa-a239-d430c9fc2524.pdf"
+      "company": "Kewal Kiran Clothing Ltd",
+      "scrip": "532732",
+      "title": "Attach please find the Annual Report for the F.Y. 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8f3545e2-e33e-4095-abab-69b64608bf4a.pdf"
     },
     {
-      "company": "Tamilnadu Petroproducts Ltd",
-      "scrip": "500777",
-      "title": "Notice and Annual Report for FY 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e073b731-dc02-4bd8-bf00-60cad2bf849c.pdf"
+      "company": "Nova Agritech Ltd",
+      "scrip": "544100",
+      "title": "Reg. 34 (1) Annual Report",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4b847669-dadb-401a-8fa7-09802486fdf8.pdf"
     },
     {
-      "company": "Sadbhav Engineering Ltd",
-      "scrip": "532710",
-      "title": "Enclosed herewith the board approval for notice of Annual General Meeting to be held on Wednesday, 30th September, 2026",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fc8f44ef-5434-4187-8246-150c1e01d6de.pdf"
+      "company": "Ester Industries Ltd",
+      "scrip": "500136",
+      "title": "Annual Report for the Financial Year 2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/bbcf6fef-aa2c-421d-bf23-340404f7beaa.pdf"
     },
     {
-      "company": "VST Tillers Tractors Ltd-$",
-      "scrip": "531266",
-      "title": "Notice of Annual General Meeting for the Financial Year 25-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/54e6eaed-6f71-40e6-8d5b-defa51ed507c.pdf"
+      "company": "Vippy Spinpro Ltd",
+      "scrip": "514302",
+      "title": "Pursuant to Regulation 34(1) of SEBI LODR Regulations, 2015, please find enclosed herewith the Annual Report of the Company for the Financial Year 2025-26, including Notice Convening the ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/751a1d31-2d3d-459c-a599-828b0300fd7a.pdf"
     },
     {
-      "company": "Abram Food Ltd",
-      "scrip": "544422",
-      "title": "NOTICE OF AGM AND ANNUAL REPORT FY 26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/89e66bf4-9677-43d7-a7a9-706d4f226aaf.pdf"
+      "company": "Archies Ltd",
+      "scrip": "532212",
+      "title": "Annual Report Submission",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/636cbc47-1559-44dc-b62d-1e3c954ebd35.pdf"
     },
     {
-      "company": "Exhicon Events Media Solutions Ltd",
-      "scrip": "543895",
-      "title": "Notice of 16th Annual General Meeting is enclosed herewith",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9f76385e-88c7-4bf3-a959-21246e8019db.pdf"
+      "company": "Sirohia & Sons Ltd",
+      "scrip": "538667",
+      "title": "Annual Report for the Year Ended 31st March, 2026",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7d22eea2-92f8-4bad-bc5e-81fcf10fe4ee.pdf"
     },
     {
-      "company": "Suncity Synthetics Ltd",
-      "scrip": "530795",
-      "title": "Enclosed Herewith 38th Annual Report for AGM to be held on 25th September 2026 at 03:00 PM",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2b4ade84-74f9-4675-a67e-46cbf3baf1ab.pdf"
+      "company": "Hilltone Software and Gases Ltd",
+      "scrip": "544308",
+      "title": "Pursuant to regulation 34(1) of The Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we are submitting herewith the Annual Report ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/44159c2f-97b7-417b-8c42-8ce001a72afa.pdf"
+    },
+    {
+      "company": "Tarsons Products Ltd",
+      "scrip": "543399",
+      "title": "Business Responsibility and Sustainability Report for the financial year ended March 31, 2026",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4e16ef44-8ee7-4b1d-934e-a88612f8a363.pdf"
+    },
+    {
+      "company": "Tyche Industries Ltd",
+      "scrip": "532384",
+      "title": "28th Annual Report of the Company for the Financial Year 2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/efac7973-ff50-40cb-9da9-632a5b2aaa67.pdf"
+    },
+    {
+      "company": "Pee Cee Cosma Sope Ltd",
+      "scrip": "524136",
+      "title": "ANNUAL REPORT FOR THE FINANCIAL YEAR 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ffaeadb3-3fb2-4e13-9372-60a999ad4294.pdf"
+    },
+    {
+      "company": "Kanishk Aluminium India Ltd",
+      "scrip": "544693",
+      "title": "Pursuant to Regulation 34(1) of Securities and Exchange Board of India (Listing Obligations & Disclosure Requirements) Regulations 2015, please find attached herewith Annual Report of Kanishk ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f1c0e496-5f7e-4ef5-9b8e-39cb4d33e3b7.pdf"
+    },
+    {
+      "company": "Hindustan Oil Exploration Company Ltd",
+      "scrip": "500186",
+      "title": "Pursuant to Regulation 34(1) of Securities Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 ('SEBI Listing Regulations'), we are submitting herewith ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1028a403-fa1e-4e43-a1f6-975c18d58a2b.pdf"
+    },
+    {
+      "company": "Man Industries (India) Ltd-$",
+      "scrip": "513269",
+      "title": "We are enclosing herewith the Business Responsibility and Sustainability Report of our Company for the financial year 2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b82ba961-e4c3-4ab3-b1ab-9db54b58f5fd.pdf"
+    },
+    {
+      "company": "Orient Ceratech Ltd-$",
+      "scrip": "504879",
+      "title": "Please find enclose Annual Report 2025-2026",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/848ebbeb-b405-466f-8549-97a89cef2434.pdf"
+    },
+    {
+      "company": "Kranti Industries Ltd",
+      "scrip": "542459",
+      "title": "Pursuant to Regulation 34(1) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 as amended from time to time, we are hereby submitting the 31st Annual Report ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/dc31f6c0-3760-4562-b215-a8a88c80bea0.pdf"
+    },
+    {
+      "company": "Castora Agri Commodities Ltd",
+      "scrip": "531913",
+      "title": "Please find attached the Annual Report of the company for the financial year 2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/204a834c-684b-4c98-a824-f6066cefa79b.pdf"
+    },
+    {
+      "company": "Shreenath Paper Products Ltd",
+      "scrip": "544372",
+      "title": "Annual Report for FY 2025-26 is attached",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3587cac6-a820-4104-a686-20057685d6fa.pdf"
+    },
+    {
+      "company": "Saptarishi Agro Industries Ltd",
+      "scrip": "519238",
+      "title": "Submission of Annual Report under Regulation 34 of the SEBI (LODR) Regulations, 2015",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9a86b192-ad68-47f4-a13a-ebfb07bcb0ec.pdf"
+    },
+    {
+      "company": "Tarsons Products Ltd",
+      "scrip": "543399",
+      "title": "Annual Report for the Financial Year ended March 31, 2026",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d278a7b8-dcf3-4612-8b69-f598bde770d0.pdf"
+    },
+    {
+      "company": "KIFS Financial Services Ltd",
+      "scrip": "535566",
+      "title": "Annual Report for the FY 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1f228f55-4242-4e47-9afb-8800b5498bcd.pdf"
+    },
+    {
+      "company": "Futuristic Securities Ltd",
+      "scrip": "523113",
+      "title": "Pursuant to the provisions of Regulation 34(1) of the SEBI (LODR) Regulations, 2015, please find enclosed herewith a copy of the 55th Annual Report of the Company along with the Notice ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4aadd0f9-3b41-40f9-8d01-f97ac76462b2.pdf"
+    },
+    {
+      "company": "Scan Projects Ltd",
+      "scrip": "531797",
+      "title": "Pursuant to Regulation 34 and all other applicable Regulations of SEBI (LODR) Regulations, 2015, we are enclosing herewith Annual Report and annexures for AGM the financial year 2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ad766eb0-5777-47d8-bae2-72c6fb0f9ca5.pdf"
+    },
+    {
+      "company": "Power and Instrumentation (Gujarat) Ltd",
+      "scrip": "543912",
+      "title": "Annual Report of the Company for the year 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f73eb7e8-a860-4ba8-bd43-0f5de0abb1dd.pdf"
+    },
+    {
+      "company": "Man Industries (India) Ltd-$",
+      "scrip": "513269",
+      "title": "This is to inform you that the 38th Annual General Meeting ('AGM') of the Company will be held on Friday, September 25, 2026, at 3:00 p.m. through Video Conferencing / Other Audio Visual ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9627e5dc-a6a3-40e6-b412-2313a0e99f33.pdf"
+    },
+    {
+      "company": "Arihant Capital Markets Ltd",
+      "scrip": "511605",
+      "title": "Submission of Integrated Annual Report for the year 2025-26 pursuant to Regulation 34(1) of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/78266bc4-f5c0-4c00-b085-5f34b7888ccb.pdf"
+    },
+    {
+      "company": "Swiss Military Consumer Goods Ltd",
+      "scrip": "523558",
+      "title": "Annual Report for the Financial Year 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/33116a08-92b2-4df2-a14f-6589cb88b796.pdf"
     },
     {
       "company": "Dredging Corporation of India Ltd",
       "scrip": "523618",
-      "title": "as attached",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/52fe0377-d5b1-4ad5-95d6-25482789f157.pdf"
+      "title": "Reg. 34 (1) Annual Report. As attached.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7c2262f7-0850-46cb-af40-836eb4506f25.pdf"
     },
     {
-      "company": "Rudra Global Infra Products Ltd",
-      "scrip": "539226",
-      "title": "Submission of Notice of Annual General Meeting.",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/999c1391-ca7a-4b0f-bb39-cd9a0fe182ba.pdf"
+      "company": "Valiant Communications Ltd-$",
+      "scrip": "526775",
+      "title": "Annual report for the financial year 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3b794d44-b364-45e0-a24c-fe7ba4a79819.pdf"
     },
     {
-      "company": "Hexagon Nutrition Ltd",
-      "scrip": "544785",
-      "title": "Hexagon Nutrition Limited has informed the exchange about letter sent to shareholders providing web link of Annual Report 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b1e679ec-c45c-4af5-8b41-62731ea5ea99.pdf"
+      "company": "Entertainment Network (India) Ltd",
+      "scrip": "532700",
+      "title": "ENIL Annual Report FY26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d061fd9c-cccc-4a10-8d94-f3d592e43be3.pdf"
     },
     {
-      "company": "Revathi Equipment India Ltd",
-      "scrip": "544246",
-      "title": "Web-link for the shareholders who have not registered their email ids with the company",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/eaf8d4f2-6406-40ce-b2cb-95369d4d1f36.pdf"
+      "company": "IEL Ltd",
+      "scrip": "524614",
+      "title": "Annual Report for Financial Year 2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a847b0cf-fb75-4aba-acaf-47a6e8301c05.pdf"
     },
     {
-      "company": "Ravelcare Ltd",
-      "scrip": "544629",
-      "title": "Newspaper Publication for Notice of Annual General Meeting",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7aa40765-3204-4102-bad0-b720e49aea5c.pdf"
+      "company": "Ranjeet Mechatronics Ltd",
+      "scrip": "541945",
+      "title": "1. Notice of Annual General Meeting. \r\n2. Appoinment of M/s SCS & Co. LLP, Practicing Company Secretaries as Secretarial Auditors of the Company for the financial year 2026-27.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/de07da3f-41b8-499a-bde4-5b3731e508bb.pdf"
     },
     {
-      "company": "Exhicon Events Media Solutions Ltd",
-      "scrip": "543895",
-      "title": "Intimation under Regulation 36(1)(b) of SEBI (Listing Obligation and Disclosure Requirement) Regulation, 2015, is enclosed herewith.",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/19bc36cf-b660-43d3-84a5-437aa0241ae8.pdf"
+      "company": "ISF Ltd",
+      "scrip": "526859",
+      "title": "The Notice of 38th Annual General Meeting and Annual Report for Financial Year 31st Mar, 2026",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c6a794d1-a151-460f-9faf-5f6996c031db.pdf"
     },
     {
-      "company": "Desh Rakshak Aushdhalaya Ltd",
-      "scrip": "531521",
-      "title": "Intimation regarding letter providing weblink where Annual Report for the financial year 2025-2026 and Notice of the 45th Annual General Meeting can be accessed on Companie''s website under ....",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4e80f081-0fa4-4973-b73a-bc2d1ca6d945.pdf"
-    },
-    {
-      "company": "Suncity Synthetics Ltd",
-      "scrip": "530795",
-      "title": "Enclosed Herewith Letter sent to shareholders providing weblink of 38th Annual Report for FY 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/eb9c3940-31b8-4b3c-b881-e531daa45ec4.pdf"
-    },
-    {
-      "company": "Shanti Educational Initiatives Ltd",
-      "scrip": "539921",
-      "title": "Please find letter to shareholders containing weblink for accessing Annual Report and Notice of 38th Annual General Meeting.",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/855aaa32-1399-4f55-aec7-f778ae05ee8f.pdf"
-    },
-    {
-      "company": "Sunteck Realty Ltd",
-      "scrip": "512179",
-      "title": "Letter providing web link of Notice and Annual Report 2025-26 to the Shareholders under Regulation 36(1)(b) of SEBI LODR Regulations, 2015",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/55e2a2f5-ee8b-40f7-a8a1-aca031078ac8.pdf"
-    },
-    {
-      "company": "Brijlaxmi Leasing & Finance Ltd",
-      "scrip": "532113",
-      "title": "Please find attachment of 35th Annual Report for the F.Y. 2025-26 together with Notice of 35th AGM of the Company",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/54e35fe3-00c5-450b-bd90-fd41d5496748.pdf"
-    },
-    {
-      "company": "Asian Petroproducts & Exports Ltd",
-      "scrip": "524434",
-      "title": "Please find the attached Annual Report for the FY 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3b89d55e-8ebe-46f5-b830-1a5448f0c467.pdf"
-    },
-    {
-      "company": "BN Agrochem Ltd",
-      "scrip": "526125",
-      "title": "Please find attached BRSR for the financial year 2025-26.",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3ffd3e4e-a323-474f-a4d0-aa6c3fe28c00.pdf"
-    },
-    {
-      "company": "BN Agrochem Ltd",
-      "scrip": "526125",
-      "title": "Please find attached 35th Annual Report of the Company for the financial year 2025-26.",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/774d0879-abdc-46d7-86ff-af35c16a20d4.pdf"
-    },
-    {
-      "company": "TANFAC Industries Ltd-$",
-      "scrip": "506854",
-      "title": "BRSR",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/70ee8756-a2c0-4500-8459-cf13c9bd1ada.pdf"
-    },
-    {
-      "company": "Munoth Communication Ltd",
-      "scrip": "511401",
-      "title": "Reg 34(1) Annual Report of Munoth Communication Limited",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/72bab648-1659-4d86-95f4-c3a3e93ed34a.pdf"
-    },
-    {
-      "company": "Storage Technologies and Automation Ltd",
-      "scrip": "544171",
-      "title": "Annual Report for the Financial year 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/84e7a1f2-c152-4ce2-a8b3-07100274c443.pdf"
-    },
-    {
-      "company": "AVG Logistics Ltd",
-      "scrip": "543910",
-      "title": "17th Annual Report of AVG Logistics Limited",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a43fb029-7936-4d59-af91-1fe72710e1bc.pdf"
-    },
-    {
-      "company": "Borosil Scientific Ltd",
-      "scrip": "544184",
+      "company": "Atharv Enterprises Ltd",
+      "scrip": "530187",
       "title": "Annual Report for FY 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ec28ed17-1d20-4557-aa5c-def63a36970e.pdf"
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/167d0e1e-5b6b-4dd1-b48b-cf969272be41.pdf"
     },
     {
-      "company": "TANFAC Industries Ltd-$",
-      "scrip": "506854",
-      "title": "52nd Annual Report",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/92de35c3-3e50-4022-816c-78babac0a86a.pdf"
+      "company": "Praxis Home Retail Ltd",
+      "scrip": "540901",
+      "title": "Notice convening Annual General Meeting along with Annual Report for FY 2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a9b8b565-a000-46d3-9e50-c6e1ba99b626.pdf"
     },
     {
-      "company": "Onida Electronics Ltd",
-      "scrip": "500279",
+      "company": "Transrail Lighting Ltd",
+      "scrip": "544317",
+      "title": "Submission of Annual Report FY 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/09f9c09a-cbf4-43ac-9e56-da1105fbecad.pdf"
+    },
+    {
+      "company": "Wonder Electricals Ltd",
+      "scrip": "543449",
+      "title": "17th Annual Report of Wonder Electricals Limited",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1c395fdd-94e3-42dd-bcda-7aad9f00b912.pdf"
+    },
+    {
+      "company": "Span Divergent Ltd-$",
+      "scrip": "524727",
+      "title": "Span Divergent Limited_Integrated Annual Report for the Financial Year 2025-2026 along with Notice of 46th Annual General Meeting",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/462b6f60-13d3-4e47-a3a2-ec47d0f5eb21.pdf"
+    },
+    {
+      "company": "Aegeus Technologies Ltd",
+      "scrip": "544858",
+      "title": "Annual Report of the Company for the Financial Year 2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/74235165-de22-4b75-b2b4-7cc9e9e5b78e.pdf"
+    },
+    {
+      "company": "Shantai Industries Ltd",
+      "scrip": "512297",
+      "title": "Please find enclosed herewith the Annual Report of the company.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/de28c271-4d33-48ff-b7a6-ce6c5b8a7cbd.pdf"
+    },
+    {
+      "company": "Infonative Solutions Ltd",
+      "scrip": "544393",
+      "title": "Annual Report for FY 2025-26 of the Company.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/069a7e75-70f7-4d2a-ae81-5234c24e5793.pdf"
+    },
+    {
+      "company": "Catvision Ltd",
+      "scrip": "531158",
+      "title": "Annual Report for the FY 2025-26 and Notice of 41st AGM",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/68b8ad72-832d-4ece-83ed-4e1513d75768.pdf"
+    },
+    {
+      "company": "Sanchay Finvest Ltd",
+      "scrip": "511563",
+      "title": "Annual Report of Sanchay Finvest Limited for the year ended 31st March, 2026.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/356a37bf-6ebf-4b39-8170-3ad5846ba354.pdf"
+    },
+    {
+      "company": "Wealth First Portfolio Managers Ltd",
+      "scrip": "544536",
+      "title": "24th Annual Report of the Company for the F.Y 2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/acee9ca0-0517-4c51-8535-8bae5f631e53.pdf"
+    },
+    {
+      "company": "Asia Pack Ltd",
+      "scrip": "530899",
+      "title": "Pursuant to Regulation 34 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 ('Listing Regulations'), we are submitting herewith ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4752c4ae-bca3-4243-9f97-0131df34759c.pdf"
+    },
+    {
+      "company": "Pennar Industries Ltd-$",
+      "scrip": "513228",
       "title": "Annual Report 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a2bcc9bf-7546-4946-8ece-94800bed20c3.pdf"
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/08d837b0-21cd-4ff6-9508-b0ae66b76aa9.pdf"
     },
     {
-      "company": "Chiraharit Ltd",
-      "scrip": "544561",
-      "title": "We hereby enclose herewith the Annual Report of the Company for the financial year 2025-26 including the Notice of 20th AGM for your kind perusal.",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8fc4fde8-5291-42e1-8f47-111942a660d8.pdf"
+      "company": "Morepen Laboratories Ltd",
+      "scrip": "500288",
+      "title": "Please find attached the BRSR for the financial year ended March 31, 2026",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/60eeb0da-5b3d-4c1b-9b57-197c80d2ae50.pdf"
     },
     {
-      "company": "Revathi Equipment India Ltd",
-      "scrip": "544246",
-      "title": "Annual Report along with AGM Notice of the FY 25-26.",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c87aa780-db7a-49f2-98ce-51f4f328d08e.pdf"
+      "company": "Hindustan Composites Ltd",
+      "scrip": "509635",
+      "title": "Notice of 62nd Annual General Meeting and Annual Report for the financial year 2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3a61caba-790c-4053-8355-e07ee7328611.pdf"
     },
     {
-      "company": "GNG Electronics Ltd",
-      "scrip": "544455",
-      "title": "Annual Report for the F.Y. 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9eb2da14-3945-4507-8e2c-ce91261e7bf6.pdf"
+      "company": "United Textiles Ltd",
+      "scrip": "521188",
+      "title": "Annual Report for the year ended 31 March, 2026",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/58f55819-248c-4212-ad1b-038c52331dce.pdf"
     },
     {
-      "company": "VST Tillers Tractors Ltd-$",
-      "scrip": "531266",
-      "title": "Business Responsibility and Sustainability Reporting (BRSR) for the Financial Year 25-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c56e0c61-b317-4c8f-ae67-cb951daaa120.pdf"
-    },
-    {
-      "company": "VST Tillers Tractors Ltd-$",
-      "scrip": "531266",
+      "company": "Ritesh International Ltd",
+      "scrip": "519097",
       "title": "Annual Report for the Financial Year 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ec61097e-ebf7-467e-8dda-74bd6fad3297.pdf"
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8586abbc-973d-4b9a-aefb-8845ba0906d3.pdf"
     },
     {
-      "company": "India Homes Ltd",
-      "scrip": "513361",
-      "title": "Annual Report of India Homes Limited for the Financial Year 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1fc7b802-f7b5-47c1-bb23-e6b9adae0581.pdf"
+      "company": "Avon Mercantile Ltd",
+      "scrip": "512265",
+      "title": "Please find attached herewith a copy of the notice and Annual Report as issued to the members of the Company for the purpose of forthcoming 41st Annual General Meeting of the Company scheduled ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f65ed4cf-d315-4214-92d9-1c63f522cc95.pdf"
     },
     {
-      "company": "All Time Plastics Ltd",
-      "scrip": "544479",
-      "title": "Annual Report for the FY 2025-26.",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/bfab33b2-b1ff-4d7c-a556-f00127a36d89.pdf"
+      "company": "Mangal Compusolution Ltd",
+      "scrip": "544287",
+      "title": "Please find herewith attached Annual Report for FY 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/73d4e15e-4e4d-420b-8798-a046f61e86f6.pdf"
     },
     {
-      "company": "Omaxe Ltd",
-      "scrip": "532880",
-      "title": "Please find enclosed herewith copy of Business Responsibilty and Sustainability Reporting for the FY 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/debd0f0f-4be2-4000-9c93-fb5e7d3c27e3.pdf"
+      "company": "Morepen Laboratories Ltd",
+      "scrip": "500288",
+      "title": "Please find attached the Annual Report for the financial year 2025-26 along with notice of 41st AGM",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ee81e47d-cbe5-48fc-aa14-ef166be4951e.pdf"
     },
     {
-      "company": "Clio Infotech Ltd",
-      "scrip": "530839",
-      "title": "Please find the attached annual report.",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/132d068d-f47b-41cf-b145-e0f87bec38f2.pdf"
+      "company": "Indobell Insulations Ltd",
+      "scrip": "544334",
+      "title": "54TH ANNUAL REPORT FOR THE FY 2025-2026",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d0886b25-20eb-4496-a111-b58cf5e199dd.pdf"
     },
     {
-      "company": "Amagi Media Labs Ltd",
-      "scrip": "544679",
-      "title": "Annual Report of Amagi Media Labs Limited for the financial year 2025-26.",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8303e436-e756-4c68-8e71-ca50d02b79b1.pdf"
+      "company": "Getalong Enterprise Ltd",
+      "scrip": "543372",
+      "title": "Pursuant to Regulation 34(1) of the SBEI (Listing Obligations and Disclosure Requirements) Regulations, 2015, we are submitting herewith Annual Report for the year ended 31st March, 2026 ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1589960a-ff68-436f-8b6b-7c97153fd641.pdf"
     },
     {
-      "company": "Exhicon Events Media Solutions Ltd",
-      "scrip": "543895",
-      "title": "Annual Report for the financial year 2025-26 is enclosed herewith.",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/29956b47-0478-4185-a37c-069b9a29387b.pdf"
-    },
-    {
-      "company": "Samtel India Ltd-$",
-      "scrip": "500371",
-      "title": "Submission of Annual Report for the FY 2025-26 alongwith Notice and other attachments",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/829c4d95-6c7c-4017-920b-c6bd4f7f78a1.pdf"
-    },
-    {
-      "company": "Punctual Trading Ltd",
-      "scrip": "512461",
-      "title": "Annual Report for financial year 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/81fd04a1-a1a1-493f-90e5-06eb1860c6cd.pdf"
-    },
-    {
-      "company": "Rudra Global Infra Products Ltd",
-      "scrip": "539226",
-      "title": "Submission of Annual Report",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/bf5a5670-6ca5-4392-8f73-a8b7451f2318.pdf"
-    },
-    {
-      "company": "FDC Ltd",
-      "scrip": "531599",
-      "title": "BRSR for FY 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5c5f6a2b-b840-4a84-88b2-49a2dcf30cef.pdf"
-    },
-    {
-      "company": "Guru Krupa Gems and Jewellery Ltd",
-      "scrip": "540545",
-      "title": "Outcome of Board Meeting held on Tuesday, 1st September, 2026 to consider and approve the following agendas:\r\n1. Approval of Notice of 16th AGM to be held on 25th September, 2026; 2. Appointment ....",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/747afc25-29c6-4769-8fc5-f5ed14ee54c4.pdf"
-    },
-    {
-      "company": "Monotype India Ltd ",
-      "scrip": "505343",
-      "title": "51st Annual Report FY 2025-2026",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/cb68d446-1ee2-47be-a957-02538190a818.pdf"
-    },
-    {
-      "company": "Shayona Engineering Ltd",
-      "scrip": "544686",
-      "title": "Dear Sir(s)/ Madam(s),  \r\n\r\nPursuant to Regulation 34 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, we enclose herewith a copy of 10th Annual Report of ....",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/88812947-e5f8-47ad-afc7-b6aca5099330.pdf"
-    },
-    {
-      "company": "Suncity Synthetics Ltd",
-      "scrip": "530795",
-      "title": "Enclosed Herewith Annual Report for 38th AGM to be held on 25th September 2026 at 03:00 PM",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/32e83ade-f54c-46fe-ae86-762a3476d214.pdf"
-    },
-    {
-      "company": "Orient Technologies Ltd",
-      "scrip": "544235",
-      "title": "Annual Report of the Company for the Financial Year 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/179402d0-25fa-482a-8683-e80117f3fde2.pdf"
-    },
-    {
-      "company": "Shlokka Dyes Ltd",
-      "scrip": "544582",
-      "title": "Kinldy find enclosed the AGM Notice and Annual Report for FY 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/73f785e1-96fe-4ce3-b5b2-9705b3fdda39.pdf"
-    },
-    {
-      "company": "Bedmutha Industries Ltd",
-      "scrip": "533270",
-      "title": "Please find attached herewith 36th AGM intimation published in newspaper on 1st Sept 2026 , as required prior to dispatch of Annual Report to the members",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/41ac10b8-fdc3-41d2-8292-409ed042f1b9.pdf"
-    },
-    {
-      "company": "Sansera Engineering Ltd",
-      "scrip": "543358",
-      "title": "Intimation about weblink/ exact path of Integrated Annual report 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4f74c001-ddb7-4563-9976-86196210cab9.pdf"
-    },
-    {
-      "company": "Panchmahal Steel Ltd",
-      "scrip": "513511",
-      "title": "Specimen Letter sent to  those shareholders, who have not registered their e-mail ids with the Company/RTA/DP containing the weblink to access the Notice of AGM and 53rd Annual Report of the Company.",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2ae43b5d-6ee0-46ef-8db1-59b8e0382c64.pdf"
-    },
-    {
-      "company": "Technocraft Industries (India) Ltd",
-      "scrip": "532804",
-      "title": "Technocraft Industries (India ) Limited hereby submits the Business Responsibility and Sustainability Report for the Financial year 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c2f39f31-ab1e-4c16-ac71-b3a291772cf1.pdf"
-    },
-    {
-      "company": "Indian Acrylics Ltd",
-      "scrip": "514165",
-      "title": "Annual Report for the financial year 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/48bee567-81df-463d-9755-c9f0cdd0de66.pdf"
-    },
-    {
-      "company": "GTN Industries Ltd",
-      "scrip": "500170",
-      "title": "64th Annual Report for the year 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/204e4bfe-5d3d-4bf5-9d6f-2f06e2bfbd8d.pdf"
-    },
-    {
-      "company": "Omkar Pharmachem Ltd",
-      "scrip": "532167",
-      "title": "31st Annual Report of the company along with Notice of AGM for the Financial year 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/15a8684c-5c83-40bf-9f01-788949807cab.pdf"
+      "company": "Icon Facilitators Ltd",
+      "scrip": "544426",
+      "title": "Annual Report for FY 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b5bcb4ff-9bbe-4676-818f-50fd9ee60dcd.pdf"
     },
     {
       "company": "Rajoo Engineers Ltd-$",
       "scrip": "522257",
-      "title": "Annual Report of the Company for the Financial Year 2025-26.",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/87bee03e-bd09-40d0-bc4e-a4c2e0fb9a55.pdf"
+      "title": "Annual Report of the Company for the Financial Year 2025-26 (Revised).",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f17d450f-4e6c-4ed2-85d6-03002cd63876.pdf"
     },
     {
-      "company": "Technocraft Industries (India) Ltd",
-      "scrip": "532804",
-      "title": "Technocraft Industries (India) Limited hereby submits the Annual Report for the Financial Year 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9c75d14f-67bb-44d4-b7fb-233f2ef1e4b2.pdf"
+      "company": "Siyaram Recycling Industries Ltd",
+      "scrip": "544047",
+      "title": "Attached 20th Annual Report of Siyaram Recycling Industries Limited for FY 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/802d9599-e0d1-42ec-a500-46647bcc1814.pdf"
     },
     {
-      "company": "Radha Madhav Corporation Ltd",
-      "scrip": "532692",
-      "title": "Annual Report 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/99f4b00c-ec77-4b36-8fae-b31745bee062.pdf"
+      "company": "Gujarat Winding Systems Ltd",
+      "scrip": "541627",
+      "title": "As per the above-mentioned subject, the Annual Report of F.Y 2025-2026 is hereby submitted as enclosure with this letter.\r\n\r\nThe Report was duly adopted and approved by the board of directors ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/46a9c532-a55d-41b2-a1b8-3ec782ed5e32.pdf"
     },
     {
-      "company": "Scan Steels Ltd",
-      "scrip": "511672",
+      "company": "Haryana Leather Chemicals Ltd",
+      "scrip": "524080",
+      "title": "Annual Report of Haryana Leather Chemicals Limited for the FY- 25-26 .",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b27acaf6-a561-4aa7-869e-849cfb77f14c.pdf"
+    },
+    {
+      "company": "Pritika Auto Industries Ltd",
+      "scrip": "539359",
+      "title": "Pritika Auto Industries Limited has enclosed a copy of the Annual Report of the company for the financial year ended 31st March, 2026 together with the Notice dated 18th August, 2026 convening ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5ad43d12-d7d5-4136-88d1-57f1a79e3779.pdf"
+    },
+    {
+      "company": "Kajal Synthetics & Silk Mills Ltd",
+      "scrip": "512147",
+      "title": "Pursuant to Regulation 34 of SEBI(LODR) Regulations, 2015, we submit herewith 38th Annual Report for the Financial Year 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c7127dec-11a0-4ff3-9f62-fa1b0472b25a.pdf"
+    },
+    {
+      "company": "Tyche Industries Ltd",
+      "scrip": "532384",
+      "title": "Outcome Of Board Meeting for (i)Approval of 28th AGM Annual Report (ii)Notice of 28th AGM",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/af3728ab-503d-4646-9b7f-40415fd2fbc6.pdf"
+    },
+    {
+      "company": "Continental Securities Ltd",
+      "scrip": "538868",
+      "title": "Please find enclosed the Integrated Annual Report for FY 2025-26 along with the Notice of 36th AGM and other Statutory Reports of Continental Securities Limited.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b3417122-d6f2-43b6-940a-863936661d69.pdf"
+    },
+    {
+      "company": "SAB Industries Ltd",
+      "scrip": "539112",
+      "title": "Annual Report for the financial year 2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/06270a41-4e7d-431f-ae00-3f9e284463d5.pdf"
+    },
+    {
+      "company": "Turtlemint Fintech Solutions Ltd",
+      "scrip": "544799",
+      "title": "Annual Report along with Notice of 11th AGM for the Financial Year 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c6051b8d-fb90-4627-8fbb-6abc786a1e7c.pdf"
+    },
+    {
+      "company": "Jet Solar Ltd",
+      "scrip": "538794",
+      "title": "Annual Report of FY 2025-2026",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/94887f92-e521-46f0-be97-7905c1ac3cf7.pdf"
+    },
+    {
+      "company": "Ravinder Heights Ltd",
+      "scrip": "543251",
       "title": "Annual Report for the Financial Year 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/376d1020-9bcb-47ed-922e-a056f72cbaa5.pdf"
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/15f80cfe-c6f1-4781-86b6-03a02ea9e243.pdf"
     },
     {
-      "company": "Sansera Engineering Ltd",
-      "scrip": "543358",
-      "title": "Copy of BRSR for FY2026 is attached.",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2f7978b9-b181-404f-8fee-db90686c80ed.pdf"
+      "company": "Millennium Online Solutions ( India ) Ltd",
+      "scrip": "511187",
+      "title": "Annual Report for the financial year 31-03-2026",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/402d58e0-f4e3-48da-b556-a677cf24e32f.pdf"
     },
     {
-      "company": "SRG Housing Finance Ltd",
-      "scrip": "534680",
+      "company": "Steel Strips Infrastructures Ltd",
+      "scrip": "513173",
+      "title": "Annual Report for the financial year 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9f9dedbb-4eea-4419-9c7a-bedae54aa2de.pdf"
+    },
+    {
+      "company": "Kiran Print Pack Ltd",
+      "scrip": "531413",
+      "title": "Submission of Annual Report of the Company for the financial year 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8fc0e603-ce36-4ca2-bd19-57ba9d183c4b.pdf"
+    },
+    {
+      "company": "Raghunath International Ltd",
+      "scrip": "526813",
+      "title": "Please find attached herewith 32nd Annual Report of Raghunath International Limited for the Financial year ended 2025-2026 according to Regulation 34(1) of Listing obligation and Disclosure ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/78cbe15a-bb38-4c48-8991-2e5c03b03e0d.pdf"
+    },
+    {
+      "company": "Vinyoflex Ltd",
+      "scrip": "530401",
+      "title": "Annual Report for the Financial Year 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/cfaae812-6a78-49e8-bf98-aed16e96974a.pdf"
+    },
+    {
+      "company": "Alliance Integrated Metaliks Ltd",
+      "scrip": "534064",
       "title": "Annual Report for the Financial Year 2025-26.",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3eed97d8-6051-45e2-a4bf-1d16fee8fde1.pdf"
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6e3ebbb4-9a5c-4f21-b189-f70413b1d711.pdf"
     },
     {
-      "company": "Shlokka Dyes Ltd",
-      "scrip": "544582",
-      "title": "Kindly find eclosed the AGM Notice and Annual report for FY 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/888ff96b-2065-4fbc-9e57-e895f898d515.pdf"
+      "company": "Anjani Finance Ltd",
+      "scrip": "531878",
+      "title": "Revised Submission of 37th Annual Report of the Company for the Financial Year ended March 31, 2026",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/34c60cfa-4dd3-4683-b3e1-745aa2d6f1ff.pdf"
     },
     {
-      "company": "Sansera Engineering Ltd",
-      "scrip": "543358",
-      "title": "Copy of Integrated Annual Report 2025-26 is attached.",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ad34d837-f408-46ae-ace7-f1c0d7435854.pdf"
+      "company": "Star Source Multi Trade Ltd",
+      "scrip": "506365",
+      "title": "Annual Report for the FY 2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/acc02ca1-851e-43f3-bf48-73747b1c5384.pdf"
     },
     {
-      "company": "Baroda Extrusion Ltd",
-      "scrip": "513502",
-      "title": "35th Annual Report 2025-26",
-      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e2959bc4-14c4-4528-860a-5f6f7efc2f96.pdf"
+      "company": "SPML Infra Ltd",
+      "scrip": "500402",
+      "title": "Annual Report",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e9389f56-1c8a-40cc-a683-8c4cd82efa4c.pdf"
+    },
+    {
+      "company": "Suryo Foods & Industries Ltd",
+      "scrip": "519604",
+      "title": "In compliance with Regulation 34 of SEBI (Listing Obligation and Disclosure Requirement) Regulation, 2015 we are enclosing herewith the Annual Report for the F.Y. 2025-26 including Notice ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f4af526c-6a9f-4eb5-bef0-cfdeda295ab5.pdf"
+    },
+    {
+      "company": "Purple Agrotech Industries Ltd",
+      "scrip": "540159",
+      "title": "52nd Annual Report for the Financial Year 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/36368a1e-83e8-413e-a5a2-e50b145cb30c.pdf"
+    },
+    {
+      "company": "Aruna Hotels Ltd",
+      "scrip": "500016",
+      "title": "Notice of 64th AGM and Annual Report for the FY 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c258d6d6-4063-456e-9940-6679c3a0c53c.pdf"
+    },
+    {
+      "company": "Ghushine Fintrrade Ocean Ltd",
+      "scrip": "539864",
+      "title": "As required under Regulation 34(1) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, we are enclosing herewith the Annual Report of the company for the year ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/31dd50dc-3080-4509-9d29-05939fd98311.pdf"
+    },
+    {
+      "company": "Himatsingka Seide Ltd",
+      "scrip": "514043",
+      "title": "Pursuant to Regulation 34 of the SEBI LODR Regulations, 2015, we hereby enclose copy of the 41st Annual Report of the Company for the financial year ended March 31, 2026.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/752a9912-3f7e-4384-84e2-c3b6bd165af0.pdf"
+    },
+    {
+      "company": "PCS Technology Ltd",
+      "scrip": "517119",
+      "title": "Annual Report for the Financial year 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/86610efc-1f82-461e-bde2-ceb5ec511342.pdf"
+    },
+    {
+      "company": "Indergiri Finance Ltd",
+      "scrip": "531505",
+      "title": "As Per Regulation 34(1) Annual Report for the FY 2026 of the company.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/50b4dbc6-925f-478c-a16e-5f42416515cf.pdf"
+    },
+    {
+      "company": "Neo Infracon Ltd",
+      "scrip": "514332",
+      "title": "Please find attached herewith the Annual Report for the year ended 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/42f5e16c-f040-454f-aa25-0295d892cc20.pdf"
     }
   ]
 }
