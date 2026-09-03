@@ -6226,7 +6226,7 @@
   },
   "530571": {
     "first": "2026-08-05",
-    "count": 1,
+    "count": 2,
     "company": "Explicit Finance Ltd"
   },
   "532057": {
@@ -8706,7 +8706,7 @@
   },
   "504398": {
     "first": "2026-08-20",
-    "count": 2,
+    "count": 3,
     "company": "SJ Corporation Ltd"
   },
   "544175": {
@@ -8911,7 +8911,7 @@
   },
   "523840": {
     "first": "2026-08-21",
-    "count": 1,
+    "count": 2,
     "company": "Innovative Tech Pack Ltd"
   },
   "522073": {
@@ -13546,7 +13546,7 @@
   },
   "544499": {
     "first": "2026-09-01",
-    "count": 1,
+    "count": 2,
     "company": "Career Point Edutech Ltd"
   },
   "542012": {
@@ -14501,7 +14501,7 @@
   },
   "541627": {
     "first": "2026-09-02",
-    "count": 1,
+    "count": 2,
     "company": "Gujarat Winding Systems Ltd"
   },
   "512147": {
@@ -14801,7 +14801,7 @@
   },
   "511551": {
     "first": "2026-09-02",
-    "count": 2,
+    "count": 3,
     "company": "Monarch Networth Capital Ltd"
   },
   "531578": {
@@ -15138,5 +15138,50 @@
     "first": "2026-09-03",
     "count": 1,
     "company": "Marc Loire Fashions Ltd"
+  },
+  "541143": {
+    "first": "2026-09-03",
+    "count": 2,
+    "company": "Bharat Dynamics Ltd"
+  },
+  "544628": {
+    "first": "2026-09-03",
+    "count": 2,
+    "company": "Astron Multigrain Ltd"
+  },
+  "517494": {
+    "first": "2026-09-03",
+    "count": 1,
+    "company": "Accel Ltd"
+  },
+  "507663": {
+    "first": "2026-09-03",
+    "count": 1,
+    "company": "Signature Green Corporation Ltd"
+  },
+  "506945": {
+    "first": "2026-09-03",
+    "count": 1,
+    "company": "Indo Gulf Industries Ltd"
+  },
+  "531173": {
+    "first": "2026-09-03",
+    "count": 1,
+    "company": "Syschem India Ltd"
+  },
+  "511764": {
+    "first": "2026-09-03",
+    "count": 1,
+    "company": "Aastamangalam Finance Ltd"
+  },
+  "538987": {
+    "first": "2026-09-03",
+    "count": 1,
+    "company": "Talbros Engineering Ltd"
+  },
+  "526622": {
+    "first": "2026-09-03",
+    "count": 1,
+    "company": "MFL India Ltd"
   }
 }
