@@ -77,7 +77,7 @@ NON_BSE500_LIMIT = 1000
 # Max filings rendered into one digest send. Anything beyond stays banked and
 # keeps the drain trigger firing hourly until the backlog is gone, instead of
 # one giant send tripping Telegram's per-minute message limit.
-DIGEST_MAX_FILINGS = 200
+DIGEST_MAX_FILINGS = 300
 # Company notification history: scrip -> {"first": date, "count": n}. Used to
 # distinguish first-time companies (individual alert) from previously notified
 # ones (combined repeat digest / separate digest section).
