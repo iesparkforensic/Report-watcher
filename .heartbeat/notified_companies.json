@@ -6651,7 +6651,7 @@
   },
   "501477": {
     "first": "2026-08-07",
-    "count": 1,
+    "count": 2,
     "company": "Muller & Phipps India Ltd"
   },
   "530331": {
@@ -10156,7 +10156,7 @@
   },
   "540358": {
     "first": "2026-08-26",
-    "count": 2,
+    "count": 3,
     "company": "RMC Switchgears Ltd"
   },
   "523062": {
@@ -15186,7 +15186,7 @@
   },
   "500048": {
     "first": "2026-09-03",
-    "count": 1,
+    "count": 2,
     "company": "BEML Ltd"
   },
   "500368": {
@@ -16718,5 +16718,50 @@
     "first": "2026-09-04",
     "count": 1,
     "company": "Rajkot Investment Trust Ltd"
+  },
+  "540678": {
+    "first": "2026-09-04",
+    "count": 2,
+    "company": "Cochin Shipyard Ltd"
+  },
+  "544349": {
+    "first": "2026-09-04",
+    "count": 2,
+    "company": "H.M. Electro Mech Ltd"
+  },
+  "500421": {
+    "first": "2026-09-04",
+    "count": 1,
+    "company": "TPI India Ltd"
+  },
+  "524518": {
+    "first": "2026-09-04",
+    "count": 1,
+    "company": "Krebs Biochemicals & Industries Ltd-$"
+  },
+  "530289": {
+    "first": "2026-09-04",
+    "count": 1,
+    "company": "SP Capital Financing Ltd"
+  },
+  "505520": {
+    "first": "2026-09-04",
+    "count": 1,
+    "company": "Hem Holdings & Trading Ltd"
+  },
+  "544118": {
+    "first": "2026-09-04",
+    "count": 2,
+    "company": "Jana Small Finance Bank Ltd"
+  },
+  "519216": {
+    "first": "2026-09-04",
+    "count": 1,
+    "company": "Ajanta Soya Ltd"
+  },
+  "544425": {
+    "first": "2026-09-04",
+    "count": 1,
+    "company": "AJC Jewel Manufacturers Ltd"
   }
 }
