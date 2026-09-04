@@ -1,4 +1,11 @@
 {
   "last_flush": "2026-09-05T01:11:11.555097+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "AJAX Engineering Ltd",
+      "scrip": "544356",
+      "title": "Letter to the Shareholder containing weblink of 34th Annual General Meeting and Annual Report for the FY 2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1b2b8655-2a03-4b2b-b754-9498a68a6015.pdf"
+    }
+  ]
 }
