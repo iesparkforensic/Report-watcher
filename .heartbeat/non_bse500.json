@@ -1,4 +1,35 @@
 {
   "last_flush": "2026-09-06T19:14:28.515957+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Multipurpose Trading & Agencies Ltd",
+      "scrip": "504356",
+      "title": "Pursuant to reg.30 and Schedule III of SEBI(LODR) regulations, 2015 , We hereby attached published Notice of 48th Annual General Meeting along with E-voting and other information related ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ead743b3-a312-412c-994b-54ead4f2c4f5.pdf"
+    },
+    {
+      "company": "Kerala Ayurveda Ltd",
+      "scrip": "530163",
+      "title": "Advertisement post-dispatch of Annual Report",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b5fed8f4-8afa-4db5-8e14-e96ceabeb1ee.pdf"
+    },
+    {
+      "company": "A B Cotspin India Ltd",
+      "scrip": "544522",
+      "title": "Newspaper Publication informing about the dispatch of the Notice of 29th AGM and Annual Report of the Company for FY 2025-26 to the Shareholders",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7035f68f-3c66-4dbc-9249-b74946150d69.pdf"
+    },
+    {
+      "company": "Ravindra Energy Ltd",
+      "scrip": "504341",
+      "title": "Please find enclosed the Annual Report for the Financial Year 2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a6477f6e-8eec-4f2f-93d9-7748f4dc60f5.pdf"
+    },
+    {
+      "company": "Coral Newsprints Ltd",
+      "scrip": "530755",
+      "title": "Annual report for the financial year 2025-26",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/cd708f13-a12e-4e65-9f09-c9306aa99a52.pdf"
+    }
+  ]
 }
