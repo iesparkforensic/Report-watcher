@@ -4891,8 +4891,8 @@
   },
   "544202": {
     "first": "2026-07-27",
-    "count": 1,
-    "company": "STANLEY"
+    "count": 3,
+    "company": "Stanley Lifestyles Ltd"
   },
   "544203": {
     "first": "2026-06-12",
@@ -12991,7 +12991,7 @@
   },
   "507514": {
     "first": "2026-09-01",
-    "count": 1,
+    "count": 3,
     "company": "Som Distilleries & Breweries Ltd"
   },
   "544482": {
@@ -13021,7 +13021,7 @@
   },
   "530135": {
     "first": "2026-09-01",
-    "count": 4,
+    "count": 5,
     "company": "Optiemus Infracom Ltd"
   },
   "544494": {
@@ -14126,7 +14126,7 @@
   },
   "544858": {
     "first": "2026-09-02",
-    "count": 4,
+    "count": 5,
     "company": "Aegeus Technologies Ltd"
   },
   "526775": {
@@ -14201,7 +14201,7 @@
   },
   "539331": {
     "first": "2026-09-02",
-    "count": 3,
+    "count": 4,
     "company": "Veto Switchgears and Cables Ltd"
   },
   "513228": {
@@ -17056,7 +17056,7 @@
   },
   "539220": {
     "first": "2026-09-04",
-    "count": 3,
+    "count": 4,
     "company": "Mishka Exim Ltd"
   },
   "514400": {
@@ -17421,7 +17421,7 @@
   },
   "532812": {
     "first": "2026-09-04",
-    "count": 1,
+    "count": 2,
     "company": "Transwarranty Finance Ltd"
   },
   "542677": {
@@ -18121,7 +18121,7 @@
   },
   "543390": {
     "first": "2026-09-05",
-    "count": 3,
+    "count": 4,
     "company": "PB Fintech Ltd"
   },
   "517569": {
@@ -18201,7 +18201,7 @@
   },
   "504903": {
     "first": "2026-09-05",
-    "count": 2,
+    "count": 3,
     "company": "Rathi Steel & Power Ltd-$"
   },
   "544783": {
@@ -18641,7 +18641,7 @@
   },
   "532759": {
     "first": "2026-09-05",
-    "count": 2,
+    "count": 3,
     "company": "Atlantaa Ltd"
   },
   "530393": {
@@ -19166,7 +19166,7 @@
   },
   "532630": {
     "first": "2026-09-05",
-    "count": 3,
+    "count": 4,
     "company": "Gokaldas Exports Ltd"
   },
   "539593": {
@@ -19981,7 +19981,7 @@
   },
   "544521": {
     "first": "2026-09-06",
-    "count": 1,
+    "count": 2,
     "company": "VMS TMT Ltd"
   },
   "519234": {
@@ -20013,5 +20013,70 @@
     "first": "2026-09-06",
     "count": 1,
     "company": "7Seas Entertainment Ltd"
+  },
+  "543768": {
+    "first": "2026-09-06",
+    "count": 2,
+    "company": "NMDC Steel Ltd"
+  },
+  "531449": {
+    "first": "2026-09-06",
+    "count": 3,
+    "company": "GRM Overseas Ltd"
+  },
+  "544233": {
+    "first": "2026-09-06",
+    "count": 1,
+    "company": "Mahalaxmi Fabric Mills Ltd"
+  },
+  "544234": {
+    "first": "2026-09-06",
+    "count": 1,
+    "company": "Globale Tessile Ltd"
+  },
+  "505840": {
+    "first": "2026-09-06",
+    "count": 1,
+    "company": "Jaipan Industries Ltd"
+  },
+  "544498": {
+    "first": "2026-09-06",
+    "count": 2,
+    "company": "Oval Projects Engineering Ltd"
+  },
+  "538446": {
+    "first": "2026-09-06",
+    "count": 2,
+    "company": "Moneyboxx Finance Ltd"
+  },
+  "543272": {
+    "first": "2026-09-06",
+    "count": 4,
+    "company": "Easy Trip Planners Ltd"
+  },
+  "543209": {
+    "first": "2026-09-06",
+    "count": 1,
+    "company": "Billwin Industries Ltd"
+  },
+  "526231": {
+    "first": "2026-09-06",
+    "count": 1,
+    "company": "Standard Surfactants Ltd"
+  },
+  "540403": {
+    "first": "2026-09-06",
+    "count": 1,
+    "company": "CL Educate Ltd"
+  },
+  "539455": {
+    "first": "2026-09-06",
+    "count": 1,
+    "company": "Ecofinity Atomix Ltd"
+  },
+  "531946": {
+    "first": "2026-09-06",
+    "count": 1,
+    "company": "Chadha Papers Ltd"
   }
 }
