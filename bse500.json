@@ -1,8 +1,8 @@
 {
   "index": "BSE 500",
   "source": "https://www.bseindices.com/AsiaIndexAPI/api/Codewise_Indices/w?code=17",
-  "rebalance_date": "",
-  "count": 501,
+  "rebalance_date": "2026-08-31",
+  "count": 502,
   "constituents": {
     "500002": "ABB INDIA LIMITED",
     "500003": "AEGIS LOGISTICS LTD.",
@@ -363,7 +363,7 @@
     "540777": "HDFC LIFE INSURANCE COMPANY LI",
     "540900": "Newgen Software Technologies L",
     "540902": "Amber Enterprises India Limite",
-    "540975": "Aster DM Healthcare Limited",
+    "540975": "ASTER DM QUALITY CARE LIMITED",
     "541143": "Bharat Dynamics Limited",
     "541153": "Bandhan Bank Limited",
     "541154": "Hindustan Aeronautics Limited",
@@ -504,6 +504,7 @@
     "544612": "Tenneco Clean Air India Limite",
     "544632": "Meesho Limited",
     "544658": "ICICI Prudential Asset Managem",
-    "544801": "GSPL Transmission Limited"
+    "544801": "GSPL Transmission Limited",
+    "544896": "HEG GRAPHITE LIMITED"
   }
 }
