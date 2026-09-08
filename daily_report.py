@@ -60,7 +60,30 @@ def slug_name(nsurl, fallback):
     return fallback or ""
 
 
-def fetch_one(session, bse500, bse500_set, nid):
+def load_company_names(bse500):
+    """scrip -> full company name.
+
+    The per-announcement detail endpoint only returns a ticker-style short
+    code (e.g. "SHRIRAMPPS"), and its web-link slug is sometimes missing or
+    carries a stale pre-rename name. The watcher, however, records the full
+    name (BSE's SLONGNAME) of every company it alerts on, so prefer the BSE 500
+    list, then the watcher's notification history, before falling back.
+    """
+    names = {}
+    try:
+        notified = json.loads((ROOT / ".heartbeat" / "notified_companies.json").read_text())
+    except (OSError, ValueError):
+        notified = {}
+    for key, entry in notified.items():
+        name = (entry or {}).get("company") if isinstance(entry, dict) else None
+        if key.isdigit() and name:
+            # BSE suffixes some long names with markers like "-$"; drop them.
+            names[key] = re.sub(r"\s*-\$$", "", str(name)).strip()
+    names.update({k: v for k, v in bse500.items() if v})
+    return names
+
+
+def fetch_one(session, names, bse500_set, nid):
     for attempt in range(3):
         try:
             r = session.get(DETAIL_API, params={"newsid": nid}, timeout=20)
@@ -80,7 +103,7 @@ def fetch_one(session, bse500, bse500_set, nid):
                 "NewsID": nid,
                 "scrip": scrip,
                 "bse500": scrip in bse500_set,
-                "company": bse500.get(scrip)
+                "company": names.get(scrip)
                 or slug_name(row.get("NSUrl") or "", row.get("CompanyName") or ""),
                 "category": (row.get("CATEGORYNAME") or "").strip(),
                 "subject": (row.get("NewsSub") or "").strip(),
@@ -222,6 +245,7 @@ def build_workbook(out_path):
     newsids = json.loads((ROOT / "seen.json").read_text())
     bse500 = json.loads((ROOT / "bse500.json").read_text())["constituents"]
     bse500_set = set(bse500)
+    names = load_company_names(bse500)
     today_str = datetime.now(IST).strftime("%Y-%m-%d")
     reported, quiet_days = load_report_state()
     first_run = reported is None
@@ -231,7 +255,7 @@ def build_workbook(out_path):
     session.headers.update(HEADERS)
     rows = []
     with ThreadPoolExecutor(max_workers=8) as ex:
-        futs = {ex.submit(fetch_one, session, bse500, bse500_set, n): n for n in newsids}
+        futs = {ex.submit(fetch_one, session, names, bse500_set, n): n for n in newsids}
         for f in as_completed(futs):
             rows.append(f.result())
 
