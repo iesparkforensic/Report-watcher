@@ -8456,7 +8456,7 @@
   },
   "522027": {
     "first": "2026-08-19",
-    "count": 1,
+    "count": 2,
     "company": "EMA India Ltd"
   },
   "544011": {
@@ -9301,7 +9301,7 @@
   },
   "544632": {
     "first": "2026-08-24",
-    "count": 3,
+    "count": 4,
     "company": "Meesho Ltd"
   },
   "539116": {
@@ -10811,7 +10811,7 @@
   },
   "540073": {
     "first": "2026-08-30",
-    "count": 3,
+    "count": 4,
     "company": "BLS International Services Ltd"
   },
   "544226": {
@@ -11991,7 +11991,7 @@
   },
   "544189": {
     "first": "2026-09-01",
-    "count": 1,
+    "count": 2,
     "company": "Sattrix Information Security Ltd"
   },
   "544219": {
@@ -15911,7 +15911,7 @@
   },
   "512595": {
     "first": "2026-09-03",
-    "count": 2,
+    "count": 3,
     "company": "KD Green Industries Ltd"
   },
   "539770": {
@@ -16316,7 +16316,7 @@
   },
   "540789": {
     "first": "2026-09-03",
-    "count": 2,
+    "count": 4,
     "company": "Diligent Media Corporation Ltd"
   },
   "540575": {
@@ -16681,7 +16681,7 @@
   },
   "519214": {
     "first": "2026-09-04",
-    "count": 3,
+    "count": 5,
     "company": "Williamson Financial Services Ltd"
   },
   "540786": {
@@ -19396,7 +19396,7 @@
   },
   "540821": {
     "first": "2026-09-05",
-    "count": 1,
+    "count": 2,
     "company": "Crystal Business System Ltd"
   },
   "519136": {
@@ -20426,7 +20426,7 @@
   },
   "540063": {
     "first": "2026-09-07",
-    "count": 1,
+    "count": 2,
     "company": "ECS Biztech Ltd"
   },
   "521068": {
@@ -20496,7 +20496,7 @@
   },
   "532726": {
     "first": "2026-09-07",
-    "count": 3,
+    "count": 4,
     "company": "Gallantt Ispat Ltd"
   },
   "544061": {
@@ -20651,7 +20651,7 @@
   },
   "531600": {
     "first": "2026-09-07",
-    "count": 2,
+    "count": 3,
     "company": "Gogia Capital Growth Ltd"
   },
   "531395": {
@@ -20706,7 +20706,7 @@
   },
   "533218": {
     "first": "2026-09-07",
-    "count": 2,
+    "count": 3,
     "company": "Emami Realty Ltd"
   },
   "532435": {
@@ -20986,7 +20986,7 @@
   },
   "539227": {
     "first": "2026-09-07",
-    "count": 1,
+    "count": 2,
     "company": "Loyal Equipments Ltd"
   },
   "544708": {
@@ -22081,7 +22081,7 @@
   },
   "544835": {
     "first": "2026-09-08",
-    "count": 1,
+    "count": 2,
     "company": "Shree Balaji (Mala) Textiles Ltd"
   },
   "544640": {
@@ -22481,7 +22481,7 @@
   },
   "544854": {
     "first": "2026-09-08",
-    "count": 1,
+    "count": 2,
     "company": "Dhaval Packaging Ltd"
   },
   "540879": {
@@ -23488,5 +23488,15 @@
     "first": "2026-09-11",
     "count": 1,
     "company": "VJTF Eduservices Ltd"
+  },
+  "531458": {
+    "first": "2026-09-11",
+    "count": 1,
+    "company": "Boston Commerce Ltd"
+  },
+  "519191": {
+    "first": "2026-09-11",
+    "count": 1,
+    "company": "Retro Green Revolution Ltd"
   }
 }
