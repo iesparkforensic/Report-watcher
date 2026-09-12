@@ -1,4 +1,17 @@
 {
   "last_flush": "2026-09-11T22:04:50.227249+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Intec Capital Ltd",
+      "scrip": "526871",
+      "title": "Submission of Newspaper Advertisement w.r.t. Corrigendum to the Integrated Annual Report of Intec Capital Limited (\"The Company\") for Financial Year 2025-26.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/afeb4555-20e3-487a-b37e-b06b91f3cd55.pdf"
+    },
+    {
+      "company": "Brightcom Group Ltd",
+      "scrip": "532368",
+      "title": "27th Annual Report of Brightcom Group Limited",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/78f11803-205d-42a4-b7f8-cc0fcb06328e.pdf"
+    }
+  ]
 }
