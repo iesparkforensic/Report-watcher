@@ -2926,8 +2926,8 @@
   },
   "532400": {
     "first": "2026-06-22",
-    "count": 3,
-    "company": "BSOFT"
+    "count": 4,
+    "company": "Birlasoft Ltd"
   },
   "532406": {
     "first": "2026-05-30",
@@ -11541,7 +11541,7 @@
   },
   "543993": {
     "first": "2026-09-01",
-    "count": 1,
+    "count": 3,
     "company": "ARCL Organics Ltd"
   },
   "538896": {
@@ -12021,7 +12021,7 @@
   },
   "540168": {
     "first": "2026-09-01",
-    "count": 1,
+    "count": 2,
     "company": "Supra Pacific Financial Services Ltd"
   },
   "512261": {
@@ -16201,7 +16201,7 @@
   },
   "543411": {
     "first": "2026-09-03",
-    "count": 1,
+    "count": 2,
     "company": "Hi-Tech Pipes Ltd"
   },
   "531360": {
@@ -20206,7 +20206,7 @@
   },
   "539410": {
     "first": "2026-09-07",
-    "count": 1,
+    "count": 2,
     "company": "Muzali Arts Ltd"
   },
   "512175": {
@@ -21966,7 +21966,7 @@
   },
   "543619": {
     "first": "2026-09-08",
-    "count": 1,
+    "count": 2,
     "company": "Concord Control Systems Ltd"
   },
   "543386": {
@@ -22681,7 +22681,7 @@
   },
   "500160": {
     "first": "2026-09-08",
-    "count": 1,
+    "count": 2,
     "company": "GTL Ltd"
   },
   "540150": {
@@ -22696,7 +22696,7 @@
   },
   "532775": {
     "first": "2026-09-08",
-    "count": 1,
+    "count": 2,
     "company": "GTL Infrastructure Ltd"
   },
   "526829": {
@@ -23513,5 +23513,10 @@
     "first": "2026-09-15",
     "count": 1,
     "company": "Paluck Technologies Ltd"
+  },
+  "532397": {
+    "first": "2026-09-15",
+    "count": 2,
+    "company": "Konndor Industries Ltd"
   }
 }
