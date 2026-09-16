@@ -1,4 +1,29 @@
 {
   "last_flush": "2026-09-15T23:45:21.536069+05:30",
-  "items": []
+  "items": [
+    {
+      "company": "Aar Shyam India Investment Company Ltd",
+      "scrip": "542377",
+      "title": "In continuation to our earlier letter dated August 26, 2026, enclosing the notice of the AGM dated August 26, 2026, we are now submitting a Corrigendum to the AGM Notice of the Company.\r\nThis ....",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/de199ae9-08c5-4bc2-b9bb-78947d8e2a65.pdf"
+    },
+    {
+      "company": "Supra Pacific Financial Services Ltd",
+      "scrip": "540168",
+      "title": "This corrigendum is being issued to the Annual Report 2025-26 of the 40th Annual General Meeting of the company and circulated to the shareholders.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f6c5d680-68ce-4532-92e8-b0dc8a9456c0.pdf"
+    },
+    {
+      "company": "Dhanashree Electronics Ltd",
+      "scrip": "542679",
+      "title": "as per letter attached",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6877022c-cbc8-4697-8c33-eaa7975008da.pdf"
+    },
+    {
+      "company": "Kesar Petroproducts Ltd",
+      "scrip": "524174",
+      "title": "Re-submission of the Annual Report with the Standalone Notes to Accounts, which were inadvertently not included in the earlier submission.",
+      "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5cb4fd57-2f64-48ba-a565-f185ec054618.pdf"
+    }
+  ]
 }
