@@ -1,18 +1,21 @@
 name: Annual Report Watcher
 
-# Triggers:
-#   - hourly cron at minute :17 UTC (= :47 IST) — primary scheduler (lossy on GitHub free tier)
-#   - manual via the Actions tab (workflow_dispatch) — for ad-hoc / catch-up runs
-#   - push to this file — auto-bootstraps a run when the workflow itself changes
-#     (also handy as a manual trigger when the Actions "Run workflow" button isn't accessible)
+# PAUSED (off-season since 17 Sep 2026): the hourly schedule and the
+# push-to-self trigger are switched off, so nothing runs automatically and no
+# Telegram alerts go out. Manual runs from the Actions tab still work.
+#
+# To resume for the next annual-report season, restore the triggers to:
+#
+#   on:
+#     schedule:
+#       - cron: '17 * * * *'      # hourly at :17 UTC (= :47 IST)
+#     workflow_dispatch:
+#     push:
+#       branches: [main]
+#       paths: ['.github/workflows/watcher.yml']
 
 on:
-  schedule:
-    - cron: '17 * * * *'
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths: ['.github/workflows/watcher.yml']
 
 permissions:
   contents: write
